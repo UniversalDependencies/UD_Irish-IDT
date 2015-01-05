@@ -1,4 +1,0 @@
-Irish
-=====
-
-Irish data
