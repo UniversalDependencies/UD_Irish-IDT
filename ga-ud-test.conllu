@@ -2051,7 +2051,7 @@
 11	Deiseal	Deiseal	PROPN	PROPN	_	9	conj	_	_
 12	ag	ag	ADP	ADP	_	13	case	_	_
 13	seinm	seinm	NOUN	NOUN	_	8	xcomp	_	_
-14	ann	i	ADP	ADP	_	8	xcomp:prep	_	_
+14	ann	i	ADP	ADP	_	8	xcomp:pred	_	_
 15	chomh	chomh	ADV	ADV	_	16	advmod	_	_
 16	maith	maith	ADJ	ADJ	_	8	amod	_	_
 17	.	.	PUNCT	PUNCT	_	1	punct	_	_
