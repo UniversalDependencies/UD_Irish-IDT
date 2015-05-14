@@ -59,3 +59,16 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish 
 Stenson, N, 1981. Studies in Irish Syntax, Tübingen: Gunter Narr Verlag.
 
 Christian Brothers, 1988. New Irish Grammar, Dublin: C J Fallon
+
+
+
+CHANGELOG
+
+15-05-2015
+
+* Changed POS tag for "féin" to PRON instead of NOUN
+* Fixed the labelling and attachment of English (foreign) text strings
+* Changed the labels for subjects of cleft constructions from 'nsubj' to 'csubj:cleft'
+
+
+
