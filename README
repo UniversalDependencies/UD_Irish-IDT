@@ -14,11 +14,12 @@ Trees: 1020
 Token count: 23686
 Dependency Relations: 36 of which 10 language specific
 POS tags: 16
+No morphological features
 
 
 TOKENISATION
 
-The tokenisation of the Irish data is the output of a Xerox Finite State tokenizer implemented by Uí Dhonnchadha (2002)
+The tokenisation of the Irish data is the output of a Xerox Finite State tokenizer implemented by Uí Dhonnchadha (2002)
 
 Note:
  - compound prepositions are connected as one token with '_'. Example: in aghaidh 'against' => in\_aghaidh
@@ -52,9 +53,9 @@ Note that the current version of the UD Irish treebank does not contain morpholo
 
 REFERENCES
 
-Uí Dhonnchadha, E. 2002. An Analyser and Generator for Irish Inflectional Morphology using Finite State Transducers, School of Computing, Dublin City University: Unpublished MSc Thesis.
+Uí Dhonnchadha, E. 2002. An Analyser and Generator for Irish Inflectional Morphology using Finite State Transducers, School of Computing, Dublin City University: Unpublished MSc Thesis.
 
-Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish using Finite-State Transducers and Constraint Grammar (PhD thesis)
+Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish using Finite-State Transducers and Constraint Grammar (PhD thesis)
 
 Stenson, N, 1981. Studies in Irish Syntax, Tübingen: Gunter Narr Verlag.
 
