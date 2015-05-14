@@ -64,8 +64,8 @@
 1	Seo	seo	VERB	VERB	_	0	root	_	_
 2	an	an	DET	DET	_	3	det	_	_
 3	fear	fear	NOUN	NOUN	_	1	xcomp:pred	_	_
-4	a	a	PART	PART	_	5	mark:prt	_	_
-5	chonaic	feic	VERB	VERB	_	1	nsubj	_	_
+4	a	a	PART	PART	_	5	dobj	_	_
+5	chonaic	feic	VERB	VERB	_	1	csubj:cleft	_	_
 6	an	an	DET	DET	_	7	det	_	_
 7	bhean	bean	NOUN	NOUN	_	5	nsubj	_	_
 8	.	.	PUNCT	PUNCT	_	1	punct	_	_
@@ -403,7 +403,7 @@
 6	is	is	PART	PART	_	7	mark:prt	_	_
 7	measa	olc	ADJ	ADJ	_	9	amod	_	_
 8	a	a	PART	PART	_	9	mark:prt	_	_
-9	chuaigh	téigh	VERB	VERB	_	4	nsubj	_	_
+9	chuaigh	téigh	VERB	VERB	_	4	csubj:cleft	_	_
 10	an	an	DET	DET	_	11	det	_	_
 11	drochshaol	drochshaol	NOUN	NOUN	_	9	nsubj	_	_
 12	i	i	ADP	ADP	_	13	case	_	_
@@ -417,7 +417,7 @@
 20	is	is	PART	PART	_	21	mark:prt	_	_
 21	mó	mór	ADJ	ADJ	_	23	amod	_	_
 22	a	a	PART	PART	_	23	mark:prt	_	_
-23	thit	tit	VERB	VERB	_	16	nsubj	_	_
+23	thit	tit	VERB	VERB	_	16	csubj:cleft	_	_
 24	ualach	ualach	NOUN	NOUN	_	23	nsubj	_	_
 25	na	na	DET	DET	_	26	det	_	_
 26	heisimirce	eisimirce	NOUN	NOUN	_	24	compound	_	_
@@ -758,7 +758,7 @@
 12	Máeánach	meánach	ADJ	ADJ	_	11	compound	_	_
 13	-	-	PUNCT	PUNCT	_	15	punct	_	_
 14	a	a	PART	PART	_	15	mark:prt	_	_
-15	bhronnfar	bronn	VERB	VERB	_	2	nsubj	_	_
+15	bhronnfar	bronn	VERB	VERB	_	2	csubj:cleft	_	_
 16	an	an	DET	DET	_	17	det	_	_
 17	gradam	gradam	NOUN	NOUN	_	15	dobj	_	_
 18	,	,	PUNCT	PUNCT	_	19	punct	_	_
@@ -776,7 +776,7 @@
 30	a	a	PART	PART	_	31	mark	_	_
 31	chur	cur	NOUN	NOUN	_	23	xcomp	_	_
 32	orthu	ar	ADP	ADP	_	31	nmod:prep	_	_
-33	féin	féin	NOUN	NOUN	_	32	compound	_	_
+33	féin	féin	PRON	PRON	_	32	compound	_	_
 34	le	le	ADP	ADP	_	35	case	_	_
 35	dhul	dul	NOUN	NOUN	_	31	xcomp	_	_
 36	os_comhair	os_comhair	ADP	ADP	_	37	case	_	_
@@ -886,7 +886,7 @@
 28	fhoinse	foinse	NOUN	NOUN	_	27	nmod	_	_
 29	saibhris	saibhreas	NOUN	NOUN	_	28	compound	_	_
 30	a	a	PART	PART	_	31	mark:prt	_	_
-31	fhéachtar	féach	VERB	VERB	_	27	nsubj	_	_
+31	fhéachtar	féach	VERB	VERB	_	27	csubj:cleft	_	_
 32	ar	ar	ADP	ADP	_	33	case	_	_
 33	pháistí	páiste	NOUN	NOUN	_	31	nmod	_	_
 34	)	)	PUNCT	PUNCT	_	35	punct	_	_
@@ -906,7 +906,7 @@
 12	is	is	PART	PART	_	13	mark:prt	_	_
 13	mó	mór	ADJ	ADJ	_	4	amod	_	_
 14	a	a	PART	PART	_	15	nmod	_	_
-15	bheimid	bí	VERB	VERB	_	2	nsubj	_	_
+15	bheimid	bí	VERB	VERB	_	2	csubj:cleft	_	_
 16	ag	ag	ADP	ADP	_	17	case	_	_
 17	plé	plé	NOUN	NOUN	_	15	xcomp	_	_
 18	anseo	anseo	ADV	ADV	_	17	advmod	_	_
@@ -1043,7 +1043,7 @@
 2	thirim	tirim	ADJ	ADJ	_	1	amod	_	_
 3	fhionnuar	fionnuar	ADJ	ADJ	_	1	amod	_	_
 4	a	a	PART	PART	_	5	mark:prt	_	_
-5	bhí	bí	VERB	VERB	_	1	nsubj	_	_
+5	bhí	bí	VERB	VERB	_	1	csubj:cleft	_	_
 6	ann	i	ADP	ADP	_	5	xcomp:pred	_	_
 7	.	.	PUNCT	PUNCT	_	1	punct	_	_
 
@@ -1271,7 +1271,7 @@
 14	a	a	PART	PART	_	15	mark:prt	_	_
 15	dhéine	dian	ADJ	ADJ	_	1	conj	_	_
 16	a	a	PART	PART	_	17	mark:prt	_	_
-17	bhí	bí	VERB	VERB	_	15	nsubj	_	_
+17	bhí	bí	VERB	VERB	_	15	csubj:cleft	_	_
 18	sé	sé	PRON	PRON	_	17	nsubj	_	_
 19	á	do	ADP	ADP	_	20	case	_	_
 20	breathnú	breathnú	NOUN	NOUN	_	17	xcomp	_	_
@@ -1892,7 +1892,7 @@
 4	bhfuirm	bhfuirm	NOUN	NOUN	_	3	nmod	_	_
 5	orduithe	ordú	NOUN	NOUN	_	4	compound	_	_
 6	a	a	PART	PART	_	7	mark:prt	_	_
-7	bheidh	bí	VERB	VERB	_	3	nsubj	_	_
+7	bheidh	bí	VERB	VERB	_	3	csubj:cleft	_	_
 8	gach	gach	DET	DET	_	9	det	_	_
 9	paitinn	paitinn	NOUN	NOUN	_	7	nsubj	_	_
 10	agus	agus	CONJ	CONJ	_	3	cc	_	_
@@ -2258,7 +2258,7 @@
 3	Cén	cé	PRON	PRON	_	0	root	_	_
 4	chaoi	caoi	NOUN	NOUN	_	3	xcomp:pred	_	_
 5	a	a	PART	PART	_	6	mark:prt	_	_
-6	raibh	bí	VERB	VERB	_	3	nsubj	_	_
+6	raibh	bí	VERB	VERB	_	3	csubj:cleft	_	_
 7	an	an	DET	DET	_	8	det	_	_
 8	drama	dram	NOUN	NOUN	_	6	nsubj	_	_
 9	úd	úd	DET	DET	_	8	det	_	_
@@ -2289,19 +2289,19 @@
 19	seo	seo	DET	DET	_	17	det	_	_
 20	san	i	ADP	ADP	_	21	case	_	_
 21	áireamh	áireamh	NOUN	NOUN	_	17	nmod	_	_
-22	:	:	PUNCT	PUNCT	_	24	punct	_	_
-23	'	'	PUNCT	PUNCT	_	24	punct	_	_
-24	other	other	X	X	_	17	nmod	_	_
-25	tasks	tasks	X	X	_	24	foreign	_	_
-26	as	as	ADP	ADP	_	25	foreign	_	_
-27	deemed	deemed	X	X	_	25	foreign	_	_
-28	necessary	necessary	X	X	_	25	foreign	_	_
-29	by	by	X	X	_	25	foreign	_	_
-30	UNDDSMS	UNDDSMS	X	X	_	25	foreign	_	_
+22	:	:	PUNCT	PUNCT	_	25	punct	_	_
+23	'	'	PUNCT	PUNCT	_	25	punct	_	_
+24	other	other	ADJ	ADJ	_	25	amod	_	_
+25	tasks	tasks	NOUN	NOUN	_	17	nmod	_	_
+26	as	as	ADP	ADP	_	27	mark	_	_
+27	deemed	deemed	VERB	VERB	_	25	advcl	_	_
+28	necessary	necessary	ADJ	ADJ	_	27	xcomp:pred	_	_
+29	by	by	ADP	ADP	_	30	case	_	_
+30	UNDDSMS	UNDDSMS	PROPN	PROPN	_	27	nmod	_	_
 31	(	(	PUNCT	PUNCT	_	32	punct	_	_
 32	pé	pé	PRON	PRON	_	25	nmod	_	_
 33	hiad	iad	PRON	PRON	_	32	compound	_	_
-34	féin	féin	NOUN	NOUN	_	33	compound	_	_
+34	féin	féin	PRON	PRON	_	33	compound	_	_
 35	!	!	PUNCT	PUNCT	_	1	punct	_	_
 
 1	den	de	ADP	ADP	_	0	root	_	_
@@ -2457,7 +2457,7 @@
 9	Tom	Tom	PROPN	PROPN	_	7	appos	_	_
 10	Sheldon	Sheldon	PROPN	PROPN	_	9	name	_	_
 11	a	a	PART	PART	_	12	mark:prt	_	_
-12	bhí	bí	VERB	VERB	_	4	nsubj	_	_
+12	bhí	bí	VERB	VERB	_	4	csubj:cleft	_	_
 13	i_mbun	i_mbun	ADP	ADP	_	15	case	_	_
 14	na	na	DET	DET	_	15	det	_	_
 15	seirbhíse	seirbhís	NOUN	NOUN	_	12	xcomp:pred	_	_
@@ -2751,7 +2751,7 @@
 7	is	is	VERB	VERB	_	8	cop	_	_
 8	ann	i	ADP	ADP	_	1	conj	_	_
 9	a	a	PART	PART	_	10	mark:prt	_	_
-10	bhí	bí	VERB	VERB	_	8	nsubj	_	_
+10	bhí	bí	VERB	VERB	_	8	csubj:cleft	_	_
 11	cónaí	cónaí	NOUN	NOUN	_	10	nsubj	_	_
 12	ar	ar	ADP	ADP	_	13	case	_	_
 13	Cholm	Colm	PROPN	PROPN	_	10	nmod	_	_
@@ -2843,7 +2843,7 @@
 6	na	na	DET	DET	_	7	det	_	_
 7	Sraithe	sraith	NOUN	NOUN	_	3	compound	_	_
 8	a	a	PART	PART	_	9	mark:prt	_	_
-9	bhí	bí	VERB	VERB	_	2	nsubj	_	_
+9	bhí	bí	VERB	VERB	_	2	csubj:cleft	_	_
 10	Ciarraí	ciarraí	NOUN	NOUN	_	9	nsubj	_	_
 11	agus	agus	CONJ	CONJ	_	2	cc	_	_
 12	bhuaigh	buaigh	VERB	VERB	_	2	conj	_	_
@@ -3058,7 +3058,7 @@
 44	ar	ar	ADP	ADP	_	1	ccomp	_	_
 45	Mháirín	Máirín	PROPN	PROPN	_	44	nmod	_	_
 46	a	a	PART	PART	_	47	mark:prt	_	_
-47	smaoiníodh	smaoinigh	VERB	VERB	_	44	nsubj	_	_
+47	smaoiníodh	smaoinigh	VERB	VERB	_	44	csubj:cleft	_	_
 48	sé	sé	PRON	PRON	_	47	nsubj	_	_
 49	nuair	nuair	SCONJ	SCONJ	_	52	mark	_	_
 50	a	a	PART	PART	_	52	mark:prt	_	_
@@ -3140,7 +3140,7 @@
 1	Is	is	VERB	VERB	_	2	cop	_	_
 2	beag	beag	ADJ	ADJ	_	0	root	_	_
 3	nár	nár	PART	PART	_	4	mark:prt	_	_
-4	thit	tit	VERB	VERB	_	2	nsubj	_	_
+4	thit	tit	VERB	VERB	_	2	csubj:cleft	_	_
 5	an	an	DET	DET	_	6	det	_	_
 6	píosa	píosa	NOUN	NOUN	_	4	nsubj	_	_
 7	dealbhóireachta	dealbhóireacht	NOUN	NOUN	_	6	compound	_	_
@@ -3156,7 +3156,7 @@
 
 1	Bhí	bí	VERB	VERB	_	0	root	_	_
 2	a	a	PART	PART	_	3	mark:prt	_	_
-3	raibh	bí	VERB	VERB	_	1	nsubj	_	_
+3	raibh	bí	VERB	VERB	_	1	csubj:cleft	_	_
 4	uathu	ó	ADP	ADP	_	3	nmod:prep	_	_
 5	sa	i	ADP	ADP	_	6	case	_	_
 6	chiseán	ciseán	NOUN	NOUN	_	1	xcomp:pred	_	_
