@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treebank>
+  <!-- tokens means "surface tokens", e.g. Spanish "vámonos" counts as one token
+       words means "syntactic words", e.g. Spanish "vámonos" is split to two words, "vamos" and "nos"
+       fused is the number of tokens that are split to two or more syntactic words
+       The words and fused elements can be omitted if no token is split to smaller syntactic words. -->
+  <size>
+    <total><sentences>1020</sentences><tokens>23686</tokens><words>23686</words><fused>0</fused></total>
+  </size>
+  <lemmas unique="3916" /><!-- a, an, ., ,, bí, i, ar, agus, le, na, ag, is, do, go, ' -->
+  <forms unique="5768" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, ', sé, le, is, sin -->
+  <fusions unique="0" /><!--  -->
+  <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
+  <tags unique="16">
+    <tag name="ADJ">1176</tag><!-- mór, maith, amháin, beag, céanna, áirithe, fada, léir, déanta, ceart -->
+    <tag name="ADP">3627</tag><!-- i, ar, le, ag, do, de, ó, faoi, mar, chun -->
+    <tag name="ADV">462</tag><!-- amach, chomh, anois, ansin, isteach, thart, anseo, arís, síos, anuas -->
+    <tag name="CONJ">787</tag><!-- agus, nó, ná, ach, no, &, dá -->
+    <tag name="DET">2134</tag><!-- an, na, a, seo, sin, aon, eile, gach, mo, do -->
+    <tag name="INTJ">5</tag><!-- faraor, leoga, och, á, ó -->
+    <tag name="NOUN">6355</tag><!-- duine, cuid, bliain, cur, bheith, déanamh, rud, alt, ceann, fear -->
+    <tag name="NUM">321</tag><!-- dó, céad, trí, ceathair, seacht, aon, 1, sé, 1997, dara -->
+    <tag name="PART">1534</tag><!-- a, go, do, ní, nach, gur, is, ó, i, níor -->
+    <tag name="PRON">930</tag><!-- sé, é, sin, sí, féin, mé, iad, siad, í, seo -->
+    <tag name="PROPN">905</tag><!-- Gaeilge, Éire, Baile, Átha_Cliath, Seán, Máire, Pádraig, Frainc, Eoraip, Gaillimh -->
+    <tag name="PUNCT">2518</tag><!-- ., ,, ', -, (, ), :, ;, ?, ! -->
+    <tag name="SCONJ">365</tag><!-- ach, nuair, mar, má, dá, agus, go, cé, mura, ná -->
+    <tag name="SYM">1</tag><!-- post@clubsult.com -->
+    <tag name="VERB">2301</tag><!-- bí, is, déan, cuir, tabhair, abair, tar, caith, feic, bain -->
+    <tag name="X">265</tag><!-- sin, (2), (a), (b), seo, (1), (c), (3), (4), Co. -->
+  </tags>
+  <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
+  <feats unique="0">
+  </feats>
+  <!-- Statistics of universal dependency relations. -->
+  <deps unique="36">
+    <dep name="acl:relcl">436</dep>
+    <dep name="advcl">299</dep>
+    <dep name="advmod">638</dep>
+    <dep name="amod">708</dep>
+    <dep name="appos">108</dep>
+    <dep name="case">2923</dep>
+    <dep name="case:voc">21</dep>
+    <dep name="cc">649</dep>
+    <dep name="ccomp">362</dep>
+    <dep name="compound">1600</dep>
+    <dep name="compound:prt">12</dep>
+    <dep name="conj">737</dep>
+    <dep name="cop">373</dep>
+    <dep name="csubj:cleft">133</dep>
+    <dep name="csubj:cop">48</dep>
+    <dep name="det">1981</dep>
+    <dep name="discourse">4</dep>
+    <dep name="dobj">863</dep>
+    <dep name="foreign">19</dep>
+    <dep name="list">9</dep>
+    <dep name="mark">712</dep>
+    <dep name="mark:prt">764</dep>
+    <dep name="name">178</dep>
+    <dep name="neg">85</dep>
+    <dep name="nmod">2562</dep>
+    <dep name="nmod:poss">234</dep>
+    <dep name="nmod:prep">469</dep>
+    <dep name="nmod:tmod">51</dep>
+    <dep name="nsubj">1625</dep>
+    <dep name="nummod">360</dep>
+    <dep name="parataxis">32</dep>
+    <dep name="punct">2510</dep>
+    <dep name="root">1020</dep>
+    <dep name="vocative">20</dep>
+    <dep name="xcomp">610</dep>
+    <dep name="xcomp:pred">531</dep>
+  </deps>
+</treebank>
