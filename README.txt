@@ -75,7 +75,9 @@ CHANGELOG
 
 
 
-Documentation status: complete
-Data source: unknown
+Documentation status: partial
+Data source: National Corpus of Ireland - Irish
 Data available since: UD v1.0
 License: CC BY-SA 3.0
+Genre: news fiction web legal media
+Contributors: Lynn, Teresa; Foster, Jennifer
