@@ -65,13 +65,16 @@ Christian Brothers, 1988. New Irish Grammar, Dublin: C J Fallon
 
 CHANGELOG
 
-15-05-2015
+15-05-2015 (v1.1)
 
 * Changed POS tag for "féin" to PRON instead of NOUN
 * Fixed the labelling and attachment of English (foreign) text strings
 * Changed the labels for subjects of cleft constructions from 'nsubj' to 'csubj:cleft'
 
 
+30-10-2015 (v1.2)
+
+* Added morphological features to all relevant tokens
 
 
 
