@@ -76,6 +76,10 @@ CHANGELOG
 
 * Added morphological features to all relevant tokens
 
+31-10-2015 (v1.2)
+
+* Added fine-grained POS tags to 5th column
+
 
 
 Documentation status: partial
