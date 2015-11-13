@@ -8,7 +8,7 @@
     <total><sentences>1020</sentences><tokens>23686</tokens><words>23686</words><fused>0</fused></total>
   </size>
   <lemmas unique="3916" /><!-- a, an, ., ,, bí, i, ar, agus, le, na, ag, is, do, go, ' -->
-  <forms unique="5768" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, ', sé, le, is, sin -->
+  <forms unique="5767" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, ', sé, le, is, sin -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments with the most frequent lemmas are optional (but easy to obtain). -->
   <tags unique="16">
@@ -30,7 +30,69 @@
     <tag name="X">265</tag><!-- sin, (2), (a), (b), seo, (1), (c), (3), (4), Co. -->
   </tags>
   <!-- Statistics of features and values. The comments with the most frequent word forms are optional (but easy to obtain). -->
-  <feats unique="0">
+  <feats unique="62">
+    <feat name="Case" value="Com" upos="ADJ,NOUN,PROPN,VERB,X">5359</feat><!-- rud, chuid, duine, fear, lá, leith, bhliain, áit, daoine, uair -->
+    <feat name="Case" value="Dat" upos="NOUN,PROPN">32</feat><!-- Éirinn, gcrích, cionn, Tigh, láimh, chionn, chois, gcionn, hÉirinn, leabhair -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PROPN">1540</feat><!-- na, Gaeilge, Átha_Cliath, bhaile, hÉireann, mBaile, airgid, cinn, tíre, bliana -->
+    <feat name="Case" value="Voc" upos="NOUN,PROPN">17</feat><!-- Chapaillín, Dhochtúir, Dhoráid, Mháiréad, Oideachais, Phádraig, Pháidín, Sheáin, Tom, bhithiúnaigh -->
+    <feat name="Definite" value="Def" upos="DET,NOUN,NUM,PROPN,X">2546</feat><!-- an, na, gach, fear, bhliain, saol, Gaeilge, hÉireann, leabhar, lá -->
+    <feat name="Definite" value="Ind" upos="NOUN">7</feat><!-- láimh, Criosanna, dlíthe, gnóthaí, oibre, uibheacha -->
+    <feat name="Degree" value="Cmp,Sup" upos="ADJ">90</feat><!-- mó, fearr, fhearr, mhó, déanaí, báine, caoile, ceolmhaire, ciallmhaire, daoire -->
+    <feat name="Degree" value="Pos" upos="ADJ,NOUN">505</feat><!-- amháin, maith, léir, mór, áirithe, fada, céanna, háirithe, mó, beag -->
+    <feat name="Dialect" value="Connaught" upos="X">1</feat><!-- Caidé -->
+    <feat name="Dialect" value="Munster" upos="VERB,X">39</feat><!-- san, so, dhein, dein, Bhraitheas, age, chuireas, deineadh, des, fachta -->
+    <feat name="Dialect" value="Ulster" upos="X">11</feat><!-- chan, fá, cha, Caidé, achan, domhsa -->
+    <feat name="Form" value="Ecl" upos="ADJ,DET,NOUN,NUM,PART,PROPN,VERB">766</feat><!-- raibh, bhfuil, mbeidh, mbeadh, gcuid, gcás, mbaile, gceist, ndóigh, bhfeidhm -->
+    <feat name="Form" value="Emph" upos="ADP,NOUN,PRON,VERB,X">50</feat><!-- mise, seisean, againne, eisean, ise, agamsa, agatsa, domsa, leatsa, liomsa -->
+    <feat name="Form" value="HPref" upos="ADJ,DET,NOUN,NUM,PROPN">64</feat><!-- háirithe, haon, hamháin, háit, hordú, haigne, heagraíochtaí, hiontach, h-Íde, hOllscoile -->
+    <feat name="Form" value="Len" upos="ADJ,ADP,ADV,NOUN,NUM,PRON,PROPN,VERB,X">2140</feat><!-- bhí, bheith, chur, bheidh, dhéanamh, chuid, raibh, thug, tháinig, chuir -->
+    <feat name="Form" value="VF" upos="VERB">52</feat><!-- b', gurb, gurbh, ab, níorbh, mb', nárbh -->
+    <feat name="Gender" value="Fem" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,X">2754</feat><!-- na, sí, í, chuid, Gaeilge, leith, a, bhliain, áit, uair -->
+    <feat name="Gender" value="Masc" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB,X">5166</feat><!-- sé, é, a, ann, air, ina, leis, duine, rud, fear -->
+    <feat name="Mood" value="Cnd" upos="VERB">139</feat><!-- bheadh, mbeadh, dtiocfadh, dhéanfadh, bhféadfadh, bhféadfaí, chuirfeadh, dtuigfí, fhéadfadh, thiocfadh -->
+    <feat name="Mood" value="Imp" upos="PART,VERB,X">100</feat><!-- bhíodh, ná, féach, bíodh, déan, cuir, dhéanadh, Tabhair, dein, faigh -->
+    <feat name="Mood" value="Ind" upos="VERB,X">1652</feat><!-- bhí, tá, raibh, atá, bhfuil, bheidh, beidh, thug, tháinig, mbeidh -->
+    <feat name="Mood" value="Int" upos="PART,VERB">19</feat><!-- nach, an, Cén, cad, nár -->
+    <feat name="Mood" value="Sub" upos="PART,VERB">7</feat><!-- go, Roinne, chroma, n-imí, raibh, shéide -->
+    <feat name="Negative" value="Neg" upos="PART,VERB,X">359</feat><!-- ní, nach, raibh, níor, níl, nár, bheidh, bhfuil, ná, níorbh -->
+    <feat name="NounType" value="NotSlender" upos="ADJ">39</feat><!-- beaga, difriúla, príomhúla, seachtracha, aisteacha, bríomhara, crúcacha, deasa, deonacha, eachtracha -->
+    <feat name="NounType" value="Slender" upos="ADJ">14</feat><!-- éagsúla, aisteacha, bhradacha, chuí, cháilitheacha, dheonacha, ghlasa, mhéadracha, orgánacha, phríomhúla -->
+    <feat name="NounType" value="Strong" upos="ADJ,NOUN,PROPN">119</feat><!-- daoine, oibreacha, ban, n-oibreacha, ndaoine, beaga, ceoltóirí, gCailíní, nduillí, orduithe -->
+    <feat name="NounType" value="Weak" upos="ADJ,NOUN,PROPN">67</feat><!-- Fiontar, súl, Eorpach, Náisiún, bhflaitheas, breiseán, fear, mballstát, Bhéal_Feirste, Ealaíon -->
+    <feat name="Number" value="Plur" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB">1554</feat><!-- na, a, iad, siad, acu, daoine, ina, orthu, dóibh, leo -->
+    <feat name="Number" value="Sing" upos="ADJ,ADP,DET,NOUN,PRON,PROPN,VERB,X">8975</feat><!-- an, na, sé, é, sa, a, ann, den, sí, ina -->
+    <feat name="NumType" value="Card" upos="NOUN,NUM">127</feat><!-- dhá, trí, céad, seacht, dá, aon, ceithre, fiche, sé, chéad -->
+    <feat name="NumType" value="Ord" upos="NUM">38</feat><!-- chéad, dara, gcéad, 10ú, cheathrú, dtríú, 11ú, 17ú, 18ú, 3ú -->
+    <feat name="PartType" value="Ad" upos="PART">100</feat><!-- go, le -->
+    <feat name="PartType" value="Cmpl" upos="PART">179</feat><!-- go, nach, nár, ná -->
+    <feat name="PartType" value="Comp" upos="NOUN,PART,VERB">42</feat><!-- níos, ba, ní_ba -->
+    <feat name="PartType" value="Cop" upos="PART">1</feat><!-- a -->
+    <feat name="PartType" value="Deg" upos="ADP,PART">4</feat><!-- a, dá -->
+    <feat name="PartType" value="Inf" upos="PART">292</feat><!-- a, do, trasna, a' -->
+    <feat name="PartType" value="Num" upos="PART">10</feat><!-- a -->
+    <feat name="PartType" value="Pat" upos="PART">64</feat><!-- Ó, de, Mac, Uí, Nic, Ní, O', Mc, Mhic, O -->
+    <feat name="PartType" value="Vb" upos="PART,X">808</feat><!-- a, d', ní, gur, nach, níor, ar, do, ná, an -->
+    <feat name="PartType" value="Voc" upos="ADJ,PART">26</feat><!-- a, Eachtraigh, fáinneach, ghil, ghrinn, uaisle -->
+    <feat name="Person" value="1" upos="ADP,DET,PRON,VERB,X">328</feat><!-- mé, mo, liom, agam, againn, dúinn, muid, orm, dom, mise -->
+    <feat name="Person" value="2" upos="ADP,DET,PRON,VERB,X">124</feat><!-- tú, do, leat, agat, féach, duit, déan, ort, cuir, Tabhair -->
+    <feat name="Person" value="3" upos="ADP,DET,PRON,VERB,X">1379</feat><!-- sé, a, é, ann, ina, sí, air, iad, siad, leis -->
+    <feat name="Poss" value="Yes" upos="ADP,DET">444</feat><!-- a, ina, á, dá, mo, do, lena, faoina, m', ár -->
+    <feat name="PrepForm" value="Cmpd" upos="ADP">166</feat><!-- go_dtí, tar_éis, de_réir, le_linn, ar_fud, i_ndiaidh, ar_feadh, de_bharr, in_aghaidh, ar_nós -->
+    <feat name="PronType" value="Art" upos="ADP,DET,VERB">1846</feat><!-- an, na, sa, den, san, ón, don, faoin, sna, a -->
+    <feat name="PronType" value="Dem" upos="DET,PRON,VERB,X">481</feat><!-- sin, seo, eile, san, siúd, shin, so, úd, s', in -->
+    <feat name="PronType" value="Ind" upos="DET,PRON">93</feat><!-- aon, cibé, uile, pé, haon, ceachtar, cheachtar, n-uile -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">47</feat><!-- cén, cad, cé, conas, cá, céard -->
+    <feat name="PronType" value="Prs" upos="ADP">37</feat><!-- á, dhá -->
+    <feat name="PronType" value="Rel" upos="PART,VERB,X">755</feat><!-- a, atá, nach, ar, ba, ina, is, inar, nár, lena -->
+    <feat name="Reflex" value="Yes" upos="NOUN,PRON">61</feat><!-- féin, fhéin -->
+    <feat name="Tense" value="Fut" upos="VERB">213</feat><!-- bheidh, beidh, mbeidh, caithfidh, déanfaidh, cuirfidh, déanfar, féadfaidh, féadfidh, measfaidh -->
+    <feat name="Tense" value="Past" upos="PART,SCONJ,VERB,X">1085</feat><!-- bhí, raibh, gur, ba, níor, thug, tháinig, b', ar, chuir -->
+    <feat name="Tense" value="Pres" upos="PART,VERB,X">865</feat><!-- is, tá, atá, bhfuil, gur, ní, nach, níl, deir, gurb -->
+    <feat name="VerbForm" value="Cop" upos="PART,SCONJ,VERB,X">413</feat><!-- is, ba, gur, ní, nach, b', más, gurb, níor, ar -->
+    <feat name="VerbForm" value="Ger" upos="NOUN">16</feat><!-- obair, caint, iascaireacht, béicíl, chaint, comhrá, magadh, strapadóireacht -->
+    <feat name="VerbForm" value="Inf" upos="NOUN">750</feat><!-- bheith, chur, dhéanamh, fáil, dul, thabhairt, rá, bhaint, cur, déanamh -->
+    <feat name="VerbForm" value="Part" upos="ADJ">149</feat><!-- déanta, bunaithe, imithe, leagtha, ráite, scríofa, tugtha, Aontaithe, bailithe, briste -->
+    <feat name="Voice" value="Auto" upos="VERB,X">251</feat><!-- cuireadh, rinneadh, cuirtear, deonadh, dhéantar, dtagraítear, déanfar, déantar, faightear, shonraítear -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
   <deps unique="36">
