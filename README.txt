@@ -1,8 +1,8 @@
-The Irish UD Treebank is a conversion of the Irish Dependency Treebank (IDT). IDT development is a work-in-progress as continuation of a PhD research project by Teresa Lynn at Dublin City University, Ireland. The IDT data has not yet been officially released. The Treebank contains 1020 sentences taken from the New Corpus of Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish 
+The Irish UD Treebank is a conversion of the Irish Dependency Treebank (IDT). IDT development is a work-in-progress as continuation of a PhD research project by Teresa Lynn at Dublin City University, Ireland. The IDT data has not yet been officially released. The Treebank contains 1020 sentences taken from the New Corpus of Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish
 
 The conversion from the IDT annotation scheme to the UD annotation scheme was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland.
 
-The UD Treebank is split into three sets: 
+The UD Treebank is split into three sets:
 * 150 trees (test)
 * 150 trees (dev)
 * 720 trees (train)
@@ -81,3 +81,4 @@ Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal media
 Contributors: Lynn, Teresa; Foster, Jennifer
+Contact:
