@@ -46,14 +46,18 @@ The Irish UD treebank uses 26 of the UD dependency labels. A further 10 language
 
 REFERENCES
 
-Uí Dhonnchadha, E. 2002. An Analyser and Generator for Irish Inflectional Morphology using Finite State Transducers, School of Computing, Dublin City University: Unpublished MSc Thesis.
+* Christian Brothers, 1988. New Irish Grammar, Dublin: C J Fallon
 
-Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish using Finite-State Transducers and Constraint Grammar (PhD thesis)
+* Teresa Lynn, [Irish Dependency Treebanking and Parsing] (http://www.nclt.dcu.ie/~tlynn/Teresa_PhDThesis_final.pdf), PhD Thesis, Dublin City University, Ireland and Macquarie University, Sydney, Australia, 2016
 
-Stenson, N, 1981. Studies in Irish Syntax, Tübingen: Gunter Narr Verlag.
+* Lynn, Teresa and Jennifer Foster, [Universal Dependencies for Irish] (http://www.nclt.dcu.ie/~tlynn/Lynn_CLTW2016.pdf), CLTW 2016, Paris, France, July 2016
 
-Christian Brothers, 1988. New Irish Grammar, Dublin: C J Fallon
+* Stenson, N, 1981. Studies in Irish Syntax, Tübingen: Gunter Narr Verlag.
 
+* Uí Dhonnchadha, E. 2002. An Analyser and Generator for Irish Inflectional Morphology using Finite State Transducers, School of 
+Computing, Dublin City University: Unpublished MSc Thesis.
+
+* Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish using Finite-State Transducers and Constraint Grammar (PhD thesis)
 
 
 CHANGELOG
