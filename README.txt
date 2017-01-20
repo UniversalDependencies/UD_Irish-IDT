@@ -73,7 +73,7 @@ CHANGELOG
 
 * Added fine-grained POS tags to 5th column
 
-
+Teresa
 
 Documentation status: partial
 Data source: semi-automatic
