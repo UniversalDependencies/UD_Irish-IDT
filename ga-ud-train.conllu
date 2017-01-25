@@ -4767,7 +4767,7 @@
 12	ar	ar	ADP	Simp	_	13	case	_	_
 13	chathaoir	cathaoir	NOUN	Noun	Case=Com|Form=Len|Gender=Fem|Number=Sing	9	nmod	_	_
 14	,	,	PUNCT	Punct	_	15	punct	_	_
-15	agus	agus	CONJ	Coord	_	8	cc	_	_
+15	agus	agus	CONJ	Coord	_	9	cc	_	_
 16	ag	ag	ADP	Simp	_	17	case	_	_
 17	cromadh	cromadh	NOUN	Noun	VerbForm=Inf	9	conj	_	_
 18	go	go	PART	Ad	PartType=Ad	19	mark:prt	_	_
@@ -4898,7 +4898,7 @@
 5	loscadh	loscadh	NOUN	Noun	VerbForm=Inf	1	xcomp	_	_
 6	is	agus	CONJ	Coord	_	5	cc	_	_
 7	ag	ag	ADP	Simp	_	8	case	_	_
-8	dó	dó	NOUN	Noun	VerbForm=Inf	5	xcomp	_	_
+8	dó	dó	NOUN	Noun	VerbForm=Inf	5	conj	_	_
 9	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	11	nmod:poss	_	_
 10	chuid	cuid	NOUN	Noun	Case=Com|Form=Len|Gender=Fem|Number=Sing	11	advmod	_	_
 11	loirgne	loirgne	NOUN	Noun	Case=Com|Gender=Fem|Number=Sing	8	dobj	_	_
@@ -11137,8 +11137,8 @@
 239	,	,	PUNCT	Punct	_	240	punct	_	_
 240	nó	nó	CONJ	Coord	_	238	cc	_	_
 241	(c)	(c)	X	Item	_	242	nummod	_	_
-242	i	i	ADP	Simp	_	240	conj	_	_
-243	gcás	cás	NOUN	Noun	Case=Com|Form=Ecl|Gender=Masc|Number=Sing	242	nmod	_	_
+242	i	i	ADP	Simp	_	243	case	_	_
+243	gcás	cás	NOUN	Noun	Case=Com|Form=Ecl|Gender=Masc|Number=Sing	11	nmod	_	_
 244	teach	teach	NOUN	Noun	Case=Com|Gender=Masc|Number=Sing	243	compound	_	_
 245	a	a	PART	Vb	PartType=Vb|PronType=Rel	246	nmod	_	_
 246	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	244	acl:relcl	_	_
@@ -11152,8 +11152,8 @@
 254	ná	ná	CONJ	Coord	_	255	mark	_	_
 255	céad	céad	NUM	Num	NumType=Card	242	compound	_	_
 256	is	agus	CONJ	Coord	_	255	cc	_	_
-257	daichead	daichead	NUM	Num	NumType=Card	258	nummod	_	_
-258	punt	punt	NOUN	Noun	Case=Com|Gender=Masc|Number=Sing	255	conj	_	_
+257	daichead	daichead	NUM	Num	NumType=Card	255	conj	_	_
+258	punt	punt	NOUN	Noun	Case=Com|Gender=Masc|Number=Sing	238	conj	_	_
 259	.	.	PUNCT	.	_	11	punct	_	_
 
 1	'	'	PUNCT	Punct	_	2	punct	_	_
@@ -12782,8 +12782,8 @@
 25	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	22	acl:relcl	_	_
 26	déanta	déanta	ADJ	Adj	VerbForm=Part	25	xcomp:pred	_	_
 27	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	26	nmod:prep	_	_
-28	nó	nó	CONJ	Coord	_	26	cc	_	_
-29	aici	ag	ADP	Prep	Gender=Fem|Number=Sing|Person=3	26	nmod:prep	_	_
+28	nó	nó	CONJ	Coord	_	27	cc	_	_
+29	aici	ag	ADP	Prep	Gender=Fem|Number=Sing|Person=3	27	conj	_	_
 30	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	31	case	_	_
 31	alt	alt	NOUN	Noun	Case=Com|Gender=Masc|Number=Sing	26	nmod	_	_
 32	seo	seo	DET	Det	PronType=Dem	31	det	_	_
@@ -12806,7 +12806,7 @@
 49	amhlaidh	amhlaidh	ADV	Gn	_	45	advmod	_	_
 50	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	45	nmod:prep	_	_
 51	nó	nó	CONJ	Coord	_	50	cc	_	_
-52	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	50	nmod:prep	_	_
+52	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	50	conj	_	_
 53	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	45	dobj	_	_
 54	,	,	PUNCT	Punct	_	55	punct	_	_
 55	tuarascáil	tuarascáil	NOUN	Noun	Case=Com|Gender=Fem|Number=Sing	60	dobj	_	_
@@ -13905,7 +13905,7 @@
 11	aníos	aníos	ADV	Dir	_	9	advmod	_	_
 12	,	,	PUNCT	Punct	_	13	punct	_	_
 13	agus	agus	CONJ	Coord	_	9	cc	_	_
-14	suí	suí	NOUN	Noun	VerbForm=Inf	9	xcomp	_	_
+14	suí	suí	NOUN	Noun	VerbForm=Inf	9	conj	_	_
 15	go	go	PART	Ad	PartType=Ad	16	mark:prt	_	_
 16	deas	deas	ADJ	Adj	Degree=Pos	14	advmod	_	_
 17	ón	ó	ADP	Art	Number=Sing|PronType=Art	18	case	_	_
@@ -15595,7 +15595,7 @@
 17	mhúinteoirí	múinteoir	NOUN	Noun	Case=Com|Form=Len|Gender=Masc|Number=Plur	15	nmod	_	_
 18	,	,	PUNCT	Punct	_	19	punct	_	_
 19	agus	agus	CONJ	Coord	_	17	cc	_	_
-20	orthu	ar	ADP	Prep	Number=Plur|Person=3	19	conj	_	_
+20	orthu	ar	ADP	Prep	Number=Plur|Person=3	17	conj	_	_
 21	sin	sin	PRON	Dem	PronType=Dem	20	det	_	_
 22	a	a	PART	Vb	PartType=Vb|PronType=Rel	23	nsubj	_	_
 23	bhíonn	bí	VERB	PresImp	Form=Len	20	acl:relcl	_	_
