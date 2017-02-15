@@ -2,9 +2,9 @@
 
 udapy -h >/dev/null || { echo "udapy is not installed, see https://github.com/udapi/udapi-python"; exit 1; }
 
-SCENARIO="ud.ga.AdHoc ud.SplitUnderscoreTokens default_deprel=fixed ud.SetSpaceAfterFromText"
+SCENARIO="ud.SplitUnderscoreTokens default_deprel=fixed ud.SetSpaceAfterFromText ud.Convert1to2 skip=nmod"
 IN=ga-ud-all_convert-textline.conllu
-cat $IN | udapy -s $SCENARIO > ga-ud-all.conllu
+cat $IN | sed '17183s/Loch_Garman\tLoch/Loch_Garman\tLoch_Garman/'| udapy -s $SCENARIO > ga-ud-all.conllu
 
 cat ga-ud-all.conllu | udapy -HAMC ud.MarkBugs skip='no-(VerbForm|PronType|NumType)' > bugs.html
 
