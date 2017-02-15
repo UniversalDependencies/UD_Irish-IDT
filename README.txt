@@ -1,11 +1,17 @@
-The Irish UD Treebank is a conversion of the Irish Dependency Treebank (IDT). IDT development is a work-in-progress as continuation of a PhD research project by Teresa Lynn at Dublin City University, Ireland. The IDT data has not yet been officially released. The Treebank contains 1020 sentences taken from the New Corpus of Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish
+The Irish UD Treebank is a conversion of the Irish Dependency Treebank(IDT). 
+IDT development is a work-in-progress as continuation of a PhD research project by Teresa Lynn at Dublin City University, Ireland. The IDT data is available here: https://github.com/tlynn747/IrishDependencyTreebank
+The Treebank contains 1020 sentences taken from the New Corpus of Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish.
 
 The conversion from the IDT annotation scheme to the UD annotation scheme was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland.
 
 The UD Treebank is split into three sets:
-* 150 trees (test)
-* 150 trees (dev)
-* 720 trees (train)
+(formerly 150- test, 150-dev, 720-train, but have split like this for CoNLL
+shared task 2017)
+
+* 470 trees (test)
+* 450 trees (dev)
+* 100 trees (train)
+
 
 
 STATISTICS
@@ -13,7 +19,7 @@ STATISTICS
 Trees: 1020
 Token count: 23686
 Dependency Relations: 36 of which 10 language specific
-POS tags: 16
+POS tags: 17
 
 
 TOKENISATION
@@ -21,9 +27,10 @@ TOKENISATION
 The tokenisation of the Irish data is the output of a Xerox Finite State tokenizer implemented by Uí Dhonnchadha (2002)
 
 Note:
- - compound prepositions are connected as one token with '_'. Example: in aghaidh 'against' => in\_aghaidh
+ - compound prepositions were previously connected as one token with '_'. Example: in aghaidh 'against' => in\_aghaidh
+Now treated as multi-word units (fixed)
 
-The Irish data does not contain any other multi-word tokens.
+Other multi-word units are Proper Noun Strings (flat) and some fixed expressions like "cés moite" (apart from). Much more work is still required on MWEs in Irish before we can fully update the treebank.
 
 
 
@@ -73,7 +80,12 @@ CHANGELOG
 
 * Added fine-grained POS tags to 5th column
 
-Teresa
+
+15-02-2017 (v2.0)
+
+* Converted treebank to v2
+* Added # sent_id and #text line
+* Changed the data split (test=470, dev=450, train=100)
 
 Documentation status: partial
 Data source: semi-automatic
@@ -81,4 +93,4 @@ Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal media
 Contributors: Lynn, Teresa; Foster, Jennifer
-Contact:
+Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
