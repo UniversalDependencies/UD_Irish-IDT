@@ -499,12 +499,12 @@
 6	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	ccomp	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	bua	bua	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
-9	ag	ag	ADP	Simp	_	11	case	_	_
-10	Mac	mac	PART	Pat	PartType=Pat	11	flat	_	_
-11	Adaim	Adaim	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	6	obl	_	_
+9	ag	ag	ADP	Simp	_	10	case	_	_
+10	Mac	mac	PART	Pat	PartType=Pat	6	obl	_	_
+11	Adaim	Adaim	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	flat	_	_
 12	agus	agus	CCONJ	Coord	_	14	cc	_	_
 13	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	nmod:poss	_	_
-14	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	11	conj	_	_
+14	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	conj	_	_
 15	leanúna	leanúint	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	compound	_	_
 16	ach	ach	SCONJ	Subord	_	18	mark	_	_
 17	gur	gur	PART	Vb	PartType=Vb|Tense=Past	18	mark:prt	_	_
@@ -1052,9 +1052,9 @@
 60	a	a	PART	Vb	PartType=Vb|PronType=Rel	61	mark:prt	_	_
 61	deir	abair	VERB	VTI	Mood=Ind|Tense=Pres	36	ccomp	_	_
 62	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	63	det	_	_
-63	tUas	uas	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	65	flat	_	_
-64	Ó	ó	PART	Pat	PartType=Pat	65	flat	_	_
-65	Cuinneagáin	Cuinneagáin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	61	nsubj	_	SpaceAfter=No
+63	tUas	uas	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	61	nsubj	_	_
+64	Ó	ó	PART	Pat	PartType=Pat	63	flat	_	_
+65	Cuinneagáin	Cuinneagáin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	63	flat	_	SpaceAfter=No
 66	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 661
@@ -1472,16 +1472,16 @@
 
 # sent_id = 681
 # text = Ó Dubhurthuile a bheith mar Phátrún ar an gCraobh.
-1	Ó	ó	PART	Pat	PartType=Pat	2	flat	_	_
-2	Dubhurthuile	dubhurthuile	PROPN	Noun	Case=NomAcc|Gender=Masc	0	root	_	_
+1	Ó	ó	PART	Pat	PartType=Pat	0	root	_	_
+2	Dubhurthuile	dubhurthuile	PROPN	Noun	Case=NomAcc|Gender=Masc	1	flat	_	_
 3	a	a	PART	Inf	PartType=Inf	4	mark	_	_
-4	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	2	xcomp	_	_
+4	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	1	xcomp	_	_
 5	mar	mar	ADP	Simp	_	6	case	_	_
 6	Phátrún	pátrún	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	4	nmod	_	_
 7	ar	ar	ADP	Simp	_	9	case	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	gCraobh	craobh	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	6	nmod	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	2	punct	_	_
+10	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 682
 # text = IS maith liom an moladh atá ag an Ard-Stiúrthóir maidir le beirt réiteoirí d'úsáid i gcluichí móra ar bhonn trialach idir seo agus an bhliain 2,000 nuair a thiocfaidh leasuithe ar na rialacha i gceist arís.
@@ -7565,8 +7565,8 @@
 6	a	a	PART	Inf	PartType=Inf	7	mark	_	_
 7	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
 8	míníonn	mínigh	VERB	VT	Mood=Ind|Tense=Pres	0	root	_	_
-9	Ó	ó	PART	Pat	PartType=Pat	10	flat	_	_
-10	Conaire	Conaire	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	nsubj	_	_
+9	Ó	ó	PART	Pat	PartType=Pat	8	nsubj	_	_
+10	Conaire	Conaire	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	flat	_	_
 11	ceann	ceann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obj	_	_
 12	de	de	ADP	Simp	_	13	case	_	_
 13	nósanna	nós	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	11	nmod	_	_
@@ -7911,27 +7911,27 @@
 10	gCeithre	ceathair	NUM	Num	Form=Ecl|NumType=Card	11	nummod	_	_
 11	Cúirteanna	cúirt	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	8	compound	_	_
 12	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
-13	Ó	ó	PART	Pat	PartType=Pat	14	flat	_	_
-14	Conchubhair	Conchubhair	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	nsubj	_	_
-15	agus	agus	CCONJ	Coord	_	17	cc	_	_
-16	Ó	ó	PART	Pat	PartType=Pat	17	flat	_	_
-17	Maoilíosa	Maoilíosa	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+13	Ó	ó	PART	Pat	PartType=Pat	12	nsubj	_	_
+14	Conchubhair	Conchubhair	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	flat	_	_
+15	agus	agus	CCONJ	Coord	_	16	cc	_	_
+16	Ó	ó	PART	Pat	PartType=Pat	13	conj	_	_
+17	Maoilíosa	Maoilíosa	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	21	punct	_	_
 19	Earnán	Earnán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	21	compound	_	_
 20	Ó	ó	PART	Pat	PartType=Pat	19	flat	_	_
-21	Máille	Máille	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+21	Máille	Máille	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Punct	_	24	punct	_	_
 23	Seán	Seán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	compound	_	_
-24	Lemass	Lemass	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+24	Lemass	Lemass	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Punct	_	28	punct	_	_
 26	Seán	Seán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	28	compound	_	_
 27	Mac	mac	PART	Pat	PartType=Pat	26	flat	_	_
-28	Giolla	Giolla	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	conj	_	_
+28	Giolla	Giolla	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	_
 29	Bhríde	Bríd	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem	28	compound	_	_
 30	agus	agus	CCONJ	Coord	_	33	cc	_	_
 31	Aindrias	aindrias	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	33	compound	_	_
 32	Mac	mac	PART	Pat	PartType=Pat	31	flat	_	_
-33	Domhnaill	Domhnaill	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	14	conj	_	SpaceAfter=No
+33	Domhnaill	Domhnaill	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = 940
