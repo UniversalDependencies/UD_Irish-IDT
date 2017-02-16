@@ -8,9 +8,9 @@ The UD Treebank is split into three sets:
 (formerly 150- test, 150-dev, 720-train, but have split like this for CoNLL
 shared task 2017)
 
-* 470 trees (test)
-* 450 trees (dev)
-* 100 trees (train)
+* 454 trees (test)
+* 445 trees - 11,533 tokens (dev)
+* 121 trees - 3425 tokens (train)
 
 
 
