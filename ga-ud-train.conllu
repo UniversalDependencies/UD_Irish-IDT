@@ -148,8 +148,8 @@
 # text = Cuireann Paul Ó Braoin as Baile Átha Luain an píosa seo chugainn, ar aistriúchán é ar alt a foilsíodh in eagrán Aibreáin den iris Irish Computer agus a athfoilsítear anseo le caoin-chead eagarthóra na hirise sin, Declan McColgan.
 1	Cuireann	cuir	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 2	Paul	Paul	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nsubj	_	_
-3	Ó	ó	PART	Pat	PartType=Pat	2	flat	_	_
-4	Braoin	Braoin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	flat	_	_
+3	Ó	ó	PART	Pat	PartType=Pat	2	flat:name	_	_
+4	Braoin	Braoin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	flat:name	_	_
 5	as	as	ADP	Simp	_	6	case	_	_
 6	Baile	Baile	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obl	_	_
 7	Átha	Átha	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	6	compound	_	_
@@ -185,7 +185,7 @@
 37	sin	sin	DET	Det	PronType=Dem	36	det	_	SpaceAfter=No
 38	,	,	PUNCT	Punct	_	39	punct	_	_
 39	Declan	Declan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	34	appos	_	_
-40	McColgan	McColgan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	39	flat	_	SpaceAfter=No
+40	McColgan	McColgan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	39	flat:name	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 909
@@ -336,7 +336,7 @@
 8	Phoncánach	phoncánach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	nmod	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	Jahn	Jahn	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	appos	_	_
-11	Sacks	Sacks	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
+11	Sacks	Sacks	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	16	punct	_	_
 13	ar	ar	ADP	Simp	_	16	case	_	_
 14	The	the	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	det	_	_
@@ -613,7 +613,7 @@
 # text = Bhí Garret FitzGerald, an chéad cheannaire eile ar an bpáirtí agus a gcéad Taoiseach eile freisin, ina chomhalta de rialtas an Heavy Gang.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Garret	Garret	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nsubj	_	_
-3	FitzGerald	FitzGerald	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	2	flat	_	SpaceAfter=No
+3	FitzGerald	FitzGerald	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	2	flat:name	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	7	punct	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 6	chéad	céad	NUM	Num	Form=Len|NumType=Ord	7	nummod	_	_
@@ -863,7 +863,7 @@
 7	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
 8	míníonn	mínigh	VERB	VT	Mood=Ind|Tense=Pres	0	root	_	_
 9	Ó	ó	PART	Pat	PartType=Pat	8	nsubj	_	_
-10	Conaire	Conaire	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	flat	_	_
+10	Conaire	Conaire	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	flat:name	_	_
 11	ceann	ceann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obj	_	_
 12	de	de	ADP	Simp	_	13	case	_	_
 13	nósanna	nós	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	11	nmod	_	_
@@ -1068,8 +1068,8 @@
 2	iad	iad	PRON	Pers	Number=Plur|Person=3	0	root	_	_
 3	seo	seo	PRON	Dem	PronType=Dem	2	det	_	_
 4	Frank	Frank	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nsubj	_	_
-5	P.	P.	X	Abr	Abbr=Yes	4	flat	_	_
-6	Walsh	Walsh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
+5	P.	P.	X	Abr	Abbr=Yes	4	flat:name	_	_
+6	Walsh	Walsh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	flat:name	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	8	punct	_	_
 8	iar-Chathaoirleach	iar-Chathaoirleach	ADJ	Adj	_	6	appos	_	_
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
@@ -1080,12 +1080,12 @@
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	t-iar-Ghobharnóir	iar-Ghobharnóir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	4	conj	_	_
 16	Edward	Edward	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	15	appos	_	_
-17	F.	F.	X	Abr	Abbr=Yes	16	flat	_	_
-18	Dunne	Dunne	PROPN	Noun	_	16	flat	_	_
+17	F.	F.	X	Abr	Abbr=Yes	16	flat:name	_	_
+18	Dunne	Dunne	PROPN	Noun	_	16	flat:name	_	_
 19	agus	agus	CCONJ	Coord	_	20	cc	_	_
 20	Micheal	Micheal	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	conj	_	_
-21	J.	J.	X	Abr	Abbr=Yes	20	flat	_	_
-22	Ryan	Ryan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	flat	_	SpaceAfter=No
+21	J.	J.	X	Abr	Abbr=Yes	20	flat:name	_	_
+22	Ryan	Ryan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	flat:name	_	SpaceAfter=No
 23	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 935
@@ -1209,25 +1209,25 @@
 11	Cúirteanna	cúirt	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	8	compound	_	_
 12	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 13	Ó	ó	PART	Pat	PartType=Pat	12	nsubj	_	_
-14	Conchubhair	Conchubhair	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	flat	_	_
+14	Conchubhair	Conchubhair	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	flat:name	_	_
 15	agus	agus	CCONJ	Coord	_	16	cc	_	_
 16	Ó	ó	PART	Pat	PartType=Pat	13	conj	_	_
-17	Maoilíosa	Maoilíosa	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	flat	_	SpaceAfter=No
+17	Maoilíosa	Maoilíosa	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	flat:name	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	21	punct	_	_
 19	Earnán	Earnán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	21	compound	_	_
-20	Ó	ó	PART	Pat	PartType=Pat	19	flat	_	_
+20	Ó	ó	PART	Pat	PartType=Pat	19	flat:name	_	_
 21	Máille	Máille	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 22	,	,	PUNCT	Punct	_	24	punct	_	_
 23	Seán	Seán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	compound	_	_
 24	Lemass	Lemass	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 25	,	,	PUNCT	Punct	_	28	punct	_	_
 26	Seán	Seán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	28	compound	_	_
-27	Mac	mac	PART	Pat	PartType=Pat	26	flat	_	_
+27	Mac	mac	PART	Pat	PartType=Pat	26	flat:name	_	_
 28	Giolla	Giolla	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	conj	_	_
 29	Bhríde	Bríd	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem	28	compound	_	_
 30	agus	agus	CCONJ	Coord	_	33	cc	_	_
 31	Aindrias	aindrias	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	33	compound	_	_
-32	Mac	mac	PART	Pat	PartType=Pat	31	flat	_	_
+32	Mac	mac	PART	Pat	PartType=Pat	31	flat:name	_	_
 33	Domhnaill	Domhnaill	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	13	conj	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	12	punct	_	_
 
@@ -2488,7 +2488,7 @@
 # sent_id = 982
 # text = Richard Behal.
 1	Richard	Richard	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
-2	Behal	Behal	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
+2	Behal	Behal	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	flat:name	_	SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 983
@@ -2899,8 +2899,8 @@
 24	Conraitheoir	conraitheoir	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	conj	_	_
 25	gníomhach	gníomhach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	24	amod	_	_
 26	Liam	Liam	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	appos	_	_
-27	Ó	ó	PART	Pat	PartType=Pat	26	flat	_	_
-28	Briain	Briain	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	26	flat	_	_
+27	Ó	ó	PART	Pat	PartType=Pat	26	flat:name	_	_
+28	Briain	Briain	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	26	flat:name	_	_
 29	istigh	istigh	ADV	Dir	_	24	advmod	_	_
 30	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	31	case	_	_
 31	lár	lár	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	29	obl	_	_
