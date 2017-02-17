@@ -261,7 +261,7 @@
 7	sa	i	ADP	Art	Number=Sing|PronType=Art	8	case	_	_
 8	bhliain	bliain	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	1	obl:tmod	_	_
 9	1965	1965	NUM	Num	_	8	nummod	_	_
-10	agus	agus	CCONJ	Coord	_	1	cc	_	ToDo=cc-in-coord
+10	agus	agus	CCONJ	Coord	_	15	cc	_	_
 11	riamh	riamh	ADV	Gn	_	1	advmod	_	_
 12	i	i	ADP	Simp	_	13	case	_	_
 13	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
