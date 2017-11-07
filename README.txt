@@ -122,6 +122,7 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 
 # Metadata
 
+=== Machine-readable metadata (DO NOT REMOVE!) ================================
 Includes text: yes
 Lemmas: semi-automatic
 UPOS: semi-automatic
@@ -132,7 +133,9 @@ Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal media
 Contributors: Lynn, Teresa; Foster, Jennifer
+Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
+===============================================================================
 
 
 
