@@ -124,11 +124,11 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Includes text: yes
-Lemmas: semi-automatic
-UPOS: semi-automatic
-XPOS: semi-automatic
-Features: semi-automatic
-Relations: semi-automatic
+Lemmas: converted with corrections
+UPOS: converted with corrections
+XPOS: automatic with corrections
+Features: converted with corrections
+Relations: converted with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal media
