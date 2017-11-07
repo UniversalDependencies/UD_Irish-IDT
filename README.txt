@@ -1,3 +1,7 @@
+# Summary
+A Universal Dependencies 1020-sentence treebank for modern Irish.
+
+# Introduction
 The Irish UD Treebank is a conversion of the Irish Dependency Treebank
 (IDT).
 
@@ -18,6 +22,12 @@ shared task 2017)
 * 445 trees - 11,533 tokens (dev)
 * 121 trees - 3425 tokens (train)
 
+# Acknowledgments
+
+We wish to thank all of the contributors to the original IDT annotation, including Elaine Uí Dhonnchadha for her gold POS-tagged corpus and linguistic advice. We would also like to acknowledge linguistic advice offered by Kevin Scannell in the conversion to UD effort.
+
+This research is partially supported by Science Foundation Ireland through the ADAPT Centre for Digital Content Technology. The ADAPT Centre for Digital Content Technology is funded under the SFI Research Centres Programme (Grant 13/RC/2106)
+and is co-funded under the European Regional Development Fund.
 
 
 STATISTICS
@@ -109,8 +119,13 @@ CHANGELOG
 * Added # sent_id and #text line
 * Changed the data split (test=470, dev=450, train=100)
 
-Documentation status: partial
-Data source: semi-automatic
+# Metadata
+Includes text: yes
+Lemmas: semi-automatic
+UPOS: semi-automatic
+XPOS: semi-automatic
+Features: semi-automatic
+Relations: semi-automatic
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal media
@@ -119,6 +134,6 @@ Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
 
 
 
-ACKNOWLEDGEMENTS
 
-We wish to thank all of the contributors to the original IDT annotation, including Elaine Uí Dhonnchadha for her gold POS-tagged corpus and linguistic advice. We would also like to acknowledge linguistic advice offered by Kevin Scannell in the conversion to UD effort.
+
+
