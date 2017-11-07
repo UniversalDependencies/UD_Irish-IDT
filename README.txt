@@ -1,7 +1,9 @@
 # Summary
+
 A Universal Dependencies 1020-sentence treebank for modern Irish.
 
 # Introduction
+
 The Irish UD Treebank is a conversion of the Irish Dependency Treebank
 (IDT).
 
@@ -12,15 +14,13 @@ contains 1020 sentences taken from the New Corpus of Ireland-Irish
 
 The conversion from the IDT annotation scheme to the UD annotation scheme was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016)
 
-
-
-The UD Treebank is split into three sets:
-(formerly 150- test, 150-dev, 720-train, but have split like this for CoNLL
-shared task 2017)
+The UD Treebank is split into three sets as follows:
 
 * 454 trees (test)
 * 445 trees - 11,533 tokens (dev)
 * 121 trees - 3425 tokens (train)
+
+Note: the split was formerly 150- test, 150-dev, 720-train, but have split as above for the 2017 CoNLL shared task on dependency parsing.
 
 # Acknowledgments
 
@@ -30,7 +30,7 @@ This research is partially supported by Science Foundation Ireland through the A
 and is co-funded under the European Regional Development Fund.
 
 
-STATISTICS
+# Statistics
 
 Trees: 1020
 Token count: 23686
@@ -38,7 +38,7 @@ Dependency Relations: 36 of which 10 language specific
 POS tags: 17
 
 
-TOKENISATION
+# Tokenisation
 
 The tokenisation of the Irish data is the output of a Xerox Finite State tokenizer implemented by Uí Dhonnchadha (2002)
 
@@ -50,7 +50,7 @@ Other multi-word units are Proper Noun Strings (flat) and some fixed expressions
 
 
 
-SYNTAX
+# Syntax
 
 The Irish UD treebank uses 26 of the UD dependency labels. A further 10 language specific labels were introduced to deal with certain linguistic phenomena in Irish:
 
@@ -67,7 +67,7 @@ The Irish UD treebank uses 26 of the UD dependency labels. A further 10 language
 
 
 
-REFERENCES
+# References
 
 Christian Brothers, 1988. New Irish Grammar, Dublin: C J Fallon
 
@@ -95,7 +95,7 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 
 
 
-CHANGELOG
+# Changelog
 
 15-05-2015 (v1.1)
 
@@ -119,7 +119,9 @@ CHANGELOG
 * Added # sent_id and #text line
 * Changed the data split (test=470, dev=450, train=100)
 
+
 # Metadata
+
 Includes text: yes
 Lemmas: semi-automatic
 UPOS: semi-automatic
