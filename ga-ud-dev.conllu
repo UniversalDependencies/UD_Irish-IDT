@@ -6356,7 +6356,7 @@
 4	,	,	PUNCT	Punct	_	6	punct	_	_
 5	a	a	PART	Voc	PartType=Voc	6	case:voc	_	_
 6	dhaoine	duine	NOUN	Noun	Case=Voc|Definite=Def|Gender=Masc|Number=Plur	2	vocative	_	_
-7	uaisle	uasal	ADJ	Adj	Number=Plur|PartType=Voc	6	amod	_	SpaceAfter=No
+7	uaisle	uasal	ADJ	Adj	Number=Plur|Case=Voc	6	amod	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 663
@@ -7798,11 +7798,11 @@
 31	,	,	PUNCT	Punct	_	33	punct	_	_
 32	a	a	PART	Voc	PartType=Voc	33	case:voc	_	_
 33	ghrá	grá	NOUN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	30	appos	_	_
-34	ghil	geal	ADJ	Adj	Gender=Masc|Number=Sing|PartType=Voc	33	amod	_	SpaceAfter=No
+34	ghil	geal	ADJ	Adj	Gender=Masc|Number=Sing|Case=Voc	33	amod	_	SpaceAfter=No
 35	,	,	PUNCT	Punct	_	37	punct	_	_
 36	a	a	PART	Voc	PartType=Voc	37	case:voc	_	_
 37	chúil	cúl	NOUN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	30	appos	_	_
-38	fáinneach	fáinneach	ADJ	Adj	Gender=Masc|Number=Sing|PartType=Voc	37	amod	_	_
+38	fáinneach	fáinneach	ADJ	Adj	Gender=Masc|Number=Sing|Case=Voc	37	amod	_	_
 39	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	40	det	_	_
 40	dtrioplaí	dtrioplaí	NOUN	Noun	Case=Gen|Gender=Fem|Number=Plur	37	compound	_	_
 41	siar	siar	ADV	Dir	_	40	advmod	_	SpaceAfter=No

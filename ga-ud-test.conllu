@@ -2166,7 +2166,7 @@
 3	,	,	PUNCT	Punct	_	5	punct	_	_
 4	a	a	PART	Voc	PartType=Voc	5	case:voc	_	_
 5	Mhichíl	Mhichíl	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	vocative	_	_
-6	ghrinn	grinn	ADJ	Adj	Gender=Masc|Number=Sing|PartType=Voc	5	amod	_	SpaceAfter=No
+6	ghrinn	grinn	ADJ	Adj	Gender=Masc|Number=Sing|Case=Voc	5	amod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 92
