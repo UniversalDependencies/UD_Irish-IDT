@@ -69,7 +69,7 @@
 5	muid	muid	PRON	Pers	Number=Plur|Person=1	2	obj	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	8	punct	_	_
 7	nach	nach	PART	Vb	Mood=Int|PartType=Vb|Polarity=Neg	8	advmod	_	_
-8	ndícheannófaí	ndícheannaigh	VERB	Cond	Mood=Cnd|Voice=Auto	2	ccomp	_	_
+8	ndícheannófaí	dícheannaigh	VERB	Cond	Mood=Cnd|Voice=Auto	2	ccomp	_	_
 9	le	le	ADP	Simp	_	10	case	_	_
 10	claimhte	claíomh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	8	obl	_	_
 11	muid	muid	PRON	Pers	Number=Plur|Person=1	8	obj	_	SpaceAfter=No
