@@ -119,6 +119,10 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 * Added # sent_id and #text line
 * Changed the data split (test=470, dev=450, train=100)
 
+15-04-2018 (v2.2)
+
+* Repository renamed from UD_Irish to UD_Irish-IDT
+
 
 # Metadata
 
@@ -136,9 +140,3 @@ Contributors: Lynn, Teresa; Foster, Jennifer
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
 ===============================================================================
-
-
-
-
-
-

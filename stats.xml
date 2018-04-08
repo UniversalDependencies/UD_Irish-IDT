@@ -105,13 +105,13 @@
     <dep name="advmod">723</dep>
     <dep name="amod">708</dep>
     <dep name="appos">108</dep>
-    <dep name="case">2924</dep>
+    <dep name="case">2925</dep>
     <dep name="case:voc">21</dep>
     <dep name="cc">649</dep>
     <dep name="ccomp">362</dep>
     <dep name="compound">1600</dep>
     <dep name="compound:prt">12</dep>
-    <dep name="conj">743</dep>
+    <dep name="conj">742</dep>
     <dep name="cop">373</dep>
     <dep name="csubj:cleft">133</dep>
     <dep name="csubj:cop">48</dep>

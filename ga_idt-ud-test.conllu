@@ -1997,7 +1997,7 @@
 21	gcéad	céad	NUM	Num	Form=Ecl|NumType=Ord	22	nummod	_	_
 22	Imlitir	imlitir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	18	obl	_	_
 23	agus	agus	CCONJ	Coord	_	26	cc	_	_
-24	ar	ar	ADP	Simp	_	26	conj	_	_
+24	ar	ar	ADP	Simp	_	26	case	_	_
 25	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	bPápacht	pápacht	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	22	conj	_	_
 27	go	go	PART	Ad	PartType=Ad	28	mark:prt	_	_
