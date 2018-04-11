@@ -1,20 +1,16 @@
-Sun Feb 11 20:43:58 CET 2018
-perl -I perllib/lib/perl5 -I tools tools/evaluate_treebank.pl --verbose UD_Irish
 Running the following version of tools/evaluate_treebank.pl:
-commit c1cb17aec6a5505b56b885f578dc6b1093bb4b30
+commit 87d374bbd458d29331d76014d05c52eaac32518d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Feb 11 20:27:50 2018 +0100
-Switched to branch 'master'
-Your branch is up-to-date with 'origin/master'.
-Evaluating the following revision of UD_Irish:
-commit 8eb51f4e3ffd4911fdf10745b37250ac6e562152
-Merge: 5f0d43d 0875777
+Date:   Wed Apr 11 09:21:53 2018 +0200
+Evaluating the following revision of UD_Irish-IDT:
+commit 2580b449f24876c2c6c92ee2fffca74c90f942b6
+Merge: 910b8a3 be45f6f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 23964 of 23964 words (nodes).
 Size: min(0, log((N/1000)**2)) = 6.35310540844336.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
-Split: Found at least 10000 development words.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 17 out of 17 found in the corpus.
@@ -23,9 +19,14 @@ Features: 16967 out of 23964 total words have one or more features.
 Features: source of annotation (from README) factor is 0.9.
 Universal relations: 28 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.9.
-Udapi: found 3358 bugs.
+Udapi: found 3357 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 23964 words.
 Genres: found 4 out of 14 known.
+validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
+*** PASSED ***
+validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
+*** PASSED ***
+Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
 (weight=0.0769230769230769) * (score{genres}=0.285714285714286) = 0.021978021978022
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
@@ -36,6 +37,4 @@ Genres: found 4 out of 14 known.
 (weight=0.0769230769230769) * (score{udeprels}=0.681081081081081) = 0.0523908523908524
 (TOTAL score=0.437408131712321) * (availability=1) * (validity=1) = 0.437408131712321
 STARS = 2
-UD_Irish	0.437408131712321	2
-Switched to branch 'dev'
-Your branch is up-to-date with 'origin/dev'.
+UD_Irish-IDT	0.437408131712321	2
