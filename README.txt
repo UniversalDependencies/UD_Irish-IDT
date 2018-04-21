@@ -135,7 +135,7 @@ Features: converted with corrections
 Relations: converted with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
-Genre: news fiction web legal media
+Genre: news fiction web legal
 Contributors: Lynn, Teresa; Foster, Jennifer
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
