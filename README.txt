@@ -5,26 +5,26 @@ A Universal Dependencies 1020-sentence treebank for modern Irish.
 # Introduction
 
 The Irish UD Treebank is a conversion of the Irish Dependency Treebank
-(IDT).
+(IDT), which was part of a PhD research project by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016). 
 
-IDT development was part of a PhD research project by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016). The IDT data has
-been released on [GitHub] (https://github.com/tlynn747/IrishDependencyTreebank). The Treebank
+---- The IDT data has been released on [GitHub] (https://github.com/tlynn747/IrishDependencyTreebank). The Treebank
 contains 1020 sentences taken from the New Corpus of Ireland-Irish
-(NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish.
+(NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish. ----
 
 The conversion from the IDT annotation scheme to the UD annotation scheme was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016)
 
-The UD Treebank is split into three sets as follows:
+The UD Treebank is split into two sets as follows:
 
 * 454 trees (test)
-* 445 trees - 11,533 tokens (dev)
-* 121 trees - 3425 tokens (train)
+* 566 trees (train)
 
 Note: the split was formerly 150- test, 150-dev, 720-train, but have split as above for the 2017 CoNLL shared task on dependency parsing.
 
 # Acknowledgments
 
 We wish to thank all of the contributors to the original IDT annotation, including Elaine Uí Dhonnchadha for her gold POS-tagged corpus and linguistic advice. We would also like to acknowledge linguistic advice offered by Kevin Scannell in the conversion to UD effort.
+
+Expansion of the IUDT from 2019-2021 is funded by the Irish Government Department of Culture, Heritage and the Gaeltacht.
 
 This research is partially supported by Science Foundation Ireland through the ADAPT Centre for Digital Content Technology. The ADAPT Centre for Digital Content Technology is funded under the SFI Research Centres Programme (Grant 13/RC/2106)
 and is co-funded under the European Regional Development Fund.
@@ -46,7 +46,7 @@ Note:
  - compound prepositions were previously connected as one token with '_'. Example: in aghaidh 'against' => in\_aghaidh
 Now treated as multi-word units (fixed)
 
-Other multi-word units are Proper Noun Strings (flat) and some fixed expressions like "cés moite" (apart from). Much more work is still required on MWEs in Irish before we can fully update the treebank.
+Other multi-word units are Proper Noun Strings (flat) and some fixed expressions like "cés moite" (apart from). MWE research is being carried out by Abigail Walsh (ADAPT Centre, DCU) as part of her PhD.
 
 
 
@@ -122,6 +122,20 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 15-04-2018 (v2.2)
 
 * Repository renamed from UD_Irish to UD_Irish-IDT
+* data split now just test(454) and train(566) set.
+
+
+01-11-2018 (v2.2)
+
+* No changes/updates to Irish data
+
+
+30-04-2019 (v2.4)
+
+* Labelled more MWEs (fixed)
+* Cleaned up bugs from v2 conversion (caught by new validator script)
+
+
 
 
 # Metadata
@@ -136,7 +150,7 @@ Relations: converted with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal
-Contributors: Lynn, Teresa; Foster, Jennifer
+Contributors: Lynn, Teresa; Foster, Jennifer; Sarah McGuinness, Abigail Walsh
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
 ===============================================================================
