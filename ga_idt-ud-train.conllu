@@ -4335,7 +4335,7 @@
 
 # sent_id = 573
 # text = Sin a bhfuil ann.
-1	Sin	sin	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Sin	sin	PRON	Dem	PronType=Dem	0	root	_	_
 2	a	a	PART	Vb	PartType=Vb|PronType=Rel	3	mark:prt	_	_
 3	bhfuil	bí	VERB	VI	Form=Ecl|Mood=Ind|Tense=Pres	1	csubj:cleft	_	_
 4	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	3	xcomp:pred	_	SpaceAfter=No
@@ -5946,13 +5946,13 @@
 
 # sent_id = 646
 # text = Cén fáth a ndeachaigh sé amach?
-1	Cén	cé	AUX	Cop	Mood=Int|Number=Sing|PronType=Art|VerbForm=Cop	0	root	_	_
-2	fáth	fáth	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
+1	Cén	is	AUX	Cop	Mood=Int|Number=Sing|PronType=Art|VerbForm=Cop	2	cop	_	_
+2	fáth	fáth	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 3	a	a	PART	Vb	PartType=Vb|PronType=Rel	4	mark:prt	_	_
-4	ndeachaigh	téigh	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past	1	csubj:cleft	_	_
+4	ndeachaigh	téigh	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past	2	csubj:cleft	_	_
 5	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	4	nsubj	_	_
 6	amach	amach	ADV	Dir	_	4	advmod	_	SpaceAfter=No
-7	?	?	PUNCT	?	_	1	punct	_	_
+7	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = 647
 # text = An bhfeiceann tú aon eilimintí eile den síscéal ann nach bhfuil luaite thuas?
@@ -7274,14 +7274,14 @@
 
 # sent_id = 705
 # text = Seo an fear a d'ionsaigh siad.
-1	Seo	seo	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Seo	is	AUX	Cop	PronType=Dem|VerbForm=Cop	3	cop	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	6	obj	_	_
 5	d'	do	PART	Vb	PartType=Vb	6	mark:prt	_	SpaceAfter=No
 6	ionsaigh	ionsaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	acl:relcl	_	_
 7	siad	siad	PRON	Pers	Number=Plur|Person=3	6	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 706
 # text = Ní raibh áit suí ag a leath, ach ba bheag a ghoill sin orthu, agus go leor de na cailíní bhí siad ina suí ar ghlúine na mbuachaillí thart le balla.
@@ -7432,16 +7432,16 @@
 
 # sent_id = 713
 # text = Sin an fear a bhfuil a mhac ag imeacht.
-1	Sin	sin	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Sin	is	AUX	Cop	PronType=Dem|VerbForm=Cop	3	cop	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	obl	_	_
 5	bhfuil	bí	VERB	VI	Form=Ecl|Mood=Ind|Tense=Pres	3	acl:relcl	_	_
 6	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	nmod:poss	_	_
 7	mhac	mac	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	nsubj	_	_
 8	ag	ag	ADP	Simp	_	9	case	_	_
 9	imeacht	imeacht	NOUN	Noun	VerbForm=Vnoun	5	xcomp	_	SpaceAfter=No
-10	.	.	PUNCT	.	_	1	punct	_	_
+10	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 714
 # text = Dúirt sé go dtabharfaidh an bhean an leabhar do Mháire.
@@ -7615,14 +7615,14 @@
 
 # sent_id = 723
 # text = Seo an fear a chonaic an bhean.
-1	Seo	seo	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Seo	is	AUX	Cop	PronType=Dem|VerbForm=Cop	3	cop	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
+3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	obj	_	_
-5	chonaic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	csubj:cleft	_	_
+5	chonaic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	csubj:cleft	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	bhean	bean	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 724
 # text = Tabharfadsa náire fén bpoll dóibh.
@@ -12792,10 +12792,10 @@
 10	minic	minic	ADJ	Adj	Degree=Pos	3	advmod	_	_
 11	acu	ag	ADP	Prep	Number=Plur|Person=3	5	conj	_	_
 12	siúd	siúd	PRON	Dem	PronType=Dem	11	det	_	_
-13	ar	ar	AUX	Cop	Tense=Past|VerbForm=Cop	1	ccomp	_	_
-14	mhian	mian	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	13	xcomp:pred	_	_
+13	ar	is	AUX	Cop	Tense=Past|VerbForm=Cop	14	cop	_	_
+14	mhian	mian	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	1	ccomp	_	_
 15	leo	le	ADP	Prep	Number=Plur|Person=3	14	obl:prep	_	_
-16	caitheamh	caitheamh	NOUN	Noun	VerbForm=Inf	13	nsubj	_	_
+16	caitheamh	caitheamh	NOUN	Noun	VerbForm=Inf	14	nsubj	_	_
 17	anuas	anuas	ADV	Dir	_	16	advmod	_	_
 18	ar	ar	ADP	Simp	_	19	case	_	_
 19	Chonradh	conradh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	16	nmod	_	_
@@ -13619,7 +13619,7 @@
 9	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	nótaí	nóta	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	6	conj	_	_
 11	(	(	PUNCT	Punct	_	13	punct	_	SpaceAfter=No
-12	más	má	AUX	Subord	VerbForm=Cop	10	advmod	_	_
+12	más	má	SCONJ	Subord	VerbForm=Cop	10	advmod	_	_
 13	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	12	fixed	_	_
 14	dóibh	do	ADP	Prep	Number=Plur|Person=3	12	fixed	_	SpaceAfter=No
 15	)	)	PUNCT	Punct	_	13	punct	_	_

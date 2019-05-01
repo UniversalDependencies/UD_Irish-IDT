@@ -4761,10 +4761,10 @@
 
 # sent_id = 200
 # text = Sé deacracht a bhíodh agam teacht amach as an saol san agus plé le gnáthchúrsaí an tsaoil ina rabhas ag maireachtaint.
-1	Sé	sé	AUX	Cop	Gender=Masc|Number=Sing|Person=3|VerbForm=Cop	0	root	_	_
-2	deacracht	deacracht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	xcomp:pred	_	_
+1	Sé	is	AUX	Cop	Gender=Masc|Number=Sing|Person=3|VerbForm=Cop	2	cop	_	_
+2	deacracht	deacracht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	0	root	_	_
 3	a	a	PART	Vb	PartType=Vb|PronType=Rel	4	mark:prt	_	_
-4	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	1	csubj:cleft	_	_
+4	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	2	csubj:cleft	_	_
 5	agam	ag	ADP	Prep	Number=Sing|Person=1	4	obl:prep	_	_
 6	teacht	teacht	NOUN	Noun	VerbForm=Inf	4	xcomp	_	_
 7	amach	amach	ADV	Dir	_	6	advmod	_	_
@@ -4782,7 +4782,7 @@
 19	rabhas	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Number=Sing|Person=1|Tense=Past	17	acl:relcl	_	_
 20	ag	ag	ADP	Simp	_	21	case	_	_
 21	maireachtaint	maireachtaint	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	xcomp	_	SpaceAfter=No
-22	.	.	PUNCT	.	_	1	punct	_	_
+22	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 201
 # text = An teideal atá air ná 'Kill me, I Love You!
@@ -5147,14 +5147,14 @@
 
 # sent_id = 217
 # text = Seo an fear a d'ionsaigh iad.
-1	Seo	seo	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Seo	is	AUX	Cop	PronType=Dem|VerbForm=Cop	3	cop	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
-4	a	a	PART	Vb	PartType=Vb|PronType=Rel	6	mark:prt	_	_
+3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	PART	Vb	PartType=Vb|PronType=Rel	6	nsubj	_	_
 5	d'	do	PART	Vb	PartType=Vb	6	mark:prt	_	SpaceAfter=No
-6	ionsaigh	ionsaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	csubj:cleft	_	_
+6	ionsaigh	ionsaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	acl:relcl	_	_
 7	iad	iad	PRON	Pers	Number=Plur|Person=3	6	obj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 218
 # text = 'Diabhal fothach amuigh déarfainn,' adúirt Jóín Joe Labhráis, ag brú isteach ar ár gcúl chois an chlaí.
@@ -5322,7 +5322,7 @@
 1	Ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
 3	Dearbhla	Dearbhla	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
-4	Ní	ní	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	3	flat:name	_	_
+4	Ní	ní	PART	Pat	PartType=Pat	3	flat:name	_	_
 5	Bhrolacháin	bhrolachán	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	flat:name	_	_
 6	a	a	PART	Vb	PartType=Vb|PronType=Rel	7	mark:prt	_	_
 7	léirigh	léirigh	VERB	VT	Form=Len|Mood=Ind|Tense=Past	3	csubj:cleft	_	_
@@ -7197,12 +7197,12 @@
 
 # sent_id = 279
 # text = 1 Ní mór teorainn a bheith le samplaí de mhíreanna ar leith anseo, toisc a thábhachtaí is atá sé iomláine na trialach a choinneáil le húsáid amach anseo.
-1	1	1	NUM	Num	_	2	nummod	_	_
-2	Ní	ní	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	0	root	_	_
-3	mór	mór	ADJ	Adj	Degree=Pos	2	xcomp:pred	_	_
+1	1	1	NUM	Num	_	3	nummod	_	_
+2	Ní	is	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	3	cop	_	_
+3	mór	mór	ADJ	Adj	Degree=Pos	0	root	_	_
 4	teorainn	teorainn	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	6	nsubj	_	_
 5	a	a	PART	Inf	PartType=Inf	6	mark	_	_
-6	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	2	nsubj	_	_
+6	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	3	nsubj	_	_
 7	le	le	ADP	Simp	_	8	case	_	_
 8	samplaí	sampla	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	6	nmod	_	_
 9	de	de	ADP	Simp	_	10	case	_	_
@@ -7211,7 +7211,7 @@
 12	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	10	nmod	_	_
 13	anseo	anseo	ADV	Loc	_	6	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
-15	toisc	toisc	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	2	obl	_	_
+15	toisc	toisc	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	3	obl	_	_
 16	a	a	PART	Deg	PartType=Deg	17	mark:prt	_	_
 17	thábhachtaí	tábhachtach	ADJ	Adj	Degree=Cmp,Sup	15	amod	_	_
 18	is	agus	CCONJ	Coord	_	19	mark	_	_
@@ -7226,7 +7226,7 @@
 27	húsáid	úsáid	NOUN	Noun	Form=HPref|VerbForm=Inf	25	xcomp	_	_
 28	amach	amach	ADV	Dir	_	25	advmod	_	_
 29	anseo	anseo	ADV	Loc	_	28	advmod	_	SpaceAfter=No
-30	.	.	PUNCT	.	_	2	punct	_	_
+30	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 280
 # text = Anois thuig mé gurbh fhocail de chineál nua a bhí ag teacht chugam, agus solas agus foghar uathu thar a bhfacthas nó a gcualathas cheana.
@@ -7533,9 +7533,9 @@
 # text = Ach féach cad a tharla!
 1	Ach	ach	SCONJ	Subord	_	2	mark	_	_
 2	féach	féach	VERB	VTI	Mood=Imp|Number=Sing|Person=2	0	root	_	_
-3	cad	cad	AUX	Cop	Mood=Int|VerbForm=Cop	5	csubj:cleft	_	_
-4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	mark:prt	_	_
-5	tharla	tarlaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	2	ccomp	_	SpaceAfter=No
+3	cad	cad	NOUN	Subst	Number=Sing	2	obj	_	_
+4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	nsubj	_	_
+5	tharla	tarlaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	acl:relcl	_	SpaceAfter=No
 6	!	!	PUNCT	!	_	2	punct	_	_
 
 # sent_id = 291
@@ -7731,14 +7731,14 @@
 
 # sent_id = 300
 # text = Seo an bád a chonaic an fear.
-1	Seo	seo	AUX	Cop	PronType=Dem|VerbForm=Cop	0	root	_	_
+1	Seo	is	AUX	Cop	PronType=Dem|VerbForm=Cop	3	cop	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	bád	bád	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	xcomp:pred	_	_
-4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	mark:prt	_	_
-5	chonaic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	csubj:cleft	_	_
+3	bád	bád	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
+4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	obj	_	_
+5	chonaic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	acl:relcl	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	5	nsubj	_	SpaceAfter=No
-8	.	.	PUNCT	.	_	1	punct	_	_
+8	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 301
 # text = Níor dhúisigh san é.
