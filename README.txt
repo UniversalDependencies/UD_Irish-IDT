@@ -5,7 +5,7 @@ A Universal Dependencies 1020-sentence treebank for modern Irish.
 # Introduction
 
 The Irish UD Treebank is a conversion of the Irish Dependency Treebank
-(IDT), which was part of a PhD research project by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016). 
+(IDT), which was part of a PhD research project by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016).
 
 ---- The IDT data has been released on [GitHub] (https://github.com/tlynn747/IrishDependencyTreebank). The Treebank
 contains 1020 sentences taken from the New Corpus of Ireland-Irish
@@ -151,7 +151,7 @@ Relations: converted with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal
-Contributors: Lynn, Teresa; Foster, Jennifer; Sarah McGuinness, Abigail Walsh
+Contributors: Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah; Walsh, Abigail
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
 ===============================================================================
