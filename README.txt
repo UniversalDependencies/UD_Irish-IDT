@@ -151,7 +151,7 @@ Relations: converted with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal
-Contributors: Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah; Walsh, Abigail
+Contributors: Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah; Walsh, Abigail; Phelan, Jason
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
 ===============================================================================
