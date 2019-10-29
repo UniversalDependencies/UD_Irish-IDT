@@ -1,0 +1,40 @@
+Running the following version of tools/evaluate_treebank.pl:
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Apr 21 19:02:58 2018 +0200
+Evaluating the following revision of UD_Irish-IDT:
+commit 35614d468ca23bf640657eb80237a72a28fefb87
+Merge: a7d0124 b47c8c4
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Size: counted 23964 of 23964 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.35310540844336.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Found more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 0.9.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 0.9.
+Features: 16959 out of 23964 total words have one or more features.
+Features: source of annotation (from README) factor is 0.9.
+Universal relations: 28 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.9.
+Udapi: found 3277 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 23964 words.
+Genres: found 4 out of 17 known.
+validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
+*** PASSED ***
+validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
+(weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
+(weight=0.256410256410256) * (score{size}=0.459853103639442) = 0.117911052215242
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.681081081081081) = 0.0523908523908524
+(TOTAL score=0.433529657245611) * (availability=1) * (validity=1) = 0.433529657245611
+STARS = 2
+UD_Irish-IDT	0.433529657245611	2
