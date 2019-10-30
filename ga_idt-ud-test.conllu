@@ -825,7 +825,7 @@
 
 # sent_id = 37
 # text = !
-1	!	!	PUNCT	PUNCT	_	0	root	_	_
+1	!	!	PUNCT	!	_	0	root	_	_
 
 # sent_id = 38
 # text = Tá smut den dul thar fóir sa chuntas seo a leanas ó Sheán Sheáin Í Chearnaigh ar an ábhar seo ach is fiú súil a chaitheamh air mar sin féin: Scéal a thairringíonn scéal.
@@ -2568,7 +2568,7 @@
 
 # sent_id = 109
 # text = !
-1	!	!	PUNCT	PUNCT	_	0	root	_	_
+1	!	!	PUNCT	!	_	0	root	_	_
 
 # sent_id = 110
 # text = Troideadh an cás i nGaeilge os comhair an Bhreithimh Peter Kelly agus cheadaigh seisean toirmeasc a chuireann cosc ar Stiúrthóir na nIonchúiseamh Poiblí, atá ag glacadh an cháis thar ceann an Gharda, a chuireann cosc air an cás a chur chun na Cúirte Dúiche go dtí go n-éistfear leis an chás iomlán san Ard-Chúirt.
@@ -9868,7 +9868,7 @@
 16	,	,	PUNCT	Punct	_	18	punct	_	_
 17	Sword	Sword	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	conj	_	_
 18	Dance	Dance	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	17	flat:foreign	_	SpaceAfter=No
-19	,	,	PUNCT	Punct	_	22	punct	_	_
+19	,	,	PUNCT	Punct	_	20	punct	_	_
 20	Dashing	Dashing	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	conj	_	_
 21	White	White	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	flat:foreign	_	_
 22	Sargents	Sargents	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	21	flat:foreign	_	_
@@ -11497,3 +11497,4 @@
 25	60-62	60-62	NUM	Num	_	20	nummod	_	SpaceAfter=No
 26	)	)	PUNCT	Punct	_	25	punct	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	1	punct	_	_
+

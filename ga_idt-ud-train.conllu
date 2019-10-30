@@ -4707,7 +4707,7 @@
 15	ar	ar	ADP	Simp	_	17	case	_	_
 16	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
 17	ngannchuid	gannchuid	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	14	nmod	_	_
-18	maidir	maidir	ADP	CmpdNoGen	Number=Plur|Person=3|Poss=Yes	20	case	_	_
+18	maidir	maidir	ADP	CmpdNoGen	_	20	case	_	_
 19	lena	le	ADP	CmpdNoGen	_	18	fixed	_	_
 20	bhfíorú	fíorú	NOUN	Noun	Form=Ecl|VerbForm=Inf	14	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
@@ -6722,7 +6722,7 @@
 19	ceart	ceart	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	17	nsubj	_	_
 20	ag	ag	ADP	Simp	_	21	case	_	_
 21	daoine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	17	obl	_	_
-22	ar	is	ADP	Cop	Tense=Pres|VerbForm=Cop	23	case	_	_
+22	ar	is	ADP	Simp	_	23	case	_	_
 23	sheirbhísí	seirbhís	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Plur	19	nmod	_	_
 24	poiblí	poiblí	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	23	amod	_	_
 25	uile	uile	DET	Det	PronType=Ind	23	det	_	_
@@ -7542,7 +7542,7 @@
 # text = Ríomhphost: post@clubsult.com).
 1	Ríomhphost	post	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Punct	_	3	punct	_	_
-3	post@clubsult.com	post@clubsult.com	SYM	Abr	Abbr=Yes	1	nmod	_	SpaceAfter=No
+3	post@clubsult.com	post@clubsult.com	SYM	Web	Abbr=Yes	1	nmod	_	SpaceAfter=No
 4	)	)	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
 5	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -12315,9 +12315,9 @@
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	Jahn	Jahn	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	appos	_	_
 11	Sacks	Sacks	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat:name	_	SpaceAfter=No
-12	,	,	PUNCT	Punct	_	16	punct	_	_
+12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	ar	ar	ADP	Simp	_	14	case	_	_
-14	The	the	DET	Art	Definite=Def|Number=Sing|PronType=Art	16	nmod	_	_
+14	The	the	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	nmod	_	_
 15	Donegal	Donegal	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	flat:foreign	_	_
 16	Mafia	Mafia	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	flat:foreign	_	_
 17	i	i	ADP	Simp	_	18	case	_	_
@@ -12375,11 +12375,11 @@
 69	acu	ag	ADP	Prep	Number=Plur|Person=3	68	nmod	_	_
 70	ach	ach	SCONJ	Subord	_	75	mark	_	_
 71	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	75	det	_	_
-72	'	'	PUNCT	Punct	_	75	punct	_	SpaceAfter=No
-73	Technical	Technical	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	75	nmod	_	_
+72	'	'	PUNCT	Punct	_	73	punct	_	SpaceAfter=No
+73	Technical	Technical	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	68	nmod	_	_
 74	Coordination	coordination	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	73	flat	_	_
 75	Group	Group	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	73	flat	_	SpaceAfter=No
-76	'	'	PUNCT	Punct	_	75	punct	_	SpaceAfter=No
+76	'	'	PUNCT	Punct	_	73	punct	_	SpaceAfter=No
 77	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 916
