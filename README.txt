@@ -1,6 +1,6 @@
 # Summary
 
-A Universal Dependencies 1020-sentence treebank for modern Irish.
+A Universal Dependencies 1763-sentence treebank for modern Irish.
 
 # Introduction
 
@@ -16,9 +16,11 @@ The conversion from the IDT annotation scheme to the UD annotation scheme was de
 The UD Treebank is split into two sets as follows:
 
 * 454 trees (test)
+* 451 trees (dev)
 * 566 trees (train)
 
-Note: the split was formerly 150- test, 150-dev, 720-train, but have split as above for the 2017 CoNLL shared task on dependency parsing.
+Note: the 451 dev trees were taken from the set of newly annotated trees. The rest of the newly annotated trees have been added to the
+training set.
 
 # Acknowledgments
 
@@ -32,7 +34,7 @@ and is co-funded under the European Regional Development Fund.
 
 # Statistics
 
-Trees: 1020
+Trees: 1763
 Token count: 23686
 Dependency Relations: 36 of which 10 language specific
 POS tags: 17
@@ -135,6 +137,15 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 
 * Labelled more MWEs (fixed)
 * Cleaned up bugs from v2 conversion (caught by new validator script)
+
+31-10-2019 (v2.5)
+
+* reviewed MWEs such as flat, flat:name, fixed and compounds (many deps
+  previously tagged as compounds are now nmod)
+* Added 743 new trees
+* Now including dev set
+* Changes data split (test=454, dev=451, train=858) .. same test set trees
+  as before
 
 
 # Metadata
