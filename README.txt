@@ -137,8 +137,6 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 * Cleaned up bugs from v2 conversion (caught by new validator script)
 
 
-
-
 # Metadata
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
