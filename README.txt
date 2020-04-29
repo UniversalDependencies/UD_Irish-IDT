@@ -148,6 +148,51 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
   as before
 
 
+29-04-2020  (v2.6)
+
+cleanup of v2.5 trees...
+
+* Reviewed use of csubj:cleft vs acl:relcl 
+* Reviewed the under-use of parataxis - many were mislabelled as nmod/ ccomp
+* Updated morphological features for superlative adjective particle “is” 
+* Fixed POS tag & features for compound relative particle dá
+* Fixed instances where mí was incorrectly included as part of proper noun string for month (flat)
+* Reviewed the POS and label attachment of fiú, ionas and siocair
+* Labelled mar sin and mar sin féin as MWE (fixed)
+* Ensured all instances of Más are treated as subordinate conjunction (despite copular features)
+* Reviewed all uses of POS tag ‘X’ and replaced with appropriate tags (hangover from mapping of Guess label in PAROLE tags)
+* Reviewed all abbreviation tagging
+* Reviewed PP clefts - ensured the noun was the head of fronted phrase (not prep)
+* Reviewed all PROPN  POS tags (some incorrectly tagged as NOUN)
+* MWE labelling: ar bith, ar a laghad, seo caite, seo chugainn, go deo, cé chomh, chomh maith (le)
+* MWE labelling: go minic no longer fixed
+* Reviewed infinitive verb forms introduced with á or le - labelled as xcomp
+* Ensure objects of verbal nouns are obj
+* Ensure attachment of PP to verbal nouns in progressive aspectual phrases are labelled obl
+* Cleaned up misuse of case label
+* Reviewed use of “list” label for list operators (esp legal texts)
+* Reviewed superlative adjective particle “IS” and auxiliary copular - some incorrect POS tagging
+* Reviewed the dep label for “ach” - subordinate conjunction = mark, when it means “only” - mark:prt
+* Reviewed the use of xcomp:pred  (mostly used with substantive verb, but sometimes as secondary predicate)
+* Reviewed all questions (Cén, Cad, Conas, Céard, Cathain, Cá, Cár etc)
+* Reviewed labelling of Seo/Sin/Sé as combined Copula/Pred 
+* Reviewed all relative clauses in copular form (iad ar mhian leo…)
+* Reviewed use of csubj:cop - for use in Copular phrases where subject was previously xcomp, ccomp
+* Reviewed clefts that are copular phrases (Is é Micheal D. Higgins ba chionsiocair….)
+* Split some merged sentences (e.g.189, 319, 973 etc)
+* Introduced dislocated label
+* Reviewed compounds
+* Review of flat:foreign vs flat:name
+* Cleaned up features of some non-relative instances of Nach  Is   AUX  Cop 
+* Compound numbers - attached déag to first part of number instead of noun being quantified
+* Revised analysis of pseudo clefts - Is é atá X ná Y 
+
+
+
+
+
+
+
 # Metadata
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
