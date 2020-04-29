@@ -1,32 +1,39 @@
 # Summary
 
-A Universal Dependencies 1763-sentence treebank for modern Irish.
+A Universal Dependencies 2924-sentence treebank for modern Irish.
 
 # Introduction
 
-The Irish UD Treebank is a conversion of the Irish Dependency Treebank
+The Irish UD Treebank (IUDT) is a conversion of the Irish Dependency Treebank
 (IDT), which was part of a PhD research project by Teresa Lynn at Dublin City University, Ireland (Lynn, 2016).
 
----- The IDT data has been released on [GitHub] (https://github.com/tlynn747/IrishDependencyTreebank). The Treebank
-contains 1020 sentences taken from the New Corpus of Ireland-Irish
-(NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish. ----
+---- The (smaller) IDT dataset has also been released on [GitHub]
+(https://github.com/tlynn747/IrishDependencyTreebank). ----
 
-The conversion from the IDT annotation scheme to the UD annotation scheme was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016)
+The Treebank contains 2924 sentences taken from the New Corpus of
+Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish. ----
+
+The conversion from the IDT annotation scheme to the UD annotation
+scheme for the first release was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016) Conversion of sentences 1-1020 was automatic, with manual review. Subsequent updates or changes have been a combination of automatic labelling and manual review.
+All trees with sentence ID greater than 1021 were created through an automatic pre-parsing approach followed by manual review.
 
 The UD Treebank is split into two sets as follows:
 
 * 454 trees (test)
 * 451 trees (dev)
-* 858 trees (train)
+* 1161 trees (train)
 
-Note: the 451 dev trees were taken from the set of newly annotated trees. The rest of the newly annotated trees have been added to the
-training set.
+Note: the 451 dev trees were taken from the set of newly annotated
+trees in the v2.5 release. Selection of test sentences haven't changed since v1.0
+(but annotations and quality have!)
 
-# Acknowledgments
+
+# Acknowledgements
 
 We wish to thank all of the contributors to the original IDT annotation, including Elaine Uí Dhonnchadha for her gold POS-tagged corpus and linguistic advice. We would also like to acknowledge linguistic advice offered by Kevin Scannell in the conversion to UD effort.
 
-Expansion of the IUDT from 2019-2021 is funded by the Irish Government Department of Culture, Heritage and the Gaeltacht.
+Expansion of the IUDT from 2019-2021 is funded by the Irish Government
+Department of Culture, Heritage and the Gaeltacht under the GaelTech project.
 
 This research is partially supported by Science Foundation Ireland through the ADAPT Centre for Digital Content Technology. The ADAPT Centre for Digital Content Technology is funded under the SFI Research Centres Programme (Grant 13/RC/2106)
 and is co-funded under the European Regional Development Fund.
@@ -150,7 +157,7 @@ Uí Dhonnchadha, E. 2009. Part-of-Speech Tagging and Partial Parsing for Irish u
 
 29-04-2020  (v2.6)
 
-cleanup of v2.5 trees...
+cleanup of v2.5 trees (sentences 1-1763)
 
 * Reviewed use of csubj:cleft vs acl:relcl 
 * Reviewed the under-use of parataxis - many were mislabelled as nmod/ ccomp
@@ -186,6 +193,11 @@ cleanup of v2.5 trees...
 * Cleaned up features of some non-relative instances of Nach  Is   AUX  Cop 
 * Compound numbers - attached déag to first part of number instead of noun being quantified
 * Revised analysis of pseudo clefts - Is é atá X ná Y 
+* Introduction of discourse and orphan label
+
+29-04-2020  (v2.6)
+
+* Addition of 1161 trees. Annotation involved pre-parsing followed by manual review. IAA among annotators is kappa (Cohen) of 0.9
 
 
 
