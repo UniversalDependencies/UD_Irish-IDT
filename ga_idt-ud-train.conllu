@@ -41405,7 +41405,7 @@
 15	deichniúr	deichniúr	NOUN	Noun	Gender=Masc|Number=Sing	13	conj	_	_
 16	buanchónaí	cónaí	NOUN	Noun	Gender=Masc|Number=Sing	11	obj	_	_
 17	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	11	obl:prep	_	SpaceAfter=No
-18	.	.	PUNCT	.	_	11	punct	_	_# sent_id = 2564
+18	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = 2536
 # text = Mar sin de, tugadh sé a aghaidh ar Mhag Uidhir.
