@@ -41203,7 +41203,7 @@
 7	faoi	faoi	ADP	Simp	_	8	case	_	_
 8	Chríost	Críost	PROPN	Noun	Form=Len|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	8	punct	_	SpaceAfter=No
-10	'	'	PUNCT	Punct	_	2	punct	_	_
+10	'	'	PUNCT	Punct	_	8	punct	_	_
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	mark:prt	_	_
 12	deir	abair	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
@@ -45973,7 +45973,7 @@
 21	(	(	PUNCT	Punct	_	22	punct	_	SpaceAfter=No
 22	Ó	ó	PART	Pat	PartType=Pat	19	flat:name	_	_
 23	Doibhlin	Doibhlin	PROPN	Noun	Gender=Masc|Number=Sing	19	flat:name	_	SpaceAfter=No
-24	)	)	PUNCT	Punct	_	22	punct	_	_
+24	)	)	PUNCT	Punct	_	23	punct	_	_
 25	mar	mar	ADP	Simp	_	17	advmod	_	_
 26	sin	sin	PRON	Dem	PronType=Dem	25	fixed	_	_
 27	ach	ach	SCONJ	Subord	_	17	advmod	_	_

@@ -1174,7 +1174,7 @@
 27	thit	tit	VERB	VI	Form=Len|Mood=Ind|Tense=Past	20	acl:relcl	_	_
 28	uainn	ó	ADP	Prep	Number=Plur|Person=1	27	obl:prep	_	_
 29	fadó	fadó	ADV	Gn	_	27	advmod	_	SpaceAfter=No
-30	'	'	PUNCT	Punct	_	24	punct	_	SpaceAfter=No
+30	'	'	PUNCT	Punct	_	27	punct	_	SpaceAfter=No
 31	,	,	PUNCT	Punct	_	32	punct	_	_
 32	siombail	siombail	NOUN	Noun	Gender=Fem|Number=Sing	24	appos	_	_
 33	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	_
@@ -9823,8 +9823,8 @@
 12	ar	ar	ADV	Dir	_	2	advmod	_	_
 13	ais	ais	ADV	Dir	_	12	fixed	_	_
 14	chugam	chuig	ADP	Prep	Number=Sing|Person=1	2	obl:prep	_	SpaceAfter=No
-15	,	,	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-16	'	'	PUNCT	Punct	_	2	punct	_	_
+15	,	,	PUNCT	Punct	_	17	punct	_	SpaceAfter=No
+16	'	'	PUNCT	Punct	_	17	punct	_	_
 17	adeir	abair	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 18	Proinsias	Proinsias	PROPN	Noun	Gender=Masc|Number=Sing	17	nsubj	_	SpaceAfter=No
 19	,	,	PUNCT	Punct	_	21	punct	_	_
