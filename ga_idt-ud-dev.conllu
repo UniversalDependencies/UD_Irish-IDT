@@ -4273,7 +4273,7 @@
 
 # sent_id = 623
 # text = An leat an teach?
-1	An	is	AUX	Cop	Definite=Def|Number=Sing|PronType=Art	2	cop	_	_
+1	An	is	AUX	Cop	Mood=Int|Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	leat	le	ADP	Prep	Number=Sing|Person=2	0	root	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	teach	teach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -6435,7 +6435,7 @@
 
 # sent_id = 711
 # text = An tusa an múinteoir?
-1	An	is	AUX	Cop	Definite=Def|Number=Sing|PronType=Art	2	cop	_	_
+1	An	is	AUX	Cop	Mood=Int|Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	tusa	tú	PRON	Pers	Number=Sing|Person=2|PronType=Emp	0	root	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	múinteoir	múinteoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
@@ -10120,7 +10120,7 @@
 
 # sent_id = 858
 # text = An fíor é?
-1	An	is	AUX	Cop	Definite=Def|Number=Sing|PronType=Art	2	cop	_	_
+1	An	is	AUX	Cop	Mood=Int|Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	fíor	fíor	ADJ	Adj	Degree=Pos	0	root	_	_
 3	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_

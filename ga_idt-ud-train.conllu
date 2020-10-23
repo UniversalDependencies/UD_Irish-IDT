@@ -29177,7 +29177,7 @@
 
 # sent_id = 2024
 # text = An tusa Briain?
-1	An	is	AUX	Cop	Definite=Def|Number=Sing|PronType=Art	2	cop	_	_
+1	An	is	AUX	Cop	Mood=Int|Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	tusa	tú	PRON	Pers	Number=Sing|Person=2|PronType=Emp	0	root	_	_
 3	Briain	Briain	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
 4	?	?	PUNCT	?	_	2	punct	_	_
