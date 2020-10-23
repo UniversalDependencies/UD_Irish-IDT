@@ -5378,9 +5378,9 @@
 
 # sent_id = 666
 # text = FEIDHMEANNA NA mBAILTE.
-1	FEIDHMEANNA	feidhm	NOUN	Noun	_	0	root	_	_
+1	FEIDHMEANNA	feidhm	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	0	root	_	_
 2	NA	na	DET	Art	PronType=Art	3	det	_	_
-3	mBAILTE	baile	NOUN	Noun	_	1	nmod	_	SpaceAfter=No
+3	mBAILTE	baile	NOUN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 4	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 667
@@ -5673,16 +5673,16 @@
 
 # sent_id = 681
 # text = Níorbh ionann tithe na gcathracha agus tithe na mbailte beaga.
-1	Níorbh	is	AUX	Cop	VerbForm=Cop	2	cop	_	_
-2	ionann	ionann	ADJ	Adj	_	0	root	_	_
-3	tithe	teach	NOUN	Noun	_	2	nsubj	_	_
-4	na	na	DET	Art	PronType=Art	5	det	_	_
-5	gcathracha	cathair	NOUN	Noun	_	3	nmod	_	_
+1	Níorbh	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	2	cop	_	_
+2	ionann	ionann	ADJ	Adj	Degree=Pos	0	root	_	_
+3	tithe	teach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	2	nsubj	_	_
+4	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
+5	gcathracha	cathair	NOUN	Noun	Case=Gen|Form=Ecl|Gender=Fem|Number=Plur	3	nmod	_	_
 6	agus	agus	CCONJ	Coord	_	7	cc	_	_
-7	tithe	teach	NOUN	Noun	_	3	conj	_	_
-8	na	na	DET	Art	PronType=Art	9	det	_	_
-9	mbailte	baile	NOUN	Noun	_	7	nmod	_	_
-10	beaga	beag	ADJ	Adj	_	9	amod	_	SpaceAfter=No
+7	tithe	teach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	3	conj	_	_
+8	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
+9	mbailte	baile	NOUN	Noun	Case=Gen|Form=Ecl|Gender=Fem|Number=Plur	7	nmod	_	_
+10	beaga	beag	ADJ	Adj	Case=Gen|Gender=Fem|Number=Plur	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 682
@@ -7327,7 +7327,7 @@
 26	cheap	ceap	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	2	parataxis	_	_
 27	mé	mé	PRON	Pers	Number=Sing|Person=1	26	nsubj	_	_
 28	go	go	SCONJ	Subord	_	30	mark	_	_
-29	mba	is	AUX	Cop	Tense=Past|VerbForm=Cop	30	cop	_	_
+29	mba	is	AUX	Cop	Form=Ecl|Tense=Past|VerbForm=Cop	30	cop	_	_
 30	dheas	deas	ADJ	Adj	Degree=Pos|Form=Len	26	ccomp	_	_
 31	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
 32	smaoineamh	smaoineamh	NOUN	Noun	Gender=Masc|Number=Sing	30	nsubj	_	_

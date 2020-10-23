@@ -18126,7 +18126,7 @@
 3	chríonnacht	críonnacht	NOUN	Noun	Form=Len|Gender=Fem|Number=Sing	0	root	_	_
 4	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nsubj	_	_
 5	go	go	SCONJ	Subord	_	7	mark:prt	_	_
-6	mba	is	AUX	Cop	Tense=Past|VerbForm=Cop	7	cop	_	_
+6	mba	is	AUX	Cop	Form=Ecl|Tense=Past|VerbForm=Cop	7	cop	_	_
 7	chóir	cóir	ADJ	Adj	Degree=Pos|Form=Len	3	ccomp	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	t-ualach	ualach	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	11	obj	_	_
@@ -18143,7 +18143,7 @@
 20	bhrú	brú	NOUN	Noun	Form=Len|VerbForm=Inf	15	csubj:cop	_	SpaceAfter=No
 21	,	,	PUNCT	Punct	_	24	punct	_	_
 22	go	go	SCONJ	Subord	_	24	mark	_	_
-23	mba	is	AUX	Cop	Tense=Past|VerbForm=Cop	34	cop	_	_
+23	mba	is	AUX	Cop	Form=Ecl|Tense=Past|VerbForm=Cop	34	cop	_	_
 24	chóir	cóir	ADJ	Adj	Degree=Pos|Form=Len	6	conj	_	_
 25	go	go	PART	Vb	PartType=Cmpl	26	mark:prt	_	_
 26	mbeadh	bí	VERB	Cond	Form=Ecl|Mood=Cnd	24	csubj:cop	_	_
@@ -32945,7 +32945,7 @@
 10	sin	sin	PRON	Dem	PronType=Dem	9	fixed	_	SpaceAfter=No
 11	,	,	PUNCT	Punct	_	14	punct	_	_
 12	go	go	SCONJ	Subord	_	14	mark	_	_
-13	mba	is	AUX	Cop	Tense=Past|VerbForm=Cop	14	cop	_	_
+13	mba	is	AUX	Cop	Form=Ecl|Tense=Past|VerbForm=Cop	14	cop	_	_
 14	chóir	cóir	ADJ	Adj	Degree=Pos|Form=Len	1	ccomp	_	_
 15	don	do	ADP	Art	Number=Sing|PronType=Art	16	case	_	_
 16	Ghearmáin	Gearmáin	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	14	obl	_	_
@@ -37982,7 +37982,7 @@
 54	oileán	oileán	NOUN	Noun	Gender=Masc|Number=Sing	51	nmod	_	_
 55	locha	loch	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	54	nmod	_	_
 56	i	i	ADP	Simp	_	57	case	_	_
-57	mBaile	Baile	PROPN	Noun	_	54	nmod	_	_
+57	mBaile	Baile	PROPN	Noun	Case=NomAcc|Form=Ecl	54	nmod	_	_
 58	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	57	flat	_	_
 59	hInse	Inse	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	57	flat	_	_
 60	agus	agus	CCONJ	Coord	_	62	cc	_	_
@@ -44760,7 +44760,7 @@
 17	agus	agus	SCONJ	Subord	_	21	mark	_	_
 18	cé	cé	SCONJ	Subord	_	21	mark	_	_
 19	go	go	SCONJ	Subord	_	21	mark	_	_
-20	mba	is	AUX	Cop	Tense=Past|VerbForm=Cop	21	cop	_	_
+20	mba	is	AUX	Cop	Form=Ecl|Tense=Past|VerbForm=Cop	21	cop	_	_
 21	annamh	annamh	ADJ	Adj	Degree=Pos	31	advcl	_	_
 22	ar	ar	ADP	Simp	_	23	case	_	_
 23	fad	fad	NOUN	Noun	Gender=Masc|Number=Sing	21	obl	_	_
