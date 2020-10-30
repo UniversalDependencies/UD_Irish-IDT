@@ -236,7 +236,7 @@ Features: automatic with corrections
 Relations: automatic with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
-Genre: news fiction web legal public-administration
+Genre: news fiction web legal government
 Contributors: Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah; Walsh, Abigail; Phelan, Jason
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
