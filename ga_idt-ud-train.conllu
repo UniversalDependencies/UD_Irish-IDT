@@ -14448,7 +14448,7 @@
 14	uraithe	uraigh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	12	conj	_	_
 15	tar	tar	ADP	Cmpd	PrepForm=Cmpd	17	case	_	_
 16	éis	éis	ADP	Cmpd	_	15	fixed	_	_
-17	cha	cha	NOUN	Noun	Case=Gen|Dialect=Ulster|Gender=Fem|Number=1	11	nmod	_	SpaceAfter=No
+17	cha	cha	NOUN	Noun	Case=Gen|Dialect=Ulster|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = 1436
@@ -29873,7 +29873,7 @@
 8	d'	do	PART	Vb	PartType=Vb	9	mark:prt	_	SpaceAfter=No
 9	inis	inis	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
 10	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
-11	dófa	dófa	NOUN		Noun	Gender=Masc|Number=Plur	9	obj	_	_
+11	dófa	dófa	NOUN	Noun	Gender=Masc|Number=Plur	9	obj	_	_
 12	fá	faoi	ADP	SIMP	Dialect=Ulster|Gender=Masc|Number=Sing|Person=3	13	case	_	_
 13	sheanchas	seanchas	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	9	obl	_	_
 14	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
