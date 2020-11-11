@@ -1,6 +1,6 @@
 # Summary
 
-A Universal Dependencies 2924-sentence treebank for modern Irish.
+A Universal Dependencies 4910-sentence treebank for modern Irish.
 
 # Introduction
 
@@ -10,18 +10,27 @@ The Irish UD Treebank (IUDT) is a conversion of the Irish Dependency Treebank
 ---- The (smaller) IDT dataset has also been released on [GitHub]
 (https://github.com/tlynn747/IrishDependencyTreebank). ----
 
-The Treebank contains 2924 sentences taken from the New Corpus of
-Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish. ----
+The Treebank contains 4910 sentences.
 
-The conversion from the IDT annotation scheme to the UD annotation
-scheme for the first release was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016) Conversion of sentences 1-1020 was automatic, with manual review. Subsequent updates or changes have been a combination of automatic labelling and manual review.
+The first 2924 of which were taken from the New Corpus of Ireland-Irish (NCII), with text from books, newswire, websites and other media. These sentences are a subset of a gold-standard POS-tagged corpus for Irish made available by Elaine Uí Dhonnchadha of Trinity College Dublin. ----
+
+The subsequent 1986 sentences were taken from a corpus of Irish public administration translations and are available under the Open Data (PSI) directive for sharing of pubic data:
+Citizens information website: (20%)
+Dublin City Council (DCC): (25%)
+DEpartment of Culture, Heritage and the Gaeltacht (DCHG):(9%)
+Udaras na Gaeltachta: (25%)
+EUbookshop: (21%)
+
+
+
+The conversion from the IDT annotation scheme to the UD annotation scheme for the first release (1020 IDT trees) was designed by Teresa Lynn and Jennifer Foster at Dublin City University, Ireland. The mapping to UD is reported in Lynn et al., (2016) Conversion of sentences 1-1020 was automatic, with manual review. Subsequent updates or changes have been a combination of automatic labelling and manual review.
 All trees with sentence ID greater than 1021 were created through an automatic pre-parsing approach followed by manual review.
 
 The UD Treebank is split into two sets as follows:
 
 * 454 trees (test)
 * 451 trees (dev)
-* 1161 trees (train)
+* 4005 trees (train)
 
 Note: the 451 dev trees were taken from the set of newly annotated
 trees in the v2.5 release. Selection of test sentences haven't changed since v1.0
@@ -41,7 +50,7 @@ and is co-funded under the European Regional Development Fund.
 
 # Statistics
 
-Trees: 1763
+Trees: 4910
 Token count: 23686
 Dependency Relations: 36 of which 10 language specific
 POS tags: 17
@@ -75,6 +84,9 @@ The Irish UD treebank uses 26 of the UD dependency labels. A further 10 language
 - obl:tmod for nominal temporal modifiers
 - xcomp:pred for predicates of the substantive verb "to be"
 
+# Morphological Features
+Word of caution for anyone including morphological features in training parsing models:
+There are a number of issues relating to morphological features. Many were missing in the v2.6 release (e.g. Case=NomAcc) and the v2.7 expansion set (sentence 2925 onwards) were automatically predicted. Not all of these have yet been fully manually reviewed. This is expected to be completed for release v2.8.
 
 
 # References
@@ -92,6 +104,8 @@ Lynn, Teresa, Jennifer Foster, Mark Dras and Lamia Tounsi, [Cross-lingual Transf
 Teresa Lynn, [Irish Dependency Treebanking and Parsing] (http://www.nclt.dcu.ie/~tlynn/Teresa_PhDThesis_final.pdf), PhD Thesis, Dublin City University, Ireland and Macquarie University, Sydney, Australia, 2016
 
 Lynn, Teresa and Jennifer Foster, [Universal Dependencies for Irish] (http://www.nclt.dcu.ie/~tlynn/Lynn_CLTW2016.pdf), CLTW 2016, Paris, France, July 2016
+
+McGuinness, Sarah, Jason Phelan, Abigail Walsh and Teresa Lynn, Annotating MWEs in the Irish UD Treebank, In Proceedings of the Fourth Universal Dependencies Workshop, COLING 2020, Barcelona, Spain (to appear)
 
 Stenson, N, 1981. Studies in Irish Syntax, Tübingen: Gunter Narr Verlag.
 
@@ -201,6 +215,12 @@ cleanup of v2.5 trees (sentences 1-1763)
 
 
 
+30-10-2020  (v2.7)
+
+* Addition of 1986 trees. 
+* This data was taken from a new domain (public administration) to provide a broader coverage of the language in terms of words and structure types. 
+* Annotations were automatically predicted based on parsing models trained on v2.6. Manual review then carried out on tokenisation, lemmas, POS tags, attachments and dep values  (same annotators as v2.6 release).
+* Morphological features have only partially been reviewd in this release.
 
 
 
@@ -212,11 +232,11 @@ Includes text: yes
 Lemmas: converted with corrections
 UPOS: converted with corrections
 XPOS: automatic with corrections
-Features: converted with corrections
-Relations: converted with corrections
+Features: automatic with corrections
+Relations: automatic with corrections
 Data available since: UD v1.0
 License: CC BY-SA 3.0
-Genre: news fiction web legal
+Genre: news fiction web legal government
 Contributors: Lynn, Teresa; Foster, Jennifer; McGuinness, Sarah; Walsh, Abigail; Phelan, Jason
 Contributing: elsewhere
 Contact: teresa.lynn@adaptcentre.ie; jennifer.foster@dcu.ie
