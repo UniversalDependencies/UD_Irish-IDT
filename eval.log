@@ -3,11 +3,11 @@ commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Date:   Sat Apr 21 19:02:58 2018 +0200
 Evaluating the following revision of UD_Irish-IDT:
-commit 84cb13adec7fdf6c905f664a719aa8c913457282
+commit 8598fc04afa364e6f09c03c1d39c67fd5063a67f
+Merge: 8abff82 a1bf93b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 10 16:53:18 2020 +0200
-Size: counted 64745 of 64745 words (nodes).
-Size: min(0, log((N/1000)**2)) = 8.34091295504161.
+Size: counted 115969 of 115969 words (nodes).
+Size: min(0, log((N/1000)**2)) = 9.50664582802343.
 Size: maximum value 13.815511 is for 1000000 words or more.
 Split: Found more than 10000 training words.
 Split: Found at least 10000 development words.
@@ -15,12 +15,12 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 0.9.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.9.
-Features: 45602 out of 64745 total words have one or more features.
-Features: source of annotation (from README) factor is 0.9.
-Universal relations: 31 out of 37 found in the corpus.
-Universal relations: source of annotation (from README) factor is 0.9.
-Udapi: found 8904 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 64745 words.
+Features: 82727 out of 115969 total words have one or more features.
+Features: source of annotation (from README) factor is 0.5.
+Universal relations: 32 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 0.1.
+Udapi: found 14338 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 115969 words.
 Genres: found 4 out of 17 known.
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
 *** PASSED ***
@@ -29,14 +29,14 @@ validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
 *** PASSED ***
 Validity: 1
-(weight=0.0769230769230769) * (score{features}=0.9) = 0.0692307692307692
+(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
-(weight=0.256410256410256) * (score{size}=0.603735411734986) = 0.154803951726919
+(weight=0.256410256410256) * (score{size}=0.688113970753191) = 0.176439479680305
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.754054054054054) = 0.058004158004158
-(TOTAL score=0.492958939293672) * (availability=1) * (validity=1) = 0.492958939293672
-STARS = 2.5
-UD_Irish-IDT	0.492958939293672	2.5
+(weight=0.0769230769230769) * (score{udeprels}=0.0864864864864865) = 0.00665280665280665
+(TOTAL score=0.432473885126475) * (availability=1) * (validity=1) = 0.432473885126475
+STARS = 2
+UD_Irish-IDT	0.432473885126475	2
