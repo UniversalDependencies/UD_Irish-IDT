@@ -296,7 +296,7 @@
 # sent_id = 469
 # text = 'Ní raibh siad ní b'uaisle ná ní b'fhearr i gcath.
 1	'	'	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
-2	Ní	ní	PART	Vb	PartType=Vb	3	mark:prt	_	_
+2	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	3	advmod	_	_
 3	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 4	siad	siad	PRON	Pers	Number=Plur|Person=3	3	nsubj	_	_
 5	ní	ní	PART	Comp	Gender=Masc|Number=Sing	7	mark:prt	_	_
@@ -516,7 +516,7 @@
 1	Dar	dar	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	le	le	ADP	Simp	_	3	case	_	_
 3	Hawkins	Hawkins	NOUN	Noun	Gender=Masc|Number=Sing	1	obl	_	_
-4	ní	ní	PART	Vb	PartType=Vb	5	advmod	_	_
+4	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	5	advmod	_	_
 5	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	1	ccomp	_	_
 6	údarás	údarás	NOUN	Noun	Gender=Masc|Number=Sing	5	nsubj	_	_
 7	ach	ach	SCONJ	Subord	_	5	mark:prt	_	_
@@ -1135,7 +1135,7 @@
 
 # sent_id = 504
 # text = Ní raibh aon ghá le cuireadh.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	ghá	gá	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -3558,7 +3558,7 @@
 # sent_id = 595
 # text = Ach ní rabhadar mórán achair ag gearradh go bhfaca an tseanbhean iad agus chuir sí a cóta ina béal nó íochtar a cóta ina béal agus rith sí go dtí an áit a rabhadar.
 1	Ach	ach	SCONJ	Subord	_	3	mark	_	_
-2	ní	ní	PART	Vb	PartType=Vb	3	advmod	_	_
+2	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	3	advmod	_	_
 3	rabhadar	bí	VERB	PastInd	Form=Len|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	_
 4	mórán	mórán	NOUN	Noun	Gender=Masc|Number=Sing	3	obj	_	_
 5	achair	achar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
@@ -3808,7 +3808,7 @@
 17	i	i	ADP	Simp	_	18	case	_	_
 18	gCorcaigh	Corcaigh	NOUN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Plur	16	nmod	_	SpaceAfter=No
 19	;	;	PUNCT	Punct	_	21	punct	_	_
-20	ní	ní	PART	Vb	PartType=Vb	21	advmod	_	_
+20	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	21	advmod	_	_
 21	fheadar	fheadar	NOUN	Noun	Gender=Masc|Number=Sing	2	parataxis	_	SpaceAfter=No
 22	,	,	PUNCT	Punct	_	23	punct	_	_
 23	áfach	áfach	ADV	Gn	_	21	advmod	_	SpaceAfter=No
@@ -4143,7 +4143,7 @@
 # sent_id = 619
 # text = (5) Ní bheidh d'éifeacht uathoibríoch le hachomharc a dhéanamh i gcoinne fógra toirmisc de réir fho-alt (4) oibriú an fhógra a fhionraí, ach féadfaidh an t-achomharcóir iarratas a dhéanamh chuig an gCúirt lena chur faoi deara oibriú an fhógra a fhionraí go dtí go ndéanfar an t-achomharc a chur de láimh agus féadfaidh an Chúirt, más cuí léi sin a dhéanamh, a ordú go bhfionrófar oibriú an fhógra dá réir sin.
 1	(5)	(5)	NUM	Item	_	3	list	_	_
-2	Ní	ní	PART	Vb	PartType=Vb	3	advmod	_	_
+2	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	3	advmod	_	_
 3	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	0	root	_	_
 4	d'	de	ADP	Simp	_	5	case	_	SpaceAfter=No
 5	éifeacht	éifeacht	NOUN	Noun	Gender=Fem|Number=Sing	3	xcomp:pred	_	_
@@ -4354,7 +4354,7 @@
 
 # sent_id = 627
 # text = Ní raibh aon duine á íoc.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	duine	duine	NOUN	Noun	Gender=Masc|Number=Sing	2	nsubj	_	_
@@ -5122,7 +5122,7 @@
 6	a	a	PART	Inf	PartType=Inf	7	mark	_	_
 7	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	4	xcomp	_	_
 8	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	obl:prep	_	_
-9	ní	ní	PART	Vb	PartType=Vb	10	advmod	_	_
+9	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	10	advmod	_	_
 10	thaithíonn	taithigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres	0	root	_	_
 11	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	_
 12	mná	bean	NOUN	Noun	Gender=Fem|Number=Plur	14	obj	_	_
@@ -7094,7 +7094,7 @@
 
 # sent_id = 736
 # text = Ní raibh mórán fonn air glacadh leis an tairiscint.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	mórán	mórán	NOUN	Noun	Gender=Masc|Number=Sing	2	nsubj	_	_
 4	fonn	fonn	NOUN	Noun	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -7116,7 +7116,7 @@
 7	ach	ach	SCONJ	Subord	_	11	mark	_	_
 8	go	go	PART	Ad	PartType=Ad	9	mark:prt	_	_
 9	minic	minic	ADJ	Adj	Degree=Pos	11	advmod	_	_
-10	ní	ní	PART	Vb	PartType=Vb	11	advmod	_	_
+10	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	11	advmod	_	_
 11	insítear	inis	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	1	advcl	_	_
 12	cén	cé	PRON	Q	Number=Sing|PronType=Int	11	ccomp	_	_
 13	fáth	fáth	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
@@ -7160,7 +7160,7 @@
 
 # sent_id = 739
 # text = Ní fhaca mé rud ar bith.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	fhaca	feic	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	mé	mé	PRON	Pers	Number=Sing|Person=1	2	nsubj	_	_
 4	rud	rud	NOUN	Noun	Gender=Masc|Number=Sing	2	obj	_	_
@@ -7549,7 +7549,7 @@
 
 # sent_id = 757
 # text = Ní bhíodh aon bhailiúchán ann agus ceapann sé nach mbíodh bailiúchán ar siúl i dtithe eile Chillín Chaoimhín ach oiread.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	bhailiúchán	bailiúchán	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|NounType=Weak|Number=Plur	2	nsubj	_	_
@@ -7893,7 +7893,7 @@
 1	Go	go	PART	Ad	PartType=Ad	2	mark:prt	_	_
 2	tobann	tobann	ADJ	Adj	Degree=Pos	5	advmod	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	2	punct	_	_
-4	ní	ní	PART	Vb	PartType=Vb	5	advmod	_	_
+4	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	5	advmod	_	_
 5	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 6	amhras	amhras	NOUN	Noun	Gender=Masc|Number=Sing	5	nsubj	_	_
 7	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	5	obl:prep	_	_
@@ -8304,7 +8304,7 @@
 27	cúinsí	cúinse	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	31	obl	_	_
 28	uile	uile	DET	Det	PronType=Ind	27	det	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	27	punct	_	_
-30	ní	ní	PART	Vb	PartType=Vb	31	advmod	_	_
+30	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	31	advmod	_	_
 31	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	10	conj	_	_
 32	dul	dul	NOUN	Noun	Gender=Masc|Number=Sing	31	nsubj	_	_
 33	as	as	ADP	Prep	Gender=Masc|Number=Sing|Person=3	31	obl:prep	_	_
@@ -8919,7 +8919,7 @@
 
 # sent_id = 815
 # text = Ní bheadh sé tar éis dul tríd na heachtraí peannaideacha sin a fheictí dó, nuair a chuimhníodh sé orthu faoi mheascán den anacair agus den eagla, go fiú.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	bheadh	bí	VERB	Cond	Form=Len|Mood=Cnd	0	root	_	_
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	tar	tar	ADP	Cmpd	PrepForm=Cmpd	6	case	_	_
@@ -9184,7 +9184,7 @@
 85	sin	sin	DET	Det	PronType=Dem	84	det	_	SpaceAfter=No
 86	;	;	PUNCT	Punct	_	87	punct	_	_
 87	ach	ach	SCONJ	Subord	_	66	mark	_	_
-88	ní	ní	PART	Vb	PartType=Vb	89	advmod	_	_
+88	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	89	advmod	_	_
 89	dhéileálfar	déileáil	VERB	VI	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	14	advcl	_	_
 90	le	le	ADP	Simp	_	91	case	_	_
 91	duine	duine	NOUN	Noun	Gender=Masc|Number=Sing	89	obl	_	_
@@ -9338,7 +9338,7 @@
 
 # sent_id = 826
 # text = Ní chloisim éinne á caoineadh, ámh; is é an trua gur shleamhnaigh sí chun na huaighe is gan tórramh ceart uirthi.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	chloisim	clois	VERB	VTI	Form=Len|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 3	éinne	duine	NOUN	Noun	Gender=Masc|Number=Sing	2	nsubj	_	_
 4	á	do	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	5	case	_	_
@@ -9390,7 +9390,7 @@
 
 # sent_id = 828
 # text = Ní raibh aon raimhre fós sna prátaí agus bhí formhór mór na dtornapaí ina bpóiríní.
-1	Ní	ní	PART	Vb	PartType=Vb	2	advmod	_	_
+1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
 2	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	raimhre	raimhre	NOUN	Noun	Gender=Fem|Number=Sing	2	nsubj	_	_
@@ -9450,7 +9450,7 @@
 26	seoltaí	seol	NOUN	Noun	Gender=Masc|Number=Plur	24	nmod	_	SpaceAfter=No
 27	,	,	PUNCT	Punct	_	30	punct	_	_
 28	ach	ach	SCONJ	Subord	_	30	mark	_	_
-29	ní	ní	PART	Vb	PartType=Vb	30	advmod	_	_
+29	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	30	advmod	_	_
 30	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	21	advcl	_	_
 31	mórán	mórán	NOUN	Noun	Gender=Masc|Number=Sing	30	nsubj	_	_
 32	suime	suim	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	31	nmod	_	_

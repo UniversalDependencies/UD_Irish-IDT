@@ -883,7 +883,7 @@
 13	ag	ag	ADP	Simp	_	14	case	_	_
 14	obair	obair	NOUN	Noun	VerbForm=Vnoun	11	xcomp	_	_
 15	ar	ar	ADP	Simp	_	16	case	_	_
-16	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nmod	_	_
+16	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	obl	_	_
 17	leis	le	ADP	Simp	_	19	case	_	_
 18	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
 19	nGaeilge	Gaeilge	PROPN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
@@ -5333,7 +5333,7 @@
 24	cuimhin	cuimhin	NOUN	Subst	Number=Sing	13	conj	_	_
 25	linn	le	ADP	Prep	Number=Plur|Person=1	24	obl:prep	_	_
 26	ar	ar	ADP	Simp	_	27	case	_	_
-27	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	nmod	_	_
+27	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	obl	_	_
 28	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
 29	dlúthdhiosca	dlúthdhiosca	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	24	nsubj	_	_
 30	blasta	blasta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	29	amod	_	_
@@ -9229,7 +9229,7 @@
 8	holc	olc	ADJ	Adj	Degree=Pos	5	xcomp:pred	_	_
 9	san	sin	DET	Det	Dialect=Munster|PronType=Dem	8	det	_	_
 10	ar	ar	ADP	Simp	_	11	case	_	_
-11	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
+11	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = 362
