@@ -2382,7 +2382,7 @@
 33	leat	le	ADP	Prep	Number=Sing|Person=2	32	obl:prep	_	SpaceAfter=No
 34	,	,	PUNCT	Punct	_	36	punct	_	_
 35	a	a	PART	Voc	PartType=Voc	36	case:voc	_	_
-36	Bhobby	Bhobby	PROPN	Noun	Gender=Masc|Number=Sing	32	vocative	_	_
+36	Bhobby	Bhobby	PROPN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	32	vocative	_	_
 37	Molloy	Molloy	PROPN	Noun	Gender=Masc|Number=Sing	36	flat:name	_	SpaceAfter=No
 38	?	?	PUNCT	?	_	14	punct	_	_
 
@@ -4684,7 +4684,7 @@
 3	dhuit	do	ADP	Prep	Number=Sing|Person=2	2	obl:prep	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	2	punct	_	_
 5	a	a	PART	Voc	PartType=Voc	6	case:voc	_	_
-6	Mhíchíl	Mhíchíl	NOUN	Noun	Gender=Masc|Number=Sing	10	vocative	_	SpaceAfter=No
+6	Mhíchíl	Mhíchíl	NOUN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	10	vocative	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	6	punct	_	SpaceAfter=No
 8	'	'	PUNCT	Punct	_	6	punct	_	_
 9	a	a	PART	Vb	PartType=Vb|PronType=Rel	10	mark:prt	_	_
