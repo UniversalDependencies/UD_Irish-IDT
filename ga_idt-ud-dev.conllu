@@ -2358,7 +2358,7 @@
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	tseachtain	seachtain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	4	nmod	_	_
 11	seo	seo	DET	Det	PronType=Dem	10	det	_	_
-12	caite	caite	ADJ	Adj	Degree=Pos	11	fixed	_	SpaceAfter=No
+12	caite	caite	ADJ	Adj	VerbForm=Part	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	Punct	_	4	punct	_	_
 14	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 15	gach	gach	DET	Det	Definite=Def	16	det	_	_
@@ -4313,7 +4313,7 @@
 20	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
 21	tseachtain	seachtain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	5	obl:tmod	_	_
 22	seo	seo	DET	Det	PronType=Dem	21	det	_	_
-23	caite	caite	ADJ	Adj	Degree=Pos	22	fixed	_	SpaceAfter=No
+23	caite	caite	ADJ	Adj	VerbForm=Part	22	fixed	_	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	3	punct	_	_
 25	cuirtear	cuir	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
 26	i	i	ADP	Simp	_	27	case	_	_
@@ -4496,7 +4496,7 @@
 18	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
 19	bliana	bliain	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	obl:tmod	_	_
 20	seo	seo	DET	Det	PronType=Dem	19	det	_	_
-21	caite	caite	ADJ	Adj	Case=Gen|Gender=Fem|Number=Sing	20	fixed	_	_
+21	caite	caite	ADJ	Adj	VerbForm=Part	20	fixed	_	_
 22	ná	ná	CCONJ	Coord	_	24	mark	_	_
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	tsíocháin	síocháin	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	10	advcl	_	_

@@ -3103,7 +3103,7 @@
 17	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	bliana	bliain	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	16	nmod	_	_
 19	seo	seo	DET	Det	PronType=Dem	18	det	_	_
-20	caite	caite	ADJ	Adj	Degree=Pos	19	fixed	_	_
+20	caite	caite	ADJ	Adj	VerbForm=Part	19	fixed	_	_
 21	agus	agus	CCONJ	Coord	_	22	cc	_	_
 22	barr	barr	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	conj	_	_
 23	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
