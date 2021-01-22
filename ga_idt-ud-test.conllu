@@ -4482,9 +4482,9 @@
 50	chéile	céile	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	39	obl	_	_
 51	agus	agus	CCONJ	Coord	_	52	cc	_	_
 52	rinneadh	déan	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	39	conj	_	_
-53	go	go	NOUN	Subst	Number=Sing	55	advmod	_	_
+53	go	go	NOUN	Subst	Number=Sing	52	obj	_	_
 54	leor	leor	NOUN	Subst	_	53	fixed	_	_
-55	cainte	caint	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	52	obj	_	_
+55	cainte	caint	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	53	nmod	_	_
 56	faoi	faoi	ADP	Simp	_	58	case	_	_
 57	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	58	det	_	_
 58	seanáiteanna	áit	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	52	obl	_	_

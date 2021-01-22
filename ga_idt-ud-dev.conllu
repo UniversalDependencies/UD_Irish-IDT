@@ -8840,9 +8840,9 @@
 # sent_id = 811
 # text = Níl go leor tacaíochta ann le cuidiú le traenáil foirne nó le monatóireacht chaighdeán an tsoláthair.
 1	Níl	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
-2	go	go	NOUN	Subst	Number=Sing	1	advmod	_	_
+2	go	go	NOUN	Subst	Number=Sing	1	nsubj	_	_
 3	leor	leor	NOUN	Subst	Number=Sing	2	fixed	_	_
-4	tacaíochta	tacaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	1	nsubj	_	_
+4	tacaíochta	tacaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 5	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	_
 6	le	le	ADP	Simp	_	7	case	_	_
 7	cuidiú	cuidiú	NOUN	Noun	VerbForm=Inf	1	xcomp	_	_
@@ -9022,7 +9022,7 @@
 51	Ruairí	Ruairí	PROPN	Noun	Gender=Masc|Number=Sing	29	conj	_	_
 52	garbh	garbh	ADJ	Adj	Degree=Pos	51	amod	_	_
 53	go	go	ADJ	Adj	_	52	amod	_	_
-54	leor	leor	ADJ	Adj	_	53	fixed	_	_
+54	leor	leor	NOUN	Subst	Number=Sing	53	fixed	_	_
 55	lena	le	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	58	case	_	_
 56	bhealach	bealach	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	58	obj	_	_
 57	a	a	PART	Inf	PartType=Inf	58	mark	_	_
