@@ -581,7 +581,7 @@
 5	Oifig	oifig	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	obl	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	Phoist	post	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	5	compound	_	_
-8	ó	ó	ADP	Simp	_	9	mark	_	_
+8	ó	ó	SCONJ	Subord	_	9	mark	_	_
 9	thuigeann	tuig	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres	1	advcl	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	námha	námh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	9	nsubj	_	_
@@ -9430,7 +9430,7 @@
 16	sa	i	ADP	Art	Number=Sing|PronType=Art	17	case	_	_
 17	taispeántas	taispeántas	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	20	punct	_	_
-19	ó	ó	ADP	Simp	_	20	case	_	_
+19	ó	ó	SCONJ	Subord	_	20	mark	_	_
 20	bunaíodh	bunaigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	1	advcl	_	_
 21	2RN	2RN	NOUN	Abr	Abbr=Yes	20	obj	_	_
 22	i	i	ADP	Simp	_	23	case	_	_
