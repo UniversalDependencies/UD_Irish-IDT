@@ -4438,7 +4438,7 @@
 6	ar	ar	ADP	Simp	_	7	case	_	_
 7	Bhreandán	Breandán	PROPN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	3	obl	_	_
 8	Ó	ó	PART	Pat	PartType=Pat	7	flat:name	_	_
-9	hEithir	heithir	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	flat:name	_	_
+9	hEithir	Eithir	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	flat:name	_	_
 10	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	11	advmod	_	_
 11	raibh	bí	VERB	PastInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
 12	aon	aon	DET	Det	PronType=Ind	13	det	_	_
@@ -4904,7 +4904,7 @@
 32	chothaigh	cothaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	30	acl:relcl	_	_
 33	athréimniú	réimniú	NOUN	Noun	VerbForm=Inf	32	nsubj	_	_
 34	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
-35	hEabhraise	heabhraise	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	hEabhraise	Eabhrais	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = 207
@@ -9718,7 +9718,7 @@
 8	ar	ar	ADP	Simp	_	9	case	_	_
 9	Phádraig	Pádraig	PROPN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Ó	ó	PART	Pat	PartType=Pat	9	flat:name	_	_
-11	hIceadha	hiceadha	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	9	flat:name	_	_
+11	hIceadha	Iceadha	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	9	flat:name	_	_
 12	Foilsithe	foilsithe	ADJ	Adj	VerbForm=Part	6	xcomp:pred	_	_
 13	ag	ag	ADP	Simp	_	14	case	_	_
 14	Coiste	coiste	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	obl	_	_
@@ -9743,7 +9743,7 @@
 33	ar	ar	ADP	Simp	_	34	case	_	_
 34	Phádraig	Pádraig	PROPN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	30	nmod	_	_
 35	Ó	ó	PART	Pat	PartType=Pat	34	flat	_	_
-36	hIceadha	hiceadha	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	34	flat	_	_
+36	hIceadha	Iceadha	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	34	flat	_	_
 37	i	i	ADP	Simp	_	38	case	_	_
 38	dtoll	toll	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	28	obl	_	_
 39	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	40	nmod:poss	_	_
@@ -9850,7 +9850,7 @@
 27	dhamhsaí	damhsa	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	24	nmod	_	_
 28	bríomhara	bríomhar	ADJ	Adj	Case=NomAcc|NounType=NotSlender|Number=Plur	27	amod	_	_
 29	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
-30	hAlban	halban	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	27	nmod	_	SpaceAfter=No
+30	hAlban	Albain	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	27	nmod	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = 386
