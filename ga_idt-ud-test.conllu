@@ -2136,7 +2136,7 @@
 5	Dick	Dick	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	obj	_	_
 6	Spring	Spring	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	flat:name	_	_
 7	i	i	ADP	Cmpd	PrepForm=Cmpd	10	case	_	_
-8	mbun	mbun	ADP	Cmpd	_	7	fixed	_	_
+8	mbun	bun	ADP	Cmpd	_	7	fixed	_	_
 9	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	Roinne	roinn	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	4	obl	_	_
 11	Oideachais	oideachas	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	flat	_	SpaceAfter=No
@@ -6406,7 +6406,7 @@
 6	éigin	éigin	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	5	amod	_	_
 7	eile	eile	DET	Det	PronType=Dem	5	det	_	_
 8	i	i	ADP	Cmpd	PrepForm=Cmpd	10	case	_	_
-9	mbun	mbun	ADP	Cmpd	_	8	fixed	_	_
+9	mbun	bun	ADP	Cmpd	_	8	fixed	_	_
 10	peannaireachta	peannaireacht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	4	xcomp:pred	_	_
 11	seachas	seachas	ADP	Simp	_	13	case	_	_
 12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
