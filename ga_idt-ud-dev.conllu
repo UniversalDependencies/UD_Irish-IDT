@@ -130,7 +130,7 @@
 3	Bryan	Bryan	PROPN	Noun	Gender=Masc|Number=Sing	0	root	_	_
 4	McFadden	McFadden	PROPN	Noun	Gender=Masc|Number=Sing	3	flat:name	_	_
 5	ón	ó	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
-6	bPopghrúpa	bpopghrúp	NOUN	Noun	Gender=Masc|Number=Plur	3	nmod	_	_
+6	bPopghrúpa	popghrúpa	NOUN	Noun	Gender=Masc|Number=Sing	3	nmod	_	_
 7	'	'	PUNCT	Punct	_	8	punct	_	SpaceAfter=No
 8	Westlife	Westlife	NOUN	Noun	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
 9	'	'	PUNCT	Punct	_	8	punct	_	_
@@ -476,7 +476,7 @@
 25	beannacht	beannacht	NOUN	Noun	Gender=Fem|Number=Sing	18	parataxis	_	_
 26	Dé	dia	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	lena	le	ADP	Poss	Number=Plur|Person=3|Poss=Yes	28	case	_	_
-28	n-anamnacha	n-anamn	NOUN	Noun	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
+28	n-anamnacha	anam	NOUN	Noun	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	31	punct	_	_
 30	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	créatúirí	créatúir	NOUN	Noun	Gender=Fem|Number=Plur	28	nmod	_	_
@@ -1345,7 +1345,7 @@
 9	thóg	tóg	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	7	acl:relcl	_	_
 10	Tiarnaí	tiarna	NOUN	Noun	Gender=Masc|Number=Plur	9	nsubj	_	_
 11	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	10	flat	_	_
-12	nEilean	n-eilean	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	10	flat	_	_
+12	nEilean	eilean	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	10	flat	_	_
 13	agus	agus	CCONJ	Coord	_	14	mark	_	_
 14	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	advcl	_	_
 15	deisithe	deisithe	ADJ	Adj	VerbForm=Part	14	xcomp:pred	_	_
@@ -3930,10 +3930,10 @@
 70	aghaidh	aghaidh	ADP	Cmpd	PrepForm=Cmpd	69	fixed	_	_
 71	ceartdhlí	ceartdhlí	NOUN	Foreign	Foreign=Yes	52	nmod	_	_
 72	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
-73	bhfáidhe	bhfáidhe	NOUN	Noun	Gender=Fem|Number=Sing	71	nmod	_	_
+73	bhfáidhe	fáidh	NOUN	Noun	Gender=Fem|Number=Sing	71	nmod	_	_
 74	agus	agus	CCONJ	Coord	_	76	cc	_	_
 75	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
-76	bhfíorollún	bhfíorollún	NOUN	Noun	Gender=Masc|Number=Sing	73	conj	_	SpaceAfter=No
+76	bhfíorollún	fíorollamh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	73	conj	_	SpaceAfter=No
 77	,	,	PUNCT	Punct	_	78	punct	_	_
 78	agus	agus	CCONJ	Coord	_	79	cc	_	_
 79	contrárdha	contrárdha	NOUN	Noun	Gender=Masc|Number=Plur	71	conj	_	_
@@ -6001,7 +6001,7 @@
 2	Ag	ag	ADP	Simp	_	3	case	_	_
 3	breathnú	breathnú	NOUN	Noun	VerbForm=Vnoun	0	root	_	_
 4	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
-5	mbeithígh	mbeithígh	NOUN	Noun	Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+5	mbeithígh	beithíoch	NOUN	Noun	Gender=Masc|Number=Plur	3	obj	_	SpaceAfter=No
 6	!	!	PUNCT	!	_	3	punct	_	_
 
 # sent_id = 694
@@ -6016,7 +6016,7 @@
 8	réir	réir	NOUN	Noun	Gender=Fem|Number=Sing	7	fixed	_	_
 9	ag	ag	ADP	Simp	_	11	case	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
-11	gcleacht	gcleacht	NOUN	Noun	Gender=Masc|Number=Sing	2	obl	_	_
+11	gcleacht	cleacht	NOUN	Noun	Gender=Masc|Number=Sing	2	obl	_	_
 12	coitianta	coitianta	ADJ	Adj	Gender=Masc|Number=Sing	11	amod	_	_
 13	ina	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	14	case	_	_
 14	gcomhrá	comhrá	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -9175,7 +9175,7 @@
 76	le	le	ADP	Simp	_	77	case	_	_
 77	bailiú	bailigh	NOUN	Noun	VerbForm=Inf	75	xcomp	_	_
 78	i	i	ADP	Simp	_	79	case	_	_
-79	dtráthchodanna	dtráthchodanna	NOUN	Noun	Gender=Masc|Number=Plur	77	obl	_	_
+79	dtráthchodanna	tráthchuid	NOUN	Noun	Gender=Masc|Number=Plur	77	obl	_	_
 80	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	81	case	_	_
 81	éis	éis	NOUN	Subst	Number=Sing	75	obl	_	_
 82	sin	sin	PRON	Dem	PronType=Dem	81	det	_	_
@@ -9215,7 +9215,7 @@
 116	10	10	NUM	Num	_	117	nummod	_	_
 117	líon	líon	NOUN	Noun	Gender=Masc|Number=Sing	114	conj	_	_
 118	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	119	det	_	_
-119	dtráthchodanna	dtráthchodanna	NOUN	Noun	Gender=Masc|Number=Plur	117	nmod	_	_
+119	dtráthchodanna	tráthchuid	NOUN	Noun	Gender=Masc|Number=Plur	117	nmod	_	_
 120	míosúla	míosúil	ADJ	Adj	NounType=NotSlender|Number=Plur	119	amod	_	_
 121	a	a	PART	Vb	PartType=Vb|PronType=Rel	122	nsubj	_	_
 122	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	119	acl:relcl	_	_
@@ -9255,7 +9255,7 @@
 156	a	a	PART	Inf	PartType=Inf	157	mark	_	_
 157	íoc	íoc	NOUN	Noun	VerbForm=Inf	135	xcomp	_	_
 158	i	i	ADP	Simp	_	159	case	_	_
-159	dtráthchodanna	dtráthchodanna	NOUN	Noun	Gender=Masc|Number=Plur	157	obl	_	_
+159	dtráthchodanna	tráthchuid	NOUN	Noun	Gender=Masc|Number=Plur	157	obl	_	_
 160	ar	ar	ADP	Simp	_	159	case	_	_
 161	nó	nó	CCONJ	Coord	_	165	cc	_	_
 162	roimh	roimh	ADP	Simp	_	165	case	_	_
@@ -9619,7 +9619,7 @@
 25	Bhráthar	bráthair	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	24	nmod	_	_
 26	Saidhclaps	Saidhclaps	PROPN	Noun	Gender=Masc|Number=Sing	25	flat	_	_
 27	i	i	ADP	Simp	_	28	case	_	_
-28	bprobhinse	bprobhinse	NOUN	Noun	Gender=Fem|Number=Sing	23	obl	_	_
+28	bprobhinse	proibhinse	NOUN	Noun	Gender=Fem|Number=Sing|Typo=Yes	23	obl	_	_
 29	Leatha	leath	NOUN	Noun	Gender=Fem|Number=Plur	28	nmod	_	_
 30	Mogha	mogh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	29	flat	_	SpaceAfter=No
 31	.	.	PUNCT	.	_	2	punct	_	_
@@ -9943,7 +9943,7 @@
 4	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	1	ccomp	_	_
 5	beairic	beairic	NOUN	Noun	Gender=Fem|Number=Sing	4	nsubj	_	_
 6	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	bpíléar	bpíléar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
+7	bpíléar	píléar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	5	nmod	_	_
 8	dúnta	dúnta	ADJ	Adj	VerbForm=Part	4	xcomp:pred	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	agus	agus	CCONJ	Coord	_	11	mark	_	_
@@ -11193,7 +11193,7 @@
 18	infheisteoirí	feisteoir	NOUN	Noun	Form=Len|Gender=Masc|Number=Plur	16	nmod	_	_
 19	móra	mór	ADJ	Adj	NounType=NotSlender|Number=Plur	18	amod	_	_
 20	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	21	case	_	_
-21	gcomhnascadh	gcomhnasc	NOUN	Noun	Form=Ecl|VerbForm=Inf	16	nmod	_	_
+21	gcomhnascadh	comhnascadh	NOUN	Noun	Form=Ecl|VerbForm=Inf	16	nmod	_	_
 22	ón	ó	ADP	Art	Number=Sing|PronType=Art	23	case	_	_
 23	gcéad	céad	NUM	Num	Form=Ecl|NumType=Ord	24	amod	_	_
 24	lá	lá	NOUN	Noun	Gender=Masc|Number=Sing	1	obl:tmod	_	SpaceAfter=No

@@ -3916,7 +3916,7 @@
 47	bíobla	bíobla	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	41	appos	_	SpaceAfter=No
 48	,	,	PUNCT	Punct	_	49	punct	_	_
 49	dá	dá	SCONJ	Subord	_	50	mark	_	_
-50	n-abrainn	n-abr	VERB	PastImp	Mood=Imp|Number=Sing|Person=1|Tense=Past	47	advcl	_	_
+50	n-abrainn	abair	VERB	PastImp	Mood=Imp|Number=Sing|Person=1|Tense=Past	47	advcl	_	_
 51	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	50	obj	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	6	punct	_	_
 
@@ -3972,7 +3972,7 @@
 48	baol	baol	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	47	nsubj	_	_
 49	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	47	xcomp:pred	_	_
 50	dár	do	ADP	Poss	Number=Plur|Person=1|Poss=Yes	51	case	_	_
-51	bpostanna	bpost	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	47	obl	_	SpaceAfter=No
+51	bpostanna	post	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	47	obl	_	SpaceAfter=No
 52	,	,	PUNCT	Punct	_	24	punct	_	SpaceAfter=No
 53	'	'	PUNCT	Punct	_	24	punct	_	_
 54	a	a	PART	Vb	PartType=Vb|PronType=Rel	55	mark:prt	_	_
@@ -5803,7 +5803,7 @@
 22	cuí	cuí	ADJ	Adj	Degree=Pos	19	acl:relcl	_	_
 23	leis	le	ADP	Simp	_	25	case	_	_
 24	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
-25	gCoimisiún	gcoimisiún	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	22	obl	_	_
+25	gCoimisiún	coimisiún	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	22	obl	_	_
 26	agus	agus	CCONJ	Coord	_	27	mark	_	_
 27	féadfar	féad	VERB	VTI	Mood=Ind|Tense=Fut|Voice=Auto	11	advcl	_	_
 28	daoine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	34	obj	_	_
@@ -7242,7 +7242,7 @@
 22	bhfacthas	feic	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past|Voice=Auto	16	acl:relcl	_	_
 23	nó	nó	CCONJ	Coord	_	25	cc	_	_
 24	a	a	PART	Vb	PartType=Vb|PronType=Rel	25	obj	_	_
-25	gcualathas	gcualathas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	22	conj	_	_
+25	gcualathas	clois	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past|Voice=Auto	22	conj	_	_
 26	cheana	cheana	ADV	Gn	_	25	advmod	_	SpaceAfter=No
 27	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -7381,7 +7381,7 @@
 12	,	,	PUNCT	Punct	_	15	punct	_	_
 13	leis	le	ADP	Simp	_	15	case	_	_
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
-15	gCoimisiún	gcoimisiún	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	obl	_	_
+15	gCoimisiún	coimisiún	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	obl	_	_
 16	um	um	ADP	Simp	_	15	flat	_	_
 17	Comhionannas	ionannas	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	15	flat	_	_
 18	Ciníoch	ciníoch	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	17	amod	_	_
@@ -8216,7 +8216,7 @@
 5	go	go	PART	Ad	PartType=Ad	6	mark:prt	_	_
 6	lánaimsireach	lánaimsireach	ADJ	Adj	Degree=Pos	4	advmod	_	_
 7	i	i	ADP	Simp	_	8	case	_	_
-8	gCollchoill	gcollchoill	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	obl	_	_
+8	gCollchoill	Collchoill	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	obl	_	_
 9	idir	idir	ADP	Simp	_	10	case	_	_
 10	1928	1928	NUM	Num	_	1	obl	_	_
 11	agus	agus	CCONJ	Coord	_	12	cc	_	_
@@ -8233,7 +8233,7 @@
 22	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	23	det	_	_
 23	phlandlann	plandlann	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	21	nsubj	_	_
 24	i	i	ADP	Simp	_	25	case	_	_
-25	gCollchoill	gcollchoill	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	23	nmod	_	_
+25	gCollchoill	Collchoill	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	23	nmod	_	_
 26	ar	ar	ADP	Simp	_	28	case	_	_
 27	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 28	gceann	ceann	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	21	xcomp:pred	_	_
@@ -9329,7 +9329,7 @@
 33	timpeall	timpeall	ADV	Dir	_	31	advmod	_	_
 34	leis	le	ADP	Simp	_	36	case	_	_
 35	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
-36	ngalra	ngalra	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	31	nmod	_	_
+36	ngalra	galra	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	31	nmod	_	_
 37	cam	cam	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	36	amod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -10129,7 +10129,7 @@
 10	shá	sá	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
 11	féin	féin	PRON	Ref	Reflex=Yes	10	nmod	_	_
 12	i	i	ADP	Simp	_	13	case	_	_
-13	bpiont	bpiont	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nmod	_	_
+13	bpiont	piont	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nmod	_	_
 14	go	go	PART	Vb	PartType=Cmpl	15	mark:prt	_	_
 15	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	10	ccomp	_	_
 16	dath	dath	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	15	nsubj	_	_
