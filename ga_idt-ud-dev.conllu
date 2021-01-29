@@ -6815,7 +6815,7 @@
 27	.	.	PUNCT	.	_	7	punct	_	_
 
 # sent_id = 724
-# text = Mhaigh Eo.
+# text = Maigh Eo.
 1	Maigh	Maigh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
 2	Eo	Eo	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	1	flat	_	SpaceAfter=No
 3	.	.	PUNCT	.	_	1	punct	_	_
