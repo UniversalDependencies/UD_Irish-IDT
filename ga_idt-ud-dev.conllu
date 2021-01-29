@@ -3198,7 +3198,7 @@
 11	éinteacht	éinteacht	ADJ	Adj	Gender=Masc|Number=Sing	10	amod	_	_
 12	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	case	_	_
 13	mhnaoi	bean	NOUN	Noun	Case=Dat|Form=Len|Gender=Fem|Number=Sing	9	obl	_	_
-14	ó	ó	ADP	Simp	_	15	case	_	_
+14	ó	ó	SCONJ	Subord	_	15	mark	_	_
 15	bhuail	buail	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	9	advcl	_	_
 16	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
 17	coinín	coinín	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	15	nsubj	_	_
@@ -5397,7 +5397,7 @@
 10	ama	am	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 11	orm	ar	ADP	Prep	Number=Sing|Person=1	1	obl:prep	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	14	punct	_	_
-13	ó	ó	ADP	Simp	_	14	mark	_	_
+13	ó	ó	SCONJ	Subord	_	14	mark	_	_
 14	scríobhadh	scríobh	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	advcl	_	_
 15	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
 16	léirmheas	léirmheas	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	_
@@ -7860,7 +7860,7 @@
 12	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	4	acl:relcl	_	_
 13	as	as	ADP	Simp	_	14	case	_	_
 14	cló	cló	NOUN	Noun	Gender=Masc|Number=Sing	12	obl	_	_
-15	ó	ó	ADP	Simp	_	16	case	_	_
+15	ó	ó	SCONJ	Subord	_	16	mark	_	_
 16	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	12	advcl	_	_
 17	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
 18	nach	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	19	cop	_	_
