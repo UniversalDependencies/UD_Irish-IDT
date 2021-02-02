@@ -276,7 +276,7 @@
 22	an-tóir	tóir	NOUN	Noun	Gender=Fem|Number=Sing	21	nsubj	_	_
 23	ag	ag	ADP	Simp	_	25	case	_	_
 24	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	Francaigh	Francaigh	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	21	obl	_	_
+25	Francaigh	Francach	PROPN	Noun	Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
 26	ar	ar	ADP	Simp	_	28	case	_	_
 27	chuile	gach_uile	DET	Det	Definite=Def	28	det	_	_
 28	shórt	sórt	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
@@ -381,7 +381,7 @@
 # sent_id = 472
 # text = De ribeoga olla ar chuir mé casadh iontu a rinne mé na buaiceacha.
 1	De	de	ADP	Simp	_	2	case	_	_
-2	ribeoga	ribeoga	NOUN	Noun	Gender=Masc|Number=Sing	0	root	_	_
+2	ribeoga	ribeog	NOUN	Noun	Gender=Fem|Number=Plur	0	root	_	_
 3	olla	olann	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	ar	ar	PART	Vb	PartType=Vb|PronType=Rel|Tense=Past	5	obl	_	_
 5	chuir	cuir	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	2	acl:relcl	_	_
@@ -479,7 +479,7 @@
 28	n-anamnacha	anam	NOUN	Noun	Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	31	punct	_	_
 30	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
-31	créatúirí	créatúir	NOUN	Noun	Gender=Fem|Number=Plur	28	nmod	_	_
+31	créatúirí	créatúr	NOUN	Noun	Gender=Masc|Number=Plur	28	nmod	_	_
 32	bochta	bocht	ADJ	Adj	NounType=NotSlender|Number=Plur	31	amod	_	SpaceAfter=No
 33	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -661,7 +661,7 @@
 13	ag	ag	ADP	Simp	_	14	case	_	_
 14	staidéar	staidéar	NOUN	Noun	Gender=Masc|Number=Sing	12	xcomp	_	_
 15	i	i	ADP	Cmpd	PrepForm=Cmpd	18	case	_	_
-16	gcuideachta	gcuideachta	ADP	Cmpd	PrepForm=Cmpd	14	nmod	_	_
+16	gcuideachta	cuideachta	NOUN	Noun	Gender=Fem|Number=Sing	14	nmod	_	_
 17	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	saineolaithe	saineolaí	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	_
 19	a	a	PART	Vb	PartType=Vb|PronType=Rel	20	nsubj	_	_
@@ -973,7 +973,7 @@
 4	mbeidh	bí	VERB	FutInd	Form=Ecl|Mood=Ind|Tense=Fut	2	ccomp	_	_
 5	ar	ar	ADP	Simp	_	7	case	_	_
 6	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
-7	Gaeil	Gaeil	NOUN	Noun	Gender=Masc|Number=Sing	4	obl	_	_
+7	Gaeil	Gael	PROPN	Noun	Gender=Masc|Number=Plur	4	obl	_	_
 8	luí	luí	NOUN	Noun	VerbForm=Inf	7	xcomp:pred	_	_
 9	síos	síos	ADV	Dir	_	8	advmod	_	_
 10	arís	arís	ADV	Gn	_	8	advmod	_	_
@@ -2924,7 +2924,7 @@
 76	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Voice=Auto	71	ccomp	_	_
 77	córais	córas	NOUN	Noun	Gender=Masc|Number=Plur	87	obj	_	_
 78	nua	nua	ADJ	Adj	Degree=Pos	77	amod	_	_
-79	teileachumarsáide	teileachumarsáide	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
+79	teileachumarsáide	teileachumarsáid	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
 80	,	,	PUNCT	Punct	_	82	punct	_	_
 81	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	82	det	_	_
 82	Internet	Internet	NOUN	Noun	Gender=Masc|Number=Sing	77	appos	_	_
@@ -3956,7 +3956,7 @@
 1	Le	le	ADP	Simp	_	2	case	_	_
 2	linn	linn	NOUN	Noun	Gender=Fem|Number=Sing	5	obl	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	imshruthaithe	sruthaithe	NOUN	Noun	Case=Gen|VerbForm=Inf	2	nmod	_	_
+4	imshruthaithe	imshruthú	NOUN	Noun	Case=Gen|VerbForm=Inf	2	nmod	_	_
 5	tugann	tabhair	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	ocsahaemaglóibin	ocsahaemaglóibin	NOUN	Noun	Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -4609,7 +4609,7 @@
 17	fáil	fáil	NOUN	Noun	VerbForm=Inf	15	xcomp	_	_
 18	do	do	ADP	Simp	_	19	case	_	_
 19	chompántais	compántas	NOUN	Noun	Form=Len|Gender=Masc|Number=Plur	15	obl	_	_
-20	ceoldrámaíochta	ceoldrámaíochta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
+20	ceoldrámaíochta	ceoldrámaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 21	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	19	acl:relcl	_	_
 22	ag	ag	ADP	Simp	_	23	case	_	_
 23	iarraidh	iarraidh	NOUN	Noun	VerbForm=Vnoun	21	xcomp	_	_
@@ -4646,7 +4646,7 @@
 54	nua	nua	ADJ	Adj	Degree=Pos	53	amod	_	_
 55	agus	agus	CCONJ	Coord	_	59	cc	_	_
 56	tionscnaimh	tionscnamh	NOUN	Noun	Gender=Masc|Number=Plur	59	obj	_	_
-57	ceoldrámaíochta	ceoldrámaíochta	ADJ	Adj	VerbForm=Part	56	amod	_	_
+57	ceoldrámaíochta	ceoldrámaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	_
 58	a	a	PART	Inf	PartType=Inf	59	mark	_	_
 59	choimisiúnú	coimisiúnú	NOUN	Noun	VerbForm=Inf	49	xcomp	_	SpaceAfter=No
 60	.	.	PUNCT	.	_	5	punct	_	_
@@ -4854,7 +4854,7 @@
 1	Gan	gan	ADP	Simp	_	2	case	_	_
 2	dochar	dochar	NOUN	Noun	Gender=Masc|Number=Sing	8	obl	_	_
 3	d'	do	ADP	Simp	_	4	case	_	SpaceAfter=No
-4	inniúlachtaí	inniúlachta	NOUN	Noun	Gender=Masc|Number=Plur	2	nmod	_	_
+4	inniúlachtaí	inniúlacht	NOUN	Noun	Gender=Fem|Number=Plur	2	nmod	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	Chomhphobail	comhphobal	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	2	punct	_	_
@@ -5036,7 +5036,7 @@
 12	teacht	teacht	NOUN	Noun	VerbForm=Inf	11	obj	_	_
 13	ar	ar	ADP	Simp	_	15	case	_	_
 14	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	haltraí	haltra	NOUN	Noun	Gender=Masc|Number=Plur	12	obl	_	_
+15	haltraí	altra	NOUN	Noun	Gender=Masc|Number=Plur	12	obl	_	_
 16	rollaithe	rollaithe	ADJ	Adj	VerbForm=Part	15	amod	_	_
 17	atá	bí	VERB	VI	Mood=Ind|PronType=Rel|Tense=Pres	15	acl:relcl	_	_
 18	ag	ag	ADP	Simp	_	19	case	_	_
@@ -6032,7 +6032,7 @@
 24	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 25	mianach	mianach	NOUN	Noun	Gender=Masc|Number=Sing	24	nsubj	_	_
 26	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
-27	hindibhidiúlachta	hindibhidiúlachta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
+27	hindibhidiúlachta	indibhidiúlacht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	25	nmod	_	_
 28	fós	fós	ADV	Gn	_	24	advmod	_	_
 29	iontu	i	ADP	Prep	Number=Plur|Person=3	24	obl:prep	_	_
 30	sa	i	ADP	Art	Number=Sing|PronType=Art	31	case	_	_
@@ -6240,7 +6240,7 @@
 28	fraoigh	fraoch	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
 29	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
 30	chú	cú	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	14	parataxis	_	_
-31	fiaigh	fiaigh	NOUN	Noun	Gender=Fem|Number=Sing	30	nmod	_	_
+31	fiaigh	fiach	NOUN	Noun	Gender=Masc|Number=Sing	30	nmod	_	_
 32	Agamsa	ag	ADP	Prep	Number=Sing|Person=1|PronType=Emp	30	obl:prep	_	_
 33	dá	do	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	34	case	_	_
 34	gríosadh	gríosadh	NOUN	Noun	VerbForm=Inf	23	nmod	_	SpaceAfter=No
@@ -6336,7 +6336,7 @@
 5	i	i	ADP	Simp	_	6	case	_	_
 6	bpoll	poll	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	aeir	aeir	NOUN	Noun	Gender=Fem|Number=Sing	6	nmod	_	_
+8	aeir	aer	NOUN	Noun	Gender=Masc|Number=Sing	6	nmod	_	_
 9	agus	agus	CCONJ	Coord	_	10	cc	_	_
 10	dhreapaigh	dreap	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
 11	mé	mé	PRON	Pers	Number=Sing|Person=1	10	nsubj	_	_
@@ -6948,7 +6948,7 @@
 12	éiginnte	éiginnte	ADJ	Adj	Gender=Masc|Number=Sing	11	amod	_	_
 13	idir	idir	ADP	Simp	_	14	case	_	_
 14	leas	leas	NOUN	Noun	Gender=Masc|Number=Sing	11	nmod	_	_
-15	oibríochta	oibríochta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
+15	oibríochta	oibríocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
 16	agus	agus	CCONJ	Coord	_	17	cc	_	_
 17	slándála	slándáil	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	4	punct	_	_
@@ -7395,7 +7395,7 @@
 
 # sent_id = 748
 # text = TREASA (léi féin): An rud ceannann céanna gach maidin Sathairn.
-1	TREASA	Treasa	NOUN	Noun	Gender=Fem|Number=Sing	0	root	_	_
+1	TREASA	Treasa	PROPN	Noun	Gender=Fem|Number=Sing	0	root	_	_
 2	(	(	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
 3	léi	le	ADP	Prep	Gender=Fem|Number=Sing|Person=3	1	obl:prep	_	_
 4	féin	féin	PRON	Ref	Reflex=Yes	3	nmod	_	SpaceAfter=No
@@ -7966,7 +7966,7 @@
 14	is	agus	CCONJ	Coord	_	15	mark:prt	_	_
 15	chuireas	cuir	VERB	VTI	Form=Len|Mood=Ind|Number=Sing|Person=1|Tense=Past	2	conj	_	_
 16	gothaí	gotha	NOUN	Noun	Gender=Masc|Number=Plur	15	nsubj	_	_
-17	codlata	codlata	ADJ	Adj	VerbForm=Part	16	amod	_	_
+17	codlata	codladh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	16	amod	_	_
 18	orm	ar	ADP	Prep	Number=Sing|Person=1	15	obl:prep	_	_
 19	féin	féin	PRON	Ref	Reflex=Yes	18	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	2	punct	_	_
@@ -8334,7 +8334,7 @@
 13	roimh	roimh	ADP	Simp	_	14	case	_	_
 14	dheireadh	deireadh	NOUN	Noun	Gender=Masc|Number=Sing	12	obl	_	_
 15	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
-16	mílaoise	mílaoise	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
+16	mílaoise	mílaois	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	SpaceAfter=No
 17	)	)	PUNCT	Punct	_	12	punct	_	_
 18	i	i	ADP	Simp	_	19	case	_	_
 19	gceannáras	ceannáras	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	12	obl	_	_
@@ -9135,7 +9135,7 @@
 36	líon	líon	NOUN	Noun	Gender=Masc|Number=Sing	35	nmod	_	_
 37	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 38	dtráthchodanna	tráthchuid	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	36	nmod	_	_
-39	comhionanna	comhionanna	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	38	amod	_	_
+39	comhionanna	comhionann	ADJ	Adj	NounType=Strong|Number=Plur	38	amod	_	_
 40	míosúla	míosúil	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	38	amod	_	_
 41	a	a	PART	Vb	PartType=Vb|PronType=Rel	42	nsubj	_	_
 42	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	38	acl:relcl	_	_
@@ -9523,7 +9523,7 @@
 35	taobh	taobh	NOUN	Noun	Gender=Masc|Number=Sing	33	obl	_	_
 36	dhoras	doras	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	35	nmod	_	_
 37	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	38	det	_	_
-38	agaird	agaird	NOUN	Noun	Gender=Fem|Number=Sing	36	nmod	_	SpaceAfter=No
+38	agaird	agard	NOUN	Noun	Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
 39	.	.	PUNCT	.	_	9	punct	_	_
 
 # sent_id = 833
@@ -11182,7 +11182,7 @@
 7	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	advcl	_	_
 8	ag	ag	ADP	Simp	_	9	case	_	_
 9	comhairliú	comhairliú	NOUN	Noun	VerbForm=Vnoun	7	xcomp	_	_
-10	stuamachta	stuamachta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
+10	stuamachta	stuamacht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	9	obj	_	_
 11	-	-	PUNCT	Punct	_	14	punct	_	_
 12	agus	agus	SCONJ	Coord	_	14	mark	_	_
 13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
