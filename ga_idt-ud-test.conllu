@@ -496,7 +496,7 @@
 14	dócha	dócha	ADJ	Adj	Degree=Pos	6	parataxis	_	SpaceAfter=No
 15	,	,	PUNCT	Punct	_	14	punct	_	_
 16	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	17	cop	_	_
-17	sliogéisc	sliogéisc	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	8	ccomp	_	_
+17	sliogéisc	sliogiasc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	8	ccomp	_	_
 18	cuid	cuid	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	17	nsubj	_	_
 19	mhaith	maith	ADJ	Adj	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	18	amod	_	_
 20	de	de	ADP	Simp	_	22	case	_	_
@@ -1111,7 +1111,7 @@
 3	FAOI	faoi	ADP	Simp	_	4	case	_	_
 4	SHAINCHEADU	saincheadú	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing|Typo=Yes	2	nmod	_	_
 5	Comharsain	Comharsain	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	0	root	_	_
-6	aoibhne	aoibhne	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	5	amod	_	_
+6	aoibhne	aoibhinn	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	5	amod	_	_
 7	ab	is	AUX	Cop	Form=VF|PronType=Rel|Tense=Past|VerbForm=Cop	5	cop	_	_
 8	ea	ea	PRON	Pers	Number=Sing|Person=3	9	nmod	_	_
 9	iad	iad	PRON	Pers	Number=Plur|Person=3	5	nsubj	_	SpaceAfter=No
@@ -2008,7 +2008,7 @@
 32	le	le	ADP	Simp	_	33	case	_	_
 33	fírinne	fírinne	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	31	obl	_	_
 34	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
-35	tSlánaithe	tSlánaithe	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
+35	tSlánaithe	slánú	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	12	punct	_	_
 
 # sent_id = 84
@@ -2492,7 +2492,7 @@
 18	eile	eile	DET	Det	PronType=Dem	17	det	_	_
 19	sa	i	ADP	Art	Number=Sing|PronType=Art	20	case	_	_
 20	chóras	córas	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	17	nmod	_	_
-21	meánscolaíochta	meánscolaíochta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
+21	meánscolaíochta	meánscolaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 106
@@ -3514,7 +3514,7 @@
 21	chathú	cathú	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	19	nmod	_	_
 22	sin	sin	PRON	Dem	PronType=Dem	21	det	_	_
 23	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	24	det	_	_
-24	truaillíochta	truaillíochta	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	_
+24	truaillíochta	truaillíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	obj	_	_
 25	a	a	PART	Vb	PartType=Vb|PronType=Rel	26	nsubj	_	_
 26	chuireann	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres	24	acl:relcl	_	_
 27	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
@@ -3806,7 +3806,7 @@
 # sent_id = 157
 # text = Bhí leidí fánacha den chineál céanna le sonrú roimhe sin i scéalta ar nós 'Leatrom na Cinniúna', 'Mac Rí na nDeachmann' agus 'Gan Murcha gan Manas' (Idir Shúgradh agus Dáiríre) agus in 'Tnúthán an Dúchais' agus 'Ag Dul ar Aghaidh' (An Braon Broghach).
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
-2	leidí	leidí	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	1	nsubj	_	_
+2	leidí	leid	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	1	nsubj	_	_
 3	fánacha	fánach	ADJ	Adj	Case=NomAcc|NounType=NotSlender|Number=Plur	2	amod	_	_
 4	den	de	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
 5	chineál	cineál	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	2	nmod	_	_
@@ -5049,7 +5049,7 @@
 32	a	a	PART	Inf	PartType=Inf	33	mark	_	_
 33	shábháil	sábháil	NOUN	Noun	Form=Len|VerbForm=Inf	29	xcomp	_	_
 34	le	le	ADP	Simp	_	35	case	_	_
-35	léasair	léasair	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	33	obl	_	_
+35	léasair	léasar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	33	obl	_	_
 36	agus	agus	CCONJ	Coord	_	37	cc	_	_
 37	ríomhairí	ríomhaire	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	35	conj	_	SpaceAfter=No
 38	,	,	PUNCT	Punct	_	40	punct	_	_
@@ -6142,7 +6142,7 @@
 203	ag	ag	ADP	Simp	_	204	case	_	_
 204	náisiúnaigh	náisiúnach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	200	obl	_	_
 205	tríú	tríú	NUM	Num	NumType=Ord	206	amod	_	_
-206	tíortha	tíortha	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	204	nmod	_	_
+206	tíortha	tír	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	204	nmod	_	_
 207	ar	ar	ADP	Simp	_	208	case	_	_
 208	chríoch	críoch	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	206	nmod	_	_
 209	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	210	det	_	_
@@ -8992,7 +8992,7 @@
 95	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	96	det	_	_
 96	talamh	talamh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	94	nsubj	_	_
 97	go	go	PART	Ad	PartType=Ad	98	mark:prt	_	_
-98	hintleachtúil	hintleacht	ADJ	Adj	Degree=Pos	94	advmod	_	_
+98	hintleachtúil	intleachtúil	ADJ	Adj	Degree=Pos	94	advmod	_	_
 99	chomh	chomh	ADV	Its	_	94	advmod	_	_
 100	maith	maith	ADJ	Adj	Degree=Pos	99	fixed	_	SpaceAfter=No
 101	...	...	PUNCT	Punct	_	102	punct	_	_
@@ -9934,7 +9934,7 @@
 26	chré	cré	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	24	nsubj	_	_
 27	sa	i	ADP	Art	Number=Sing|PronType=Art	28	case	_	_
 28	bhlaosc	blaosc	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	26	nmod	_	_
-29	tosaithe	tosaithe	NOUN	Noun	Case=Gen|VerbForm=Inf	24	xcomp:pred	_	_
+29	tosaithe	tosú	NOUN	Noun	Case=Gen|VerbForm=Inf	24	xcomp:pred	_	_
 30	ag	ag	ADP	Simp	_	31	case	_	_
 31	leá	leá	NOUN	Noun	VerbForm=Vnoun	29	xcomp	_	SpaceAfter=No
 32	.	.	PUNCT	.	_	14	punct	_	_
@@ -10726,7 +10726,7 @@
 39	dhícheall	dícheall	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	33	nmod	_	_
 40	do	do	ADP	Simp	_	41	case	_	_
 41	lann	lann	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	39	nmod	_	_
-42	scine	scine	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	41	nmod	_	_
+42	scine	scian	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	41	nmod	_	_
 43	dul	dul	NOUN	Noun	VerbForm=Inf	42	xcomp	_	_
 44	tríd	trí	ADP	Prep	Gender=Masc|Number=Sing|Person=3	43	obl:prep	_	SpaceAfter=No
 45	,	,	PUNCT	Punct	_	46	punct	_	_
@@ -10847,7 +10847,7 @@
 # text = Airteagal 23 Oibríochtaí eachtracha Féadfaidh BCE agus bainc cheannais náisiúnta: - caidreamh a bhunú le bainc cheannais agus le hinstitiúidí airgeadais i dtíortha eile agus, más iomchuí, le heagraíochtaí idirnáisiúnta; - gach saghas sócmhainní airgid eachtraigh agus miotal lómhar a fháil agus a dhíol trí spotbheart agus réamhdhéileáil; cuimseoidh an abairt 'sócmhainn airgid eachtraigh' urrúis agus gach sócmhainn eile in airgeadra aon tíre nó in aonaid chuntais, is cuma cén fhoirm ina sealbhaítear iad; - na sócmhainní dá dtagraítear san Airteagal seo a shealbhú agus a bhainisteoireacht; - gach saghas idirbheart baincéireachta a sheoladh i ndáil le tríú tíortha agus le heagraíochtaí idirnáisiúnta lena n-áirítear oibríochtaí chun iasachtaí a fháil agus a thabhairt.
 1	Airteagal	airteagal	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	obl	_	_
 2	23	23	NUM	Num	_	1	nmod	_	_
-3	Oibríochtaí	oibríochta	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	5	obl	_	_
+3	Oibríochtaí	oibríocht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	5	obl	_	_
 4	eachtracha	eachtrach	ADJ	Adj	Case=NomAcc|NounType=NotSlender|Number=Plur	3	amod	_	_
 5	Féadfaidh	féad	VERB	VTI	Mood=Ind|Tense=Fut	0	root	_	_
 6	BCE	BCE	PROPN	Abr	Abbr=Yes	5	nsubj	_	_
@@ -10960,7 +10960,7 @@
 113	idirnáisiúnta	idirnáisiúnta	ADJ	Adj	Degree=Pos	112	amod	_	_
 114	lena	le	PART	Rel	PronType=Rel	115	obl	_	_
 115	n-áirítear	áirigh	VERB	VT	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	112	acl:relcl	_	_
-116	oibríochtaí	oibríochta	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	115	obj	_	_
+116	oibríochtaí	oibríocht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	115	obj	_	_
 117	chun	chun	ADP	Simp	_	120	case	_	_
 118	iasachtaí	iasacht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	120	obj	_	_
 119	a	a	PART	Inf	PartType=Inf	120	mark	_	_
@@ -11209,7 +11209,7 @@
 15	amhráin	amhrán	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	13	conj	_	_
 16	agus	agus	CCONJ	Coord	_	17	cc	_	_
 17	cúrsaí	cúrsa	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	13	conj	_	_
-18	margaíochta	margaíochta	ADJ	Adj	VerbForm=Part	17	amod	_	SpaceAfter=No
+18	margaíochta	margaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
 19	,	,	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
 20	'	'	PUNCT	Punct	_	2	punct	_	_
 21	a	a	PART	Vb	PartType=Vb|PronType=Rel	22	mark:prt	_	_
