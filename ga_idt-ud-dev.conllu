@@ -142,7 +142,7 @@
 15	a	a	PART	Vb	PartType=Vb|PronType=Rel	16	nsubj	_	_
 16	bhíodh	bí	VERB	VI	Form=Len|Mood=Imp|Tense=Past	14	acl:relcl	_	_
 17	mar	mar	ADP	Simp	_	18	case	_	_
-18	amhranaí	amhranaí	NOUN	Noun	Gender=Masc|Number=Sing	16	obl	_	_
+18	amhranaí	amhránaí	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	16	obl	_	_
 19	sa	i	ADP	Art	Number=Sing|PronType=Art	20	case	_	_
 20	ghrúpa	grúpa	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	18	nmod	_	_
 21	'	'	PUNCT	Punct	_	22	punct	_	SpaceAfter=No
@@ -353,7 +353,7 @@
 # sent_id = 471
 # text = 'Díospoireacht a dhéanamh eatarthu fhéin: 'Tá sí timpeall an chúinne ag caochadh súl ar 'Fheara Fáil' a phéinteáil Jack.
 1	'	'	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
-2	Díospoireacht	Díospoireacht	NOUN	Noun	Gender=Masc|Number=Sing	4	obj	_	_
+2	Díospoireacht	díospóireacht	NOUN	Noun	Gender=Fem|Number=Sing|Typo=Yes	4	obj	_	_
 3	a	a	PART	Inf	PartType=Inf	4	mark	_	_
 4	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	9	parataxis	_	_
 5	eatarthu	idir	ADP	Prep	Number=Plur|Person=3	4	obl:prep	_	_
@@ -422,7 +422,7 @@
 
 # sent_id = 474
 # text = Duaisdhráma ó Oireachtas 1955 is ea Moloney.
-1	Duaisdhráma	Duaisdhráma	NOUN	Noun	Gender=Masc|Number=Sing	0	root	_	_
+1	Duaisdhráma	duaisdráma	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	_
 2	ó	ó	ADP	Simp	_	3	case	_	_
 3	Oireachtas	oireachtas	PROPN	Noun	Form=Len|Gender=Masc|Number=Sing	1	nmod	_	_
 4	1955	1955	NUM	Num	_	3	nmod	_	_
@@ -456,7 +456,7 @@
 5	mná	bean	NOUN	Noun	Gender=Fem|Number=Plur	3	conj	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	7	punct	_	_
 7	daoine	duine	NOUN	Noun	Gender=Masc|Number=Plur	3	nmod	_	_
-8	bréatha	bréath	ADJ	Adj	NounType=NotSlender|Number=Plur	7	amod	_	_
+8	bréatha	breá	ADJ	Adj	NounType=NotSlender|Number=Plur|Typo=Yes	7	amod	_	_
 9	óga	óg	ADJ	Adj	NounType=NotSlender|Number=Plur	7	amod	_	_
 10	ag	ag	ADP	Simp	_	11	case	_	_
 11	fáil	fáil	NOUN	Noun	VerbForm=Vnoun	1	xcomp	_	_
@@ -2808,7 +2808,7 @@
 20	(	(	PUNCT	Punct	_	23	punct	_	SpaceAfter=No
 21	is	agus	CCONJ	Coord	_	23	cc	_	_
 22	á	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	23	case	_	_
-23	chailliúnt	cailliúnt	NOUN	Noun	Form=Len|VerbForm=Inf	19	conj	_	SpaceAfter=No
+23	chailliúnt	cailliúint	NOUN	Noun	Form=Len|Typo=Yes|VerbForm=Inf	19	conj	_	SpaceAfter=No
 24	)	)	PUNCT	Punct	_	23	punct	_	_
 25	ar	ar	ADP	Simp	_	26	case	_	_
 26	scairmhargaí	margadh	NOUN	Noun	Gender=Masc|Number=Plur	19	obl	_	_
@@ -3035,7 +3035,7 @@
 
 # sent_id = 572
 # text = Duradh gur seo ceann dena fadhbanna is mó atá sa cheantar.
-1	Duradh	dur	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Duradh	abair	VERB	VTI	Mood=Ind|Tense=Past|Typo=Yes|Voice=Auto	0	root	_	_
 2	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 3	seo	seo	PRON	Dem	PronType=Dem	1	ccomp	_	_
 4	ceann	ceann	NOUN	Noun	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -3063,7 +3063,7 @@
 4	chaill	caill	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	acl:relcl	_	_
 5	leathlámh	lámh	NOUN	Noun	Gender=Fem|Number=Sing	4	obj	_	_
 6	agus	agus	CCONJ	Coord	_	7	cc	_	_
-7	leathcos	leathcos	NOUN	Noun	Gender=Fem|Number=Sing	5	conj	_	_
+7	leathcos	leathchos	NOUN	Noun	Gender=Fem|Number=Sing|Typo=Yes	5	conj	_	_
 8	i	i	ADP	Simp	_	9	case	_	_
 9	dtimpiste	timpiste	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	4	obl	_	_
 10	i	i	ADP	Simp	_	11	case	_	_
@@ -3450,7 +3450,7 @@
 2	méadú	méadú	NOUN	Noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	56%	56	NUM	Num	_	2	nmod	_	_
 4	i	i	ADP	Simp	_	5	case	_	_
-5	lion	lion	NOUN	Noun	Gender=Masc|Number=Sing	1	obl	_	_
+5	lion	líon	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	1	obl	_	_
 6	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	dturasóirí	turasóir	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|NounType=Strong|Number=Plur	5	nmod	_	_
 8	go	go	ADP	Cmpd	PrepForm=Cmpd	11	case	_	_
@@ -3928,7 +3928,7 @@
 68	,	,	PUNCT	Punct	_	71	punct	_	_
 69	in	in	ADP	Cmpd	PrepForm=Cmpd	71	case	_	_
 70	aghaidh	aghaidh	ADP	Cmpd	PrepForm=Cmpd	69	fixed	_	_
-71	ceartdhlí	ceartdhlí	NOUN	Foreign	Foreign=Yes	52	nmod	_	_
+71	ceartdhlí	ceartdlí	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	52	nmod	_	_
 72	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
 73	bhfáidhe	fáidh	NOUN	Noun	Gender=Fem|Number=Sing	71	nmod	_	_
 74	agus	agus	CCONJ	Coord	_	76	cc	_	_
@@ -4114,7 +4114,7 @@
 # sent_id = 617
 # text = É fein agus Tomás Ó Concheanainn (1870-1961) a bhí i mbun an bhailiúcháin.
 1	É	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	0	root	_	_
-2	fein	fein	NOUN	Noun	Gender=Fem|Number=Sing	1	nmod	_	_
+2	fein	féin	PRON	Ref	Reflex=Yes|Typo=Yes	1	nmod	_	_
 3	agus	agus	CCONJ	Coord	_	4	cc	_	_
 4	Tomás	Tomás	PROPN	Noun	Gender=Masc|Number=Sing	1	conj	_	_
 5	Ó	ó	PART	Pat	PartType=Pat	4	flat:name	_	_
@@ -5070,7 +5070,7 @@
 1	Ach	ach	SCONJ	Subord	_	2	mark	_	_
 2	crochadh	croch	VERB	PastInd	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	tUrramhach	t-urramhach	NOUN	Noun	Gender=Masc|Number=Sing	2	obj	_	_
+4	tUrramhach	urramach	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	2	obj	_	_
 5	James	James	PROPN	Noun	_	4	flat	_	_
 6	Porter	Porter	PROPN	Noun	_	5	flat:name	_	_
 7	láimh	lámh	NOUN	Noun	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
@@ -5302,7 +5302,7 @@
 1	Chuidigh	cuidigh	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	mé	mé	PRON	Pers	Number=Sing|Person=1	1	nsubj	_	_
 3	le	le	ADP	Simp	_	4	case	_	_
-4	reachtáil	reachtáil	NOUN	Noun	VerbForm=Inf	1	xcomp	_	_
+4	reachtáil	reáchtáil	NOUN	Noun	Typo=Yes|VerbForm=Inf	1	xcomp	_	_
 5	dheireadh	deireadh	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	4	nmod	_	_
 6	seachtaine	seachtain	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	5	compound	_	_
 7	Gaelach	gaelach	ADJ	Adj	Degree=Pos	5	amod	_	_
@@ -5459,7 +5459,7 @@
 5	ag	ag	ADP	Simp	_	6	case	_	_
 6	Ascot	Ascot	PROPN	Noun	Gender=Masc|Number=Sing	2	obl	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	tseachain	tseachain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	2	obl:tmod	_	_
+8	tseachain	seachtain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing|Typo=Yes	2	obl:tmod	_	_
 9	seo	seo	DET	Det	PronType=Dem	8	det	_	_
 10	caite	caite	ADJ	Adj	VerbForm=Part	9	fixed	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
@@ -6711,9 +6711,9 @@
 45	nó	nó	CCONJ	Coord	_	57	cc	_	_
 46	chun	chun	ADP	Simp	_	57	case	_	_
 47	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
-48	céadtadán	céadtadán	NOUN	Noun	Gender=Masc|Number=Sing	57	obj	_	_
+48	céadtadán	céatadán	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	57	obj	_	_
 49	íseal	íseal	ADJ	Adj	Gender=Masc|Number=Sing	48	amod	_	_
-50	rannpáirtíochta	rannpáirtíochta	ADJ	Adj	VerbForm=Part	48	amod	_	_
+50	rannpáirtíochta	rannpháirtíocht	ADJ	Adj	Typo=Yes|VerbForm=Part	48	amod	_	_
 51	i	i	ADP	Simp	_	52	case	_	_
 52	gcás	cás	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	48	nmod	_	_
 53	aicmí	aicme	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	52	nmod	_	_
@@ -8450,7 +8450,7 @@
 # sent_id = 793
 # text = Is cúlbhrát dainséarach é seo le haghaidh cluichí polaitiúla atá á n-imirt ag easaontóirí i bpáirtí David Trimble.
 1	Is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	2	cop	_	_
-2	cúlbhrát	cúlbhrát	NOUN	Noun	Gender=Masc|Number=Sing	0	root	_	_
+2	cúlbhrát	cúlbhrat	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	0	root	_	_
 3	dainséarach	dainséarach	ADJ	Adj	Gender=Masc|Number=Sing	2	amod	_	_
 4	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 5	seo	seo	PRON	Dem	PronType=Dem	4	det	_	_
@@ -10607,7 +10607,7 @@
 8	tIndiach	Indiach	PROPN	Noun	Gender=Masc|Number=Sing	6	nsubj	_	_
 9	leis	le	ADP	Simp	_	11	case	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
-11	Iosánach	Iosánach	NOUN	Noun	Gender=Masc|Number=Sing	6	obl	_	_
+11	Iosánach	Íosánach	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	6	obl	_	_
 12	ansin	ansin	ADV	Loc	_	6	advmod	_	SpaceAfter=No
 13	:	:	PUNCT	Punct	_	15	punct	_	_
 14	'	'	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
