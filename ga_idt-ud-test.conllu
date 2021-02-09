@@ -4,7 +4,7 @@
 2	Pól	Pól	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obj	_	_
 3	nó	nó	SCONJ	Subord	_	5	mark	_	_
 4	ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	5	cop	_	_
-5	úrlabhraí	úrlabhraí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	advcl	_	_
+5	úrlabhraí	urlabhraí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing|Typo=Yes	1	advcl	_	_
 6	maith	maith	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	5	amod	_	_
 7	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 8	ar	ar	ADP	Simp	_	9	case	_	_
@@ -23,7 +23,7 @@
 21	tuaithe	tuath	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
 22	,	,	PUNCT	Punct	_	23	punct	_	_
 23	gné	gné	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	appos	_	_
-24	am-tábhachtach	an-tábhacht	ADJ	Adj	_	23	amod	_	_
+24	am-tábhachtach	an-tábhachtach	ADJ	Adj	Typo=Yes	23	amod	_	_
 25	de	de	ADP	Simp	_	26	case	_	_
 26	shaol	saol	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	23	nmod	_	_
 27	sóisialta	sóisialta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	26	amod	_	_
@@ -241,7 +241,7 @@
 2	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Voice=Auto	0	root	_	_
 3	dlí	dlí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	obj	_	_
 4	a	a	PART	Inf	PartType=Inf	5	mark	_	_
-5	reachtáil	reachtáil	NOUN	Noun	VerbForm=Inf	2	xcomp	_	_
+5	reachtáil	reáchtáil	NOUN	Noun	Typo=Yes|VerbForm=Inf	2	xcomp	_	_
 6	a	a	PART	Vb	PartType=Vb|PronType=Rel	7	nsubj	_	_
 7	thabharfadh	tabhair	VERB	VTI	Form=Len|Mood=Cnd	3	acl:relcl	_	_
 8	treoir	treoir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	obj	_	_
@@ -2267,9 +2267,9 @@
 # sent_id = 97
 # text = FEARAIS TI GNIOMHARTHA DA dTAGRAITEAR Fear cathrach é Pearse Hutchinson, mar shampla, fear a bheadh ina éan corr i bpobal tuaithe, agus is léar sin ar a chuid filíochta.
 1	FEARAIS	fearas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	6	nmod	_	_
-2	TI	TI	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nmod	_	_
-3	GNIOMHARTHA	gniomharth	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	nmod	_	_
-4	DA	DA	PART	Vb	PartType=Vb|PronType=Rel	5	obl	_	_
+2	TI	teach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing|Typo=Yes	1	nmod	_	_
+3	GNIOMHARTHA	gníomh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur|Typo=Yes	1	nmod	_	_
+4	DA	dá	PART	Vb	PartType=Vb|PronType=Rel|Typo=Yes	5	obl	_	_
 5	dTAGRAITEAR	tagair	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	1	acl:relcl	_	_
 6	Fear	fear	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
 7	cathrach	cathair	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	6	amod	_	_
@@ -2797,7 +2797,7 @@
 22	ag	ag	ADP	Simp	_	23	case	_	_
 23	iarraidh	iarraidh	NOUN	Noun	VerbForm=Vnoun	21	xcomp	_	_
 24	scéim	scéim	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	28	obj	_	_
-25	tithiochta	tithiochta	ADJ	Adj	VerbForm=Part	24	amod	_	_
+25	tithiochta	tithíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing|Typo=Yes	24	amod	_	_
 26	sóisialta	sóisialta	ADJ	Adj	Degree=Pos	25	amod	_	_
 27	a	a	PART	Inf	PartType=Inf	28	mark	_	_
 28	thosú	tosú	NOUN	Noun	Form=Len|VerbForm=Inf	23	xcomp	_	SpaceAfter=No
@@ -8981,7 +8981,7 @@
 84	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	82	acl:relcl	_	_
 85	riachtanach	riachtanach	ADJ	Adj	Degree=Pos	84	xcomp:pred	_	_
 86	chun	chun	ADP	Simp	_	89	case	_	_
-87	cóilíniú	cóilíniú	NOUN	Noun	VerbForm=Inf	89	obj	_	_
+87	cóilíniú	coilíniú	NOUN	Noun	Typo=Yes|VerbForm=Inf	89	obj	_	_
 88	a	a	PART	Inf	PartType=Inf	89	mark	_	_
 89	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	80	xcomp	_	_
 90	níos	níos	PART	Cmp	PartType=Comp	91	mark:prt	_	_
