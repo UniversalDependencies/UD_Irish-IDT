@@ -2740,7 +2740,7 @@
 81	leighis	leigheas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	80	nmod	_	_
 82	do	do	PART	Vb	PartType=Vb	83	mark:prt	_	_
 83	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	70	xcomp	_	_
-84	cláruithe	cláraithe	NOUN	Noun	VerbForm=Inf	83	xcomp:pred	_	_
+84	cláruithe	cláraithe	ADJ	Adj	VerbForm=Part	83	xcomp:pred	_	_
 85	sa	i	ADP	Art	Number=Sing|PronType=Art	86	case	_	_
 86	chlár	clár	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	84	obl	_	_
 87	fén	faoi	ADP	Art	Number=Sing|PronType=Art	88	case	_	_
@@ -5323,7 +5323,7 @@
 14	aithne	aithne	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	13	nsubj	_	_
 15	mhaith	maith	ADJ	Adj	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	14	amod	_	_
 16	ar	ar	ADP	Simp	_	17	case	_	_
-17	Dhearbhla	Dhearbhla	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	obl	_	_
+17	Dhearbhla	Dearbhla	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	13	obl	_	_
 18	mar	mar	ADP	Simp	_	19	case	_	_
 19	amhránaí	amhránaí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nmod	_	_
 20	den	de	ADP	Art	Number=Sing|PronType=Art	21	case	_	_
@@ -5918,7 +5918,7 @@
 17	luann	luaigh	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Pres	1	parataxis	_	_
 18	aon	aon	DET	Det	PronType=Ind	19	det	_	_
 19	tuairisc	tuairisc	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	17	nsubj	_	_
-20	indibhidiúil	indibhidiúil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	nmod	_	_
+20	indibhidiúil	indibhidiúil	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	19	amod	_	_
 21	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
 22	liosta	liosta	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	17	obj	_	_
 23	sin	sin	DET	Det	PronType=Dem	22	det	_	_
@@ -8175,7 +8175,7 @@
 
 # sent_id = 320
 # text = Déroinn [ AF ] leis an rinn V a aimsiú.
-1	Déroinn	déroinn	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	0	root	_	_
+1	Déroinn	déroinn	VERB	_	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 2	[	[	PUNCT	Punct	_	3	punct	_	_
 3	AF	AF	NOUN	Abr	Abbr=Yes	1	nsubj	_	_
 4	]	]	PUNCT	Punct	_	3	punct	_	_
