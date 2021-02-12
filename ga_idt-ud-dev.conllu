@@ -2472,7 +2472,7 @@
 12	thalamh	talamh	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	9	obl	_	_
 13	slán	slán	ADJ	Adj	Gender=Masc|Number=Sing	12	amod	_	_
 14	b'	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	15	cop	_	SpaceAfter=No
-15	amhala	ala	NOUN	Subst	Number=Sing	0	root	_	_
+15	amhala	amhala	NOUN	Subst	Number=Sing	0	root	_	_
 16	ba	is	PART	Sup	PartType=Sup	17	mark:prt	_	_
 17	mheasa	olc	ADJ	Adj	Degree=Cmp,Sup	15	csubj:cop	_	_
 18	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	19	det	_	_
@@ -4430,7 +4430,7 @@
 1	Dá	dá	SCONJ	Subord	_	2	mark	_	_
 2	dtosuigheadh	tosaigh	VERB	VTI	Form=Ecl|Mood=Cnd	19	advcl	_	_
 3	a	a	DET	Det	Gender=Fem|Number=Sing|Person=3|Poss=Yes	4	nmod:poss	_	_
-4	hinghean	gean	NOUN	Noun	Gender=Masc|Number=Sing	2	nsubj	_	_
+4	hinghean	inghean	NOUN	Noun	Gender=Fem|Number=Sing	2	nsubj	_	_
 5	ag	ag	ADP	Simp	_	6	case	_	_
 6	séideadh	séideadh	NOUN	Noun	VerbForm=Vnoun	2	xcomp	_	_
 7	fúithe	faoi	ADP	Prep	Gender=Fem|Number=Sing|Person=3	6	obl:prep	_	_
@@ -11322,7 +11322,7 @@
 # text = Is fíor- chorr-Óglach a d'fhág baile an Luan sin a raibh fhios aige gur ag dul chun troda i ndáiríre a bhí sé agus nach ag cleachtadh cogaíochta.
 1	Is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	3	cop	_	_
 2	fíor-	fíor-	ADV	Its	_	3	amod	_	_
-3	chorr-Óglach	chorr-Óglach	PROPN	Noun	Gender=Masc|Number=Sing	0	root	_	_
+3	chorr-Óglach	corr-óglach	PROPN	Noun	Gender=Masc|Number=Sing	0	root	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	6	mark:prt	_	_
 5	d'	do	PART	Vb	PartType=Vb	6	mark:prt	_	SpaceAfter=No
 6	fhág	fág	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	csubj:cleft	_	_
