@@ -3936,9 +3936,9 @@
 76	bhfíorollún	fíorollamh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Plur	73	conj	_	SpaceAfter=No
 77	,	,	PUNCT	Punct	_	78	punct	_	_
 78	agus	agus	CCONJ	Coord	_	79	cc	_	_
-79	contrárdha	contrárdha	NOUN	Noun	Gender=Masc|Number=Plur	71	conj	_	_
+79	contrárdha	contrárdha	ADJ	Adj	Degree=Pos	71	conj	_	_
 80	do	do	ADP	Simp	_	81	case	_	_
-81	rialacha	riail	NOUN	Noun	Gender=Fem|Number=Plur	79	nmod	_	_
+81	rialacha	riail	NOUN	Noun	Gender=Fem|Number=Plur	79	obl	_	_
 82	léinn	léann	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	81	nmod	_	_
 83	agus	agus	CCONJ	Coord	_	86	cc	_	_
 84	lán	lán	NOUN	Noun	Gender=Masc|Number=Sing	71	conj	_	_
@@ -3948,7 +3948,7 @@
 88	naoi	naoi	NUM	Num	Form=Ecl|NumType=Card	89	nummod	_	_
 89	mbéithe	bé	NOUN	Noun	Case=Gen|Form=Ecl|Gender=Fem|NounType=Strong|Number=Plur	81	nmod	_	_
 90	agus	agus	CCONJ	Coord	_	91	cc	_	_
-91	Apolló	Apolló	NOUN	Noun	Gender=Masc|Number=Sing	81	conj	_	SpaceAfter=No
+91	Apolló	Apolló	PROPN	Noun	Gender=Masc|Number=Sing	81	conj	_	SpaceAfter=No
 92	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 608
@@ -5347,7 +5347,7 @@
 3	suas	suas	ADV	Dir	_	1	advmod	_	_
 4	gloine	gloine	NOUN	Noun	Gender=Fem|Number=Sing	1	obj	_	_
 5	bhreá	breá	ADJ	Adj	Gender=Fem|Number=Sing	4	amod	_	_
-6	phint	pint	ADJ	Adj	Degree=Pos|Form=Len	4	amod	_	_
+6	phint	pint	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	4	nmod	_	_
 7	de	de	ADP	Prep	Gender=Masc|Number=Sing|Person=3	4	obl:prep	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	9	punct	_	_
 9	mé	mé	PRON	Pers	Number=Sing|Person=1	1	advcl	_	_
@@ -7073,7 +7073,7 @@
 
 # sent_id = 735
 # text = Cnuasta: na tithe uile cruinn le chéile, e.g. san áit a dtagann bóithre le chéile.
-1	Cnuasta	cnuasta	NOUN	Noun	_	0	root	_	SpaceAfter=No
+1	Cnuasta	cnuasta	ADJ	Adj	_	0	root	_	SpaceAfter=No
 2	:	:	PUNCT	Punct	_	4	punct	_	_
 3	na	na	DET	Art	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
 4	tithe	teach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	1	parataxis	_	_
@@ -9188,7 +9188,7 @@
 89	dhéileálfar	déileáil	VERB	VI	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	14	advcl	_	_
 90	le	le	ADP	Simp	_	91	case	_	_
 91	duine	duine	NOUN	Noun	Gender=Masc|Number=Sing	89	obl	_	_
-92	inmhuirearaithe	inmhuirearaithe	NOUN	Noun	Gender=Fem|Number=Sing	91	nmod	_	_
+92	inmhuirearaithe	inmhuirearaithe	ADJ	Adj	Gender=Masc|Number=Sing	91	amod	_	_
 93	mar	mar	ADP	Simp	_	94	case	_	_
 94	dhuine	duine	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	92	nmod	_	_
 95	a	a	PART	Vb	PartType=Vb|PronType=Rel	96	obl	_	_

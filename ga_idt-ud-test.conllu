@@ -2292,7 +2292,7 @@
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	agus	agus	CCONJ	Coord	_	27	cc	_	_
 26	is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	27	cop	_	_
-27	léar	léar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	conj	_	_
+27	léar	léar	ADJ	Adj	Degree=Pos	6	conj	_	_
 28	sin	sin	PRON	Dem	PronType=Dem	27	nsubj	_	_
 29	ar	ar	ADP	Simp	_	32	case	_	_
 30	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	32	nmod:poss	_	_
@@ -4211,8 +4211,8 @@
 16	agus	agus	CCONJ	Coord	_	18	cc	_	_
 17	do	do	PART	Vb	PartType=Vb	18	mark:prt	_	_
 18	chuir	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	2	conj	_	_
-19	chuin	chuin	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	18	nsubj	_	_
-20	gnótha	gnó	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	19	nmod	_	_
+19	chuin	chuin	ADP	_	_	20	case	_	_
+20	gnótha	gnó	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	18	obl	_	_
 21	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	18	obj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -4529,7 +4529,7 @@
 # sent_id = 188
 # text = Is gnáthach leis an dTaoiseach, Bertie Ahern, tamall de laethanta a chaitheamh san óstán seo gach bliain agus thug sé cúpla lá ann le déanaí.
 1	Is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	2	cop	_	_
-2	gnáthach	gnáthach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
+2	gnáthach	gnáthach	ADJ	Adj	Degree=Pos	0	root	_	_
 3	leis	le	ADP	Simp	_	5	case	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	dTaoiseach	taoiseach	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|NounType=Weak|Number=Plur	2	nmod	_	SpaceAfter=No
@@ -7306,7 +7306,7 @@
 25	agus	agus	CCONJ	Coord	_	28	cc	_	_
 26	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	28	det	_	_
 27	'	'	PUNCT	Punct	_	28	punct	_	SpaceAfter=No
-28	mháthair-chomhlacht	máthair-chomhlacht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	24	conj	_	SpaceAfter=No
+28	mháthair-chomhlacht	máthairchomhlacht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	conj	_	SpaceAfter=No
 29	'	'	PUNCT	Punct	_	28	punct	_	_
 30	in	i	ADP	Simp	_	31	case	_	_
 31	RTÉ	RTÉ	PROPN	Abr	Abbr=Yes	28	nmod	_	SpaceAfter=No
