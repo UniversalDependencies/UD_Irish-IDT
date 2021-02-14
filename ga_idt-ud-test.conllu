@@ -452,7 +452,7 @@
 9	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
 10	neodrachta	neodracht	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	8	obj	_	_
 11	ná	ná	CCONJ	Coord	_	12	cc	_	_
-12	Fine	Fine	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	conj	_	_
+12	Fine	Fine	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	5	conj	_	_
 13	Gael	Gael	PROPN	Noun	_	12	flat	_	_
 14	faoi	faoi	ADP	Simp	_	15	case	_	_
 15	láthair	láthair	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	obl	_	_
@@ -1730,7 +1730,7 @@
 16	céasta	céasta	ADJ	Adj	VerbForm=Part	15	xcomp:pred	_	_
 17	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	16	obl:prep	_	_
 18	ag	ag	ADP	Simp	_	19	case	_	_
-19	smeara	sméar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	15	xcomp	_	_
+19	smeara	sméar	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	15	xcomp	_	_
 20	gúscéimhe	gúscéimhe	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	_
 21	thar	thar	ADP	Simp	_	22	case	_	_
 22	ghaimh	gaimh	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	nmod	_	_
@@ -2006,7 +2006,7 @@
 30	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	18	xcomp	_	_
 31	nasctha	nasctha	ADJ	Adj	VerbForm=Part	30	xcomp:pred	_	_
 32	le	le	ADP	Simp	_	33	case	_	_
-33	fírinne	fírinne	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	31	obl	_	_
+33	fírinne	fírinne	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	31	obl	_	_
 34	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
 35	tSlánaithe	slánú	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	12	punct	_	_
@@ -2627,7 +2627,7 @@
 53	chás	cás	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	50	obl	_	_
 54	iomlán	iomlán	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	53	amod	_	_
 55	san	i	ADP	Art	Number=Sing|PronType=Art	56	case	_	_
-56	Ard-Chúirt	Ard-Chúirt	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	50	obl	_	SpaceAfter=No
+56	Ard-Chúirt	Ard-Chúirt	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	50	obl	_	SpaceAfter=No
 57	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 111
@@ -2638,7 +2638,7 @@
 4	bailithe	bailithe	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
 5	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	4	obl:prep	_	_
 6	go	go	ADP	Simp	_	7	case	_	_
-7	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	obl	_	_
+7	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	obl	_	_
 8	siar	siar	ADV	Dir	_	7	advmod	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	Cáit	Cáit	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	conj	_	_
@@ -2989,7 +2989,7 @@
 31	a'	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	30	flat	_	_
 32	Phoic	poc	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	30	flat	_	_
 33	i	i	ADP	Simp	_	34	case	_	_
-34	gCill	Cill	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Plur	30	obl	_	_
+34	gCill	Cill	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Fem|Number=Plur	30	obl	_	_
 35	Orglan	Orglan	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	34	flat	_	_
 36	uair	uair	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	25	obl:tmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	11	punct	_	_
@@ -3474,7 +3474,7 @@
 12	siúl	siúl	NOUN	Noun	VerbForm=Inf	10	xcomp	_	_
 13	ag	ag	ADP	Simp	_	14	case	_	_
 14	Comhdháil	comhdháil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	12	obl	_	_
-15	Vín	Vín	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	14	flat	_	_
+15	Vín	Vín	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	14	flat	_	_
 16	go	go	PART	Vb	PartType=Cmpl	17	mark:prt	_	_
 17	dtuigfí	tuig	VERB	VTI	Form=Ecl|Mood=Cnd|Voice=Auto	3	ccomp	_	_
 18	go	go	PART	Vb	PartType=Cmpl	19	mark:prt	_	_
@@ -4377,7 +4377,7 @@
 # text = Chuir an Síneach isteach sa chomhrá go tapa.
 1	Chuir	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	Síneach	Síneach	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	nsubj	_	_
+3	Síneach	Síneach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	isteach	isteach	ADV	Dir	_	1	advmod	_	_
 5	sa	i	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
 6	chomhrá	comhrá	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
@@ -5680,7 +5680,7 @@
 13	do	do	ADP	Simp	_	14	case	_	_
 14	scoileanna	scoil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	10	nmod	_	_
 15	Gaeilge	Gaeilge	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	nmod	_	_
-16	Tí	tí	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	14	nmod	_	_
+16	Tí	tí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nmod	_	_
 17	Chulainn	Chulann	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	16	flat	_	_
 18	Co.	contae	PROPN	Abr	Abbr=Yes	17	nmod	_	_
 19	Ard	Ard	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	18	flat	_	_
@@ -6238,7 +6238,7 @@
 59	hÉireann	Éire	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	57	flat	_	SpaceAfter=No
 60	,	,	PUNCT	Punct	_	61	punct	_	_
 61	Sráid	sráid	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	57	nmod	_	_
-62	Chill	Cill	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	61	flat	_	_
+62	Chill	Cill	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	61	flat	_	_
 63	Dara	Dara	PROPN	Noun	_	61	flat	_	_
 64	(	(	PUNCT	Punct	_	65	punct	_	SpaceAfter=No
 65	Bhaile	Baile	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	57	nmod	_	_
@@ -6286,7 +6286,7 @@
 29	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	_
 30	scoile	scoil	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	28	nmod	_	_
 31	i	i	ADP	Simp	_	32	case	_	_
-32	dtreo	treo	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	27	obl	_	_
+32	dtreo	treo	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	27	obl	_	_
 33	dhaonra	daonra	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	32	nmod	_	_
 34	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	tíre	tír	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	33	nmod	_	_
@@ -6790,7 +6790,7 @@
 3	rogha	rogha	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	15	advcl	_	_
 4	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	coitiantachta	coitiantacht	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_
-6	Tiobraid	Tiobraid	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	nsubj	_	_
+6	Tiobraid	Tiobraid	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	3	nsubj	_	_
 7	Árann	Árann	PROPN	Noun	_	6	flat	_	_
 8	chun	chun	ADP	Simp	_	13	case	_	_
 9	craobh	craobh	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	13	obj	_	_
@@ -7071,7 +7071,7 @@
 26	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	nmod	_	_
 27	imirce	imirce	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	26	compound	_	_
 28	go	go	ADP	Simp	_	29	case	_	_
-29	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	17	nmod	_	SpaceAfter=No
+29	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 30	,	,	PUNCT	Punct	_	31	punct	_	_
 31	ag	ag	ADP	Simp	_	32	case	_	_
 32	faire	faire	NOUN	Noun	VerbForm=Vnoun	11	xcomp	_	_
@@ -7156,7 +7156,7 @@
 3	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	4	obl:prep	_	_
 4	bogadh	bogadh	NOUN	Noun	VerbForm=Inf	7	xcomp	_	_
 5	go	go	ADP	Simp	_	6	case	_	_
-6	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	obl	_	_
+6	Meiriceá	Meiriceá	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	obl	_	_
 7	dhein	dein	VERB	VTI	Dialect=Munster|Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 8	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	nsubj	_	_
 9	an-chuid	an-chuid	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	obj	_	_
@@ -8247,7 +8247,7 @@
 36	de	de	ADP	Simp	_	37	case	_	_
 37	Watson's	Watson's	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	34	nmod	_	_
 38	i	i	ADP	Simp	_	39	case	_	_
-39	gCill	Cill	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Plur	34	nmod	_	_
+39	gCill	Cill	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Fem|Number=Plur	34	nmod	_	_
 40	Iníon	iníon	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	39	flat	_	_
 41	Léinín	léan	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	39	flat	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	1	punct	_	_
@@ -8437,7 +8437,7 @@
 24	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
 25	hOllscoile	ollscoil	NOUN	Noun	Case=Gen|Form=HPref|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 26	,	,	PUNCT	Punct	_	27	punct	_	_
-27	Corcaigh	Corcaigh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	23	nmod	_	SpaceAfter=No
+27	Corcaigh	Corcaigh	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	23	nmod	_	SpaceAfter=No
 28	,	,	PUNCT	Punct	_	29	punct	_	_
 29	ar	ar	ADP	Simp	_	31	case	_	_
 30	'	'	PUNCT	Punct	_	31	punct	_	SpaceAfter=No
@@ -8550,7 +8550,7 @@
 13	Éimhín	Éimhín	PROPN	Noun	Case=Gen|Gender=Masc	12	flat	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	Co.	contae	PRON	Abr	Abbr=Yes	12	nmod	_	_
-16	Chill	Cill	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	15	flat	_	_
+16	Chill	Cill	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	15	flat	_	_
 17	Dara	Dara	PROPN	Noun	_	16	flat	_	_
 18	agus	agus	CCONJ	Coord	_	19	cc	_	_
 19	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	conj	_	_
@@ -11035,7 +11035,7 @@
 14	mar	mar	SCONJ	Subord	_	19	mark	_	_
 15	ar	ar	ADP	Simp	_	17	case	_	_
 16	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
-17	tsaol	saol	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	_
+17	tsaol	saol	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	_
 18	seo	seo	DET	Det	PronType=Dem	17	det	_	_
 19	tagann	tar	VERB	VI	Mood=Ind|Tense=Pres	10	advcl	_	_
 20	chuile	gach_uile	DET	Det	Definite=Def	21	det	_	_
