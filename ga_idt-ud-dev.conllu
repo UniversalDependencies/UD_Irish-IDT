@@ -2401,7 +2401,7 @@
 11	Láirge	Láirge	PROPN	Noun	Gender=Masc|Number=Sing	10	flat	_	_
 12	ar	ar	ADP	Simp	_	13	case	_	_
 13	cosa-in-airde	cosa-in-airde	NOUN	Noun	Gender=Fem|Number=Sing	8	obl	_	_
-14	im	im	ADP	Det	Number=Sing|Person=1|Poss=Yes	15	case	_	_
+14	im	i_mo	ADP	_	Number=Sing|Person=1|Poss=Yes	15	case	_	_
 15	aonar	aonar	NOUN	Noun	Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -6713,7 +6713,7 @@
 47	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
 48	céadtadán	céatadán	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	57	obj	_	_
 49	íseal	íseal	ADJ	Adj	Gender=Masc|Number=Sing	48	amod	_	_
-50	rannpáirtíochta	rannpháirtíocht	ADJ	Adj	Typo=Yes|VerbForm=Part	48	amod	_	_
+50	rannpáirtíochta	rannpháirtíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	48	nmod	_	_
 51	i	i	ADP	Simp	_	52	case	_	_
 52	gcás	cás	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	48	nmod	_	_
 53	aicmí	aicme	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	52	nmod	_	_
@@ -9010,11 +9010,11 @@
 39	ná	ná	CCONJ	Coord	_	40	cc	_	_
 40	sin	sin	PRON	Dem	PronType=Dem	35	conj	_	SpaceAfter=No
 41	,	,	PUNCT	Punct	_	42	punct	_	_
-42	eadar	eadar	NOUN	Noun	Gender=Masc|Number=Sing	29	nmod	_	_
+42	eadar	idir	ADP	_	_	44	case	_	_
 43	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
-44	fhilíocht	filíocht	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	42	nmod	_	_
+44	fhilíocht	filíocht	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	35	obl	_	_
 45	agus	agus	CCONJ	Coord	_	46	cc	_	_
-46	éachtaí	éacht	NOUN	Noun	Gender=Masc|Number=Plur	42	conj	_	_
+46	éachtaí	éacht	NOUN	Noun	Gender=Masc|Number=Plur	44	conj	_	_
 47	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
 48	tsaoil	saol	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	46	nmod	_	SpaceAfter=No
 49	,	,	PUNCT	Punct	_	50	punct	_	_
@@ -9173,7 +9173,7 @@
 74	a	a	PART	Vb	PartType=Vb|PronType=Rel	75	obl	_	_
 75	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	73	acl:relcl	_	_
 76	le	le	ADP	Simp	_	77	case	_	_
-77	bailiú	bailigh	NOUN	Noun	VerbForm=Inf	75	xcomp	_	_
+77	bailiú	bailiú	NOUN	Noun	VerbForm=Inf	75	xcomp	_	_
 78	i	i	ADP	Simp	_	79	case	_	_
 79	dtráthchodanna	tráthchuid	NOUN	Noun	Gender=Fem|Number=Plur	77	obl	_	_
 80	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	81	case	_	_

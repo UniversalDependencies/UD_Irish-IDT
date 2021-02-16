@@ -88,7 +88,7 @@
 15	Mac	mac	PART	Pat	PartType=Pat	14	flat:name	_	_
 16	Diarmada	Diarmaid	PROPN	Noun	Case=Gen|Gender=Masc	14	flat:name	_	_
 17	ag	ag	ADP	Simp	_	18	case	_	_
-18	bailiú	bailigh	NOUN	Noun	VerbForm=Vnoun	13	xcomp	_	_
+18	bailiú	bailiú	NOUN	Noun	VerbForm=Vnoun	13	xcomp	_	_
 19	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	18	obl:prep	_	_
 20	ag	ag	ADP	Simp	_	22	case	_	_
 21	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
@@ -193,7 +193,7 @@
 # sent_id = 8
 # text = Sa seanam, d'imíodh sealgairí go Corrán Binne ag crochaireacht i gcuracha céasla le héin a ribeadh agus a chaitheamh.
 1	Sa	i	ADP	Art	Number=Sing|PronType=Art	2	case	_	_
-2	seanam	seanam	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+2	seanam	sean-am	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	2	punct	_	_
 4	d'	do	PART	Vb	PartType=Vb	5	mark:prt	_	SpaceAfter=No
 5	imíodh	imigh	VERB	VI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
@@ -295,7 +295,7 @@
 # sent_id = 14
 # text = 'Cad chuige nach n-abrófá féin staic d'amhrán dúinn, is gur tú an fear ceoil is fearr ar an mbaile?
 1	'	'	PUNCT	Punct	_	5	punct	_	SpaceAfter=No
-2	Cad	cad	ADV	Q	PronType=Int	5	obl	_	_
+2	Cad	cad	PRON	Q	PronType=Int	5	obl	_	_
 3	chuige	chuig	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	obl:prep	_	_
 4	nach	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	5	mark:prt	_	_
 5	n-abrófá	abair	VERB	Cond	Form=Ecl|Mood=Cnd|Number=Sing|Person=2	0	root	_	_
@@ -1680,7 +1680,7 @@
 2	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	3	det	_	_
 3	fhios	fios	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	agat	ag	ADP	Prep	Number=Sing|Person=2	1	obl:prep	_	_
-5	cad	cad	DET	Det	PronType=Int	1	ccomp	_	_
+5	cad	cad	PRON	Q	PronType=Int	1	ccomp	_	_
 6	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	éagóir	éagóir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -5412,7 +5412,7 @@
 4	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	2	acl:relcl	_	_
 5	muid	muid	PRON	Pers	Number=Plur|Person=1	4	nsubj	_	_
 6	ag	ag	ADP	Simp	_	7	case	_	_
-7	brath	braith	NOUN	Noun	VerbForm=Vnoun	4	xcomp	_	_
+7	brath	brath	NOUN	Noun	VerbForm=Vnoun	4	xcomp	_	_
 8	chun	chun	ADP	Simp	_	12	case	_	_
 9	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	12	obj	_	_
 10	sin	sin	PRON	Dem	PronType=Dem	9	det	_	_
@@ -7048,7 +7048,7 @@
 3	mé	mé	PRON	Pers	Number=Sing|Person=1	2	nsubj	_	_
 4	di	do	ADP	Prep	Gender=Fem|Number=Sing|Person=3	2	obl:prep	_	_
 5	gurbh	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	6	cop	_	_
-6	iomaí	iomaí	DET	Det	Definite=Def	2	ccomp	_	_
+6	iomaí	iomaí	ADJ	_	Degree=Pos	2	ccomp	_	_
 7	athair	athair	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	nsubj	_	_
 8	agus	agus	CCONJ	Coord	_	9	cc	_	_
 9	máthair	máthair	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	conj	_	_
@@ -10063,7 +10063,7 @@
 
 # sent_id = 394
 # text = Ha?
-1	Ha	Ha	INTJ	Itj	_	0	root	_	SpaceAfter=No
+1	Ha	ha	INTJ	Itj	_	0	root	_	SpaceAfter=No
 2	?	?	PUNCT	?	_	1	punct	_	_
 
 # sent_id = 395
