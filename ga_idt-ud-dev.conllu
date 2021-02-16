@@ -47,7 +47,7 @@
 16	mé	mé	PRON	Pers	Number=Sing|Person=1	15	nsubj	_	_
 17	cinnte	cinnte	ADJ	Adj	Degree=Pos	15	xcomp:pred	_	_
 18	gur	gur	PART	Vb	PartType=Vb|Tense=Past	19	mark:prt	_	_
-19	baineadh	bain	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	15	ccomp	_	_
+19	baineadh	bain	VERB	VTI	Mood=Ind|Person=0|Tense=Past	15	ccomp	_	_
 20	scanradh	scanradh	NOUN	Noun	Gender=Masc|Number=Sing	19	obj	_	_
 21	asat	as	ADP	Prep	Number=Sing|Person=2	19	obl:prep	_	SpaceAfter=No
 22	,	,	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
@@ -466,7 +466,7 @@
 15	sin	sin	DET	Det	PronType=Dem	14	det	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	17	punct	_	_
 17	agus	agus	CCONJ	Coord	_	18	cc	_	_
-18	caitheadh	caith	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	conj	_	_
+18	caitheadh	caith	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 19	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	coirp	corp	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	18	obj	_	_
 21	isteach	isteach	ADV	Dir	_	20	advmod	_	_
@@ -894,7 +894,7 @@
 1	Ar	ar	ADP	Simp	_	2	case	_	_
 2	gcúl	cúl	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	4	obl	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	2	punct	_	_
-4	taispeántar	taispeáin	VERB	VT	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+4	taispeántar	taispeáin	VERB	VT	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 5	slua	slua	NOUN	Noun	Gender=Masc|Number=Sing	4	obj	_	_
 6	ag	ag	ADP	Simp	_	7	case	_	_
 7	iarraidh	iarraidh	NOUN	Noun	VerbForm=Vnoun	4	xcomp	_	_
@@ -1119,7 +1119,7 @@
 6	,	,	PUNCT	Punct	_	3	punct	_	_
 7	ámh	ámh	ADV	Gn	_	9	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	7	punct	_	_
-9	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+9	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 10	alt	alt	NOUN	Noun	Gender=Masc|Number=Sing	9	obj	_	_
 11	taighde	taighde	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	sa	i	ADP	Art	Number=Sing|PronType=Art	13	case	_	_
@@ -1145,7 +1145,7 @@
 
 # sent_id = 505
 # text = Déantar ar an gcaoi sin den fhéar suaithinseach an paiste slán i lár na ndriseacha agus na bhfiailí inar luigh slán an 'abhlainn bheannaithe a thit uainn fadó', siombail na glaineachta agus na neamhurchóide agus an bhearna trína dtiocfar ar an mbeatha spioradálta atá ionann is ceilte agus plúchta ag na fiailí, ar mar a chéile iad agus an ghné aimrid de nádúr an duine.
-1	Déantar	déan	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Déantar	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	ar	ar	ADP	Simp	_	4	case	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	gcaoi	caoi	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	1	obl	_	_
@@ -1186,7 +1186,7 @@
 39	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
 40	bhearna	bearna	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	34	conj	_	_
 41	trína	trí	PART	Rel	PronType=Rel	42	obl	_	_
-42	dtiocfar	tar	VERB	VI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	40	acl:relcl	_	_
+42	dtiocfar	tar	VERB	VI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	40	acl:relcl	_	_
 43	ar	ar	ADP	Simp	_	45	case	_	_
 44	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	45	det	_	_
 45	mbeatha	beatha	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	42	obl	_	_
@@ -1354,7 +1354,7 @@
 
 # sent_id = 510
 # text = Féadfar an ráiteas sin a fhorlíonadh le measúnú sonrach ar gach mór-réimse de ghníomhaíocht an Chomhphobail.
-1	Féadfar	féad	VERB	VTI	Mood=Ind|Tense=Fut|Voice=Auto	0	root	_	_
+1	Féadfar	féad	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	ráiteas	ráiteas	NOUN	Noun	Gender=Masc|Number=Sing	1	obj	_	_
 4	sin	sin	DET	Det	PronType=Dem	3	det	_	_
@@ -1392,7 +1392,7 @@
 16	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	17	det	_	_
 17	tairne	tairne	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_
 18	d'	do	PART	Vb	PartType=Vb	19	mark:prt	_	SpaceAfter=No
-19	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Voice=Auto	12	parataxis	_	_
+19	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Person=0	12	parataxis	_	_
 20	brath	brath	NOUN	Noun	Gender=Masc|Number=Sing	19	obj	_	_
 21	orthu	ar	ADP	Prep	Number=Plur|Person=3	19	obl:prep	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	_	_
@@ -1447,7 +1447,7 @@
 
 # sent_id = 514
 # text = Meastar go mbeidh deichniúr ag freastal ar an mbunscoil nua nuair a osclaíonn sí i Meán Fómhair seo chugainn, agus go gclárófar cúig pháiste déag eile sa scoil an bhliain ina dhiaidh sin.
-1	Meastar	meas	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Meastar	meas	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	go	go	PART	Vb	PartType=Cmpl	3	mark:prt	_	_
 3	mbeidh	bí	VERB	FutInd	Form=Ecl|Mood=Ind|Tense=Fut	1	ccomp	_	_
 4	deichniúr	deichniúr	NOUN	Noun	Gender=Masc|Number=Sing	3	nsubj	_	_
@@ -1469,7 +1469,7 @@
 20	,	,	PUNCT	Punct	_	23	punct	_	_
 21	agus	agus	CCONJ	Coord	_	23	cc	_	_
 22	go	go	PART	Vb	PartType=Cmpl	23	mark:prt	_	_
-23	gclárófar	cláraigh	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	3	conj	_	_
+23	gclárófar	cláraigh	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	3	conj	_	_
 24	cúig	cúig	NUM	Num	NumType=Card	25	nummod	_	_
 25	pháiste	páiste	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	23	obj	_	_
 26	déag	déag	NOUN	Subst	Number=Sing	24	compound	_	_
@@ -1928,7 +1928,7 @@
 # text = Nuair a fhágtar cuid de na plaistigh faoi sholas díreach na gréine teipeann ar a gcuid solúbthachta agus is minic a scoilteann siad.
 1	Nuair	nuair	SCONJ	Subord	_	3	mark	_	_
 2	a	a	PART	Vb	PartType=Vb|PronType=Rel	3	mark:prt	_	_
-3	fhágtar	fág	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres|Voice=Auto	13	advcl	_	_
+3	fhágtar	fág	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	13	advcl	_	_
 4	cuid	cuid	NOUN	Noun	Gender=Fem|Number=Sing	3	obj	_	_
 5	de	de	ADP	Simp	_	7	case	_	_
 6	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
@@ -2085,10 +2085,10 @@
 # sent_id = 536
 # text = Agus tchítear domhsa go ndearnadh leithcheal orthu.
 1	Agus	agus	SCONJ	Subord	_	2	mark	_	_
-2	tchítear	feic	VERB	PresInd	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+2	tchítear	feic	VERB	PresInd	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 3	domhsa	do	ADP	Prep	Dialect=Ulster|Form=Emp|Number=Sing|Person=1	2	obl:prep	_	_
 4	go	go	PART	Vb	PartType=Cmpl	5	mark:prt	_	_
-5	ndearnadh	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past|Voice=Auto	2	ccomp	_	_
+5	ndearnadh	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Past	2	ccomp	_	_
 6	leithcheal	leithcheal	NOUN	Noun	Gender=Masc|Number=Sing	5	obj	_	_
 7	orthu	ar	ADP	Prep	Number=Plur|Person=3	5	obl:prep	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
@@ -2101,7 +2101,7 @@
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	tiománaí	tiománaí	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
 6	agus	agus	CCONJ	Coord	_	7	cc	_	_
-7	cailleadh	caill	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	conj	_	_
+7	cailleadh	caill	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 8	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	7	obj	_	_
 9	d'	de	ADP	Simp	_	10	case	_	SpaceAfter=No
 10	easpa	easpa	NOUN	Noun	Gender=Fem|Number=Sing	7	obl	_	_
@@ -2440,7 +2440,7 @@
 17	gearán	gearán	NOUN	Noun	Gender=Masc|Number=Sing	16	nmod	_	_
 18	inmheánach	inmheánach	ADJ	Adj	Gender=Masc|Number=Sing	17	amod	_	_
 19	faoina	faoi	PART	Rel	PronType=Rel	20	obl	_	_
-20	bhféadfaí	féad	VERB	VTI	Form=Ecl|Mood=Cnd|Voice=Auto	16	acl:relcl	_	_
+20	bhféadfaí	féad	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	16	acl:relcl	_	_
 21	gearán	gearán	NOUN	Noun	Gender=Masc|Number=Sing	23	obj	_	_
 22	a	a	PART	Inf	PartType=Inf	23	mark	_	_
 23	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	20	xcomp	_	_
@@ -2555,7 +2555,7 @@
 12	oileán	oileán	NOUN	Noun	Gender=Masc|Number=Sing	11	nsubj	_	_
 13	beag	beag	ADJ	Adj	Gender=Masc|Number=Sing	12	amod	_	_
 14	go	go	PART	Vb	PartType=Cmpl	15	mark:prt	_	_
-15	nglaoitear	glaoigh	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	11	ccomp	_	_
+15	nglaoitear	glaoigh	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	11	ccomp	_	_
 16	Boilg	boilg	NOUN	Noun	Gender=Fem|Number=Sing	15	obj	_	_
 17	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	16	flat	_	_
 18	Chruaidh	Chruaidh	NOUN	Noun	Gender=Masc|Number=Sing	16	flat	_	_
@@ -2828,7 +2828,7 @@
 
 # sent_id = 566
 # text = Saothraítear an Cheathrú Uain sa chaoi go mbíonn teacht ar na duilleoga sa gheimhreadh.
-1	Saothraítear	saothraigh	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Saothraítear	saothraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Cheathrú	ceathrú	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	1	obj	_	_
 4	Uain	uan	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	flat	_	_
@@ -2846,7 +2846,7 @@
 
 # sent_id = 567
 # text = Díríodh lá amháin den tseimineár seo ar fhorbairt an tionscnaimh, SCÉAL, agus ag labhairt anseo bhí an Stiúrthóir Marial Hannon, a thug léargas ar bhunús agus todhchaí an tionscnaimh, an léiritheoir teilifíse, Concubhar Ó Liatháin a léirigh mar a raibh an scéim fite fuaite le traidisiún scéalaíochta na hÉireann agus An Dr. Pádraig Ó Criomhthainn ó Choláiste na hOllscoile, Baile Átha Cliath, a mhínigh conas mar a d'fhéadfaí córais nua teileachumarsáide, an Internet mar shampla, a úsáid chun SCÉAL a insint ar fud an domhain.
-1	Díríodh	dírigh	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Díríodh	dírigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	lá	lá	NOUN	Noun	Gender=Masc|Number=Sing	1	obj	_	_
 3	amháin	amháin	ADJ	Adj	Gender=Masc|Number=Sing	2	amod	_	_
 4	den	de	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
@@ -2921,7 +2921,7 @@
 73	mar	mar	SCONJ	Subord	_	76	mark	_	_
 74	a	a	PART	Vb	PartType=Vb|PronType=Rel	76	mark:prt	_	_
 75	d'	do	PART	Vb	PartType=Vb	76	mark:prt	_	SpaceAfter=No
-76	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Voice=Auto	71	ccomp	_	_
+76	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Person=0	71	ccomp	_	_
 77	córais	córas	NOUN	Noun	Gender=Masc|Number=Plur	87	obj	_	_
 78	nua	nua	ADJ	Adj	Degree=Pos	77	amod	_	_
 79	teileachumarsáide	teileachumarsáid	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
@@ -3035,7 +3035,7 @@
 
 # sent_id = 572
 # text = Duradh gur seo ceann dena fadhbanna is mó atá sa cheantar.
-1	Duradh	abair	VERB	VTI	Mood=Ind|Tense=Past|Typo=Yes|Voice=Auto	0	root	_	_
+1	Duradh	abair	VERB	VTI	Mood=Ind|Person=0|Tense=Past|Typo=Yes	0	root	_	_
 2	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 3	seo	seo	PRON	Dem	PronType=Dem	1	ccomp	_	_
 4	ceann	ceann	NOUN	Noun	Gender=Masc|Number=Sing	3	nmod	_	_
@@ -3391,7 +3391,7 @@
 11	de	de	ADP	Simp	_	12	case	_	_
 12	bhrí	brí	NOUN	Noun	Form=Len|Gender=Fem|Number=Sing	1	obl	_	_
 13	gur	gur	PART	Vb	PartType=Vb|Tense=Past	14	mark:prt	_	_
-14	glacadh	glac	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	1	ccomp	_	_
+14	glacadh	glac	VERB	VT	Mood=Ind|Person=0|Tense=Past	1	ccomp	_	_
 15	lena	le	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	16	case	_	_
 16	hathréimiú	athréimiú	NOUN	Noun	VerbForm=Inf	14	obl	_	_
 17	mar	mar	ADP	Simp	_	18	case	_	_
@@ -3428,7 +3428,7 @@
 # sent_id = 589
 # text = An dtuigtear fós sa tír seo cé chomh mór de athrú is a bhí ansin?
 1	An	an	PART	Vb	PartType=Vb	2	mark:prt	_	_
-2	dtuigtear	tuig	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+2	dtuigtear	tuig	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 3	fós	fós	ADV	Gn	_	2	advmod	_	_
 4	sa	i	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
 5	tír	tír	NOUN	Noun	Gender=Fem|Number=Sing	2	obl	_	_
@@ -3494,7 +3494,7 @@
 
 # sent_id = 592
 # text = Deisíodh an rothar ag Seán.
-1	Deisíodh	deisigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Deisíodh	deisigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	rothar	rothar	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
 4	ag	ag	ADP	Simp	_	5	case	_	_
@@ -3695,7 +3695,7 @@
 
 # sent_id = 600
 # text = Bunaíodh Gailearaí Náisiúnta na hÉireann de réir Acht Parlaiminte i 1854 agus osclaíodh don phobal í i 1864.
-1	Bunaíodh	bunaigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Bunaíodh	bunaigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	Gailearaí	gailearaí	PROPN	Noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	Náisiúnta	náisiúnta	PROPN	Noun	Degree=Pos	2	flat	_	_
 4	na	na	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	flat	_	_
@@ -3707,7 +3707,7 @@
 10	i	i	ADP	Simp	_	11	case	_	_
 11	1854	1854	NUM	Num	_	1	obl:tmod	_	_
 12	agus	agus	CCONJ	Coord	_	13	cc	_	_
-13	osclaíodh	oscail	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	conj	_	_
+13	osclaíodh	oscail	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 14	don	do	ADP	Art	Number=Sing|PronType=Art	15	case	_	_
 15	phobal	pobal	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	13	obl	_	_
 16	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	13	obj	_	_
@@ -3980,7 +3980,7 @@
 9	sin	sin	DET	Det	PronType=Dem	8	nsubj	_	_
 10	le	le	ADP	Simp	_	11	case	_	_
 11	rá	rá	NOUN	Noun	VerbForm=Inf	8	xcomp	_	_
-12	meascadh	measc	VERB	PastInd	Mood=Ind|Tense=Past|Voice=Auto	11	nmod	_	_
+12	meascadh	measc	VERB	PastInd	Mood=Ind|Person=0|Tense=Past	11	nmod	_	_
 13	síol	síol	NOUN	Noun	Gender=Masc|Number=Sing	12	obj	_	_
 14	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	15	det	_	_
 15	croise	cros	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	13	nmod	_	_
@@ -4188,7 +4188,7 @@
 44	go	go	ADP	Cmpd	PrepForm=Cmpd	47	mark	_	_
 45	dtí	dtí	ADP	Cmpd	PrepForm=Cmpd	44	fixed	_	_
 46	go	go	PART	Vb	PartType=Cmpl	47	mark:prt	_	_
-47	ndéanfar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	31	ccomp	_	_
+47	ndéanfar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	31	ccomp	_	_
 48	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	49	det	_	_
 49	t-achomharc	achomharc	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	51	obj	_	_
 50	a	a	PART	Inf	PartType=Inf	51	mark	_	_
@@ -4210,7 +4210,7 @@
 66	a	a	PART	Inf	PartType=Inf	67	mark	_	_
 67	ordú	ordú	NOUN	Noun	VerbForm=Inf	55	xcomp	_	_
 68	go	go	PART	Vb	PartType=Cmpl	69	mark:prt	_	_
-69	bhfionrófar	fionraigh	VERB	FutInd	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	67	ccomp	_	_
+69	bhfionrófar	fionraigh	VERB	FutInd	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	67	ccomp	_	_
 70	oibriú	oibriú	NOUN	Noun	VerbForm=Inf	69	obj	_	_
 71	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	72	det	_	_
 72	fhógra	fógra	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	70	nmod	_	_
@@ -4295,7 +4295,7 @@
 2	i	i	ADP	Simp	_	3	case	_	_
 3	bhfógra	fógra	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	25	obl	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	obj	_	_
-5	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	3	acl:relcl	_	_
+5	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	3	acl:relcl	_	_
 6	ag	ag	ADP	Simp	_	7	case	_	_
 7	dream	dream	NOUN	Noun	Gender=Masc|Number=Sing	5	obl	_	_
 8	darb	dar	SCONJ	Subord	VerbForm=Cop	9	mark	_	_
@@ -4315,7 +4315,7 @@
 22	seo	seo	DET	Det	PronType=Dem	21	det	_	_
 23	caite	caite	ADJ	Adj	VerbForm=Part	22	fixed	_	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	3	punct	_	_
-25	cuirtear	cuir	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+25	cuirtear	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 26	i	i	ADP	Simp	_	27	case	_	_
 27	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	25	obl	_	_
 28	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
@@ -4408,7 +4408,7 @@
 6	láthair	láthair	ADP	Cmpd	PrepForm=Cmpd	5	fixed	_	_
 7	tráth	tráth	NOUN	Noun	Gender=Masc|Number=Sing	4	obl:tmod	_	_
 8	a	a	PART	Vb	PartType=Vb|PronType=Rel	9	obl	_	_
-9	fógraíodh	fógair	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	7	acl:relcl	_	_
+9	fógraíodh	fógair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	7	acl:relcl	_	_
 10	seo	seo	PRON	Dem	PronType=Dem	9	obj	_	_
 11	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	parataxis	_	_
 12	Mary	Mary	PROPN	Noun	Gender=Fem|Number=Sing	9	nsubj	_	_
@@ -4501,7 +4501,7 @@
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	tsíocháin	síocháin	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	10	advcl	_	_
 25	a	a	PART	Vb	PartType=Vb|PronType=Rel	26	mark	_	_
-26	deineadh	déan	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	14	xcomp	_	_
+26	deineadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	14	xcomp	_	_
 27	ó	ó	ADV	Dir	_	26	advmod	_	_
 28	thuaidh	thuaidh	ADV	Dir	_	26	advmod	_	SpaceAfter=No
 29	.	.	PUNCT	.	_	10	punct	_	_
@@ -4511,7 +4511,7 @@
 1	Is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	cinnte	cinnte	ADJ	Adj	Degree=Pos	0	root	_	_
 3	go	go	PART	Vb	PartType=Vb	4	mark:prt	_	_
-4	bhfoilseofar	foilsigh	VERB	VT	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	2	csubj:cop	_	_
+4	bhfoilseofar	foilsigh	VERB	VT	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	2	csubj:cop	_	_
 5	go	go	PART	Ad	PartType=Ad	6	mark:prt	_	_
 6	luath	luath	ADJ	Adj	Degree=Pos	4	advmod	_	_
 7	figiúirí	figiúr	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	4	obj	_	_
@@ -4552,7 +4552,7 @@
 11	mbaile	baile	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	6	nsubj	_	_
 12	fearainn	fearann	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	_
 13	nach	nach	PART	Vb	PartType=Vb|PronType=Rel	14	mark:prt	_	_
-14	dtugtar	tabhair	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	6	ccomp	_	_
+14	dtugtar	tabhair	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	6	ccomp	_	_
 15	aitheantas	aitheantas	NOUN	Noun	Gender=Masc|Number=Sing	14	obj	_	_
 16	díobhtha	de	ADP	Prep	Number=Plur|Person=3	14	obl:prep	_	_
 17	i	i	ADP	Simp	_	18	case	_	_
@@ -4913,7 +4913,7 @@
 
 # sent_id = 646
 # text = Scorfar na fostaithe seo ag deireadh na seachtaine agus rachaidh an chuid eile den fhoireann ar sheachtain ghairid oibre ar an 26ú Márta.
-1	Scorfar	scoir	VERB	VTI	Mood=Ind|Tense=Fut|Voice=Auto	0	root	_	_
+1	Scorfar	scoir	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	fostaithe	fostaí	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	1	obj	_	_
 4	seo	seo	DET	Det	PronType=Dem	3	det	_	_
@@ -5022,7 +5022,7 @@
 
 # sent_id = 650
 # text = Aithnítear gur gné thábhachtach i bhforbairt an fhórsa saothair go bhféadfar teacht ar na haltraí rollaithe atá ag iarraidh an cúrsa cláraithe a dhéanamh agus cuidiú leo sin a dhéanamh.
-1	Aithnítear	aithin	VERB	VT	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Aithnítear	aithin	VERB	VT	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	3	cop	_	_
 3	gné	gné	NOUN	Noun	Gender=Fem|Number=Sing	1	ccomp	_	_
 4	thábhachtach	tábhachtach	ADJ	Adj	Gender=Fem|Number=Sing	3	amod	_	_
@@ -5032,7 +5032,7 @@
 8	fhórsa	fórsa	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
 9	saothair	saothar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	8	nmod	_	_
 10	go	go	PART	Vb	PartType=Cmpl	11	mark:prt	_	_
-11	bhféadfar	féad	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	1	ccomp	_	_
+11	bhféadfar	féad	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	1	ccomp	_	_
 12	teacht	teacht	NOUN	Noun	VerbForm=Inf	11	obj	_	_
 13	ar	ar	ADP	Simp	_	15	case	_	_
 14	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
@@ -5068,7 +5068,7 @@
 # sent_id = 652
 # text = Ach crochadh an tUrramhach James Porter láimh lena theach pobail féin ar an Mhainistir Liath, Co. Ach d'airigh sé gur dhúisigh an t-uisce láithreach é agus go raibh sé ag aireachtáil níos fearr.
 1	Ach	ach	SCONJ	Subord	_	2	mark	_	_
-2	crochadh	croch	VERB	PastInd	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+2	crochadh	croch	VERB	PastInd	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	tUrramhach	urramach	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	2	obj	_	_
 5	James	James	PROPN	Noun	_	4	flat	_	_
@@ -5154,7 +5154,7 @@
 20	ní	is	AUX	Cop	Tense=Pres|VerbForm=Cop	21	cop	_	_
 21	móide	mór	ADJ	Adj	Degree=Cmp,Sup	17	ccomp	_	_
 22	go	go	PART	Vb	PartType=Cmpl	23	mark:prt	_	_
-23	ndéanfar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	21	csubj:cop	_	_
+23	ndéanfar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	21	csubj:cop	_	_
 24	dearmad	dearmad	NOUN	Noun	Gender=Masc|Number=Sing	23	obj	_	_
 25	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	23	obl:prep	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	6	punct	_	_
@@ -5398,7 +5398,7 @@
 11	orm	ar	ADP	Prep	Number=Sing|Person=1	1	obl:prep	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	ó	ó	SCONJ	Subord	_	14	mark	_	_
-14	scríobhadh	scríobh	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	advcl	_	_
+14	scríobhadh	scríobh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	advcl	_	_
 15	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
 16	léirmheas	léirmheas	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	14	obj	_	_
 17	sin	sin	DET	Det	PronType=Dem	16	det	_	SpaceAfter=No
@@ -5428,7 +5428,7 @@
 4	gaol	gaol	NOUN	Noun	Gender=Masc|Number=Sing	1	parataxis	_	_
 5	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	4	obl:prep	_	_
 6	a	a	PART	Vb	PartType=Vb|PronType=Rel	7	obj	_	_
-7	fhaightear	faigh	VERB	VT	Form=Len|Mood=Ind|Tense=Pres|Voice=Auto	4	acl:relcl	_	_
+7	fhaightear	faigh	VERB	VT	Form=Len|Mood=Ind|Person=0|Tense=Pres	4	acl:relcl	_	_
 8	sa	i	ADP	Art	Number=Sing|PronType=Art	9	case	_	_
 9	Mheánmhuir	Meánmhuir	PROPN	Noun	Form=Len|Gender=Fem|Number=Sing	7	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	1	punct	_	_
@@ -5528,7 +5528,7 @@
 23	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	Lá	lá	NOUN	Noun	Gender=Masc|Number=Sing	1	conj	_	_
 25	a	a	PART	Vb	PartType=Vb|PronType=Rel	26	obl:tmod	_	_
-26	cuireadh	cuir	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	24	acl:relcl	_	_
+26	cuireadh	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Past	24	acl:relcl	_	_
 27	Butt	Butt	PROPN	Noun	Gender=Masc|Number=Sing	26	obj	_	_
 28	agus	agus	CCONJ	Coord	_	30	cc	_	_
 29	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	30	det	_	_
@@ -5554,7 +5554,7 @@
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 4	18ú	18	NUM	Num	NumType=Ord	5	amod	_	_
 5	aois	aois	NOUN	Noun	Gender=Fem|Number=Sing	2	nmod	_	_
-6	baineadh	bain	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+6	baineadh	bain	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 7	úsáid	úsáid	NOUN	Noun	Gender=Fem|Number=Sing	6	obj	_	_
 8	fhorleathan	forleathan	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	7	amod	_	_
 9	as	as	ADP	Simp	_	10	case	_	_
@@ -5568,7 +5568,7 @@
 
 # sent_id = 675
 # text = Rinneadh slad ar na ceantair is boichte agus ní de thaisme gur tharla sé mar sin.
-1	Rinneadh	déan	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	slad	slad	NOUN	Noun	Gender=Masc|Number=Sing	1	obj	_	_
 3	ar	ar	ADP	Simp	_	5	case	_	_
 4	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
@@ -5637,7 +5637,7 @@
 6	dom	do	ADP	Prep	Number=Sing|Person=1	1	obl:prep	_	_
 7	anseo	anseo	ADV	Loc	_	1	advmod	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	9	punct	_	_
-9	tugadh	tabhair	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	conj	_	_
+9	tugadh	tabhair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 10	tí	tí	NOUN	Noun	Gender=Masc|Number=Sing	9	obj	_	_
 11	Tom	Tom	PROPN	Noun	Gender=Masc|Number=Sing	10	nmod	_	_
 12	Tommy	Tommy	PROPN	Noun	Gender=Masc|Number=Sing	11	flat:name	_	_
@@ -5659,7 +5659,7 @@
 4	agus	agus	CCONJ	Coord	_	5	cc	_	_
 5	seirbhís	seirbhís	NOUN	Noun	Gender=Fem|Number=Sing	3	conj	_	_
 6	a	a	PART	Vb	PartType=Vb|PronType=Rel	7	obj	_	_
-7	fhógrófar	fógair	VERB	VTI	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	3	acl:relcl	_	_
+7	fhógrófar	fógair	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Fut	3	acl:relcl	_	_
 8	faoi	faoi	ADP	Simp	_	10	nmod	_	_
 9	réir	réir	NOUN	Noun	Gender=Fem|Number=Sing	8	fixed	_	_
 10	scrúdaithe	scrúdú	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
@@ -5715,7 +5715,7 @@
 # text = mar a deirtear sa Bhéarla.
 1	mar	mar	SCONJ	Subord	_	3	mark	_	_
 2	a	a	PART	Vb	PartType=Vb|PronType=Rel	3	mark:prt	_	_
-3	deirtear	abair	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+3	deirtear	abair	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 4	sa	i	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
 5	Bhéarla	béarla	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	3	obl	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	3	punct	_	_
@@ -5849,7 +5849,7 @@
 # text = Mar a dúradh sa Champion 1915: Níor leor d'Éamonn agus dá bhean a bheith ag moladh do dhaoine an Ghaeilge a fhoghlaim.
 1	Mar	mar	SCONJ	Subord	_	3	mark	_	_
 2	a	a	PART	Vb	PartType=Vb|PronType=Rel	3	mark:prt	_	_
-3	dúradh	abair	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	9	advcl	_	_
+3	dúradh	abair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	9	advcl	_	_
 4	sa	i	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
 5	Champion	Champion	PROPN	Noun	Foreign=Yes	3	obl	_	_
 6	1915	1915	NUM	Num	_	5	nmod	_	SpaceAfter=No
@@ -5893,7 +5893,7 @@
 16	fiosrú	fiosrú	NOUN	Noun	VerbForm=Inf	13	nmod	_	_
 17	réasúnach	réasúnach	ADJ	Adj	Degree=Pos	16	amod	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	4	punct	_	_
-19	féadfar	féad	VERB	VTI	Mood=Ind|Tense=Fut|Voice=Auto	0	root	_	_
+19	féadfar	féad	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 20	fógra	fógra	NOUN	Noun	Gender=Masc|Number=Sing	19	obj	_	_
 21	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	22	case	_	_
 22	Acht	acht	NOUN	Noun	Gender=Masc|Number=Sing	20	nmod	_	_
@@ -6069,7 +6069,7 @@
 10	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	11	det	_	_
 11	nithe	ní	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	8	nmod	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	obj	_	_
-13	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	8	acl:relcl	_	_
+13	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	8	acl:relcl	_	_
 14	a	a	PART	Inf	PartType=Inf	15	mark	_	_
 15	ligean	ligean	NOUN	Noun	VerbForm=Inf	2	xcomp	_	_
 16	i	i	ADP	Simp	_	17	case	_	_
@@ -6197,7 +6197,7 @@
 7	ná	ná	CCONJ	Coord	_	10	mark	_	_
 8	mar	mar	SCONJ	Subord	_	10	mark	_	_
 9	a	a	PART	Vb	PartType=Vb|PronType=Rel	10	mark:prt	_	_
-10	taibhsíodh	taibhsigh	VERB	VI	Mood=Ind|Tense=Past|Voice=Auto	2	advcl	_	_
+10	taibhsíodh	taibhsigh	VERB	VI	Mood=Ind|Person=0|Tense=Past	2	advcl	_	_
 11	dom	do	ADP	Prep	Number=Sing|Person=1	10	obl:prep	_	_
 12	iad	iad	PRON	Pers	Number=Plur|Person=3	14	obj	_	_
 13	a	a	PART	Inf	PartType=Inf	14	mark	_	_
@@ -6350,7 +6350,7 @@
 
 # sent_id = 707
 # text = Oileadh é mar bhunmhúinteoir i gColáiste Phádraig i nDroim Conrach, Baile Átha Cliath, agus chaith sé tréimhse ag múineadh.
-1	Oileadh	oil	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Oileadh	oil	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	obj	_	_
 3	mar	mar	ADP	Simp	_	4	case	_	_
 4	bhunmhúinteoir	bunmhúinteoir	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	1	obl	_	_
@@ -6502,7 +6502,7 @@
 
 # sent_id = 715
 # text = Títear dom, san am i láthair, nach bhfuil iontas ar mhuintir an cheantair, de thairbhe go bhfeiceann siad an cineál seo chomh minic sin.
-1	Títear	tí	VERB	PresInd	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Títear	tí	VERB	PresInd	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	dom	do	ADP	Prep	Number=Sing|Person=1	1	obl:prep	_	SpaceAfter=No
 3	,	,	PUNCT	Punct	_	5	punct	_	_
 4	san	i	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
@@ -6583,11 +6583,11 @@
 34	seo	seo	DET	Det	PronType=Dem	33	det	_	SpaceAfter=No
 35	,	,	PUNCT	Punct	_	36	punct	_	_
 36	lena	le	PART	Rel	PronType=Rel	6	obl	_	_
-37	n-áirítear	áirigh	VERB	VT	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	6	obl	_	_
+37	n-áirítear	áirigh	VERB	VT	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	6	obl	_	_
 38	deontais	deontas	NOUN	Noun	Gender=Masc|Number=Plur	37	obj	_	_
 39	chun	chun	SCONJ	Subord	_	37	mark	_	_
 40	go	go	SCONJ	Subord	_	39	fixed	_	_
-41	nglanfar	glan	VERB	FutInd	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	6	advcl	_	_
+41	nglanfar	glan	VERB	FutInd	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	6	advcl	_	_
 42	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
 43	caiteachas	caiteachas	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	41	nsubj	_	_
 44	iomlán	iomlán	ADJ	Adj	Gender=Masc|Number=Sing	43	amod	_	_
@@ -6607,7 +6607,7 @@
 58	daoine	duine	NOUN	Noun	Gender=Masc|Number=Plur	56	nmod	_	_
 59	ar	ar	ADP	Simp	_	61	obl	_	_
 60	a	a	PART	Vb	PartType=Vb|PronType=Rel	61	obl	_	_
-61	seirbheáiltear	seirbheáil	VERB	VT	Mood=Ind|Tense=Pres|Voice=Auto	58	acl:relcl	_	_
+61	seirbheáiltear	seirbheáil	VERB	VT	Mood=Ind|Person=0|Tense=Pres	58	acl:relcl	_	_
 62	fógra	fógra	NOUN	Noun	Gender=Masc|Number=Sing	61	obj	_	_
 63	faoi	faoi	ADP	Simp	_	64	case	_	_
 64	alt	alt	NOUN	Noun	Gender=Masc|Number=Sing	61	obl	_	_
@@ -6665,7 +6665,7 @@
 # sent_id = 718
 # text = Má roinntear seo ar dhaonra iomlán de 3,500,000 agus má mhéadaítear faoi dhaonra bliantúil tríú leibhéil de 34,500 do 1999/2000, is ionann san agus 4,200 de dhaonra reatha scoláirí, gan aon socrú chun an bhearna idir éileamh agus soláthar a laghdú, nó chun an céadtadán íseal rannpáirtíochta i gcás aicmí sóisialta áirithe a cheartú.
 1	Má	má	SCONJ	Subord	_	2	mark	_	_
-2	roinntear	roinn	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	23	advcl	_	_
+2	roinntear	roinn	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	23	advcl	_	_
 3	seo	seo	PRON	Dem	PronType=Dem	2	obj	_	_
 4	ar	ar	ADP	Simp	_	5	case	_	_
 5	dhaonra	daonra	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	obl	_	_
@@ -6674,7 +6674,7 @@
 8	3,500,000	3,500,000	NUM	Num	_	5	nmod	_	_
 9	agus	agus	CCONJ	Coord	_	11	cc	_	_
 10	má	má	SCONJ	Subord	_	11	mark	_	_
-11	mhéadaítear	méadaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres|Voice=Auto	2	conj	_	_
+11	mhéadaítear	méadaigh	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	2	conj	_	_
 12	faoi	faoi	ADP	Simp	_	13	case	_	_
 13	dhaonra	daonra	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	11	obl	_	_
 14	bliantúil	bliantúil	ADJ	Adj	Gender=Masc|Number=Sing	13	amod	_	_
@@ -7107,7 +7107,7 @@
 
 # sent_id = 737
 # text = Insítear na rudaí a rinne sé ach go minic ní insítear cén fáth go ndearna sé iad.
-1	Insítear	inis	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Insítear	inis	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	rudaí	rud	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	1	obj	_	_
 4	a	a	PART	Vb	PartType=Vb|PronType=Rel	5	nsubj	_	_
@@ -7117,7 +7117,7 @@
 8	go	go	PART	Ad	PartType=Ad	9	mark:prt	_	_
 9	minic	minic	ADJ	Adj	Degree=Pos	11	advmod	_	_
 10	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	11	advmod	_	_
-11	insítear	inis	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	1	advcl	_	_
+11	insítear	inis	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	1	advcl	_	_
 12	cén	cé	PRON	Q	Number=Sing|PronType=Int	11	ccomp	_	_
 13	fáth	fáth	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	_
 14	go	go	PART	Vb	PartType=Cmpl	15	mark:prt	_	_
@@ -7178,7 +7178,7 @@
 6	d'	de	ADP	Simp	_	7	case	_	SpaceAfter=No
 7	iarratais	iarratas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obl	_	_
 8	go	go	PART	Vb	PartType=Vb	9	mark:prt	_	_
-9	gcuirfí	cuir	VERB	VTI	Form=Ecl|Mood=Cnd|Voice=Auto	1	ccomp	_	_
+9	gcuirfí	cuir	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	1	ccomp	_	_
 10	buíon	buíon	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	9	obj	_	_
 11	neamhspleách	neamhspleách	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	10	amod	_	_
 12	i	i	ADP	Cmpd	PrepForm=Cmpd	15	case	_	_
@@ -7221,7 +7221,7 @@
 17	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	_
 18	Gaeilge	Gaeilge	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 19	a	a	PART	Vb	PartType=Vb|PronType=Rel	20	obj	_	_
-20	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	11	acl:relcl	_	SpaceAfter=No
+20	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	11	acl:relcl	_	SpaceAfter=No
 21	,	,	PUNCT	Punct	_	23	punct	_	_
 22	go	go	PART	Ad	PartType=Ad	23	mark:prt	_	_
 23	heisiach	eisiach	ADJ	Adj	Degree=Pos	20	advmod	_	SpaceAfter=No
@@ -7238,7 +7238,7 @@
 # sent_id = 743
 # text = Má théitear meascán d'iarann agus de shulfar, breofaidh an meascán.
 1	Má	má	SCONJ	Subord	_	2	mark	_	_
-2	théitear	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres|Voice=Auto	10	advcl	_	_
+2	théitear	téigh	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	10	advcl	_	_
 3	meascán	meascán	NOUN	Noun	Gender=Masc|Number=Sing	2	obj	_	_
 4	d'	de	ADP	Simp	_	5	case	_	SpaceAfter=No
 5	iarann	iarann	NOUN	Noun	Gender=Masc|Number=Sing	2	obl	_	_
@@ -7269,7 +7269,7 @@
 
 # sent_id = 745
 # text = Cosnófar a leithéid de chógais anois trí bheith curtha i dtaisceadáin ar a bhfuil glais mhoill ama ar leith nach féidir le baill foirne a shárú.
-1	Cosnófar	cosain	VERB	VTI	Mood=Ind|Tense=Fut|Voice=Auto	0	root	_	_
+1	Cosnófar	cosain	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	3	nmod:poss	_	_
 3	leithéid	leithéid	NOUN	Noun	Gender=Fem|Number=Sing	1	obj	_	_
 4	de	de	ADP	Simp	_	5	case	_	_
@@ -7834,7 +7834,7 @@
 4	,	,	PUNCT	Punct	_	3	punct	_	_
 5	áfach	áfach	ADV	Gn	_	7	advmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	5	punct	_	_
-7	saolaíodh	saolaigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+7	saolaíodh	saolaigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 8	mac	mac	NOUN	Noun	Gender=Masc|Number=Sing	7	obj	_	_
 9	di	do	ADP	Prep	Gender=Fem|Number=Sing|Person=3	7	obl:prep	_	_
 10	féin	féin	PRON	Ref	Reflex=Yes	9	nmod	_	_
@@ -7861,7 +7861,7 @@
 13	as	as	ADP	Simp	_	14	case	_	_
 14	cló	cló	NOUN	Noun	Gender=Masc|Number=Sing	12	obl	_	_
 15	ó	ó	SCONJ	Subord	_	16	mark	_	_
-16	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Tense=Past|Voice=Auto	12	advcl	_	_
+16	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	12	advcl	_	_
 17	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
 18	nach	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	19	cop	_	_
 19	mór	mór	ADJ	Adj	Degree=Pos	17	acl:relcl	_	SpaceAfter=No
@@ -7920,7 +7920,7 @@
 15	cúig	cúig	NUM	Num	NumType=Card	16	nummod	_	_
 16	cinn	ceann	NOUN	Noun	Gender=Masc|Number=Plur	7	conj	_	_
 17	má	má	SCONJ	Subord	_	18	mark	_	_
-18	chuirtear	cuir	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres|Voice=Auto	1	advcl	_	_
+18	chuirtear	cuir	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	1	advcl	_	_
 19	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
 20	tSeirbhís	seirbhís	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	18	obj	_	_
 21	Leabharlainne	leabharlann	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	20	flat	_	_
@@ -8133,7 +8133,7 @@
 14	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
 15	daoine	duine	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	12	obl	_	_
 16	a	a	PART	Vb	PartType=Vb|PronType=Rel	17	obj	_	_
-17	cheapfar	ceap	VERB	VTI	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	15	acl:relcl	_	_
+17	cheapfar	ceap	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Fut	15	acl:relcl	_	_
 18	agus	agus	CCONJ	Coord	_	19	cc	_	_
 19	tuiscint	tuiscint	NOUN	Noun	Gender=Fem|Number=Sing	2	conj	_	_
 20	mhaith	maith	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	19	amod	_	_
@@ -8264,7 +8264,7 @@
 36	deir	abair	VERB	VTI	Mood=Ind|Tense=Pres	9	advcl	_	_
 37	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
 38	go	go	PART	Vb	PartType=Cmpl	39	mark:prt	_	_
-39	dtugtaí	tabhair	VERB	VTI	Form=Ecl|Mood=Imp|Tense=Past|Voice=Auto	36	ccomp	_	_
+39	dtugtaí	tabhair	VERB	VTI	Form=Ecl|Mood=Imp|Person=0|Tense=Past	36	ccomp	_	_
 40	Ára	ára	PROPN	Noun	Gender=Fem|Number=Sing	39	obj	_	_
 41	Chaomháin	Caomhán	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc	40	flat	_	_
 42	ar	ar	ADP	Simp	_	44	case	_	_
@@ -8330,7 +8330,7 @@
 9	tuarascáil	tuarascáil	NOUN	Noun	Gender=Fem|Number=Sing	7	nmod	_	_
 10	(	(	PUNCT	Punct	_	12	punct	_	SpaceAfter=No
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	obj	_	_
-12	fhoilseofar	foilsigh	VERB	VT	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	2	acl:relcl	_	_
+12	fhoilseofar	foilsigh	VERB	VT	Form=Len|Mood=Ind|Person=0|Tense=Fut	2	acl:relcl	_	_
 13	roimh	roimh	ADP	Simp	_	14	case	_	_
 14	dheireadh	deireadh	NOUN	Noun	Gender=Masc|Number=Sing	12	obl	_	_
 15	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
@@ -8346,7 +8346,7 @@
 25	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 26	traidisiún	traidisiún	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	conj	_	_
 27	go	go	PART	Vb	PartType=Cmpl	28	mark:prt	_	_
-28	gclúdaítear	clúdaigh	VERB	VT	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	26	csubj:cop	_	_
+28	gclúdaítear	clúdaigh	VERB	VT	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	26	csubj:cop	_	_
 29	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	30	nmod:poss	_	_
 30	leithéid	leithéid	NOUN	Noun	Gender=Fem|Number=Sing	28	obj	_	_
 31	de	de	ADP	Simp	_	32	case	_	_
@@ -8372,7 +8372,7 @@
 3	teicníochtaí	teicníocht	NOUN	Noun	Gender=Fem|Number=Plur	1	nsubj	_	_
 4	measúnaithe	measúnaithe	ADJ	Adj	VerbForm=Part	3	amod	_	_
 5	a	a	PART	Vb	PartType=Vb|PronType=Rel	6	obl	_	_
-6	mbainfear	bain	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut|Voice=Auto	3	acl:relcl	_	_
+6	mbainfear	bain	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	3	acl:relcl	_	_
 7	leas	leas	NOUN	Noun	Gender=Masc|Number=Sing	6	nsubj	_	_
 8	astu	as	ADP	Prep	Number=Plur|Person=3	6	obl:prep	_	_
 9	go	go	PART	Ad	PartType=Ad	10	mark:prt	_	_
@@ -8580,7 +8580,7 @@
 16	'	'	PUNCT	Punct	_	19	punct	_	SpaceAfter=No
 17	,	,	PUNCT	Punct	_	18	punct	_	_
 18	agus	agus	CCONJ	Coord	_	19	cc	_	_
-19	tugadh	tabhair	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	4	conj	_	_
+19	tugadh	tabhair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	4	conj	_	_
 20	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
 21	scilling	scilling	NOUN	Noun	Gender=Fem|Number=Sing	19	obj	_	_
 22	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	19	obl:prep	_	SpaceAfter=No
@@ -8776,7 +8776,7 @@
 
 # sent_id = 809
 # text = Moltar go mbeadh dhá éide ar leith ag gach foireann: éide a bhfuil dath geal uirthi le linn dóibh a bheith ag imirt sa bhaile; agus éide a bhfuil dath dorcha uirthi le linn dóibh a bheith ag imirt 'as baile'.
-1	Moltar	mol	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Moltar	mol	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	go	go	PART	Vb	PartType=Cmpl	3	mark:prt	_	_
 3	mbeadh	bí	VERB	Cond	Form=Ecl|Mood=Cnd	1	ccomp	_	_
 4	dhá	dó	NUM	Num	NumType=Card	5	nummod	_	_
@@ -8825,7 +8825,7 @@
 
 # sent_id = 810
 # text = Cuireadh i dtuama simplí é i lusca Bhaisleac Naomh Peadar.
-1	Cuireadh	cuir	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Cuireadh	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	i	i	ADP	Simp	_	3	case	_	_
 3	dtuama	tuama	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	_
 4	simplí	simplí	ADJ	Adj	Gender=Masc|Number=Sing	3	amod	_	_
@@ -8931,7 +8931,7 @@
 10	peannaideacha	peannaideach	ADJ	Adj	NounType=NotSlender|Number=Plur	9	amod	_	_
 11	sin	sin	DET	Det	PronType=Dem	9	det	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	obj	_	_
-13	fheictí	feic	VERB	VTI	Form=Len|Mood=Imp|Tense=Past|Voice=Auto	9	acl:relcl	_	_
+13	fheictí	feic	VERB	VTI	Form=Len|Mood=Imp|Person=0|Tense=Past	9	acl:relcl	_	_
 14	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	13	obl:prep	_	SpaceAfter=No
 15	,	,	PUNCT	Punct	_	16	punct	_	_
 16	nuair	nuair	SCONJ	Subord	_	18	mark	_	_
@@ -9084,7 +9084,7 @@
 
 # sent_id = 820
 # text = Faightear na sliogáin fholmha caite aníos ar an trá.
-1	Faightear	faigh	VERB	VT	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Faightear	faigh	VERB	VT	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	sliogáin	sliogán	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	1	obj	_	_
 4	fholmha	folamh	ADJ	Adj	Form=Len	3	amod	_	_
@@ -9185,7 +9185,7 @@
 86	;	;	PUNCT	Punct	_	87	punct	_	_
 87	ach	ach	SCONJ	Subord	_	66	mark	_	_
 88	ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	89	advmod	_	_
-89	dhéileálfar	déileáil	VERB	VI	Form=Len|Mood=Ind|Tense=Fut|Voice=Auto	14	advcl	_	_
+89	dhéileálfar	déileáil	VERB	VI	Form=Len|Mood=Ind|Person=0|Tense=Fut	14	advcl	_	_
 90	le	le	ADP	Simp	_	91	case	_	_
 91	duine	duine	NOUN	Noun	Gender=Masc|Number=Sing	89	obl	_	_
 92	inmhuirearaithe	inmhuirearaithe	ADJ	Adj	Gender=Masc|Number=Sing	91	amod	_	_
@@ -9231,7 +9231,7 @@
 132	agus	agus	CCONJ	Coord	_	112	cc	_	_
 133	(II)	(II)	NUM	Item	_	112	conj	_	_
 134	go	go	PART	Vb	PartType=Cmpl	135	mark:prt	_	_
-135	ndéantar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	112	advcl	_	_
+135	ndéantar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	112	advcl	_	_
 136	méid	méid	NOUN	Noun	Gender=Masc|Number=Sing	135	obj	_	_
 137	nach	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	138	cop	_	_
 138	lú	beag	ADJ	Adj	Degree=Cmp,Sup	136	acl:relcl	_	_
@@ -9275,7 +9275,7 @@
 2	am	am	NOUN	Noun	Gender=Masc|Number=Sing	5	obl	_	_
 3	go	go	ADP	Simp	_	4	case	_	_
 4	chéile	céile	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	nmod	_	_
-5	thugadh	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+5	thugadh	tabhair	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Past	0	root	_	_
 6	Ljúbín	ljúbín	PROPN	Noun	Gender=Masc|Number=Sing	5	nsubj	_	_
 7	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	5	obl:prep	_	_
 8	go	go	ADP	Cmpd	PrepForm=Cmpd	11	case	_	_
@@ -9628,7 +9628,7 @@
 # text = Agus ansin faightear locht orthu...
 1	Agus	agus	CCONJ	Coord	_	3	cc	_	_
 2	ansin	ansin	ADV	Loc	_	3	advmod	_	_
-3	faightear	faigh	VERB	PresInd	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+3	faightear	faigh	VERB	PresInd	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 4	locht	locht	NOUN	Noun	Gender=Masc|Number=Sing	3	obj	_	_
 5	orthu	ar	ADP	Prep	Number=Plur|Person=3	3	obl:prep	_	SpaceAfter=No
 6	...	...	PUNCT	...	_	3	punct	_	_
@@ -9757,7 +9757,7 @@
 4	áfach	áfach	ADV	Gn	_	7	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	4	punct	_	_
 6	gur	gur	PART	Vb	PartType=Vb|Tense=Past	7	mark:prt	_	_
-7	cuireadh	cuir	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	2	acl:relcl	_	_
+7	cuireadh	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Past	2	acl:relcl	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	leabhar	leabhar	NOUN	Noun	Gender=Masc|Number=Sing	7	obj	_	_
 10	i	i	ADP	Simp	_	11	case	_	_
@@ -9937,7 +9937,7 @@
 
 # sent_id = 850
 # text = Frítheadh ansin go raibh beairic na bpíléar dúnta, agus iad féin glanta as.
-1	Frítheadh	fríth	VERB	PastInd	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Frítheadh	fríth	VERB	PastInd	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	ansin	ansin	ADV	Loc	_	1	advmod	_	_
 3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
 4	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	1	ccomp	_	_
@@ -10018,7 +10018,7 @@
 8	na	na	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	flat	_	_
 9	Talún	Talún	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	flat	_	_
 10	nach	nach	PART	Vb	PartType=Cmpl	11	mark:prt	_	_
-11	ndéantar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres|Voice=Auto	1	ccomp	_	_
+11	ndéantar	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	1	ccomp	_	_
 12	Ordú	ordú	PROPN	Noun	Gender=Masc|Number=Sing	11	nsubj	_	_
 13	Deighilte	deighilt	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	12	flat	_	_
 14	mura	mura	SCONJ	Subord	_	15	mark	_	_
@@ -10043,7 +10043,7 @@
 9	bliain	bliain	NOUN	Noun	Gender=Fem|Number=Sing	8	nmod	_	_
 10	agus	agus	CCONJ	Coord	_	12	cc	_	_
 11	ansin	ansin	ADV	Loc	_	12	advmod	_	_
-12	scríobhadh	scríobh	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	1	conj	_	_
+12	scríobhadh	scríobh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 13	i	i	ADP	Simp	_	14	case	_	_
 14	lámhscríbhinní	lámhscríbhinn	NOUN	Noun	Gender=Fem|Number=Plur	12	obl	_	_
 15	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	12	obj	_	SpaceAfter=No
@@ -10103,7 +10103,7 @@
 9	más	má	SCONJ	Subord	VerbForm=Cop	10	mark	_	_
 10	ansin	ansin	ADV	Loc	_	1	parataxis	_	_
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	mark:prt	_	_
-12	tógadh	tóg	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	10	csubj:cleft	_	_
+12	tógadh	tóg	VERB	VTI	Mood=Ind|Person=0|Tense=Past	10	csubj:cleft	_	_
 13	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	12	obj	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	16	punct	_	_
 15	i	i	ADP	Simp	_	16	case	_	_
@@ -10291,7 +10291,7 @@
 
 # sent_id = 865
 # text = Baintear feidhm as insileadh nó síoróip na mogóirí chun grean duán is gúta a chóireáil.
-1	Baintear	bain	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Baintear	bain	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	feidhm	feidhm	NOUN	Noun	Gender=Fem|Number=Sing	1	obj	_	_
 3	as	as	ADP	Simp	_	4	case	_	_
 4	insileadh	insileadh	NOUN	Noun	Gender=Masc|Number=Sing	1	obl	_	_
@@ -10488,7 +10488,7 @@
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	díbirt	díbirt	NOUN	Noun	Gender=Fem|Number=Sing	22	obj	_	_
 25	a	a	PART	Vb	PartType=Vb|PronType=Rel	26	obj	_	_
-26	rinneadh	déan	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	24	acl:relcl	_	_
+26	rinneadh	déan	VERB	VTI	Mood=Ind|Person=0|Tense=Past	24	acl:relcl	_	_
 27	ar	ar	ADP	Simp	_	28	case	_	_
 28	chaitlicigh	caitliceach	NOUN	Noun	Gender=Fem|Number=Sing	26	obl	_	_
 29	Ard	ard	NOUN	Noun	Gender=Masc|Number=Sing	28	nmod	_	_
@@ -10533,7 +10533,7 @@
 30	nuair	nuair	SCONJ	Subord	_	33	mark	_	_
 31	a	a	PART	Vb	PartType=Vb|PronType=Rel	33	mark:prt	_	_
 32	d'	do	PART	Vb	PartType=Vb	33	mark:prt	_	SpaceAfter=No
-33	fhosclófaí	foscail	VERB	Cond	Mood=Cnd|Voice=Auto	38	advcl	_	_
+33	fhosclófaí	foscail	VERB	Cond	Mood=Cnd|Person=0	38	advcl	_	_
 34	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	35	det	_	_
 35	doras	doras	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	33	obj	_	SpaceAfter=No
 36	,	,	PUNCT	Punct	_	33	punct	_	_
@@ -10543,7 +10543,7 @@
 40	éaló	éaló	NOUN	Noun	Gender=Masc|Number=Sing	38	xcomp	_	_
 41	amach	amach	ADV	Dir	_	40	advmod	_	_
 42	sula	sula	SCONJ	Subord	_	43	mark	_	_
-43	bhfaighfí	faigh	VERB	VT	Form=Ecl|Mood=Cnd|Voice=Auto	38	advcl	_	_
+43	bhfaighfí	faigh	VERB	VT	Form=Ecl|Mood=Cnd|Person=0	38	advcl	_	_
 44	greim	greim	NOUN	Noun	Gender=Masc|Number=Sing	43	obj	_	_
 45	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	43	obl:prep	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	4	punct	_	_
@@ -10553,7 +10553,7 @@
 1	Ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	2	cop	_	_
 2	chóir	cóir	ADJ	Adj	Degree=Pos|Form=Len	0	root	_	_
 3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
-4	gcuirfí	cuir	VERB	VTI	Form=Ecl|Mood=Cnd|Voice=Auto	2	csubj:cop	_	_
+4	gcuirfí	cuir	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	2	csubj:cop	_	_
 5	ar	ar	ADP	Simp	_	6	case	_	_
 6	chumas	cumas	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	4	obl	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
@@ -10631,7 +10631,7 @@
 
 # sent_id = 876
 # text = Deirtear gurb é Francesco Petrarca (1304-'74), file Iodálach, a chuir tús leis an Renaissance.
-1	Deirtear	abair	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	0	root	_	_
+1	Deirtear	abair	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	gurb	is	AUX	Cop	Form=VF|Tense=Pres|VerbForm=Cop	3	cop	_	_
 3	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	4	nmod	_	_
 4	Francesco	Francesco	PROPN	Noun	Gender=Masc|Number=Sing	1	ccomp	_	_
@@ -10738,7 +10738,7 @@
 # sent_id = 882
 # text = 'Cailleadh sa bhliain 1056 é tar éis dó filleadh abhaile i ndiaidh feachtais mhíleata a d'fhág spíonta tréithlag é.
 1	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-2	Cailleadh	caill	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+2	Cailleadh	caill	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 3	sa	i	ADP	Art	Number=Sing|PronType=Art	4	case	_	_
 4	bhliain	bliain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	2	obl	_	_
 5	1056	1056	NUM	Num	_	4	nmod	_	_
@@ -10930,7 +10930,7 @@
 15	de	de	ADP	Simp	_	16	case	_	_
 16	Sgalasaig	Sgalasaig	PROPN	Noun	Gender=Masc|Number=Sing	5	obl	_	_
 17	a	a	PART	Vb	PartType=Vb|PronType=Rel	18	obj	_	_
-18	tréigeadh	tréig	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	7	acl:relcl	_	_
+18	tréigeadh	tréig	VERB	VTI	Mood=Ind|Person=0|Tense=Past	7	acl:relcl	_	_
 19	ag	ag	ADP	Simp	_	20	case	_	_
 20	deireadh	deireadh	NOUN	Noun	Gender=Masc|Number=Sing	18	obl	_	_
 21	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	22	det	_	_
@@ -11108,7 +11108,7 @@
 24	bhearna	bearna	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	22	nmod	_	_
 25	mhíl	míol	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	24	compound	_	_
 26	a	a	PART	Vb	PartType=Vb|PronType=Rel	27	obj	_	_
-27	luaitear	luaigh	VERB	VTI	Mood=Ind|Tense=Pres|Voice=Auto	22	acl:relcl	_	_
+27	luaitear	luaigh	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	22	acl:relcl	_	_
 28	i	i	ADP	Simp	_	29	case	_	_
 29	dteideal	teideal	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	27	obl	_	_
 30	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
@@ -11231,7 +11231,7 @@
 
 # sent_id = 901
 # text = Rugadh Harold Alexander de shliocht plandóra i Londain sa bhliain 1891.
-1	Rugadh	beir	VERB	VTI	Mood=Ind|Tense=Past|Voice=Auto	0	root	_	_
+1	Rugadh	beir	VERB	VTI	Mood=Ind|Person=0|Tense=Past	0	root	_	_
 2	Harold	Harold	PROPN	Noun	Gender=Masc|Number=Sing	1	obj	_	_
 3	Alexander	Alexander	PROPN	Noun	Gender=Masc|Number=Sing	2	flat:name	_	_
 4	de	de	ADP	Simp	_	5	case	_	_
