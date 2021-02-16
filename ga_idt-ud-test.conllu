@@ -329,7 +329,7 @@
 7	a	a	PART	Vb	PartType=Vb|PronType=Rel	8	nsubj	_	_
 8	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	acl:relcl	_	_
 9	ina	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	10	case	_	_
-10	magistri	magistri	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	8	xcomp:pred	_	_
+10	magistri	magistri	NOUN	Noun	Case=NomAcc|Foreign=Yes|Gender=Fem|Number=Plur	8	xcomp:pred	_	_
 11	tráth	tráth	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obl:tmod	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	mark:prt	_	_
 13	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	1	csubj:cleft	_	_
@@ -2040,9 +2040,9 @@
 7	Chorcaí	Chorcaí	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	flat	_	SpaceAfter=No
 8	,	,	PUNCT	Punct	_	12	punct	_	_
 9	'	'	PUNCT	Punct	_	12	punct	_	SpaceAfter=No
-10	that	that	PRON	Dem	PronType=Dem	12	det	_	_
-11	general	general	ADJ	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	amod	_	_
-12	Jail-Deliverer	Jail-Deliverer	NOUN	Unknown	_	1	obj	_	SpaceAfter=No
+10	that	that	PRON	Dem	Foreign=Yes|PronType=Dem	12	det	_	_
+11	general	general	ADJ	Noun	Case=NomAcc|Foreign=Yes|Gender=Masc|Number=Sing	12	amod	_	_
+12	Jail-Deliverer	Jail-Deliverer	NOUN	Unknown	_	1	obj	Foreign=Yes	SpaceAfter=No
 13	'	'	PUNCT	Punct	_	12	punct	_	_
 14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
 15	le	le	ADP	Cmpd	PrepForm=Cmpd	18	case	_	_
@@ -4318,8 +4318,8 @@
 23	Churchill	Churchill	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	agus	agus	CCONJ	Coord	_	26	cc	_	_
-26	vice	vice	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	20	conj	_	_
-27	versa	versa	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	26	flat:foreign	_	_
+26	vice	vice	NOUN	Noun	Case=NomAcc|Foreign=Yes|Gender=Fem|Number=Sing	20	conj	_	_
+27	versa	versa	NOUN	Noun	Case=NomAcc|Foreign=Yes|Gender=Fem|Number=Plur	26	flat:foreign	_	_
 28	go	go	PART	Ad	PartType=Ad	29	mark:prt	_	_
 29	cruinn	cruinn	ADJ	Adj	Degree=Pos	4	advmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
@@ -4809,7 +4809,7 @@
 9	raibh	bí	VERB	PastInd	Form=Ecl|Mood=Ind|Tense=Past	5	acl:relcl	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	Rose	Rose	PROPN	Noun	_	9	nsubj	_	_
-12	of	of	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	11	flat	_	_
+12	of	of	NOUN	Noun	Case=NomAcc|Foreign=Yes|Gender=Masc|Number=Sing	11	flat	_	_
 13	Mooncoin	Mooncoin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	11	flat	_	_
 14	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	9	obl:prep	_	SpaceAfter=No
 15	.	.	PUNCT	.	_	2	punct	_	_

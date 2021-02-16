@@ -1128,7 +1128,7 @@
 15	teideal	teideal	NOUN	Noun	Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	18	punct	_	_
 17	'	'	PUNCT	Punct	_	18	punct	_	SpaceAfter=No
-18	Monsieur	Monsieur	NOUN	Noun	Gender=Masc|Number=Sing	15	appos	_	_
+18	Monsieur	Monsieur	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	15	appos	_	_
 19	Dupont	Dupont	PROPN	Noun	Gender=Masc|Number=Sing	18	flat:name	_	SpaceAfter=No
 20	'	'	PUNCT	Punct	_	18	punct	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	9	punct	_	_
@@ -1955,7 +1955,7 @@
 # text = Bhí an Pluincéadach tar éis daoine a chur amach i gceartlár an gheimhridh agus i lár na doininne, agus bhí de dhánaíocht san fhear chéanna sin a rá gurbh easpag é ar aon dul le Naomh Pól - ba é Easpag an fhíona is na gcearc fraoigh é.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
-3	Pluincéadach	Pluincéid	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
+3	Pluincéadach	Pluincéadach	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	tar	tar	ADP	Cmpd	PrepForm=Cmpd	8	case	_	_
 5	éis	éis	ADP	Cmpd	PrepForm=Cmpd	4	fixed	_	_
 6	daoine	duine	NOUN	Noun	Gender=Masc|Number=Plur	8	obj	_	_
@@ -2927,7 +2927,7 @@
 79	teileachumarsáide	teileachumarsáid	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
 80	,	,	PUNCT	Punct	_	82	punct	_	_
 81	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	82	det	_	_
-82	Internet	Internet	NOUN	Noun	Gender=Masc|Number=Sing	77	appos	_	_
+82	Internet	Internet	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	77	appos	_	_
 83	mar	mar	ADP	Simp	_	84	case	_	_
 84	shampla	sampla	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	82	nmod	_	SpaceAfter=No
 85	,	,	PUNCT	Punct	_	77	punct	_	_
@@ -3241,7 +3241,7 @@
 12	seo	seo	PRON	Dem	PronType=Dem	0	root	_	_
 13	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	14	det	_	_
 14	geallta	geall	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	12	nmod	_	_
-15	ante-post	ante-post	NOUN	Noun	Gender=Masc|Number=Sing	14	nmod	_	_
+15	ante-post	ante-post	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	14	nmod	_	_
 16	-	-	PUNCT	Punct	_	17	punct	_	_
 17	Mr.	Mr.	NOUN	Abr	Abbr=Yes	12	parataxis	_	_
 18	Mulligan	Mulligan	PROPN	Noun	Gender=Masc|Number=Sing	17	flat:name	_	_
@@ -3255,9 +3255,9 @@
 26	7/1	7/1	NUM	Num	_	23	nmod	_	SpaceAfter=No
 27	)	)	PUNCT	Punct	_	21	punct	_	SpaceAfter=No
 28	;	;	PUNCT	Punct	_	29	punct	_	_
-29	Hill	Hill	NOUN	Noun	Gender=Masc|Number=Sing	17	conj	_	_
-30	of	of	NOUN	Noun	Gender=Masc|Number=Sing	29	flat:name	_	_
-31	Tullow	Tullow	NOUN	Noun	Gender=Masc|Number=Sing	29	flat:name	_	_
+29	Hill	Hill	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	17	conj	_	_
+30	of	of	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	29	flat:name	_	_
+31	Tullow	Tullow	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	29	flat:name	_	_
 32	(	(	PUNCT	Punct	_	34	punct	_	SpaceAfter=No
 33	3	3	NUM	Num	_	34	nummod	_	_
 34	phointe	pointe	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	29	nmod	_	SpaceAfter=No
@@ -4302,8 +4302,8 @@
 9	ainm	ainm	NOUN	Noun	Gender=Masc|Number=Sing	7	nmod	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	12	punct	_	_
 11	'	'	PUNCT	Punct	_	12	punct	_	SpaceAfter=No
-12	Education	Education	NOUN	Noun	Gender=Masc|Number=Sing	7	appos	_	_
-13	First	First	NOUN	Noun	Gender=Masc|Number=Sing	12	flat:foreign	_	SpaceAfter=No
+12	Education	Education	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	7	appos	_	_
+13	First	First	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	12	flat:foreign	_	SpaceAfter=No
 14	'	'	PUNCT	Punct	_	12	punct	_	SpaceAfter=No
 15	,	,	PUNCT	Punct	_	12	punct	_	_
 16	sna	i	ADP	Art	Number=Plur|PronType=Art	17	case	_	_
@@ -8708,11 +8708,11 @@
 
 # sent_id = 806
 # text = Treasure Island Uncut ar Network 2 Dé Luain ag 10.30.
-1	Treasure	Treasure	X	Foreign	_	0	root	_	_
-2	Island	Island	X	Foreign	_	1	flat:foreign	_	_
-3	Uncut	Uncut	X	Foreign	_	1	flat:foreign	_	_
+1	Treasure	Treasure	X	Foreign	Foreign=Yes	0	root	_	_
+2	Island	Island	X	Foreign	Foreign=Yes	1	flat:foreign	_	_
+3	Uncut	Uncut	X	Foreign	Foreign=Yes	1	flat:foreign	_	_
 4	ar	ar	ADP	Simp	_	5	case	_	_
-5	Network	Network	X	Foreign	_	1	nmod	_	_
+5	Network	Network	X	Foreign	Foreign=Yes	1	nmod	_	_
 6	2	2	NUM	Num	_	5	flat	_	_
 7	Dé	Dé	NOUN	Subst	_	1	nmod	_	_
 8	Luain	Luan	PROPN	Noun	_	7	flat	_	_
@@ -10650,7 +10650,7 @@
 17	tús	tús	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	16	obj	_	_
 18	leis	le	ADP	Simp	_	20	case	_	_
 19	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	20	det	_	_
-20	Renaissance	Renaissance	NOUN	Noun	Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
+20	Renaissance	Renaissance	NOUN	Noun	Foreign=Yes|Gender=Masc|Number=Sing	16	obl	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 877
