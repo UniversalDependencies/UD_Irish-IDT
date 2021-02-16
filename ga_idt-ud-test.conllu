@@ -3916,7 +3916,7 @@
 47	bíobla	bíobla	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	41	appos	_	SpaceAfter=No
 48	,	,	PUNCT	Punct	_	49	punct	_	_
 49	dá	dá	SCONJ	Subord	_	50	mark	_	_
-50	n-abrainn	abair	VERB	_	Form=Ecl|Mood=Cnd|Number=Sing|Person=1	47	advcl	_	_
+50	n-abrainn	abair	VERB	Cond	Form=Ecl|Mood=Cnd|Number=Sing|Person=1	47	advcl	_	_
 51	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	50	obj	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	6	punct	_	_
 
