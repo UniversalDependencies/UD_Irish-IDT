@@ -140,7 +140,7 @@
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	cailín	cailín	NOUN	Noun	Gender=Masc|Number=Sing	11	appos	_	_
 15	a	a	PART	Vb	PartType=Vb|PronType=Rel	16	nsubj	_	_
-16	bhíodh	bí	VERB	VI	Form=Len|Mood=Imp|Tense=Past	14	acl:relcl	_	_
+16	bhíodh	bí	VERB	VI	Aspect=Imp|Form=Len|Tense=Past	14	acl:relcl	_	_
 17	mar	mar	ADP	Simp	_	18	case	_	_
 18	amhranaí	amhránaí	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	16	obl	_	_
 19	sa	i	ADP	Art	Number=Sing|PronType=Art	20	case	_	_
@@ -868,7 +868,7 @@
 29	san	i	ADP	Art	Number=Sing|PronType=Art	30	case	_	_
 30	áit	áit	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	28	obl	_	_
 31	a	a	PART	Vb	PartType=Vb|PronType=Rel	32	obl	_	_
-32	mbíodh	bí	VERB	PastImp	Form=Ecl|Mood=Imp|Tense=Past	30	acl:relcl	_	_
+32	mbíodh	bí	VERB	PastImp	Aspect=Imp|Form=Ecl|Tense=Past	30	acl:relcl	_	_
 33	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	34	det	_	_
 34	cúldoras	doras	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	32	obj	_	SpaceAfter=No
 35	.	.	PUNCT	.	_	1	punct	_	_
@@ -1087,7 +1087,7 @@
 
 # sent_id = 502
 # text = Bhíodh íota air an bráithreachas briste idir daoine, agus idir an duine agus a imshaol nádúrtha, a dheisiú.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	íota	íota	NOUN	Noun	Gender=Fem|Number=Sing	1	nsubj	_	_
 3	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
@@ -1670,7 +1670,7 @@
 
 # sent_id = 521
 # text = Bhíodh sé go fóill ag súgradh leo, agus ag ithe leo, agus tráthnóna, shuíodh sé amuigh i gcearnóg a bhaile ag canadh ceoil ina gcuideachta.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	go	go	PART	Ad	PartType=Ad	4	mark:prt	_	_
 4	fóill	fóill	ADJ	Adj	Degree=Pos	1	advmod	_	_
@@ -1686,7 +1686,7 @@
 14	agus	agus	CCONJ	Coord	_	17	cc	_	_
 15	tráthnóna	tráthnóna	NOUN	Noun	Gender=Masc|Number=Sing	17	obl:tmod	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	15	punct	_	_
-17	shuíodh	suigh	VERB	VTI	Form=Len|Mood=Imp|Tense=Past	1	conj	_	_
+17	shuíodh	suigh	VERB	VTI	Aspect=Imp|Form=Len|Tense=Past	1	conj	_	_
 18	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	17	nsubj	_	_
 19	amuigh	amuigh	ADV	Dir	_	17	advmod	_	_
 20	i	i	ADP	Simp	_	21	case	_	_
@@ -1702,7 +1702,7 @@
 
 # sent_id = 522
 # text = Bhíodh colún rialta ag Máire dar theideal 'An Fáinne' ar an Irish Independent sna blianta 1927 agus 1928.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	colún	colún	NOUN	Noun	Gender=Masc|Number=Sing	1	nsubj	_	_
 3	rialta	rialta	ADJ	Adj	Degree=Pos	1	xcomp:pred	_	_
 4	ag	ag	ADP	Simp	_	5	case	_	_
@@ -3189,7 +3189,7 @@
 2	dúirt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	mura	mura	SCONJ	Subord	_	5	mark	_	_
-5	dtigeadh	tuig	VERB	VTI	Form=Ecl|Mood=Imp|Tense=Past	2	advcl	_	_
+5	dtigeadh	tuig	VERB	VTI	Form=Ecl|Mood=Cnd	2	advcl	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	fhuil	fuil	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	5	obj	_	_
 8	go	go	PART	Vb	PartType=Cmpl	9	mark:prt	_	_
@@ -3332,7 +3332,7 @@
 1	)	)	PUNCT	Punct	_	4	punct	_	_
 2	Toisc	toisc	SCONJ	Subord	_	4	mark	_	_
 3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
-4	mbíodh	bí	VERB	PastImp	Form=Ecl|Mood=Imp|Tense=Past	9	advcl	_	_
+4	mbíodh	bí	VERB	PastImp	Aspect=Imp|Form=Ecl|Tense=Past	9	advcl	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	vótáil	vótáil	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_
 7	oscailte	oscailte	ADJ	Adj	VerbForm=Part	4	xcomp:pred	_	_
@@ -5202,7 +5202,7 @@
 
 # sent_id = 657
 # text = Bhíodh sé ag brionglóidigh san oíche go raibh sé ar bord loinge agus í ag síobadh mara dá bord.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	nsubj	_	_
 3	ag	ag	ADP	Simp	_	4	case	_	_
 4	brionglóidigh	each	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	1	xcomp	_	_
@@ -5699,7 +5699,7 @@
 10	aer	aer	NOUN	Noun	Gender=Masc|Number=Sing	5	obl	_	_
 11	mar	mar	ADP	Simp	_	13	mark	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	mark:prt	_	_
-13	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	5	advcl	_	_
+13	bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	5	advcl	_	_
 14	sna	i	ADP	Art	Number=Plur|PronType=Art	15	case	_	_
 15	blianta	bliain	NOUN	Noun	Definite=Def|Gender=Fem|Number=Plur	13	obl:tmod	_	_
 16	fada	fada	ADJ	Adj	Gender=Fem|Number=Plur	15	amod	_	_
@@ -5770,7 +5770,7 @@
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	nuair	nuair	SCONJ	Subord	_	16	mark	_	_
 15	a	a	PART	Vb	PartType=Vb|PronType=Rel	16	mark:prt	_	_
-16	bhíos	bí	VERB	PastImp	Form=Len|Mood=Imp|PronType=Rel|Tense=Past	9	conj	_	_
+16	bhíos	bí	VERB	PresImp	Form=Len|PronType=Rel	9	conj	_	_
 17	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
 18	ghaoth	gaoth	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	16	nsubj	_	_
 19	ar	ar	ADP	Simp	_	21	case	_	_
@@ -6746,7 +6746,7 @@
 
 # sent_id = 721
 # text = Bhíodh bríste fada ann chomh maith le bríste glúnach.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	bríste	bríste	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nsubj	_	_
 3	fada	fada	ADJ	Adj	Degree=Pos	2	amod	_	_
 4	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	xcomp:pred	_	_
@@ -7550,7 +7550,7 @@
 # sent_id = 757
 # text = Ní bhíodh aon bhailiúchán ann agus ceapann sé nach mbíodh bailiúchán ar siúl i dtithe eile Chillín Chaoimhín ach oiread.
 1	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	2	advmod	_	_
-2	bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+2	bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 3	aon	aon	DET	Det	PronType=Ind	4	det	_	_
 4	bhailiúchán	bailiúchán	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|NounType=Weak|Number=Plur	2	nsubj	_	_
 5	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	xcomp:pred	_	_
@@ -8008,7 +8008,7 @@
 12	mhinic	minic	ADJ	Adj	Degree=Pos|Form=Len	2	parataxis	_	_
 13	fear	fear	NOUN	Noun	Gender=Masc|Number=Sing	12	nsubj	_	_
 14	a	a	PART	Vb	PartType=Vb|PronType=Rel	15	obj	_	_
-15	dtugadh	tabhair	VERB	VTI	Form=Ecl|Mood=Imp|Tense=Past	13	acl:relcl	_	_
+15	dtugadh	tabhair	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	13	acl:relcl	_	_
 16	siad	siad	PRON	Pers	Number=Plur|Person=3	15	nsubj	_	_
 17	Pádraig	Pádraig	PROPN	Noun	Gender=Masc|Number=Sing	15	obj	_	_
 18	Seoighe	Seoighe	PROPN	Noun	Gender=Fem|Number=Sing	17	flat:name	_	_
@@ -8264,7 +8264,7 @@
 36	deir	abair	VERB	VTI	Mood=Ind|Tense=Pres	9	advcl	_	_
 37	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	36	nsubj	_	_
 38	go	go	PART	Vb	PartType=Cmpl	39	mark:prt	_	_
-39	dtugtaí	tabhair	VERB	VTI	Form=Ecl|Mood=Imp|Person=0|Tense=Past	36	ccomp	_	_
+39	dtugtaí	tabhair	VERB	VTI	Aspect=Imp|Form=Ecl|Person=0|Tense=Past	36	ccomp	_	_
 40	Ára	ára	PROPN	Noun	Gender=Fem|Number=Sing	39	obj	_	_
 41	Chaomháin	Caomhán	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc	40	flat	_	_
 42	ar	ar	ADP	Simp	_	44	case	_	_
@@ -8751,7 +8751,7 @@
 
 # sent_id = 808
 # text = Bhíodh fíoracha na ndéithe snoite as cabhlacha crann sna doirí úd agus ina dteannta altóirí ar a ndéanadh na draoithe íobairtí.
-1	Bhíodh	bí	VERB	PastImp	Form=Len|Mood=Imp|Tense=Past	0	root	_	_
+1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
 2	fíoracha	fíor	NOUN	Noun	Gender=Fem|Number=Plur	1	nsubj	_	_
 3	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	ndéithe	dia	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|NounType=Strong|Number=Plur	2	nmod	_	_
@@ -8768,7 +8768,7 @@
 15	altóirí	altóir	NOUN	Noun	Gender=Fem|Number=Plur	7	conj	_	_
 16	ar	ar	ADP	Simp	_	18	case	_	_
 17	a	a	PART	Vb	PartType=Vb|PronType=Rel	18	obl	_	_
-18	ndéanadh	déan	VERB	VTI	Form=Ecl|Mood=Imp|Tense=Past	15	acl:relcl	_	_
+18	ndéanadh	déan	VERB	VTI	Aspect=Imp|Form=Ecl|Tense=Past	15	acl:relcl	_	_
 19	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	20	det	_	_
 20	draoithe	draoi	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	18	obj	_	_
 21	íobairtí	íobairt	NOUN	Noun	Gender=Fem|Number=Plur	20	nmod	_	SpaceAfter=No
@@ -8931,12 +8931,12 @@
 10	peannaideacha	peannaideach	ADJ	Adj	NounType=NotSlender|Number=Plur	9	amod	_	_
 11	sin	sin	DET	Det	PronType=Dem	9	det	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	obj	_	_
-13	fheictí	feic	VERB	VTI	Form=Len|Mood=Imp|Person=0|Tense=Past	9	acl:relcl	_	_
+13	fheictí	feic	VERB	VTI	Aspect=Imp|Form=Len|Person=0|Tense=Past	9	acl:relcl	_	_
 14	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	13	obl:prep	_	SpaceAfter=No
 15	,	,	PUNCT	Punct	_	16	punct	_	_
 16	nuair	nuair	SCONJ	Subord	_	18	mark	_	_
 17	a	a	PART	Vb	PartType=Vb|PronType=Rel	18	mark:prt	_	_
-18	chuimhníodh	cuimhnigh	VERB	VTI	Form=Len|Mood=Imp|Tense=Past	2	advcl	_	_
+18	chuimhníodh	cuimhnigh	VERB	VTI	Aspect=Imp|Form=Len|Tense=Past	2	advcl	_	_
 19	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	18	nsubj	_	_
 20	orthu	ar	ADP	Prep	Number=Plur|Person=3	18	obl:prep	_	_
 21	faoi	faoi	ADP	Simp	_	22	case	_	_
@@ -11115,7 +11115,7 @@
 31	scéil	scéal	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	_
 32	agus	agus	CCONJ	Coord	_	34	cc	_	_
 33	a	a	PART	Vb	PartType=Vb|PronType=Rel	34	mark:prt	_	_
-34	mbíodh	bí	VERB	PastImp	Form=Ecl|Mood=Imp|Tense=Past	27	conj	_	_
+34	mbíodh	bí	VERB	PastImp	Aspect=Imp|Form=Ecl|Tense=Past	27	conj	_	_
 35	Nóra	Nóra	PROPN	Noun	Gender=Fem|Number=Sing	34	nsubj	_	_
 36	ag	ag	ADP	Simp	_	37	case	_	_
 37	suirí	suirí	NOUN	Noun	Gender=Fem|Number=Sing	34	xcomp:pred	_	_
