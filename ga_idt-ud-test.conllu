@@ -33,7 +33,7 @@
 
 # sent_id = 2
 # text = Bíonn cinn óga le haithint thar aon siorc eile óna scoilteanna fada geolbhaigh.
-1	Bíonn	bí	VERB	PresImp	_	0	root	_	_
+1	Bíonn	bí	VERB	PresImp	Aspect=Hab|Mood=Ind|Tense=Pres	0	root	_	_
 2	cinn	ceann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	nsubj	_	_
 3	óga	óg	ADJ	Adj	Case=NomAcc|NounType=NotSlender|Number=Plur	2	amod	_	_
 4	le	le	ADP	Simp	_	5	case	_	_
@@ -556,7 +556,7 @@
 11	gcónaí	cónaí	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	9	nmod	_	_
 12	nuair	nuair	SCONJ	Subord	_	14	mark	_	_
 13	nach	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	14	mark:prt	_	_
-14	mbíonn	bí	VERB	PresImp	Form=Ecl	9	advcl	_	_
+14	mbíonn	bí	VERB	PresImp	Aspect=Hab|Form=Ecl|Mood=Ind|Tense=Pres	9	advcl	_	_
 15	aon	aon	DET	Det	PronType=Ind	16	det	_	_
 16	bhealach	bealach	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	14	nsubj	_	_
 17	eile	eile	DET	Det	PronType=Dem	16	det	_	_
@@ -650,7 +650,7 @@
 14	Átha	Átha	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	13	flat	_	_
 15	Cliath	Cliath	PROPN	Noun	_	13	flat	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	17	punct	_	_
-17	bíonn	bí	VERB	PresImp	_	10	parataxis	_	_
+17	bíonn	bí	VERB	PresImp	Aspect=Hab|Mood=Ind|Tense=Pres	10	parataxis	_	_
 18	orthu	ar	ADP	Prep	Number=Plur|Person=3	17	obl:prep	_	_
 19	praghsanna	praghas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	23	obj	_	_
 20	as	as	ADP	Simp	_	21	case	_	_
@@ -1451,7 +1451,7 @@
 1	Oighe	Oighe	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
 2	chuimealta	cuimealta	ADJ	Adj	VerbForm=Part	1	amod	_	_
 3	a	a	PART	Vb	PartType=Vb|PronType=Rel	4	mark:prt	_	_
-4	bhíos	bí	VERB	PresImp	Form=Len|PronType=Rel	1	csubj:cleft	_	_
+4	bhíos	bí	VERB	PresImp	Aspect=Hab|Form=Len|Mood=Ind|Tense=Pres	1	csubj:cleft	_	_
 5	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	4	obl:prep	_	_
 6	leis	le	ADP	Simp	_	12	case	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
@@ -2042,7 +2042,7 @@
 9	'	'	PUNCT	Punct	_	12	punct	_	SpaceAfter=No
 10	that	that	PRON	Dem	Foreign=Yes|PronType=Dem	12	det	_	_
 11	general	general	ADJ	Noun	Case=NomAcc|Foreign=Yes|Gender=Masc|Number=Sing	12	amod	_	_
-12	Jail-Deliverer	Jail-Deliverer	NOUN	Unknown	_	1	obj	Foreign=Yes	SpaceAfter=No
+12	Jail-Deliverer	Jail-Deliverer	NOUN	Noun	Foreign=Yes	1	obj	_	SpaceAfter=No
 13	'	'	PUNCT	Punct	_	12	punct	_	_
 14	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl:prep	_	_
 15	le	le	ADP	Cmpd	PrepForm=Cmpd	18	case	_	_
@@ -3363,7 +3363,7 @@
 8	i	i	ADP	Simp	_	9	case	_	_
 9	1991	1991	NUM	Num	_	2	obl	_	_
 10	ach	ach	SCONJ	Subord	_	11	mark	_	_
-11	bíonn	bí	VERB	PresImp	_	2	advcl	_	_
+11	bíonn	bí	VERB	PresImp	Aspect=Hab|Mood=Ind|Tense=Pres	2	advcl	_	_
 12	Clann	clann	PROPN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	11	nsubj	_	_
 13	Mc	mac	PART	Pat	PartType=Pat	12	flat:name	_	_
 14	Ewen	Ewen	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	12	flat:name	_	_
@@ -6372,7 +6372,7 @@
 35	fhocal	focal	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	22	obl	_	_
 36	dhaoibh	do	ADP	Prep	Form=Len|Number=Plur|Person=3	35	obl:prep	_	SpaceAfter=No
 37	,	,	PUNCT	Punct	_	38	punct	_	_
-38	cuirfead	cuir	VERB	VT	Number=Sing|Person=1|Tense=Fut	22	advcl	_	_
+38	cuirfead	cuir	VERB	VT	Mood=Ind|Number=Sing|Person=1|Tense=Fut	22	advcl	_	_
 39	le	le	ADP	Simp	_	40	case	_	_
 40	fáil	fáil	NOUN	Noun	VerbForm=Inf	38	xcomp	_	_
 41	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	38	obj	_	SpaceAfter=No
