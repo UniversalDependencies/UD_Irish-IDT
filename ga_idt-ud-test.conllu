@@ -1251,7 +1251,7 @@
 33	traidisiún	traidisiún	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	23	appos	_	_
 34	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
 35	18ú	18	NUM	Num	NumType=Ord	36	amod	_	_
-36	céad	céad	NOUN	Noun	NumType=Card	33	nmod	_	SpaceAfter=No
+36	céad	céad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	33	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 52
@@ -3932,7 +3932,7 @@
 8	a	a	PART	Inf	PartType=Inf	9	mark	_	_
 9	rá	rá	NOUN	Noun	VerbForm=Inf	1	xcomp	_	_
 10	le	le	ADP	Simp	_	11	case	_	_
-11	hoibrithe	oibriú	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	9	obl	_	_
+11	hoibrithe	oibrí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	9	obl	_	_
 12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
 13	iarnróid	iarnród	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
 14	mí	mí	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	9	obl:tmod	_	_
@@ -6362,7 +6362,7 @@
 25	bpobal	pobal	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	22	xcomp:pred	_	SpaceAfter=No
 26	,	,	PUNCT	Punct	_	28	punct	_	_
 27	i	i	ADP	Simp	_	28	case	_	_
-28	nglaise	glas	NOUN	Noun	Case=Dat|Form=Ecl|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
+28	nglaise	glaise	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	22	obl	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	32	punct	_	_
 30	nó	nó	CCONJ	Coord	_	32	cc	_	_
 31	i	i	ADP	Simp	_	32	case	_	_
@@ -10226,7 +10226,7 @@
 5	sin	sin	PRON	Dem	PronType=Dem	4	nsubj	_	_
 6	déanta	déanta	ADJ	Adj	VerbForm=Part	4	xcomp:pred	_	_
 7	tháinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
-8	oibrithe	oibriú	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	7	nsubj	_	_
+8	oibrithe	oibrí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	7	nsubj	_	_
 9	ón	ó	ADP	Art	Number=Sing|PronType=Art	10	case	_	_
 10	taobhlach	taobhlach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	nmod	_	_
 11	i	i	ADP	Simp	_	12	case	_	_

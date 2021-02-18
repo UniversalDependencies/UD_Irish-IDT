@@ -5371,7 +5371,7 @@
 1	Éirigh	éirigh	VERB	VI	Mood=Imp|Number=Sing|Person=2	0	root	_	SpaceAfter=No
 2	,	,	PUNCT	Punct	_	4	punct	_	_
 3	a	a	PART	Voc	PartType=Voc	4	case:voc	_	_
-4	shreamaide	sreamaide	NOUN	Noun	Gender=Fem|Number=Sing	1	vocative	_	_
+4	shreamaide	sreamaide	NOUN	Noun	Case=Voc|Gender=Fem|Number=Sing	1	vocative	_	_
 5	gan	gan	ADP	Simp	_	6	case	_	_
 6	úsáid	úsáid	NOUN	Noun	Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	_	_
@@ -8099,8 +8099,8 @@
 33	go	go	PART	Vb	PartType=Cmpl	34	mark:prt	_	_
 34	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	32	csubj:cop	_	_
 35	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
-36	cliseadh	cliseadh	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	34	nsubj	_	_
-37	pósta	pósadh	NOUN	Noun	Degree=Pos|Gender=Masc|Number=Sing	36	nmod	_	_
+36	cliseadh	cliseadh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	34	nsubj	_	_
+37	pósta	pósadh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
 38	i	i	ADP	Simp	_	39	case	_	_
 39	ndán	dán	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	34	xcomp:pred	_	_
 40	di	do	ADP	Prep	Gender=Fem|Number=Sing|Person=3	34	obl:prep	_	SpaceAfter=No
@@ -8490,7 +8490,7 @@
 17	sa	i	ADP	Art	Number=Sing|PronType=Art	18	case	_	_
 18	chathair	cathair	NOUN	Noun	Form=Len|Gender=Fem|Number=Sing	15	nmod	_	_
 19	ar	ar	ADP	Simp	_	20	case	_	_
-20	dtúis	túis	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	15	nmod	_	SpaceAfter=No
+20	dtúis	tús	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	15	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	11	punct	_	_
 
 # sent_id = 795
@@ -10406,7 +10406,7 @@
 2	cheannaigh	ceannaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
-5	leabhar	leabhar	NOUN	Noun	Degree=Pos	2	obj	_	SpaceAfter=No
+5	leabhar	leabhar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	obj	_	SpaceAfter=No
 6	?	?	PUNCT	?	_	2	punct	_	_
 
 # sent_id = 870
@@ -11147,8 +11147,8 @@
 12	'	'	PUNCT	Punct	_	9	punct	_	SpaceAfter=No
 13	a	a	PART	Voc	PartType=Voc	14	case:voc	_	_
 14	ridire	ridire	NOUN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	9	vocative	_	_
-15	uasail	uasal	NOUN	Noun	Case=Voc|Gender=Masc|Number=Sing	14	nmod	_	_
-16	fháin	fán	NOUN	Noun	Case=Voc|Form=Len|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
+15	uasail	uasal	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
+16	fháin	fán	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	14	nmod	_	SpaceAfter=No
 17	,	,	PUNCT	Punct	_	20	punct	_	_
 18	gan	gan	ADP	Simp	_	20	case	_	_
 19	do	do	DET	Det	Number=Sing|Person=2|Poss=Yes	20	nmod:poss	_	_
@@ -11276,7 +11276,7 @@
 4	chorraigh	corraigh	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
 5	a	a	NOUN	Subst	Number=Sing	4	advmod	_	_
 6	thuilleadh	tuilleadh	NOUN	Subst	_	5	fixed	_	_
-7	linn	linn	NOUN	Noun	Number=Plur|Person=1	4	obl	_	_
+7	linn	linn	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	obl	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	tosta	tost	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
 10	Ach	ach	SCONJ	Subord	_	11	mark	_	_
