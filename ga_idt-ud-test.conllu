@@ -1,6 +1,6 @@
 # sent_id = 1
 # text = Crothnófar Pól nó ba úrlabhraí maith é ar Raidió na Gaeltachta agus na meáin eile ag cosaint na n-oifigí poist tuaithe, gné am-tábhachtach de shaol sóisialta na ndaoine.
-1	Crothnófar	cruthaigh	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
+1	Crothnófar	cronaigh	VERB	VTI	Mood=Ind|Person=0|Tense=Fut	0	root	_	_
 2	Pól	Pól	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obj	_	_
 3	nó	nó	SCONJ	Subord	_	5	mark	_	_
 4	ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	5	cop	_	_
@@ -5021,7 +5021,7 @@
 4	taifeadtaí	taifead	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	2	obj	_	_
 5	ar	ar	ADP	Simp	_	6	case	_	_
 6	shorcóirí	sorcóir	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	2	obl	_	_
-7	céire	ciar	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	6	amod	_	_
+7	céire	céir	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	_
 8	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	6	acl:relcl	_	_
 9	i	i	ADP	Simp	_	10	case	_	_
 10	mbaol	baol	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	8	xcomp:pred	_	_
@@ -5769,7 +5769,7 @@
 17	gan	gan	ADP	Simp	_	20	case	_	_
 18	stoc	stoc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	obj	_	_
 19	a	a	PART	Vb	PartType=Vb|PronType=Rel	20	obj	_	_
-20	shéide	séid	VERB	VTI	Form=Len|Mood=Sub|Tense=Pres	5	obl	_	_
+20	shéide	séideadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	obl	_	_
 21	ná	ná	CCONJ	Coord	_	25	cc	_	_
 22	cuaille	cuaille	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	obj	_	_
 23	comhraic	comhrac	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	22	nmod	_	_
@@ -9129,7 +9129,7 @@
 4	thiar	thiar	ADV	Dir	_	3	advmod	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	7	punct	_	_
 6	a	a	PART	Voc	PartType=Voc	7	case:voc	_	_
-7	Sheáin	Seán	PROPN	Noun	Case=Voc|Form=Len|Gender=Masc	1	appos	_	SpaceAfter=No
+7	Sheáin	Seán	PROPN	Noun	Case=Voc|Form=Len|Gender=Masc	1	vocative	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 355
@@ -10352,7 +10352,7 @@
 7	agatsa	ag	ADP	Prep	Number=Sing|Person=2|PronType=Emp	3	obl:prep	_	_
 8	le	le	ADP	Simp	_	9	case	_	_
 9	maitheamh	maitheamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	obl	_	_
-10	domhsa	do	ADP	Prep	Dialect=Ulster|Form=Emp|Number=Sing|Person=1	9	amod	_	SpaceAfter=No
+10	domhsa	do	ADP	Prep	Dialect=Ulster|Number=Sing|Person=1|PronType=Emp	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 413
@@ -11165,7 +11165,7 @@
 # text = 'Ná habair liom gurb é do thuairimse leis é gur bréaga a leath dá bhfuil foghlamtha againn.
 1	'	'	PUNCT	Punct	_	3	punct	_	SpaceAfter=No
 2	Ná	ná	PART	Vb	Mood=Imp|PartType=Vb|Polarity=Neg	3	advmod	_	_
-3	habair	abar	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Masc|Number=Plur	0	root	_	_
+3	habair	abair	VERB	VTI	Form=HPref|Mood=Imp|Number=Sing|Person=2	0	root	_	_
 4	liom	le	ADP	Prep	Number=Sing|Person=1	3	obl:prep	_	_
 5	gurb	is	AUX	Cop	Form=VF|Tense=Pres|VerbForm=Cop	8	cop	_	_
 6	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	8	nmod	_	_

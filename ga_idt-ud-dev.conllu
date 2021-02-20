@@ -794,7 +794,7 @@
 7	á	do	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	case	_	_
 8	múscailt	múscailt	NOUN	Noun	VerbForm=Inf	6	xcomp	_	_
 9	nách	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	10	cop	_	_
-10	me	mé	PRON	Pers	Number=Sing|Person=1	1	ccomp	_	_
+10	me	mé	PRON	Pers	Number=Sing|Person=1|Typo=Yes	1	ccomp	_	_
 11	féin	féin	PRON	Ref	Reflex=Yes	10	nmod	_	_
 12	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	10	nsubj	_	SpaceAfter=No
 13	;	;	PUNCT	Punct	_	15	punct	_	_
@@ -1763,7 +1763,7 @@
 25	flaithiúil	flaithiúil	ADJ	Adj	Degree=Pos	21	advmod	_	SpaceAfter=No
 26	,	,	PUNCT	Punct	_	28	punct	_	_
 27	Le	le	ADP	Simp	_	28	case	_	_
-28	n-ithe	ith	VERB	VTI	Form=Ecl|Mood=Sub|Tense=Pres	21	parataxis	_	_
+28	n-ithe	ith	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	21	obl	_	_
 29	le	le	ADP	Simp	_	31	case	_	_
 30	mo	mo	DET	Det	Number=Sing|Person=1|Poss=Yes	31	nmod:poss	_	_
 31	thoirtín	toirtín	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	28	obl	_	_
@@ -2086,7 +2086,7 @@
 # text = Agus tchítear domhsa go ndearnadh leithcheal orthu.
 1	Agus	agus	SCONJ	Subord	_	2	mark	_	_
 2	tchítear	feic	VERB	PresInd	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
-3	domhsa	do	ADP	Prep	Dialect=Ulster|Form=Emp|Number=Sing|Person=1	2	obl:prep	_	_
+3	domhsa	do	ADP	Prep	Dialect=Ulster|Number=Sing|Person=1|PronType=Emp	2	obl:prep	_	_
 4	go	go	PART	Vb	PartType=Cmpl	5	mark:prt	_	_
 5	ndearnadh	déan	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Past	2	ccomp	_	_
 6	leithcheal	leithcheal	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	obj	_	_
@@ -3189,7 +3189,7 @@
 2	dúirt	abair	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	mura	mura	SCONJ	Subord	_	5	mark	_	_
-5	dtigeadh	tuig	VERB	VTI	Form=Ecl|Mood=Cnd	2	advcl	_	_
+5	dtigeadh	tar	VERB	VTI	Form=Ecl|Mood=Cnd	2	advcl	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	fhuil	fuil	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	5	obj	_	_
 8	go	go	PART	Vb	PartType=Cmpl	9	mark:prt	_	_
@@ -5804,7 +5804,7 @@
 7	Gael	Gael	PROPN	Noun	Gender=Masc|Number=Sing	6	flat	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 9	dara	dara	NUM	Num	NumType=Ord	10	amod	_	_
-10	shuíocán	suíochán	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	5	obj	_	_
+10	shuíocán	suíochán	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing|Typo=Yes	5	obj	_	_
 11	nuair	nuair	SCONJ	Subord	_	13	mark	_	_
 12	a	a	PART	Vb	PartType=Vb|PronType=Rel	13	mark:prt	_	_
 13	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	5	advcl	_	_
