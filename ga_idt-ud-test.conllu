@@ -1875,8 +1875,8 @@
 15	agus	agus	CCONJ	Coord	_	16	cc	_	_
 16	Slándála	slándáil	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
 17	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	18	det	_	_
-18	Aontais	aontas	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes
-19	Eorpaigh	Eorpach	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
+18	Aontais	aontas	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes
+19	Eorpaigh	Eorpach	ADJ	Adj	Case=Gen|Gender=Masc|Number=Sing	18	amod	_	NamedEntity=Yes
 20	mar	mar	SCONJ	Subord	_	21	case	_	_
 21	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	11	xcomp	_	_
 22	leagtha	leagtha	ADJ	Adj	VerbForm=Part	21	xcomp:pred	_	_
@@ -1889,8 +1889,8 @@
 29	Chonradh	conradh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	25	nmod	_	_
 30	ar	ar	ADP	Simp	_	32	case	_	_
 31	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
-32	Aontas	aontas	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
-33	Eorpach	Eorpach	PROPN	Noun	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	32	nmod	_	NamedEntity=Yes
+32	Aontas	aontas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
+33	Eorpach	Eorpach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	32	amod	_	NamedEntity=Yes
 34	a	a	PART	Inf	PartType=Inf	35	mark	_	_
 35	chumadh	cumadh	NOUN	Noun	Form=Len|VerbForm=Inf	1	xcomp	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	1	punct	_	_
@@ -2872,7 +2872,7 @@
 10	i	i	ADP	Simp	_	11	case	_	_
 11	nDún	Dún	PROPN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
 12	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
-13	nGall	Gall	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
+13	nGall	Gall	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	appos	_	_
 16	suite	suite	ADJ	Adj	VerbForm=Part	15	xcomp:pred	_	_
@@ -5946,7 +5946,7 @@
 7	éis	éis	ADP	Cmpd	_	6	fixed	_	_
 8	do	do	ADP	Simp	_	9	case	_	_
 9	Chonradh	conradh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	11	nsubj	_	NamedEntity=Yes
-10	Amstardam	Amsterdam	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing|Typo=Yes	9	nmod	_	NamedEntity=Yes
+10	Amstardam	Amstardam	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
 11	teacht	teacht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	15	xcomp	_	_
 12	i	i	ADP	Simp	_	13	case	_	_
 13	bhfeidhm	feidhm	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	11	nmod	_	SpaceAfter=No
@@ -8040,7 +8040,7 @@
 19	ar	ar	ADP	Simp	_	21	case	_	_
 20	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
 21	Aontas	aontas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
-22	Eorpach	Eorpach	PROPN	Noun	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	21	nmod	_	NamedEntity=Yes
+22	Eorpach	Eorpach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	21	amod	_	NamedEntity=Yes
 23	a	a	PART	Vb	PartType=Vb|PronType=Rel	24	nsubj	_	_
 24	bhaineann	bain	VERB	VTI	Form=Len|Mood=Ind|Tense=Pres	18	acl:relcl	_	_
 25	leis	le	ADP	Simp	_	27	case	_	_
