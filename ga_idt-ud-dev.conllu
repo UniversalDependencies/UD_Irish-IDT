@@ -1854,12 +1854,12 @@
 1	Déanfaidh	déan	VERB	VTI	Mood=Ind|Tense=Fut	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Fhoireann	foireann	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	1	nsubj	_	NamedEntity=Yes
-4	um	um	ADP	Simp	_	3	flat	_	NamedEntity=Yes
+4	um	um	ADP	Simp	_	5	case	_	NamedEntity=Yes
 5	Fhorbairt	forbairt	NOUN	Noun	Form=Len|VerbForm=Inf	3	nmod	_	NamedEntity=Yes
 6	Pleanála	pleanáil	NOUN	Noun	Case=Gen|VerbForm=Inf	5	nmod	_	NamedEntity=Yes
 7	Scoile	scoil	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	NamedEntity=Yes
-8	aiseolas	aiseolas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obj	_	_
-9	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	1	obl:prep	_	_
+8	aiseolas	aiseolas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	11	obj	_	_
+9	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	8	nmod	_	_
 10	a	a	PART	Inf	PartType=Inf	11	mark	_	_
 11	chomhthiomsú	comhthiomsú	NOUN	Noun	Form=Len|VerbForm=Inf	1	xcomp	_	_
 12	agus	agus	SCONJ	Subord	_	13	mark	_	_
@@ -7380,7 +7380,7 @@
 24	Fheisligh	Feisleach	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	21	flat:name	_	NamedEntity=Yes
 25	in	i	ADP	Simp	_	26	case	_	_
 26	Studica	Studica	X	Foreign	Foreign=Yes|Gender=Masc|Number=Sing	14	nmod	_	NamedEntity=Yes
-27	Celtica	Celtica	X	Foreign	Foreign=Yes|Gender=Masc|Number=Sing	26	flat	_	NamedEntity=Yes
+27	Celtica	Celtica	X	Foreign	Foreign=Yes|Gender=Masc|Number=Sing	26	flat:foreign	_	NamedEntity=Yes
 28	V	V	NUM	Num	NumType=Card	26	nmod	_	_
 29	(	(	PUNCT	Punct	_	31	punct	_	SpaceAfter=No
 30	in	i	ADP	Simp	_	31	case	_	_
