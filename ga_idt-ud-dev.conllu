@@ -5145,7 +5145,7 @@
 11	ar	ar	ADP	Simp	_	10	nmod	_	_
 12	fad	fad	NOUN	Noun	Gender=Masc|Number=Sing	11	fixed	_	_
 13	le	le	ADP	Simp	_	14	case	_	_
-14	hÉireannaigh	Éireannach	NOUN	Noun	Definite=Def|Form=HPref|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
+14	hÉireannaigh	Éireannach	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Masc|Number=Plur	6	nmod	_	SpaceAfter=No
 15	;	;	PUNCT	Punct	_	16	punct	_	_
 16	cuma	cuma	ADJ	Adj	Degree=Pos	6	parataxis	_	_
 17	céard	cé	PRON	Q	PronType=Int	16	csubj:cop	_	_
@@ -5405,7 +5405,7 @@
 18	,	,	PUNCT	Punct	_	19	punct	_	_
 19	agus	agus	CCONJ	Coord	_	21	cc	_	_
 20	níor	níor	PART	Vb	PartType=Vb|Tense=Past	21	advmod	_	_
-21	chuir	cur	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	conj	_	_
+21	chuir	cuir	VERB	_	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
 22	mé	mé	PRON	Pers	Number=Sing|Person=1	21	nsubj	_	_
 23	aon	aon	DET	Det	PronType=Ind	24	det	_	_
 24	díolaim	díolaim	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	21	obj	_	_
@@ -5663,7 +5663,7 @@
 8	faoi	faoi	ADP	Simp	_	10	nmod	_	_
 9	réir	réir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	8	fixed	_	_
 10	scrúdaithe	scrúdú	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	obl	_	_
-11	tráth	tráth	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	obl:tmod	_	_
+11	tráth	tráth	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	obl:tmod	_	_
 12	ar	ar	ADP	Simp	_	10	nmod	_	_
 13	bith	bith	NOUN	Subst	Case=NomAcc|Gender=Masc|Number=Sing	12	fixed	_	_
 14	ag	ag	ADP	Simp	_	16	case	_	_

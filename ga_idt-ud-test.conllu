@@ -115,11 +115,11 @@
 42	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
 43	mhaidin	maidin	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	34	obl:tmod	_	_
 44	sin	sin	DET	Det	PronType=Dem	43	det	_	_
-45	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	47	det	_	_
-46	cúpla	cúpla	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	47	amod	_	_
-47	nóiméad	nóiméad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	49	nmod	_	_
+45	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	46	det	_	_
+46	cúpla	cúpla	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	34	obl:tmod	_	_
+47	nóiméad	nóiméad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	46	nmod	_	_
 48	roimh	roimh	ADP	Simp	_	49	case	_	_
-49	teacht	teacht	NOUN	Noun	VerbForm=Inf	34	nmod	_	_
+49	teacht	teacht	NOUN	Noun	VerbForm=Inf	46	nmod	_	_
 50	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	51	det	_	_
 51	traenach	traein	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	49	nmod	_	_
 52	chun	chun	ADP	Simp	_	54	case	_	_
@@ -221,7 +221,7 @@
 2	cosúil	cosúil	ADJ	Adj	Degree=Pos	0	root	_	_
 3	go	go	PART	Vb	PartType=Cmpl	4	mark:prt	_	_
 4	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	2	csubj:cop	_	_
-5	an-tóir	an-tóir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	4	nsubj	_	_
+5	an-tóir	an-tóir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	nsubj	_	_
 6	uilig	uile	DET	Det	_	5	det	_	_
 7	ag	ag	ADP	Simp	_	8	case	_	_
 8	Barcó	Barcó	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	obl	_	_
@@ -2032,9 +2032,9 @@
 # sent_id = 85
 # text = Thug an Tiarna Longueville, Co. Chorcaí, 'that general Jail-Deliverer' air le linn na tréimhse sin.
 1	Thug	tabhair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
-2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Tiarna	tiarna	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	NamedEntity=Yes
-4	Longueville	longueville	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	flat:name	_	NamedEntity=Yes|SpaceAfter=No
+4	Longueville	longueville	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	_	_
 6	Co.	Co.	PROPN	Abr	Abbr=Yes	3	nmod	_	NamedEntity=Yes
 7	Chorcaí	Corcaigh	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	NamedEntity=Yes|SpaceAfter=No
@@ -3947,7 +3947,7 @@
 23	'	'	PUNCT	Punct	_	24	punct	_	SpaceAfter=No
 24	Chuamar	téigh	VERB	VTI	Form=Len|Mood=Ind|Number=Plur|Person=1|Tense=Past	55	parataxis	_	_
 25	ag	ag	ADP	Simp	_	26	case	_	_
-26	cruinniú	cruinniú	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	24	xcomp	_	_
+26	cruinniú	cruinniú	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	xcomp	_	_
 27	i	i	ADP	Simp	_	28	case	_	_
 28	mBaile	Baile	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Sing	26	nmod	_	NamedEntity=Yes
 29	Átha	Átha	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	28	nmod	_	NamedEntity=Yes
@@ -9314,7 +9314,7 @@
 18	Ní	ní	PART	Vb	PartType=Vb|Polarity=Neg	19	advmod	_	_
 19	raibh	bí	VERB	PastInd	Mood=Ind|Polarity=Neg|Tense=Past	9	parataxis	_	_
 20	aon	aon	DET	Det	PronType=Ind	21	det	_	_
-21	tsamhail	samhail	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	19	nsubj	_	_
+21	tsamhail	samhail	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	nsubj	_	_
 22	againn	ag	ADP	Prep	Number=Plur|Person=1	19	obl:prep	_	_
 23	ach	ach	SCONJ	Subord	_	26	mark	_	_
 24	mar	mar	ADP	Simp	_	26	case	_	_
@@ -9795,8 +9795,8 @@
 9	don	do	ADP	Art	Number=Sing|PronType=Art	10	case	_	_
 10	gcomhlacht	comhlacht	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 11	,	,	PUNCT	Punct	_	12	punct	_	_
-12	Celtic	Celtic	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	appos	_	NamedEntity=Yes
-13	Candles	Candles	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes|SpaceAfter=No
+12	Celtic	Celtic	X	Foreign	Foreign=Yes	10	appos	_	NamedEntity=Yes
+13	Candles	Candles	X	Foreign	Foreign=Yes	12	flat:foreign	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	Punct	_	16	punct	_	_
 15	i	i	ADP	Simp	_	16	case	_	_
 16	mBaile	Baile	PROPN	Noun	Case=Gen|Form=Ecl|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
@@ -9811,7 +9811,7 @@
 25	gnó	gnó	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	24	compound	_	_
 26	do	do	ADP	Simp	_	31	case	_	_
 27	chomhlacht	comhlacht	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	31	obj	_	_
-28	léiriúcháin	léiriúchán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	_
+28	léiriúcháin	léiriúchán	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	27	nmod	_	_
 29	teilifíse	teilifís	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	28	nmod	_	_
 30	a	a	PART	Inf	PartType=Inf	31	mark	_	_
 31	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	24	xcomp	_	_
@@ -11069,7 +11069,7 @@
 8	rá	rá	NOUN	Noun	VerbForm=Inf	6	xcomp	_	_
 9	go	go	PART	Vb	PartType=Cmpl	10	mark:prt	_	_
 10	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	8	ccomp	_	_
-11	gaol	gaol	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	10	nsubj	_	_
+11	gaol	gaol	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	nó	nó	CCONJ	Coord	_	13	cc	_	_
 13	dáimh	dáimh	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	11	conj	_	_
 14	ag	ag	ADP	Simp	_	16	case	_	_
