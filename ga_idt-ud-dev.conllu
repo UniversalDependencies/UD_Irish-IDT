@@ -132,7 +132,7 @@
 5	ón	ó	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
 6	bPopghrúpa	popghrúpa	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	3	nmod	_	_
 7	'	'	PUNCT	Punct	_	8	punct	_	SpaceAfter=No
-8	Westlife	Westlife	PROPN	Noun	Gender=Masc|Number=Sing	6	appos	_	SpaceAfter=No
+8	Westlife	Westlife	PROPN	Noun	Gender=Masc|Number=Sing	6	flat	_	SpaceAfter=No
 9	'	'	PUNCT	Punct	_	8	punct	_	_
 10	agus	agus	CCONJ	Coord	_	11	cc	_	_
 11	Kerry	Kerry	PROPN	Noun	Gender=Masc|Number=Sing	3	conj	_	NamedEntity=Yes
@@ -146,7 +146,7 @@
 19	sa	i	ADP	Art	Number=Sing|PronType=Art	20	case	_	_
 20	ghrúpa	grúpa	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	18	nmod	_	_
 21	'	'	PUNCT	Punct	_	22	punct	_	SpaceAfter=No
-22	Atomic	Atomic	PROPN	Noun	Gender=Masc|Number=Sing	20	appos	_	_
+22	Atomic	Atomic	PROPN	Noun	Gender=Masc|Number=Sing	20	flat	_	_
 23	Kitten	Kitten	PROPN	Noun	Gender=Masc|Number=Sing	22	flat:foreign	_	SpaceAfter=No
 24	'	'	PUNCT	Punct	_	22	punct	_	SpaceAfter=No
 25	,	,	PUNCT	Punct	_	26	punct	_	_
@@ -3215,7 +3215,7 @@
 6	ar	ar	ADP	Simp	_	8	case	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	dreapadóir	dreapadóir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	_
-9	Paul	Paul	PROPN	Noun	Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
+9	Paul	Paul	PROPN	Noun	Gender=Masc|Number=Sing	8	appos	_	NamedEntity=Yes
 10	Pritchard	Pritchard	PROPN	Noun	Gender=Masc|Number=Sing	9	flat:name	_	NamedEntity=Yes
 11	ar	ar	ADP	Simp	_	12	case	_	_
 12	pháipéar	páipéar	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	obl	_	_
@@ -8874,7 +8874,7 @@
 13	thit	tit	VERB	VI	Form=Len|Mood=Ind|Tense=Past	11	csubj:cop	_	_
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	Prionsa	prionsa	NOUN	Noun	Gender=Masc|Number=Sing	13	nsubj	_	NamedEntity=Yes
-16	Eoin	Eoin	PROPN	Noun	Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes
+16	Eoin	Eoin	PROPN	Noun	Gender=Masc|Number=Sing	15	flat	_	NamedEntity=Yes
 17	isteach	isteach	ADV	Dir	_	13	advmod	_	_
 18	san	i	ADP	Art	Number=Sing|PronType=Art	19	case	_	_
 19	abhainn	abhainn	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	13	obl	_	_
@@ -11047,7 +11047,7 @@
 39	,	,	PUNCT	Punct	_	41	punct	_	_
 40	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	41	det	_	_
 41	t-amhránaí	amhránaí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	_
-42	Áine	Áine	PROPN	Noun	Gender=Fem|Number=Sing	41	nmod	_	NamedEntity=Yes
+42	Áine	Áine	PROPN	Noun	Gender=Fem|Number=Sing	41	appos	_	NamedEntity=Yes
 43	Uí	uí	PART	Pat	PartType=Pat	42	flat:name	_	NamedEntity=Yes
 44	Laoithe	Laoithe	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	42	flat:name	_	NamedEntity=Yes
 45	agus	agus	CCONJ	Coord	_	46	cc	_	_

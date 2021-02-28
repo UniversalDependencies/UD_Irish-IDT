@@ -81,7 +81,7 @@
 8	bhfaca	feic	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past	2	advcl	_	_
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	tSiúr	siúr	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	8	nsubj	_	NamedEntity=Yes
-11	Concepta	Concepta	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
+11	Concepta	Concepta	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes
 12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	_
 13	tréadaí	tréadaí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	8	obj	_	_
 14	Eoin	Eoin	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	appos	_	NamedEntity=Yes
@@ -5039,7 +5039,7 @@
 22	deir	abair	VERB	VTI	Mood=Ind|Tense=Pres	2	advcl	_	_
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	fisiceoir	fisiceoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	22	nsubj	_	_
-25	Mike	Mike	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	nmod	_	NamedEntity=Yes
+25	Mike	Mike	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	24	appos	_	NamedEntity=Yes
 26	Redfern	Redfern	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 27	,	,	PUNCT	Punct	_	29	punct	_	_
 28	go	go	PART	Vb	PartType=Cmpl	29	mark:prt	_	_
@@ -11008,7 +11008,7 @@
 34	raibh	bí	VERB	VI	Mood=Ind|Tense=Past	32	acl:relcl	_	_
 35	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	36	det	_	_
 36	sgríobhnóir	sgríobhnóir	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	34	nsubj	_	_
-37	George	George	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	36	nmod	_	NamedEntity=Yes
+37	George	George	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	36	appos	_	NamedEntity=Yes
 38	Orwell	Orwell	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	37	flat:name	_	NamedEntity=Yes
 39	fá	faoi	ADP	Simp	Dialect=Ulster|Gender=Masc|Number=Sing|Person=3	34	xcomp:pred	_	_
 40	aon	aon	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	42	obj	_	_
