@@ -808,7 +808,7 @@
 7	reilig	reilig	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_
 8	mar	mar	SCONJ	Subord	_	10	mark	_	_
 9	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	10	cop	_	_
-10	Ultach	Ultach	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	advcl	_	_
+10	Ultach	Ultach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	advcl	_	_
 11	fir	fear	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 13	chéad	céad	NUM	Num	Form=Len|NumType=Ord	14	amod	_	_
