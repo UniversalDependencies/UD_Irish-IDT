@@ -1610,7 +1610,7 @@
 6	dhá	dó	NUM	Num	Form=Len|NumType=Card	7	nummod	_	_
 7	cheann	ceann	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	3	xcomp:pred	_	_
 8	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	_
-9	meá	meá	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	nmod	_	_
+9	meá	meá	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
 10	mar	mar	SCONJ	Subord	_	12	mark	_	_
 11	go	go	PART	Vb	PartType=Cmpl	12	mark:prt	_	_
 12	rabhas	bí	VERB	PastInd	Mood=Ind|Number=Sing|Person=1|Tense=Past	3	advcl	_	_
@@ -1810,7 +1810,7 @@
 18	chéad	céad	NUM	Num	Form=Len|NumType=Card	21	nummod	_	_
 19	go	go	ADP	Simp	_	20	case	_	_
 20	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	18	nmod	_	_
-21	duine	duine	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	14	nsubj	_	_
+21	duine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nsubj	_	_
 22	sa	i	ADP	Art	Number=Sing|PronType=Art	23	case	_	_
 23	phobal	pobal	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	14	obl	_	_
 24	Preispitéireach	Preispitéireach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	23	amod	_	_
@@ -3761,7 +3761,7 @@
 # text = Meabhraítear dhá arcaitíopa Mháire dúinn arís, 'fear sanntach saoghalta agus fear fial fileamhanta', (1942, 5) a luaigh mé i gCaibidil 1.
 1	Meabhraítear	meabhraigh	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 2	dhá	dó	NUM	Num	Form=Len|NumType=Card	3	nummod	_	_
-3	arcaitíopa	arcaitíopa	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	obj	_	_
+3	arcaitíopa	arcaitíopa	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obj	_	_
 4	Mháire	Máire	PROPN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	3	nmod	_	_
 5	dúinn	do	ADP	Prep	Number=Plur|Person=1	1	obl:prep	_	_
 6	arís	arís	ADV	Gn	_	1	advmod	_	SpaceAfter=No
@@ -4091,7 +4091,7 @@
 10	teicneolaíochta	teicneolaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	8	conj	_	_
 11	ar	ar	ADP	Cmpd	PrepForm=Cmpd	15	case	_	_
 12	feadh	feadh	ADP	Cmpd	_	11	fixed	_	_
-13	dhá	dó	NUM	Num	Form=Len|NumType=Card	15	nummod	_	_
+13	dhá	dó	NUM	Num	Form=Len|NumType=Card	14	nummod	_	_
 14	chéad	céad	NUM	Num	Form=Len|NumType=Card	15	nummod	_	_
 15	bliain	bliain	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	2	obl:tmod	_	_
 16	ach	ach	SCONJ	Subord	_	17	mark	_	_
@@ -4196,7 +4196,7 @@
 1	Do	do	PART	Vb	PartType=Vb	2	mark:prt	_	_
 2	bhain	bain	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 3	seacht	seacht	NUM	Num	NumType=Card	4	nummod	_	_
-4	croitheadh	croitheadh	NOUN	Noun	VerbForm=Inf	2	nsubj	_	_
+4	croitheadh	croitheadh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	as	as	ADP	Simp	_	6	case	_	_
 6	láimh	lámh	NOUN	Noun	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
 7	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	_
@@ -7452,7 +7452,7 @@
 38	deiridh	deireadh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	37	nmod	_	_
 39	i	i	ADP	Simp	_	41	case	_	_
 40	55	55	NUM	Num	_	41	nummod	_	_
-41	soic	soc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	33	obl	_	SpaceAfter=No
+41	soic	soicind	NOUN	Noun	Abbr=Yes|Case=NomAcc|Gender=Masc|Number=Sing	33	obl	_	SpaceAfter=No
 42	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = 287
@@ -8295,9 +8295,9 @@
 2	mí	mí	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	5	obl:tmod	_	_
 3	Eanáir	Eanáir	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	2	punct	_	_
-5	thuairisc	tuairisc	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	0	root	_	_
-6	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	_
-7	taighdeoirí	taighdeoir	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	5	nsubj	_	_
+5	thuairisc	tuairisc	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
+6	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
+7	taighdeoirí	taighdeoir	NOUN	Noun	Case=NomAcc|Gender=Masc|NounType=Strong|Number=Plur	5	nsubj	_	_
 8	céanna	céanna	ADJ	Adj	Degree=Pos	7	amod	_	_
 9	go	go	PART	Vb	PartType=Cmpl	10	mark:prt	_	_
 10	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	5	ccomp	_	_
@@ -8822,10 +8822,10 @@
 6	gur	gur	PART	Vb	PartType=Vb|Tense=Past	7	mark:prt	_	_
 7	tréigeadh	tréig	VERB	VTI	Mood=Ind|Person=0|Tense=Past	2	ccomp	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	pholasaí	polasaí	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nsubj	_	_
+9	pholasaí	polasaí	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
 10	neodrachta	neodracht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	9	nmod	_	_
 11	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
-12	gníomh	gníomh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
+12	gníomh	gníomh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	_
 13	deiridh	deireadh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	12	nmod	_	_
 14	a	a	PART	Vb	PartType=Vb|PronType=Rel	15	obj	_	_
 15	dhein	déan	VERB	VTI	Dialect=Munster|Form=Len|Mood=Ind|Tense=Past	12	acl:relcl	_	_
@@ -9161,8 +9161,8 @@
 2	fós	fós	ADV	Gn	_	4	advmod	_	_
 3	ní	is	AUX	Cop	Polarity=Neg|Tense=Pres|VerbForm=Cop	4	cop	_	_
 4	mórán	mórán	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	_
-5	dóchais	dóchas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	4	nsubj	_	_
-6	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	5	acl:relcl	_	_
+5	dóchais	dóchas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	4	nmod	_	_
+6	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	4	acl:relcl	_	_
 7	ag	ag	ADP	Simp	_	8	case	_	_
 8	éinne	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	obl	_	_
 9	go	go	SCONJ	Subord	_	10	mark	_	_
