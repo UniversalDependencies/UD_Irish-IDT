@@ -276,7 +276,7 @@
 22	an-tóir	an-tóir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	21	nsubj	_	_
 23	ag	ag	ADP	Simp	_	25	case	_	_
 24	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	Francaigh	Francach	PROPN	Noun	Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
+25	Francaigh	Francach	NOUN	Noun	Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
 26	ar	ar	ADP	Simp	_	28	case	_	_
 27	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	28	det	_	_
 28	shórt	sórt	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
@@ -5139,7 +5139,7 @@
 5	is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	6	cop	_	_
 6	eisean	eisean	PRON	Pers	Gender=Masc|Number=Sing|Person=3|PronType=Emp	0	root	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	Briotanach	Briotanach	PROPN	Noun	Gender=Masc|Number=Sing	6	nsubj	_	_
+8	Briotanach	Briotanach	NOUN	Noun	Gender=Masc|Number=Sing	6	nsubj	_	_
 9	is	is	PART	Sup	PartType=Sup|Tense=Pres|VerbForm=Cop	19	mark:prt	_	_
 10	fearr	maith	ADJ	Adj	Degree=Cmp,Sup	8	amod	_	_
 11	ar	ar	ADP	Simp	_	10	nmod	_	_
@@ -5239,7 +5239,7 @@
 12	éirigh	éirigh	VERB	VI	Mood=Ind|Tense=Past	1	conj	_	_
 13	leis	le	ADP	Simp	_	15	case	_	_
 14	na	na	DET	Art	PronType=Art	15	det	_	_
-15	Laighnigh	Laighneach	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	obl	_	_
+15	Laighnigh	Laighneach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	obl	_	_
 16	cúl	cúl	NOUN	Noun	Gender=Masc|Number=Sing	19	obj	_	_
 17	cinniúnach	cinniúnach	ADJ	Adj	Degree=Pos	16	amod	_	_
 18	a	a	PART	Inf	PartType=Inf	19	mark	_	_
@@ -10604,7 +10604,7 @@
 5	a	a	PART	Vb	PartType=Vb|PronType=Rel	2	obj	_	_
 6	dúirt	abair	VERB	VTI	Mood=Ind|Tense=Past	2	acl:relcl	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
-8	tIndiach	Indiach	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	nsubj	_	_
+8	tIndiach	Indiach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	nsubj	_	_
 9	leis	le	ADP	Simp	_	11	case	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	Iosánach	Íosánach	NOUN	Noun	Gender=Masc|Number=Sing|Typo=Yes	6	obl	_	_
