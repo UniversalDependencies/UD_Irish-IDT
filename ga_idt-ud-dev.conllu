@@ -474,7 +474,7 @@
 23	bhfarraige	farraige	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	18	obl	_	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	beannacht	beannacht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	18	parataxis	_	_
-26	Dé	dia	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
+26	Dé	Dia	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	lena	le	ADP	Poss	Number=Plur|Person=3|Poss=Yes	28	case	_	_
 28	n-anamnacha	anam	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Plur	25	nmod	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	31	punct	_	_
@@ -711,7 +711,7 @@
 
 # sent_id = 485
 # text = Dé Céadaoin, 28 Bealtaine 1986.
-1	Dé	Dé	NOUN	Subst	Number=Sing	0	root	_	NamedEntity=Yes
+1	Dé	Dé	PROPN	Subst	Number=Sing	0	root	_	NamedEntity=Yes
 2	Céadaoin	Céadaoin	PROPN	Noun	Case=Gen|Gender=Fem|Number=Sing	1	nmod	_	NamedEntity=Yes|SpaceAfter=No
 3	,	,	PUNCT	Punct	_	4	punct	_	_
 4	28	28	NUM	Num	_	1	nmod	_	NamedEntity=Yes
@@ -1462,8 +1462,8 @@
 13	osclaíonn	oscail	VERB	VTI	Mood=Ind|Tense=Pres	3	advcl	_	_
 14	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	13	nsubj	_	_
 15	i	i	ADP	Simp	_	16	case	_	_
-16	Meán	meán	NOUN	Noun	Gender=Masc|Number=Sing	13	obl:tmod	_	NamedEntity=Yes
-17	Fómhair	fómhar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
+16	Meán	Meán	PROPN	Noun	Gender=Masc|Number=Sing	13	obl:tmod	_	NamedEntity=Yes
+17	Fómhair	Fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 18	seo	seo	PRON	Dem	PronType=Dem	16	det	_	_
 19	chugainn	chuig	ADP	Prep	Number=Plur|Person=1	18	fixed	_	SpaceAfter=No
 20	,	,	PUNCT	Punct	_	23	punct	_	_
@@ -2308,8 +2308,8 @@
 14	'	'	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
 15	fhios	fios	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	13	nsubj	_	_
 16	ag	ag	ADP	Simp	_	17	case	_	_
-17	Mac	mac	NOUN	Noun	Gender=Masc|Number=Sing	13	obl	_	NamedEntity=Yes
-18	Dé	dia	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
+17	Mac	mac	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	obl	_	NamedEntity=Yes
+18	Dé	Dia	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
 19	go	go	PART	Vb	PartType=Cmpl	20	mark:prt	_	_
 20	bhfaca	feic	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Past	13	ccomp	_	_
 21	mise	mise	PRON	Pers	Number=Sing|Person=1|PronType=Emp	20	nsubj	_	_
@@ -4041,7 +4041,7 @@
 4	chuig	chuig	ADP	Simp	_	6	case	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
 6	obair	obair	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	2	nmod	_	_
-7	Dé	Dé	NOUN	Subst	Number=Sing	6	obl:tmod	_	NamedEntity=Yes
+7	Dé	Dé	PROPN	Subst	Number=Sing	6	obl:tmod	_	NamedEntity=Yes
 8	Sathairn	Satharn	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
 9	chomh	chomh	ADV	Its	_	2	advmod	_	_
 10	maith	maith	ADJ	Adj	Degree=Pos	9	fixed	_	SpaceAfter=No
@@ -4655,7 +4655,7 @@
 # text = Go bhfága Dia a leanbh féin agus a bheithíoch féin ag chuile chréatúr!
 1	Go	go	PART	Vb	PartType=Cmpl	2	mark:prt	_	_
 2	bhfága	fág	VERB	VTI	Form=Ecl|Mood=Sub|Tense=Pres	0	root	_	_
-3	Dia	dia	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nsubj	_	_
+3	Dia	Dia	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	nmod:poss	_	_
 5	leanbh	leanbh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	obj	_	_
 6	féin	féin	PRON	Ref	Reflex=Yes	5	nmod	_	_
@@ -4680,7 +4680,7 @@
 # sent_id = 640
 # text = 'Dia dhuit, a Mhíchíl,' a deir Sándra leis, 'tá áthas orm bualadh leat.
 1	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-2	Dia	dia	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	parataxis	_	_
+2	Dia	Dia	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	parataxis	_	_
 3	dhuit	do	ADP	Prep	Form=Len|Number=Sing|Person=2	2	obl:prep	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	2	punct	_	_
 5	a	a	PART	Voc	PartType=Voc	6	case:voc	_	_
@@ -8510,8 +8510,8 @@
 # text = I mí Mheán Fómhair 1940, bhí áit pioctha ag Séamus i Kaji-htu, chun misean nua a chur ar bun.
 1	I	I	ADP	Simp	_	2	case	_	_
 2	mí	mí	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	obl:tmod	_	_
-3	Mheán	meán	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
-4	Fómhair	fómhar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
+3	Mheán	Meán	PROPN	Noun	Form=Len|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
+4	Fómhair	Fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
 5	1940	1940	NUM	Num	_	3	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	2	punct	_	_
 7	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
@@ -8714,7 +8714,7 @@
 4	ar	ar	ADP	Simp	_	5	case	_	_
 5	Network	Network	X	Foreign	Foreign=Yes	1	nmod	_	NamedEntity=Yes
 6	2	2	NUM	Num	_	5	flat	_	NamedEntity=Yes
-7	Dé	Dé	NOUN	Subst	_	1	nmod	_	NamedEntity=Yes
+7	Dé	Dé	PROPN	Subst	_	1	nmod	_	NamedEntity=Yes
 8	Luain	Luan	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
 9	ag	ag	ADP	Simp	_	10	case	_	_
 10	10.30	10.30	NUM	Num	_	1	nmod	_	SpaceAfter=No
@@ -8752,19 +8752,19 @@
 # sent_id = 808
 # text = Bhíodh fíoracha na ndéithe snoite as cabhlacha crann sna doirí úd agus ina dteannta altóirí ar a ndéanadh na draoithe íobairtí.
 1	Bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	0	root	_	_
-2	fíoracha	fíor	NOUN	Noun	Gender=Fem|Number=Plur	1	nsubj	_	_
+2	fíoracha	fíor	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	1	nsubj	_	_
 3	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	ndéithe	dia	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	2	nmod	_	_
 5	snoite	snoite	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
 6	as	as	ADP	Simp	_	7	case	_	_
-7	cabhlacha	cabhail	NOUN	Noun	Gender=Fem|Number=Plur	2	nmod	_	_
+7	cabhlacha	cabhail	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	2	nmod	_	_
 8	crann	crann	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	7	nmod	_	_
 9	sna	i	ADP	Art	Number=Plur|PronType=Art	10	case	_	_
-10	doirí	doire	NOUN	Noun	Gender=Masc|Number=Plur	1	obl	_	_
+10	doirí	doire	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	obl	_	_
 11	úd	úd	DET	Det	PronType=Dem	10	det	_	_
 12	agus	agus	CCONJ	Coord	_	14	cc	_	_
 13	ina	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	14	case	_	_
-14	dteannta	teannta	NOUN	Noun	Form=Ecl|Gender=Masc|Number=Sing	15	nmod	_	_
+14	dteannta	teannta	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	15	nmod	_	_
 15	altóirí	altóir	NOUN	Noun	Gender=Fem|Number=Plur	7	conj	_	_
 16	ar	ar	ADP	Simp	_	18	case	_	_
 17	a	a	PART	Vb	PartType=Vb|PronType=Rel	18	obl	_	_
@@ -9637,7 +9637,7 @@
 # text = AR 10 Feabhra 1968, cúig lá tar éis do William Conor bás a fháil, d'fhoilsigh an Belfast Telegraph cartún le Rowel Friers (1920-) dar teideal 'The End of an Era,' in ómós don phrionsa fir a bhí ar lár.
 1	AR	ar	ADP	Simp	_	3	case	_	_
 2	10	10	NUM	Num	_	18	obl:tmod	_	NamedEntity=Yes
-3	Feabhra	Feabhra	NOUN	Noun	Gender=Fem|Number=Sing	2	flat	_	NamedEntity=Yes
+3	Feabhra	Feabhra	PROPN	Noun	Gender=Fem|Number=Sing	2	flat	_	NamedEntity=Yes
 4	1968	1968	NUM	Num	_	2	flat	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	2	punct	_	_
 6	cúig	cúig	NUM	Num	NumType=Card	7	nummod	_	_
@@ -10664,7 +10664,7 @@
 7	bPáirc	páirc	NOUN	Noun	Form=Ecl|Gender=Fem|Number=Sing	1	ccomp	_	NamedEntity=Yes
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	NamedEntity=Yes
 9	Chrócaigh	Crócach	PROPN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
-10	Dé	Dé	NOUN	Subst	_	7	obl:tmod	_	NamedEntity=Yes
+10	Dé	Dé	PROPN	Subst	_	7	obl:tmod	_	NamedEntity=Yes
 11	Sathairn	Satharn	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
 12	ar	ar	ADP	Simp	_	14	case	_	_
 13	a	a	PART	Nm	_	14	mark:prt	_	_
@@ -11328,7 +11328,7 @@
 6	fhág	fág	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	3	csubj:cleft	_	_
 7	baile	baile	NOUN	Noun	Gender=Masc|Number=Sing	6	obj	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
-9	Luan	Luan	NOUN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	obl:tmod	_	_
+9	Luan	Luan	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	obl:tmod	_	_
 10	sin	sin	DET	Det	PronType=Dem	9	det	_	_
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	nsubj	_	_
 12	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	3	acl:relcl	_	_
