@@ -5941,7 +5941,7 @@
 2	de	de	ADP	Simp	_	3	case	_	_
 3	thréimhse	tréimhse	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	1	obl	_	_
 4	cúig	cúig	NUM	Num	NumType=Card	5	nummod	_	_
-5	bliana	bliain	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	3	nmod	_	_
+5	bliana	bliain	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	3	nmod	_	_
 6	tar	tar	ADP	Cmpd	PrepForm=Cmpd	11	case	_	_
 7	éis	éis	ADP	Cmpd	_	6	fixed	_	_
 8	do	do	ADP	Simp	_	9	case	_	_
@@ -8884,7 +8884,7 @@
 48	idir	idir	ADP	Simp	_	51	case	_	_
 49	a	a	PART	Nm	PartType=Num	51	nmod:poss	_	_
 50	seacht	seacht	NUM	Num	NumType=Card	51	nummod	_	_
-51	mbliana	bliain	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem	38	obl	_	_
+51	mbliana	bliain	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Plur	38	obl	_	_
 52	agus	agus	CCONJ	Coord	_	54	cc	_	_
 53	trí	trí	NUM	Num	NumType=Card	54	nummod	_	_
 54	scór	scór	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	51	conj	_	_
