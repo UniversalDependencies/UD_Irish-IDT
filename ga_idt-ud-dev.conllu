@@ -1472,7 +1472,7 @@
 23	gclárófar	cláraigh	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	3	conj	_	_
 24	cúig	cúig	NUM	Num	NumType=Card	25	nummod	_	_
 25	pháiste	páiste	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	23	obj	_	_
-26	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	24	compound	_	_
+26	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	24	nmod	_	_
 27	eile	eile	DET	Det	PronType=Dem	25	det	_	_
 28	sa	i	ADP	Art	Number=Sing|PronType=Art	29	case	_	_
 29	scoil	scoil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	23	obl	_	_
@@ -7684,7 +7684,7 @@
 29	ag	ag	ADP	Simp	_	32	case	_	_
 30	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
 31	haon	aon	NUM	Num	Form=HPref|NumType=Card	27	obl:tmod	_	_
-32	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	31	compound	_	_
+32	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	31	nmod	_	_
 33	gach	gach	DET	Det	Definite=Def	32	det	_	_
 34	uile	uile	DET	Det	PronType=Ind	32	det	_	_
 35	lá	lá	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	27	obl:tmod	_	_
@@ -8249,7 +8249,7 @@
 21	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	_
 22	seachtú	seachtú	NUM	Num	NumType=Ord	23	amod	_	_
 23	aoise	aois	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	20	nmod	_	_
-24	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	22	compound	_	SpaceAfter=No
+24	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	22	nmod	_	SpaceAfter=No
 25	,	,	PUNCT	Punct	_	26	punct	_	_
 26	Inis	inis	PROPN	Noun	Gender=Fem|Number=Sing	3	parataxis	_	NamedEntity=Yes
 27	Oirthir	oirthear	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	26	nmod	_	NamedEntity=Yes
@@ -9331,7 +9331,7 @@
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
 4	a	a	PART	Nm	PartType=Num	2	mark:prt	_	_
 5	dó	dó	NUM	Num	NumType=Card	8	nummod	_	_
-6	dhéag	déag	NOUN	Subst	Case=NomAcc|Form=Len|Number=Sing	5	compound	_	_
+6	dhéag	déag	NOUN	Subst	Case=NomAcc|Form=Len|Number=Sing	5	nmod	_	_
 7	a	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	chlog	clog	NOUN	Noun	Form=Len|Gender=Masc|Number=Sing	2	obl:tmod	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_

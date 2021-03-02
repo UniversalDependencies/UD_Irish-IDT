@@ -2078,7 +2078,7 @@
 22	beagnach	beagnach	ADV	Gn	_	23	advmod	_	_
 23	seacht	seacht	NUM	Num	NumType=Card	24	nummod	_	_
 24	mbliana	bliain	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Plur	11	obl:tmod	_	_
-25	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	23	compound	_	_
+25	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	23	nmod	_	_
 26	roimhe	roimh	ADP	Prep	Gender=Masc|Number=Sing|Person=3	27	case	_	_
 27	sin	sin	PRON	Dem	PronType=Dem	24	nmod	_	_
 28	agus	agus	CCONJ	Coord	_	30	cc	_	_
@@ -9987,7 +9987,7 @@
 24	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	26	det	_	_
 25	séú	sé	NUM	Num	NumType=Ord	26	amod	_	_
 26	haois	aois	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Fem|Number=Sing	23	nmod	_	_
-27	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	25	compound	_	SpaceAfter=No
+27	déag	déag	NOUN	Subst	Case=NomAcc|Number=Sing	25	nmod	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 392
