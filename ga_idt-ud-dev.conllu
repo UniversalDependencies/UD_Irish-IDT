@@ -8988,7 +8988,7 @@
 17	amháin	amháin	ADJ	Adj	Degree=Pos	16	amod	_	_
 18	Cathal	Cathal	PROPN	Noun	Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 19	Mac	mac	PART	Pat	PartType=Pat	18	flat:name	_	NamedEntity=Yes
-20	Eachmharcaigh	marcach	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	NamedEntity=Yes
+20	Eachmharcaigh	Eachmharcach	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	18	flat:name	_	NamedEntity=Yes
 21	agus	agus	CCONJ	Coord	_	22	cc	_	_
 22	mé	mé	PRON	Pers	Number=Sing|Person=1	18	conj	_	_
 23	féin	féin	PRON	Ref	Reflex=Yes	22	nmod	_	_
