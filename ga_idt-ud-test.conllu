@@ -1101,7 +1101,7 @@
 42	agus	agus	CCONJ	Coord	_	44	cc	_	_
 43	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	44	det	_	_
 44	17ú	17	NUM	Num	NumType=Ord	41	conj	_	_
-45	Márta	Márta	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
+45	Márta	Márta	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
 46	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 48
@@ -4420,12 +4420,12 @@
 4	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	5	det	_	_
 5	ranganna	rang	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	obl	_	_
 6	ag	ag	ADP	Simp	_	8	case	_	_
-7	Bishopsgate	Bishopsgate	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	nmod	_	NamedEntity=Yes
-8	Institute	Institute	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
+7	Bishopsgate	Bishopsgate	X	Foreign	Foreign=Yes	5	nmod	_	NamedEntity=Yes
+8	Institute	Institute	X	Foreign	Foreign=Yes	7	flat:foreign	_	NamedEntity=Yes
 9	ar	ar	ADP	Simp	_	11	case	_	_
 10	7	7	NUM	Num	_	1	obl:tmod	_	NamedEntity=Yes
-11	Deireadh	deireadh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes
-12	Fómhair	fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
+11	Deireadh	Deireadh	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	flat	_	NamedEntity=Yes
+12	Fómhair	Fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 13	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 186
@@ -7177,10 +7177,10 @@
 
 # sent_id = 278
 # text = Iúil - Meán Fómhair.
-1	Iúil	iúil	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	nmod	_	_
+1	Iúil	Iúil	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	nmod	_	_
 2	-	-	PUNCT	Punct	_	1	punct	_	_
-3	Meán	meán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
-4	Fómhair	fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes|SpaceAfter=No
+3	Meán	Meán	PROPN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
+4	Fómhair	Fómhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes|SpaceAfter=No
 5	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 279
@@ -8278,7 +8278,7 @@
 22	Dobhair	dobhar	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	21	nmod	_	NamedEntity=Yes|SpaceAfter=No
 23	,	,	PUNCT	Punct	_	24	punct	_	_
 24	tráthnóna	tráthnóna	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	obl:tmod	_	_
-25	Dé	Dé	NOUN	Subst	Number=Sing	24	nmod	_	NamedEntity=Yes
+25	Dé	Dé	PROPN	Subst	Number=Sing	24	nmod	_	NamedEntity=Yes
 26	Sathairn	Satharn	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	NamedEntity=Yes|SpaceAfter=No
 27	,	,	PUNCT	Punct	_	29	punct	_	_
 28	ar	ar	ADP	Simp	_	29	case	_	_
@@ -10579,7 +10579,7 @@
 33	,	,	PUNCT	Punct	_	35	punct	_	_
 34	le	le	ADP	Simp	_	35	case	_	_
 35	cúnamh	cúnamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	31	obl	_	_
-36	Dé	dia	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
+36	Dé	Dia	PROPN	Noun	Case=Gen|Gender=Masc|Number=Sing	35	nmod	_	SpaceAfter=No
 37	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 421
