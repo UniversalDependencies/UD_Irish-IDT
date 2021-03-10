@@ -4771,9 +4771,9 @@
 39	,	,	PUNCT	Punct	_	42	punct	_	_
 40	ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	42	cop	_	_
 41	iad	iad	PRON	Pers	Number=Plur|Person=3	42	nmod	_	_
-42	ceannaithe	ceannaghaidh	NOUN	Noun	Gender=Fem|Number=Plur	25	parataxis	_	_
+42	ceannaithe	ceannaghaidh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	25	parataxis	_	_
 43	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	44	nmod:poss	_	_
-44	thiarna	tiarna	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	42	nsubj	_	_
+44	thiarna	tiarna	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	42	nmod	_	_
 45	féin	féin	PRON	Ref	Reflex=Yes	44	nmod	_	SpaceAfter=No
 46	,	,	PUNCT	Punct	_	47	punct	_	_
 47	Ulrik	Ulrik	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	44	appos	_	NamedEntity=Yes
@@ -5036,7 +5036,7 @@
 12	teacht	teacht	NOUN	Noun	VerbForm=Inf	11	obj	_	_
 13	ar	ar	ADP	Simp	_	15	case	_	_
 14	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	15	det	_	_
-15	haltraí	altra	NOUN	Noun	Definite=Def|Form=HPref|Gender=Masc|Number=Plur	12	obl	_	_
+15	haltraí	altra	NOUN	Noun	Case=NomAcc|Definite=Def|Form=HPref|Gender=Masc|Number=Plur	12	obl	_	_
 16	rollaithe	rollaithe	ADJ	Adj	VerbForm=Part	15	amod	_	_
 17	atá	bí	VERB	VI	Mood=Ind|PronType=Rel|Tense=Pres	15	acl:relcl	_	_
 18	ag	ag	ADP	Simp	_	19	case	_	_
@@ -7755,8 +7755,8 @@
 21	,	,	PUNCT	Punct	_	23	punct	_	_
 22	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	23	cop	_	_
 23	mhodh	modh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	1	parataxis	_	_
-24	seachadta	seachadta	ADJ	Adj	VerbForm=Part	23	amod	_	_
-25	creidimh	creideamh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+24	seachadta	seachadadh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	creidimh	creideamh	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	24	nmod	_	_
 26	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	23	nsubj	_	_
 27	a	a	PART	Vb	PartType=Vb|PronType=Rel	28	mark:prt	_	_
 28	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	23	csubj:cleft	_	_
