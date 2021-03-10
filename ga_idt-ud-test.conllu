@@ -1869,7 +1869,7 @@
 9	linn	linn	ADP	Cmpd	_	8	fixed	_	_
 10	dó	do	ADP	Prep	Gender=Masc|Number=Sing|Person=3	1	obl	_	_
 11	gnéithe	gné	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	35	obj	_	_
-12	cosanta	cosaint	NOUN	Noun	Case=Gen|Definite=Def|VerbForm=Inf	11	nmod	_	_
+12	cosanta	cosaint	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 13	Chomhbheartas	comhbheartas	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	_
 14	Eachtraigh	eachtrach	ADJ	Adj	Case=Gen|Gender=Masc|Number=Sing|PartType=Voc	13	amod	_	_
 15	agus	agus	CCONJ	Coord	_	16	cc	_	_
@@ -5388,7 +5388,7 @@
 7	ag	ag	ADP	Simp	_	8	case	_	_
 8	dó	dó	NOUN	Noun	VerbForm=Vnoun	5	conj	_	_
 9	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	10	nmod:poss	_	_
-10	chuid	cuid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	8	obj	_	_
+10	chuid	cuid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	5	obj	_	_
 11	loirgne	lorga	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	13	punct	_	_
 13	ach	ach	SCONJ	Subord	_	14	mark	_	_
