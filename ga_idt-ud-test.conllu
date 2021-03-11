@@ -5768,7 +5768,7 @@
 16	,	,	PUNCT	Punct	_	20	punct	_	_
 17	gan	gan	ADP	Simp	_	20	case	_	_
 18	stoc	stoc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	obj	_	_
-19	a	a	PART	Vb	PartType=Vb|PronType=Rel	20	obj	_	_
+19	a	a	PART	Inf	PartType=Inf	20	mark	_	_
 20	shéide	séideadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	obl	_	_
 21	ná	ná	CCONJ	Coord	_	25	cc	_	_
 22	cuaille	cuaille	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	obj	_	_
@@ -6023,7 +6023,7 @@
 84	mBallstát	ballstát	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	81	nmod	_	_
 85	a	a	PART	Inf	PartType=Inf	86	mark	_	_
 86	thrasnú	trasnú	NOUN	Noun	Form=Len|VerbForm=Inf	78	xcomp	_	_
-87	a	a	PART	Vb	PartType=Vb|PronType=Rel	88	obj	_	_
+87	a	a	PART	Vb	PartType=Vb|PronType=Rel	88	nsubj	_	_
 88	bhunóidh	bunaigh	VERB	VT	Form=Len|Mood=Ind|Tense=Fut	78	acl:relcl	_	SpaceAfter=No
 89	:	:	PUNCT	Punct	_	91	punct	_	_
 90	(a)	(a)	NUM	Item	_	91	list	_	_
@@ -11378,7 +11378,7 @@
 3	thug	tabhair	VERB	VD	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 4	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	3	nsubj	_	_
 5	do	do	ADP	Simp	_	6	case	_	_
-6	Mháire	Máire	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	3	obj	_	SpaceAfter=No
+6	Mháire	Máire	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	3	obl	_	SpaceAfter=No
 7	?	?	PUNCT	?	_	3	punct	_	_
 
 # sent_id = 451
