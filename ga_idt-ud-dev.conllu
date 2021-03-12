@@ -3720,7 +3720,7 @@
 1	Seasaim	seas	VERB	VTI	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 2	le	le	ADP	Simp	_	3	case	_	_
 3	balla	balla	NOUN	Noun	Gender=Masc|Number=Sing	1	obl	_	_
-4	trasna	trasna	PART	Inf	PartType=Inf	3	amod	_	_
+4	trasna	trasna	ADV	_	_	1	advmod	_	_
 5	uathu	ó	ADP	Prep	Number=Plur|Person=3	1	obl:prep	_	_
 6	dá	do	ADP	Poss	Number=Plur|Person=3|Poss=Yes	7	case	_	_
 7	bhféachaint	féachaint	NOUN	Noun	Definite=Def|Form=Ecl|VerbForm=Inf	1	obl	_	_

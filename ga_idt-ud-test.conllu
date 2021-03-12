@@ -11451,7 +11451,7 @@
 8	Babaí	babaí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	Dálach	Dálach	PROPN	Subst	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	obj	_	_
-11	trasna	trasna	PART	Inf	PartType=Inf	13	case	_	_
+11	trasna	trasna	ADP	Simp	_	13	case	_	_
 12	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	det	_	_
 13	pluice	pluc	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	7	obl	_	_
 14	(	(	PUNCT	Punct	_	15	punct	_	SpaceAfter=No
