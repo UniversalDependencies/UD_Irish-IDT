@@ -247,7 +247,7 @@
 8	treoir	treoir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	7	obj	_	_
 9	don	do	ADP	Art	Number=Sing|PronType=Art	10	case	_	_
 10	Taoiseach	taoiseach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
-11	oiread	oiread	NOUN	Subst	Number=Sing	18	nsubj	_	_
+11	oiread	oiread	NOUN	Subst	Case=NomAcc|Number=Sing	18	nsubj	_	_
 12	áirithe	áirithe	ADJ	Adj	Degree=Pos	11	amod	_	_
 13	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	case	_	_
 14	chuid	cuid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	11	nmod	_	_
@@ -4902,7 +4902,7 @@
 30	ilteangachais	ilteangachas	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	_
 31	a	a	PART	Vb	PartType=Vb|PronType=Rel	32	obj	_	_
 32	chothaigh	cothaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	30	acl:relcl	_	_
-33	athréimniú	athréimniú	NOUN	Noun	Definite=Def|VerbForm=Inf	32	nsubj	_	_
+33	athréimniú	athréimniú	NOUN	Noun	Case=NomAcc|Definite=Def|VerbForm=Inf	32	nsubj	_	_
 34	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	35	det	_	_
 35	hEabhraise	Eabhrais	PROPN	Noun	Case=Gen|Definite=Def|Form=HPref|Gender=Fem|Number=Sing	33	nmod	_	SpaceAfter=No
 36	.	.	PUNCT	.	_	4	punct	_	_
@@ -5290,7 +5290,7 @@
 10	togha	togha	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	6	conj	_	_
 11	gach	gach	DET	Det	Definite=Def	12	det	_	_
 12	bia	bia	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	_
-13	agus	agus	CCONJ	Coord	_	5	nsubj	_	_
+13	agus	agus	CCONJ	Coord	_	14	cc	_	_
 14	rogha	rogha	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	6	conj	_	_
 15	gach	gach	DET	Det	Definite=Def	16	det	_	_
 16	dí	deoch	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	14	nmod	_	_
@@ -8689,7 +8689,7 @@
 29	a	a	PART	Vb	PartType=Vb|PronType=Rel	30	obl	_	_
 30	raibh	bí	VERB	VI	Mood=Ind|Tense=Past	28	acl:relcl	_	_
 31	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
-32	oiread	oiread	NOUN	Subst	Definite=Def|Number=Sing	30	nsubj	_	_
+32	oiread	oiread	NOUN	Subst	Case=NomAcc|Definite=Def|Number=Sing	30	nsubj	_	_
 33	poll	poll	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	32	nmod	_	_
 34	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	30	xcomp:pred	_	_
 35	agus	agus	CCONJ	Coord	_	37	cc	_	_
@@ -10348,7 +10348,7 @@
 3	tá	bí	VERB	VI	Mood=Ind|Tense=Pres	0	root	_	_
 4	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
 5	thrí	trí	NUM	Num	Form=Len|NumType=Card	6	nummod	_	_
-6	oiread	oiread	NOUN	Subst	Definite=Def|Number=Sing	3	nsubj	_	_
+6	oiread	oiread	NOUN	Subst	Case=NomAcc|Definite=Def|Number=Sing	3	nsubj	_	_
 7	agatsa	ag	ADP	Prep	Number=Sing|Person=2|PronType=Emp	3	obl:prep	_	_
 8	le	le	ADP	Simp	_	9	case	_	_
 9	maitheamh	maitheamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	obl	_	_
@@ -11195,7 +11195,7 @@
 1	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
 2	Múineadh	múin	VERB	VTI	Mood=Ind|Person=0|Tense=Past	22	parataxis	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	oiread	oiread	NOUN	Subst	Definite=Def|Number=Sing	2	nsubj	_	_
+4	oiread	oiread	NOUN	Subst	Case=NomAcc|Definite=Def|Number=Sing	2	nsubj	_	_
 5	sin	sin	DET	Det	PronType=Dem	4	det	_	_
 6	rudaí	rud	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	2	obj	_	_
 7	dúinn	do	ADP	Prep	Number=Plur|Person=1	2	obl:prep	_	_
