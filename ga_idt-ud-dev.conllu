@@ -6832,7 +6832,7 @@
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	ghuthán	guthán	NOUN	Noun	Definite=Def|Form=Len|Gender=Masc|Number=Sing	5	conj	_	_
 10	le	le	ADP	Simp	_	11	case	_	_
-11	hamazon	amazon	X	Foreign	Foreign=Yes	9	nmod	_	_
+11	hamazon	amazon	X	Foreign	Foreign=Yes|Form=HPref	9	nmod	_	_
 12	agus	agus	CCONJ	Coord	_	13	cc	_	_
 13	post	post	NOUN	Noun	Gender=Masc|Number=Sing	3	conj	_	_
 14	ar	ar	ADP	Simp	_	13	nmod	_	_
