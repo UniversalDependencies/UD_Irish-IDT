@@ -694,7 +694,7 @@
 31	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	33	obj	_	_
 32	a	a	PART	Inf	PartType=Inf	33	mark	_	_
 33	sheoladh	seoladh	NOUN	Noun	Form=Len|VerbForm=Inf	27	xcomp	_	_
-34	láithreach	láithreach	ADJ	Adj	Degree=Pos	33	advmod	_	_
+34	láithreach	láithreach	ADV	_	_	33	advmod	_	_
 35	chuig	chuig	ADP	Simp	_	36	case	_	_
 36	Cláraitheoir	cláraitheoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	33	obl	_	NamedEntity=Yes
 37	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	NamedEntity=Yes
@@ -736,7 +736,7 @@
 73	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	75	obj	_	_
 74	a	a	PART	Inf	PartType=Inf	75	mark	_	_
 75	sheoladh	seoladh	NOUN	Noun	Form=Len|VerbForm=Inf	69	xcomp	_	_
-76	láithreach	láithreach	ADJ	Adj	Degree=Pos	75	advmod	_	_
+76	láithreach	láithreach	ADV	_	_	75	advmod	_	_
 77	chuig	chuig	ADP	Simp	_	78	case	_	_
 78	Cláraitheoir	cláraitheoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	75	obl	_	NamedEntity=Yes
 79	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	80	det	_	NamedEntity=Yes

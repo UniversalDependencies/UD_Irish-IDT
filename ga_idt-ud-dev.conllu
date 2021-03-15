@@ -5092,7 +5092,7 @@
 23	dhúisigh	dúisigh	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	20	ccomp	_	_
 24	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	25	det	_	_
 25	t-uisce	uisce	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	_
-26	láithreach	láithreach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	23	advmod	_	_
+26	láithreach	láithreach	ADV	_	_	23	advmod	_	_
 27	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	23	obj	_	_
 28	agus	agus	CCONJ	Coord	_	30	cc	_	_
 29	go	go	PART	Vb	PartType=Cmpl	30	mark:prt	_	_
@@ -10206,7 +10206,7 @@
 2	rith	rith	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	Pinocchio	Pinocchio	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	chuige	chuig	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	obl:prep	_	_
-5	láithreach	láithreach	ADV	Dir	Degree=Pos	2	advmod	_	_
+5	láithreach	láithreach	ADV	_	Degree=Pos	2	advmod	_	_
 6	agus	agus	CCONJ	Coord	_	7	mark	_	_
 7	siúd	siúd	PRON	Dem	PronType=Dem	9	nsubj	_	_
 8	ag	ag	ADP	Simp	_	9	case	_	_
