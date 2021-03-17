@@ -4545,9 +4545,9 @@
 4	mar	mar	ADP	Simp	_	5	case	_	_
 5	shampla	sampla	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	2	nmod	_	_
 6	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
-7	ar	ar	ADP	Simp	_	6	advmod	_	_
-8	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	7	fixed	_	_
-9	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	fixed	_	_
+7	ar	ar	ADP	Simp	_	9	case	_	_
+8	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	_
+9	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	obl	_	_
 10	deich	deich	NUM	Num	NumType=Card	11	nummod	_	_
 11	mbaile	baile	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	6	nsubj	_	_
 12	fearainn	fearann	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	_
@@ -5014,8 +5014,8 @@
 31	agus	agus	CCONJ	Coord	_	33	cc	_	_
 32	go	go	PART	Vb	PartType=Cmpl	33	mark:prt	_	_
 33	mbeidh	bí	VERB	VI	Form=Ecl|Mood=Ind|Tense=Fut	17	conj	_	_
-34	a	a	ADV	Gn	_	33	advmod	_	_
-35	thuilleadh	thuilleadh	ADV	Gn	_	33	advmod	_	_
+34	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	35	nmod:poss	_	_
+35	thuilleadh	tuilleadh	NOUN	Noun	_	33	nsubj	_	_
 36	ag	ag	ADP	Simp	_	37	case	_	_
 37	teacht	teacht	NOUN	Noun	VerbForm=Vnoun	33	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	1	punct	_	_
@@ -5219,7 +5219,7 @@
 15	ag	ag	ADP	Simp	_	16	case	_	_
 16	síobadh	síobadh	NOUN	Noun	VerbForm=Vnoun	14	xcomp:pred	_	_
 17	mara	muir	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	16	obj	_	_
-18	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	19	case	_	_
+18	dá	do	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	19	case	_	_
 19	bord	bord	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -7897,8 +7897,8 @@
 5	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	_
 6	amhras	amhras	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	nsubj	_	_
 7	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	5	obl:prep	_	_
-8	a	a	NOUN	Noun	Gender=Masc|Number=Sing	5	obj	_	_
-9	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	8	fixed	_	SpaceAfter=No
+8	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	_
+9	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = 771
@@ -11224,9 +11224,9 @@
 49	;	;	PUNCT	Punct	_	50	punct	_	_
 50	ardú	ardú	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	27	parataxis	_	_
 51	gearrthréimhseach	gearrthréimhseach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	50	amod	_	_
-52	ar	ar	ADP	Simp	_	50	advmod	_	_
-53	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	52	fixed	_	_
-54	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	52	fixed	_	SpaceAfter=No
+52	ar	ar	ADP	Simp	_	54	case	_	_
+53	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	54	nmod:poss	_	_
+54	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 901
@@ -11274,8 +11274,8 @@
 2	sin	sin	PRON	Dem	PronType=Dem	1	fixed	_	_
 3	níor	níor	PART	Vb	PartType=Vb|Polarity=Neg|Tense=Past	4	advmod	_	_
 4	chorraigh	corraigh	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
-5	a	a	NOUN	Subst	Number=Sing	4	advmod	_	_
-6	thuilleadh	tuilleadh	NOUN	Subst	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	fixed	_	_
+5	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
+6	thuilleadh	tuilleadh	NOUN	Subst	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	4	obl	_	_
 7	linn	linn	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	4	obl	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
 9	tosta	tost	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	_
