@@ -551,7 +551,7 @@
 12	Mórdha	Mórdha	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	10	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	Éamann	Éamann	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	_
-15	Mór	Mór	ADJ	Adj	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+15	Mór	mór	ADJ	Adj	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	17	punct	_	_
 17	Mary	Mary	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	6	conj	_	NamedEntity=Yes
 18	Ryan	Ryan	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	17	flat:name	_	NamedEntity=Yes
@@ -829,7 +829,7 @@
 42	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	43	det	_	_
 43	uair	uair	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	39	obl:tmod	_	_
 44	ba	is	AUX	Cop	PronType=Rel|Tense=Past|VerbForm=Cop	45	cop	_	_
-45	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	43	nmod	_	_
+45	mhaith	maith	ADJ	Adj	Degree=Pos|Form=Len	43	amod	_	_
 46	leo	le	ADP	Prep	Number=Plur|Person=3	45	obl:prep	_	_
 47	féin	féin	PRON	Ref	Reflex=Yes	46	nmod	_	_
 48	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	45	nsubj	_	SpaceAfter=No
@@ -1436,7 +1436,7 @@
 # sent_id = 513
 # text = Títhe lucht oibre ba mhó a bhí ann.
 1	Títhe	teach	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	0	root	_	_
-2	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nmod	_	_
+2	lucht	lucht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	oibre	obair	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	ba	is	PART	Sup	PronType=Rel|Tense=Past|VerbForm=Cop	5	mark:prt	_	_
 5	mhó	mór	ADJ	Adj	Degree=Pos|Form=Len	1	amod	_	_
@@ -2163,8 +2163,8 @@
 3	gcoimhlint	coimhlint	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	0	root	_	_
 4	leis	le	ADP	Simp	_	6	case	_	_
 5	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	6	det	_	_
-6	Lucht	Lucht	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
-7	Oibre	Oibre	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes|SpaceAfter=No
+6	Lucht	lucht	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
+7	Oibre	obair	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	6	nmod	_	NamedEntity=Yes|SpaceAfter=No
 8	,	,	PUNCT	Punct	_	10	punct	_	_
 9	le	le	ADP	Simp	_	10	case	_	_
 10	Sinn	Sinn	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	NamedEntity=Yes
@@ -3030,7 +3030,7 @@
 14	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	13	nsubj	_	_
 15	sa	i	ADP	Art	Number=Sing|PronType=Art	16	case	_	_
 16	Bhreatain	Breatain	PROPN	Noun	Definite=Def|Form=Len|Gender=Fem|Number=Sing	13	obl	_	NamedEntity=Yes
-17	Mhór	Mór	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	16	amod	_	NamedEntity=Yes|SpaceAfter=No
+17	Mhór	mór	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	16	amod	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 572
@@ -5325,7 +5325,7 @@
 4	féin	féin	PRON	Ref	Reflex=Yes	3	nmod	_	_
 5	agus	agus	CCONJ	Coord	_	6	cc	_	_
 6	Padaí	Padaí	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	3	conj	_	NamedEntity=Yes
-7	Mór	Mór	ADJ	Adj	Gender=Masc|Number=Sing	6	amod	_	NamedEntity=Yes
+7	Mór	mór	ADJ	Adj	Gender=Masc|Number=Sing	6	amod	_	NamedEntity=Yes
 8	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
 9	dtigh	teach	NOUN	Noun	Case=Dat|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	2	obl	_	_
 10	Dhónaill	Dónall	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
@@ -7859,7 +7859,7 @@
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	nsubj	_	_
 12	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	4	acl:relcl	_	_
 13	as	as	ADP	Simp	_	14	case	_	_
-14	cló	cló	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	obl	_	_
+14	cló	cló	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	xcomp:pred	_	_
 15	ó	ó	SCONJ	Subord	_	16	mark	_	_
 16	foilsíodh	foilsigh	VERB	VT	Mood=Ind|Person=0|Tense=Past	12	advcl	_	_
 17	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	16	obj	_	_
@@ -10477,7 +10477,7 @@
 12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	Muilteoir	muilteoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	9	appos	_	_
-15	Rua	Rua	ADJ	Adj	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
+15	Rua	rua	ADJ	Adj	Gender=Masc|Number=Sing	14	amod	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	19	punct	_	_
 17	ar	ar	ADP	Simp	_	19	case	_	_
 18	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
@@ -11082,7 +11082,7 @@
 
 # sent_id = 897
 # text = Ó Riain faoi ina leabhar The Pope's Green Island: Nó mar a dúirt Beairtlín, buachaill aimsire Liam Bhid, fear an bhearna mhíl a luaitear i dteideal an scéil agus a mbíodh Nóra ag suirí go soineanta leis: Ná bíodh cumha ar bith ort.
-1	Ó	ó	PROPN	Noun	Definite=Def|PartType=Pat	0	root	_	NamedEntity=Yes
+1	Ó	ó	PART	Pat	PartType=Pat	0	root	_	NamedEntity=Yes
 2	Riain	Riain	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	1	flat:name	_	NamedEntity=Yes
 3	faoi	faoi	ADP	Prep	Gender=Masc|Number=Sing|Person=3	5	case	_	_
 4	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	case	_	_
