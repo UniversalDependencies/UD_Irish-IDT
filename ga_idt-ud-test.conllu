@@ -2983,7 +2983,7 @@
 25	buaileadh	buail	VERB	VTI	Mood=Ind|Person=0|Tense=Past	19	advcl	_	_
 26	ar	ar	ADP	Simp	_	27	case	_	_
 27	Phádraig	Pádraig	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	25	obl	_	NamedEntity=Yes
-28	Bán	Bán	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	27	flat:name	_	NamedEntity=Yes
+28	Bán	bán	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	27	flat:name	_	NamedEntity=Yes
 29	ar	ar	ADP	Simp	_	30	case	_	_
 30	Aonach	aonach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	NamedEntity=Yes
 31	a'	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	32	det	_	NamedEntity=Yes
@@ -5431,7 +5431,7 @@
 23	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	21	acl:relcl	_	_
 24	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	25	det	_	NamedEntity=Yes
 25	Páirtí	páirtí	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	23	nsubj	_	NamedEntity=Yes
-26	Glas	Glas	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	25	amod	_	NamedEntity=Yes
+26	Glas	glas	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	25	amod	_	NamedEntity=Yes
 27	i	i	ADP	Simp	_	28	case	_	_
 28	gcomhrialtas	comhrialtas	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	23	xcomp:pred	_	_
 29	sa	i	ADP	Art	Number=Sing|PronType=Art	30	case	_	_
@@ -7376,7 +7376,7 @@
 7	ceardchumann	ceardchumann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	appos	_	_
 8	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nmod	_	_
 9	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
-10	mbónaí	bóna	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	8	compound	_	_
+10	mbónaí	bóna	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	8	nmod	_	_
 11	bána	bán	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	15	punct	_	_
 13	leis	le	ADP	Simp	_	15	case	_	_
@@ -8878,8 +8878,8 @@
 42	troscaidh	troscadh	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	39	nmod	_	_
 43	ceangailte	ceangailte	ADJ	Adj	VerbForm=Part	38	xcomp:pred	_	_
 44	ar	ar	ADP	Simp	_	47	case	_	_
-45	gach	gach	DET	Det	Definite=Def	46	det	_	_
-46	uile	uile	DET	Det	PronType=Ind	47	nmod:poss	_	_
+45	gach	gach	DET	Det	Definite=Def	47	det	_	_
+46	uile	uile	DET	Det	PronType=Ind	47	det	_	_
 47	Chaitliceach	Caitliceach	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	43	obl	_	_
 48	idir	idir	ADP	Simp	_	51	case	_	_
 49	a	a	PART	Nm	PartType=Num	51	nmod:poss	_	_
@@ -9393,7 +9393,7 @@
 46	'	'	PUNCT	Punct	_	48	punct	_	SpaceAfter=No
 47	An	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	48	det	_	_
 48	Craoibhín	craoibhín	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	38	nmod	_	_
-49	Aoibhinn	aoibhinn	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+49	Aoibhinn	aoibhinn	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	48	amod	_	SpaceAfter=No
 50	'	'	PUNCT	Punct	_	48	punct	_	SpaceAfter=No
 51	)	)	PUNCT	Punct	_	38	punct	_	SpaceAfter=No
 52	:	:	PUNCT	:	_	2	punct	_	_
@@ -9479,7 +9479,7 @@
 4	lá	lá	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	3	nsubj	_	_
 5	fada	fada	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	4	amod	_	_
 6	fuar	fuar	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	4	amod	_	_
-7	feannta	feannta	ADJ	Adj	VerbForm=Part	4	nmod	_	_
+7	feannta	feannta	ADJ	Adj	VerbForm=Part	4	amod	_	_
 8	a	a	PART	Vb	PartType=Vb|PronType=Rel	9	obl:tmod	_	_
 9	chaoinfeas	caoin	VERB	FutInd	Form=Len|Mood=Ind|PronType=Rel|Tense=Fut	4	acl:relcl	_	_
 10	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	9	nsubj	_	_
@@ -9862,7 +9862,7 @@
 5	siar	siar	ADV	Dir	_	3	advmod	_	_
 6	ag	ag	ADP	Simp	_	7	case	_	_
 7	Johnny	Johnny	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
-8	Rua	Rua	ADJ	Adj	Gender=Masc|Number=Sing	7	amod	_	NamedEntity=Yes|SpaceAfter=No
+8	Rua	rua	ADJ	Adj	Gender=Masc|Number=Sing	7	amod	_	NamedEntity=Yes|SpaceAfter=No
 9	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 387
@@ -10334,7 +10334,7 @@
 5	chaithfeadh	caith	VERB	VTI	Form=Len|Mood=Cnd	0	root	_	_
 6	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	5	nsubj	_	_
 7	déanamh	déanamh	NOUN	Noun	VerbForm=Inf	5	xcomp	_	_
-8	cinnte	cinnte	ADJ	Adj	VerbForm=Part	7	nmod	_	_
+8	cinnte	cinnte	ADJ	Adj	VerbForm=Part	7	xcomp	_	_
 9	nach	nach	PART	Vb	PartType=Cmpl|Polarity=Neg	10	mark:prt	_	_
 10	mbainfí	bain	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	7	ccomp	_	_
 11	de	de	ADP	Simp	_	10	obl:prep	_	_
@@ -10437,7 +10437,7 @@
 1	Dá	dá	SCONJ	Subord	_	2	mark	_	_
 2	bhfeicfeá	feic	VERB	VTI	Form=Ecl|Mood=Cnd|Number=Sing|Person=2	21	advcl	_	_
 3	Teaim	Teaim	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	obj	_	_
-4	Rua	Rua	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	3	amod	_	_
+4	Rua	rua	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	3	amod	_	_
 5	is	agus	CCONJ	Coord	_	6	mark	_	_
 6	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	advcl	_	_
 7	ag	ag	ADP	Simp	_	8	case	_	_
