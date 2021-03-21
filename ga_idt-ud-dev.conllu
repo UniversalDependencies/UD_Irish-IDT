@@ -5504,7 +5504,7 @@
 # sent_id = 673
 # text = Lá Mhaghnuis an Phíce, Lá na ngunnaí mór ar Loch Súilighe, Oídhche na Gaoithe Móire, Lá Ghleann Bheithe, An Lá a cuireadh Butt agus An Lá a d'éag Parnell (Rácáil agus Scuabadh (1955) 27).
 1	Lá	lá	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
-2	Mhaghnuis	Maghnus	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	NamedEntity=Yes
+2	Mhaghnuis	Maghnus	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nmod	_	NamedEntity=Yes
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	NamedEntity=Yes
 4	Phíce	píce	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	_	_
@@ -6798,7 +6798,7 @@
 10	seo	seo	DET	Det	PronType=Dem	9	det	_	_
 11	chun	chun	ADP	Simp	_	12	case	_	_
 12	tairbhe	tairbhe	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	9	nmod	_	_
-13	Shinn	Sinn	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
+13	Shinn	Sinn	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
 14	Fein	Féin	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing|Typo=Yes	13	flat	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	Punct	_	16	punct	_	_
 16	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	13	acl:relcl	_	_
@@ -9850,7 +9850,7 @@
 10	27	27	NUM	Num	_	5	nmod	_	_
 11	Sráid	sráid	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	NamedEntity=Yes
 12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
-13	Phiarsaigh	Piarsach	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
+13	Phiarsaigh	Piarsach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes
 16	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes
@@ -10685,9 +10685,9 @@
 10	a	a	PART	Inf	PartType=Inf	11	mark:prt	_	_
 11	dhul	dul	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
 12	taobh	taobh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	_
-13	Chondae	contae	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
+13	Chondae	contae	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	NamedEntity=Yes
-15	Chláir	Clár	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes|SpaceAfter=No
+15	Chláir	Clár	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes|SpaceAfter=No
 16	...	...	PUNCT	...	_	3	punct	_	_
 
 # sent_id = 879
@@ -11028,7 +11028,7 @@
 20	Béal	béal	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
 21	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
 22	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	23	det	_	NamedEntity=Yes
-23	Ghaorthaigh	Gaorthach	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes|SpaceAfter=No
+23	Ghaorthaigh	Gaorthach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes|SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	Tammy	Tammy	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	16	conj	_	NamedEntity=Yes
 26	Ní	ní	PART	Pat	PartType=Pat	25	flat:name	_	NamedEntity=Yes

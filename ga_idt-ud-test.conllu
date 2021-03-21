@@ -2037,7 +2037,7 @@
 4	Longueville	Longueville	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	3	flat	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	_	_
 6	Co.	contae	NOUN	Abr	Abbr=Yes|Definite=Def	3	nmod	_	NamedEntity=Yes
-7	Chorcaí	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	6	nmod	_	NamedEntity=Yes|SpaceAfter=No
+7	Chorcaí	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	6	nmod	_	NamedEntity=Yes|SpaceAfter=No
 8	,	,	PUNCT	Punct	_	6	punct	_	_
 9	'	'	PUNCT	Punct	_	10	punct	_	SpaceAfter=No
 10	that	that	PRON	Dem	Foreign=Yes|PronType=Dem	1	obj	_	_
@@ -4403,7 +4403,7 @@
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	Co.	contae	NOUN	Abr	Abbr=Yes|Definite=Def	11	nmod	_	NamedEntity=Yes
 16	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	17	det	_	NamedEntity=Yes
-17	Chláir	Clár	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes|SpaceAfter=No
+17	Chláir	Clár	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes|SpaceAfter=No
 18	,	,	PUNCT	Punct	_	19	punct	_	_
 19	cúram	cúram	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
 20	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
@@ -5311,7 +5311,7 @@
 2	í	í	PRON	Pers	Gender=Fem|Number=Sing|Person=3	3	nmod	_	_
 3	Dearbhla	Dearbhla	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
 4	Ní	ní	PART	Pat	PartType=Pat	3	flat:name	_	NamedEntity=Yes
-5	Bhrolacháin	Brolachán	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	flat:name	_	NamedEntity=Yes
+5	Bhrolacháin	Brolachán	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	3	flat:name	_	NamedEntity=Yes
 6	a	a	PART	Vb	PartType=Vb|PronType=Rel	7	mark:prt	_	_
 7	léirigh	léirigh	VERB	VT	Mood=Ind|Tense=Past	3	csubj:cleft	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
@@ -6831,7 +6831,7 @@
 44	Luimneach	Luimneach	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	43	nsubj	_	_
 45	in	in	ADP	Cmpd	PrepForm=Cmpd	47	case	_	_
 46	aghaidh	aghaidh	ADP	Cmpd	_	45	fixed	_	_
-47	Chorcaí	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	43	obl	_	_
+47	Chorcaí	Corcaigh	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	43	obl	_	_
 48	sa	i	ADP	Art	Number=Sing|PronType=Art	50	case	_	_
 49	chéad	céad	NUM	Num	Form=Len|NumType=Ord	50	amod	_	_
 50	bhabhta	babhta	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	43	obl	_	_
@@ -6878,7 +6878,7 @@
 1	A	a	PART	Voc	PartType=Voc	2	case:voc	_	_
 2	Phádraig	Pádraig	PROPN	Noun	Case=Voc|Definite=Def|Form=Len|Gender=Masc	5	vocative	_	NamedEntity=Yes
 3	Uí	uí	PART	Pat	PartType=Pat	2	flat:name	_	NamedEntity=Yes
-4	Chaiticín	Caiticín	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	flat:name	_	NamedEntity=Yes
+4	Chaiticín	Caiticín	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	flat:name	_	NamedEntity=Yes
 5	beirim	beir	VERB	VTI	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	sbhae	svae	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	5	obj	_	_
@@ -7093,7 +7093,7 @@
 48	Oileán	oileán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	45	obl	_	_
 49	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
 50	dá	dó	NUM	Num	Definite=Def|NumType=Card	51	nummod	_	_
-51	Bhrannóg	Brannóg	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
+51	Bhrannóg	Brannóg	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 275
@@ -8295,7 +8295,7 @@
 2	mí	mí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	obl:tmod	_	_
 3	Eanáir	Eanáir	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	2	punct	_	_
-5	thuairisc	tuairisc	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
+5	thuairisc	tuairisc	VERB	_	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 6	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	taighdeoirí	taighdeoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|NounType=Strong|Number=Plur	5	nsubj	_	_
 8	céanna	céanna	ADJ	Adj	Degree=Pos	7	amod	_	_
@@ -11419,7 +11419,7 @@
 4	réadúil	réadúil	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	3	amod	_	_
 5	do	do	ADP	Simp	_	6	case	_	_
 6	ghníomhaíochtaí	gníomhaíocht	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Plur	3	nmod	_	_
-7	Phípí	Pípí	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	_
+7	Phípí	Pípí	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	6	nmod	_	_
 8	sa	i	ADP	Art	Number=Sing|PronType=Art	9	case	_	_
 9	phríomhchathair	príomhchathair	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	6	nmod	_	_
 10	ó	ó	ADP	Simp	_	11	case	_	_
