@@ -3196,7 +3196,7 @@
 9	dtarlódh	tarlaigh	VERB	VTI	Form=Ecl|Mood=Cnd	5	ccomp	_	_
 10	drochrud	drochrud	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	nsubj	_	_
 11	éinteacht	éinteacht	ADJ	Adj	Gender=Masc|Number=Sing	10	amod	_	_
-12	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	case	_	_
+12	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	case	_	_
 13	mhnaoi	bean	NOUN	Noun	Case=Dat|Definite=Def|Form=Len|Gender=Fem|Number=Sing	9	obl	_	_
 14	ó	ó	SCONJ	Subord	_	15	mark	_	_
 15	bhuail	buail	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	9	advcl	_	_
@@ -6446,7 +6446,7 @@
 1	Mar	mar	ADP	Simp	_	8	advmod	_	_
 2	sin	sin	PRON	Dem	PronType=Dem	1	fixed	_	_
 3	's	agus	CCONJ	Coord	_	5	cc	_	_
-4	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	case	_	_
+4	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	5	case	_	_
 5	bhrí	brí	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	2	conj	_	_
 6	sin	sin	PRON	Dem	PronType=Dem	5	det	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	1	punct	_	_
@@ -6838,7 +6838,7 @@
 14	ar	ar	ADP	Simp	_	13	nmod	_	_
 15	bith	bith	NOUN	Subst	Case=NomAcc|Gender=Masc|Number=Sing	14	fixed	_	_
 16	eile	eile	DET	Det	PronType=Dem	14	det	_	_
-17	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	18	case	_	_
+17	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	18	case	_	_
 18	shórt	sórt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	nmod	_	_
 19	-	-	PUNCT	Punct	_	24	punct	_	_
 20	ach	ach	SCONJ	Subord	_	24	mark	_	_
@@ -7175,8 +7175,8 @@
 3	Trimble	Trimble	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	flat:name	_	NamedEntity=Yes
 4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	t-eiteachas	eiteachas	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
-6	d'	de	ADP	Simp	_	7	case	_	SpaceAfter=No
-7	iarratais	iarratas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	obl	_	_
+6	d'	do	ADP	Simp	_	7	case	_	SpaceAfter=No
+7	iarratais	iarratas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	obl	_	_
 8	go	go	PART	Vb	PartType=Vb	9	mark:prt	_	_
 9	gcuirfí	cuir	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	1	ccomp	_	_
 10	buíon	buíon	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	9	obj	_	_

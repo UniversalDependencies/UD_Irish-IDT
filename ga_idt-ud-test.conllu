@@ -249,7 +249,7 @@
 10	Taoiseach	taoiseach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	obl	_	_
 11	oiread	oiread	NOUN	Subst	Case=NomAcc|Number=Sing	18	nsubj	_	_
 12	áirithe	áirithe	ADJ	Adj	Degree=Pos	11	amod	_	_
-13	dá	do	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	case	_	_
+13	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	case	_	_
 14	chuid	cuid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	11	nmod	_	_
 15	Seanadóirí	seanadóir	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	14	nmod	_	_
 16	seisean	seisean	PRON	Pers	Gender=Masc|Number=Sing|Person=3|PronType=Emp	15	nmod	_	_
@@ -1209,7 +1209,7 @@
 3	ar	ar	ADP	Simp	_	5	case	_	_
 4	ár	ár	DET	Det	Number=Plur|Person=1|Poss=Yes	5	nmod:poss	_	_
 5	sáil	sáil	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	_
-6	d'	do	PART	Vb	PartType=Vb	8	case	_	SpaceAfter=No
+6	d'	de	ADP	_	_	8	case	_	SpaceAfter=No
 7	aon	aon	DET	Det	PronType=Ind	8	det	_	_
 8	chéim	céim	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	1	obl	_	SpaceAfter=No
 9	.	.	PUNCT	.	_	1	punct	_	_
@@ -6111,7 +6111,7 @@
 172	maidir	maidir	ADP	CmpdNoGen	_	174	case	_	_
 173	le	le	ADP	CmpdNoGen	_	172	fixed	_	_
 174	Ballstáit	ballstát	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	171	nmod	_	_
-175	d'	de	ADP	Simp	_	176	case	_	SpaceAfter=No
+175	d'	do	ADP	Simp	_	176	case	_	SpaceAfter=No
 176	eisiúint	eisiúint	NOUN	Noun	VerbForm=Inf	174	nmod	_	_
 177	víosaí	víosa	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	176	nmod	_	SpaceAfter=No
 178	;	;	PUNCT	Punct	_	180	punct	_	_
@@ -8671,7 +8671,7 @@
 11	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	12	det	_	_
 12	gcuid	cuid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	9	obl	_	_
 13	sin	sin	DET	Det	PronType=Dem	12	det	_	_
-14	dá	do	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	15	case	_	_
+14	dá	de	ADP	Poss	Gender=Fem|Number=Sing|Person=3|Poss=Yes	15	case	_	_
 15	corp	corp	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	_
 16	a	a	PART	Vb	PartType=Vb|PronType=Rel	17	nsubj	_	_
 17	bhí	bí	VERB	VI	Form=Len|Mood=Ind|Tense=Past	12	acl:relcl	_	_
