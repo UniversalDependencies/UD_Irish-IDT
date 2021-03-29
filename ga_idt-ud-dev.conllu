@@ -1402,7 +1402,7 @@
 1	Ó	ó	ADP	Simp	_	5	obl	_	_
 2	shin	sin	PRON	Dem	Form=Len|PronType=Dem	1	fixed	_	_
 3	i	i	ADP	Simp	_	1	fixed	_	_
-4	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	1	fixed	_	_
+4	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	1	fixed	_	_
 5	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 6	beirt	beirt	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	5	nsubj	_	_
 7	Aire	aire	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	nmod	_	NamedEntity=Yes
@@ -2635,7 +2635,7 @@
 9	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
 10	dúil	dúil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	9	nsubj	_	_
 11	ar	ar	ADP	Simp	_	12	case	_	_
-12	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	9	obl	_	_
+12	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	_
 13	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	9	obl:prep	_	_
 14	san	i	ADP	Art	Number=Sing|PronType=Art	15	case	_	_
 15	fhilíocht	filíocht	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	9	obl	_	SpaceAfter=No
@@ -3907,7 +3907,7 @@
 47	piléar	piléar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	45	nmod	_	SpaceAfter=No
 48	,	,	PUNCT	Punct	_	50	punct	_	_
 49	i	i	ADP	Simp	_	50	case	_	_
-50	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	52	nmod	_	_
+50	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	52	nmod	_	_
 51	a	a	PART	Vb	PartType=Vb|PronType=Rel	52	nsubj	_	_
 52	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	11	xcomp	_	_
 53	'na	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	54	case	_	_
@@ -4317,7 +4317,7 @@
 24	,	,	PUNCT	Punct	_	3	punct	_	_
 25	cuirtear	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
 26	i	i	ADP	Simp	_	27	case	_	_
-27	leith	leith	NOUN	Noun	Definite=Def|Gender=Fem|Number=Sing	25	obl	_	_
+27	leith	leath	NOUN	Noun	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	25	obl	_	_
 28	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	29	det	_	_
 29	Aire	aire	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	27	nmod	_	NamedEntity=Yes
 30	Oideachais	oideachas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes|SpaceAfter=No
@@ -6089,7 +6089,7 @@
 9	le	le	ADP	Simp	_	10	case	_	_
 10	bliain	bliain	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	8	obl:tmod	_	_
 11	go	go	PART	Ad	PartType=Ad	12	mark:prt	_	_
-12	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	10	nmod	_	_
+12	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
 13	anuas	anuas	ADV	Dir	_	8	advmod	_	SpaceAfter=No
 14	?	?	PUNCT	?	_	4	punct	_	_
 
@@ -6570,7 +6570,7 @@
 21	údaráis	údarás	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	19	obl	_	_
 22	phleanála	pleanáil	NOUN	Noun	Case=Gen|Form=Len|VerbForm=Inf	21	nmod	_	_
 23	i	i	ADP	Simp	_	24	case	_	_
-24	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	19	nmod	_	_
+24	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	_
 25	aon	aon	DET	Det	PronType=Ind	26	det	_	_
 26	cheann	ceann	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	24	nmod	_	_
 27	nó	nó	CCONJ	Coord	_	29	cc	_	_
@@ -7287,7 +7287,7 @@
 16	mhoill	moill	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	15	nmod	_	_
 17	ama	am	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	15	nmod	_	_
 18	ar	ar	ADP	Simp	_	19	case	_	_
-19	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	15	nmod	_	_
+19	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	15	nmod	_	_
 20	nach	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	21	cop	_	_
 21	féidir	féidir	NOUN	Subst	Case=NomAcc|Number=Sing	15	acl:relcl	_	_
 22	le	le	ADP	Simp	_	26	case	_	_
@@ -7348,7 +7348,7 @@
 47	son	son	ADP	Cmpd	PrepForm=Cmpd	46	fixed	_	_
 48	charthanacht	carthanacht	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	45	nmod	_	_
 49	faoi	faoi	ADP	Simp	_	50	case	_	_
-50	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
+50	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	48	nmod	_	SpaceAfter=No
 51	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -7914,7 +7914,7 @@
 9	ó	ó	ADP	Simp	_	10	case	_	_
 10	1977	1977	NUM	Num	_	1	obl:tmod	_	_
 11	i	i	ADP	Simp	_	10	nmod	_	_
-12	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No
+12	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	11	fixed	_	SpaceAfter=No
 13	,	,	PUNCT	Punct	_	16	punct	_	_
 14	nó	nó	CCONJ	Coord	_	16	cc	_	_
 15	cúig	cúig	NUM	Num	NumType=Card	16	nummod	_	_
@@ -8205,7 +8205,7 @@
 7	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	5	csubj:cleft	_	_
 8	billiún	billiún	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nsubj	_	_
 9	go	go	ADP	Simp	_	10	case	_	_
-10	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	8	nmod	_	_
+10	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	8	nmod	_	_
 11	duine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	nmod	_	_
 12	beo	beo	ADJ	Adj	Degree=Pos	7	xcomp:pred	_	_
 13	ar	ar	ADP	Simp	_	15	case	_	_
@@ -8322,7 +8322,7 @@
 1	Tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 2	seilf	seilf	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	faoi	faoi	ADP	Simp	_	4	case	_	_
-4	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	2	nmod	_	_
+4	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	2	nmod	_	_
 5	curtha	curtha	ADJ	Adj	VerbForm=Part	1	xcomp:pred	_	_
 6	ar	ar	ADP	Simp	_	7	case	_	_
 7	leataobh	leataobh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	obl	_	_
@@ -8782,7 +8782,7 @@
 4	dhá	dó	NUM	Num	Form=Len|NumType=Card	5	nummod	_	_
 5	éide	éide	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	3	nsubj	_	_
 6	ar	ar	ADP	Simp	_	7	case	_	_
-7	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	5	nmod	_	_
+7	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	5	nmod	_	_
 8	ag	ag	ADP	Simp	_	10	case	_	_
 9	gach	gach	DET	Det	Definite=Def	10	det	_	_
 10	foireann	foireann	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
@@ -9534,7 +9534,7 @@
 4	aon	aon	DET	Det	PronType=Ind	5	det	_	_
 5	chuas	cuas	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	obj	_	_
 6	i	i	ADP	Simp	_	7	case	_	_
-7	leith	leith	NOUN	Noun	Gender=Fem|Number=Sing	2	obl	_	_
+7	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 8	chomh	chomh	ADV	Its	_	9	advmod	_	_
 9	fada	fada	ADJ	Adj	Degree=Pos	2	advmod	_	_
 10	le	le	ADP	Simp	_	11	case	_	_

@@ -1083,7 +1083,7 @@
 24	chun	chun	ADP	Simp	_	29	case	_	_
 25	gníomh	gníomh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	29	obj	_	_
 26	ar	ar	ADP	Simp	_	27	case	_	_
-27	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	25	nmod	_	_
+27	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
 28	a	a	PART	Inf	PartType=Inf	29	mark	_	_
 29	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	23	xcomp	_	_
 30	ar	ar	ADP	Cmpd	PrepForm=Cmpd	33	case	_	_
@@ -1809,7 +1809,7 @@
 17	dhá	dó	NUM	Num	Form=Len|NumType=Card	18	nummod	_	_
 18	chéad	céad	NUM	Num	Form=Len|NumType=Card	21	nummod	_	_
 19	go	go	ADP	Simp	_	20	case	_	_
-20	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	18	nmod	_	_
+20	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	18	nmod	_	_
 21	duine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nsubj	_	_
 22	sa	i	ADP	Art	Number=Sing|PronType=Art	23	case	_	_
 23	phobal	pobal	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	14	obl	_	_
@@ -6641,7 +6641,7 @@
 43	chomhpháirtíochta	comhpháirtíocht	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
 44	,	,	PUNCT	Punct	_	46	punct	_	_
 45	i	i	ADP	Simp	_	46	case	_	_
-46	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	25	nmod	_	_
+46	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
 47	caiteachais	caiteachas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
 48	chaipitiúil	caipitiúil	ADJ	Adj	Form=Len|Number=Sing	47	amod	_	_
 49	arna	ar	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	50	obl	_	_
@@ -6701,7 +6701,7 @@
 103	mheasúnachta	measúnacht	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	102	nmod	_	_
 104	ar	ar	ADP	Simp	_	107	obl	_	_
 105	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	106	case	_	_
-106	leith	leith	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	102	obl	_	_
+106	leith	leath	NOUN	Noun	Case=Dat|Definite=Def|Gender=Fem|Number=Sing	102	obl	_	_
 107	atá	bí	VERB	PresInd	Mood=Ind|PronType=Rel|Tense=Pres	106	acl:relcl	_	_
 108	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	109	det	_	_
 109	liúntas	liúntas	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	107	nsubj	_	_
@@ -7196,7 +7196,7 @@
 9	de	de	ADP	Simp	_	10	case	_	_
 10	mhíreanna	mír	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Plur	8	nmod	_	_
 11	ar	ar	ADP	Simp	_	12	case	_	_
-12	leith	leith	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	10	nmod	_	_
+12	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	10	nmod	_	_
 13	anseo	anseo	ADV	Loc	_	6	advmod	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	toisc	toisc	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	3	obl	_	_
