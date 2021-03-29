@@ -373,7 +373,7 @@
 19	Fheara	fear	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	15	obl	_	NamedEntity=Yes
 20	Fáil	Fál	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 21	'	'	PUNCT	Punct	_	19	punct	_	_
-22	a	a	PART	_	PartType=Vb|PronType=Rel	23	obj	_	_
+22	a	a	PART	Vb	PartType=Vb|PronType=Rel	23	obj	_	_
 23	phéinteáil	péinteáil	VERB	_	Form=Len|Mood=Ind|Tense=Past	19	acl:relcl	_	_
 24	Jack	Jack	PROPN	Noun	Definite=Def	23	nsubj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	9	punct	_	_
