@@ -241,7 +241,7 @@
 8	lárnach	lárnach	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	7	amod	_	_
 9	de	de	ADP	Simp	_	10	case	_	_
 10	shaol	saol	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
-11	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	_
+11	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	12	det	_	_
 12	gcimí	cime	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	10	nmod	_	_
 13	poblachtacha	poblachtach	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	12	amod	_	_
 14	i	i	ADP	Simp	_	15	case	_	_
@@ -660,8 +660,8 @@
 12	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	advcl	_	_
 13	ag	ag	ADP	Simp	_	14	case	_	_
 14	staidéar	staidéar	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	12	xcomp	_	_
-15	i	i	ADP	Cmpd	PrepForm=Cmpd	18	case	_	_
-16	gcuideachta	cuideachta	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	14	nmod	_	_
+15	i	i	ADP	Cmpd	PrepForm=Cmpd	16	case	_	_
+16	gcuideachta	cuideachta	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	14	obl	_	_
 17	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	18	det	_	_
 18	saineolaithe	saineolaí	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	16	nmod	_	_
 19	a	a	PART	Vb	PartType=Vb|PronType=Rel	20	nsubj	_	_
@@ -1123,7 +1123,7 @@
 10	alt	alt	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	obj	_	_
 11	taighde	taighde	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	nmod	_	_
 12	sa	i	ADP	Art	Number=Sing|PronType=Art	13	case	_	_
-13	bhFrainc	Frainc	PROPN	Noun	Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	9	obl	_	_
+13	bhFrainc	Frainc	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	9	obl	_	_
 14	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	15	case	_	_
 15	teideal	teideal	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	18	punct	_	_
@@ -3930,7 +3930,7 @@
 70	aghaidh	aghaidh	ADP	Cmpd	PrepForm=Cmpd	69	fixed	_	_
 71	ceartdhlí	ceartdlí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing|Typo=Yes	52	nmod	_	_
 72	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	73	det	_	_
-73	bhfáidhe	fáidh	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	71	nmod	_	_
+73	bhfáidhe	fáidh	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	71	nmod	_	_
 74	agus	agus	CCONJ	Coord	_	76	cc	_	_
 75	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	76	det	_	_
 76	bhfíorollún	fíorollamh	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	73	conj	_	SpaceAfter=No
@@ -5015,7 +5015,7 @@
 32	go	go	PART	Vb	PartType=Cmpl	33	mark:prt	_	_
 33	mbeidh	bí	VERB	VI	Form=Ecl|Mood=Ind|Tense=Fut	17	conj	_	_
 34	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	35	nmod:poss	_	_
-35	thuilleadh	tuilleadh	NOUN	Noun	_	33	nsubj	_	_
+35	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	33	nsubj	_	_
 36	ag	ag	ADP	Simp	_	37	case	_	_
 37	teacht	teacht	NOUN	Noun	VerbForm=Vnoun	33	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	1	punct	_	_
@@ -6216,7 +6216,7 @@
 4	ag	ag	ADP	Simp	_	5	case	_	_
 5	fiach	fiach	NOUN	Noun	VerbForm=Vnoun	3	xcomp	_	_
 6	Ón	ó	ADP	Art	Number=Sing|PronType=Art	7	case	_	_
-7	dTower	dTower	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	5	obl	_	_
+7	dTower	dTower	NOUN	Noun	Foreign=Yes|Form=Ecl	5	obl	_	_
 8	soir	soir	ADV	Dir	_	5	advmod	_	_
 9	dtí	go_dtí	ADP	Cmpd	Form=Ecl|PrepForm=Cmpd	11	case	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
