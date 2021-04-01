@@ -2777,10 +2777,10 @@
 13	rud	rud	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	obl	_	_
 14	ar	ar	ADP	Simp	_	13	nmod	_	_
 15	bith	bith	NOUN	Subst	Case=NomAcc|Gender=Masc|Number=Sing	14	fixed	_	_
-16	taobh	taobh	ADV	Loc	_	9	advmod	_	_
-17	amuigh	amuigh	ADV	Loc	_	9	advmod	_	_
+16	taobh	taobh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	9	obl	_	_
+17	amuigh	amuigh	ADJ	Adj	_	16	amod	_	_
 18	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	19	case	_	_
-19	líon	líon	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	_
+19	líon	líon	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 20	tí	teach	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	19	nmod	_	SpaceAfter=No
 21	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -7870,8 +7870,8 @@
 22	fáil	fáil	NOUN	Noun	VerbForm=Inf	6	xcomp	_	_
 23	arís	arís	ADV	Gn	_	22	advmod	_	_
 24	mar	mar	SCONJ	Subord	_	22	mark	_	_
-25	taobh	taobh	ADV	Loc	_	22	advmod	_	_
-26	amuigh	amuigh	ADV	Loc	_	25	advmod	_	_
+25	taobh	taobh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	30	obl	_	_
+26	amuigh	amuigh	ADJ	Adj	_	25	amod	_	_
 27	dá	de	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	28	case	_	_
 28	fhiúntas	fiúntas	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	25	nmod	_	_
 29	liteartha	liteartha	ADJ	Adj	Gender=Masc|Number=Sing	28	amod	_	_
