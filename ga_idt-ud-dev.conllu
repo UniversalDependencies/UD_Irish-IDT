@@ -8788,7 +8788,7 @@
 10	foireann	foireann	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	SpaceAfter=No
 11	:	:	PUNCT	Punct	_	12	punct	_	_
 12	éide	éide	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	parataxis	_	_
-13	a	a	PART	Vb	Form=Indirect|PartType=Vb|PronType=Rel	14	obl	_	_
+13	a	a	PART	Vb	Form=Indirect|PartType=Vb|PronType=Rel	14	mark:prt	_	_
 14	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	12	acl:relcl	_	_
 15	dath	dath	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	14	nsubj	_	_
 16	geal	geal	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	15	amod	_	_
