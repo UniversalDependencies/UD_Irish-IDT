@@ -323,7 +323,7 @@
 9	dá	dó	NUM	Num	Definite=Def|NumType=Card	10	nummod	_	_
 10	chogadh	cogadh	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	obl	_	_
 11	dhomhanda	domhanda	ADJ	Adj	Form=Len|Gender=Masc|Number=Sing	10	amod	_	_
-12	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	14	obl	_	_
+12	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	14	nsubj	_	_
 13	d'	do	PART	Vb	PartType=Vb	14	mark:prt	_	SpaceAfter=No
 14	fhág	fág	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	10	acl:relcl	_	_
 15	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	16	nmod:poss	_	_
@@ -4407,7 +4407,7 @@
 5	i	i	ADP	Cmpd	PrepForm=Cmpd	4	case	_	_
 6	láthair	láthair	ADP	Cmpd	PrepForm=Cmpd	5	fixed	_	_
 7	tráth	tráth	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	obl:tmod	_	_
-8	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	9	obl	_	_
+8	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	9	mark:prt	_	_
 9	fógraíodh	fógair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	7	acl:relcl	_	_
 10	seo	seo	PRON	Dem	PronType=Dem	9	obj	_	_
 11	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	parataxis	_	_
@@ -5839,7 +5839,7 @@
 19	teacht	teacht	NOUN	Noun	VerbForm=Vnoun	16	xcomp	_	_
 20	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	21	case	_	_
 21	inspioráid	inspioráid	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	19	obl	_	_
-22	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	23	obl	_	_
+22	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	23	nsubj	_	_
 23	threoraigh	treoraigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	21	acl:relcl	_	_
 24	Nostra	Nostra	X	_	Foreign=Yes	23	obj	_	NamedEntity=Yes
 25	Aetate	Aetate	X	_	Foreign=Yes	24	flat:foreign	_	NamedEntity=Yes|SpaceAfter=No
@@ -6173,7 +6173,7 @@
 18	ollamh	ollamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	advcl	_	_
 19	ollscoile	ollscoil	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	18	nmod	_	_
 20	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	21	obl	_	_
-21	tháinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	18	acl:relcl	_	_
+21	tháinig	tar	VERB	VI	Form=Len|Mood=Ind|Tense=Past	18	csubj:cleft	_	_
 22	sí	sí	PRON	Pers	Gender=Fem|Number=Sing|Person=3	21	nsubj	_	SpaceAfter=No
 23	,	,	PUNCT	Punct	_	24	punct	_	_
 24	mar	mar	SCONJ	Subord	_	25	mark	_	_
@@ -9170,7 +9170,7 @@
 71	ar	ar	ADP	Simp	_	73	case	_	_
 72	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	73	det	_	_
 73	méid	méid	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	70	nmod	_	_
-74	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	75	obl	_	_
+74	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	75	nsubj	_	_
 75	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	73	acl:relcl	_	_
 76	le	le	ADP	Simp	_	77	case	_	_
 77	bailiú	bailiú	NOUN	Noun	VerbForm=Inf	75	xcomp	_	_
@@ -9988,7 +9988,7 @@
 31	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	24	acl:relcl	_	_
 32	sa	i	ADP	Art	Number=Sing|PronType=Art	33	case	_	_
 33	mhéid	méid	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	31	obl	_	_
-34	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	35	obl	_	_
+34	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	35	nsubj	_	_
 35	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	33	acl:relcl	_	_
 36	aisíoctha	aisíoctha	ADJ	Adj	VerbForm=Part	35	xcomp:pred	_	_
 37	maidir	maidir	ADP	CmpdNoGen	_	39	case	_	_
