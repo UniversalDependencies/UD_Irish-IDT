@@ -17,7 +17,7 @@
 15	eile	eile	DET	Det	PronType=Dem	14	det	_	_
 16	ag	ag	ADP	Simp	_	17	case	_	_
 17	cosaint	cosaint	NOUN	Noun	VerbForm=Vnoun	1	xcomp	_	_
-18	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	19	det	_	_
+18	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	19	det	_	_
 19	n-oifigí	oifig	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|NounType=Strong|Number=Plur	17	obj	_	_
 20	poist	post	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	19	compound	_	_
 21	tuaithe	tuath	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	19	nmod	_	SpaceAfter=No
@@ -27,7 +27,7 @@
 25	de	de	ADP	Simp	_	26	case	_	_
 26	shaol	saol	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	23	nmod	_	_
 27	sóisialta	sóisialta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	26	amod	_	_
-28	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	29	det	_	_
+28	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	29	det	_	_
 29	ndaoine	duine	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	26	nmod	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -107,7 +107,7 @@
 34	feiceáil	feiceáil	NOUN	Noun	VerbForm=Inf	32	xcomp	_	_
 35	i	i	ADP	Simp	_	36	case	_	_
 36	mBaile	Baile	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	34	obl	_	NamedEntity=Yes
-37	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	38	det	_	NamedEntity=Yes
+37	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	38	det	_	NamedEntity=Yes
 38	dTor	tor	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Weak|Number=Plur	36	nmod	_	NamedEntity=Yes
 39	níos	níos	PART	Cmp	PartType=Comp	40	mark:prt	_	_
 40	faide	fada	ADJ	Adj	Degree=Cmp,Sup	34	advmod	_	_
@@ -1048,7 +1048,7 @@
 17	tógadh	tóg	VERB	VTI	Mood=Ind|Person=0|Tense=Past	13	acl:relcl	_	_
 18	i	i	ADP	Simp	_	19	case	_	_
 19	mBaile	Baile	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	17	obl	_	NamedEntity=Yes
-20	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	NamedEntity=Yes
+20	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	21	det	_	NamedEntity=Yes
 21	bPoc	poc	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Weak|Number=Plur	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	Punct	_	23	punct	_	_
 23	Contae	contae	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	NamedEntity=Yes
@@ -1582,7 +1582,7 @@
 # text = I nDáil na bhFlaitheas go raibh sé.
 1	I	I	ADP	Simp	_	2	case	_	_
 2	nDáil	dáil	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	0	root	_	_
-3	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	bhFlaitheas	flaitheas	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Weak|Number=Plur	2	nmod	_	_
 5	go	go	PART	Vb	Mood=Sub|PartType=Vb	6	mark:prt	_	_
 6	raibh	bí	VERB	VI	Mood=Sub|Tense=Pres	2	csubj:cleft	_	_
@@ -2901,7 +2901,7 @@
 12	chuirtear	cuir	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	4	advcl	_	_
 13	le	le	ADP	Simp	_	14	case	_	_
 14	líon	líon	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	12	obl	_	_
-15	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	mballstát	ballstát	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Weak|Number=Plur	14	nmod	_	SpaceAfter=No
 17	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -3828,7 +3828,7 @@
 21	'	'	PUNCT	Punct	_	22	punct	_	SpaceAfter=No
 22	Mac	mac	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	NamedEntity=Yes
 23	Rí	rí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	22	nmod	_	NamedEntity=Yes
-24	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	25	det	_	_
+24	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	nDeachmann	deachmha	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|Number=Plur	22	nmod	_	SpaceAfter=No
 26	'	'	PUNCT	Punct	_	22	punct	_	_
 27	agus	agus	CCONJ	Coord	_	30	cc	_	_
@@ -4987,7 +4987,7 @@
 24	ag	ag	ADP	Simp	_	25	case	_	_
 25	cothú	cothú	NOUN	Noun	VerbForm=Vnoun	20	xcomp	_	_
 26	cluichí	cluiche	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	25	obj	_	_
-27	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	28	det	_	_
+27	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	28	det	_	_
 28	gclub	club	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	26	nmod	_	_
 29	agus	agus	CCONJ	Coord	_	31	cc	_	_
 30	ag	ag	ADP	Simp	_	31	case	_	_
@@ -5714,7 +5714,7 @@
 23	láthair	láthair	ADP	Cmpd	_	22	fixed	_	_
 24	chun	chun	ADP	Simp	_	25	case	_	_
 25	úsáid	úsáid	NOUN	Noun	Definite=Def|VerbForm=Inf	31	obj	_	_
-26	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	_
+26	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	27	det	_	_
 27	leithreasaí	leithreas	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Plur	25	nmod	_	_
 28	lena	le	PART	Rel	Form=Indirect|PronType=Rel	29	obl	_	_
 29	mbaineann	bain	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres	27	acl:relcl	_	_
@@ -7165,7 +7165,7 @@
 12	taighde	taighde	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	conj	_	_
 13	ar	ar	ADP	Simp	_	14	case	_	_
 14	cheol	ceol	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
-15	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	det	_	_
+15	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	16	det	_	_
 16	nGael	Gael	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	14	nmod	_	_
 17	thall	thall	ADV	Dir	_	7	advmod	_	_
 18	agus	agus	CCONJ	Coord	_	19	cc	_	_
@@ -7375,7 +7375,7 @@
 6	,	,	PUNCT	Punct	_	7	punct	_	_
 7	ceardchumann	ceardchumann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	appos	_	_
 8	lucht	lucht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nmod	_	_
-9	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	_
+9	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
 10	mbónaí	bóna	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	8	nmod	_	_
 11	bána	bán	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	10	amod	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	15	punct	_	_
@@ -7656,7 +7656,7 @@
 # text = I measc na n-aíonna a bheidh i láthair beidh Aiden Coffey, Jackie Daly, Máire O Keefe, Séamus Creagh, Tony Linnane, Breándán Ó Beaglaoich, Denis Doody, agus Eamonn Coyne.
 1	I	I	ADP	Simp	_	2	case	_	_
 2	measc	measc	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	_
-3	na	na	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	_
+3	na	na	DET	Art	Definite=Def|Number=Plur|PronType=Art	4	det	_	_
 4	n-aíonna	aoi	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Plur	2	nmod	_	_
 5	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	6	nsubj	_	_
 6	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	4	acl:relcl	_	_
