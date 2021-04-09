@@ -3744,7 +3744,7 @@
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	fear	fear	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	_
 4	chomh	chomh	ADV	Its	_	5	advmod	_	_
-5	naofa	naofa	ADJ	Adj	Degree=Cmp,Sup	1	xcomp:pred	_	_
+5	naofa	naofa	ADJ	Adj	Degree=Pos	1	xcomp:pred	_	_
 6	is	agus	CCONJ	Coord	_	12	mark	_	_
 7	gurbh	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	10	cop	_	_
 8	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	advcl	_	_
@@ -4486,7 +4486,7 @@
 8	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	10	nmod	_	_
 9	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	10	det	_	_
 10	gath	gath	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	_
-11	ba	is	PART	Sup	PartType=Sup|Tense=Past|VerbForm=Cop	19	mark:prt	_	_
+11	ba	is	PART	Sup	PartType=Sup|Tense=Past|VerbForm=Cop	12	mark:prt	_	_
 12	ghile	geal	ADJ	Adj	Degree=Cmp,Sup|Form=Len	10	amod	_	_
 13	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	14	mark:prt	_	_
 14	shoilsigh	soilsigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	10	csubj:cleft	_	_
@@ -5140,7 +5140,7 @@
 6	eisean	eisean	PRON	Pers	Gender=Masc|Number=Sing|Person=3|PronType=Emp	0	root	_	_
 7	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 8	Briotanach	Briotanach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	6	nsubj	_	_
-9	is	is	PART	Sup	PartType=Sup|Tense=Pres|VerbForm=Cop	19	mark:prt	_	_
+9	is	is	PART	Sup	PartType=Sup|Tense=Pres|VerbForm=Cop	10	mark:prt	_	_
 10	fearr	maith	ADJ	Adj	Degree=Cmp,Sup	8	amod	_	_
 11	ar	ar	ADP	Simp	_	10	nmod	_	_
 12	fad	fad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	11	fixed	_	_
@@ -8883,7 +8883,7 @@
 
 # sent_id = 813
 # text = Níos measa fós, tharraing siad gorta, léirscrios agus bás ar na daoine a thogh iad.
-1	Níos	níos	PART	Cmp	Number=Sing|PartType=Comp	2	mark:prt	_	_
+1	Níos	níos	PART	Cmp	PartType=Comp	2	mark:prt	_	_
 2	measa	olc	ADJ	Adj	Degree=Cmp,Sup	5	amod	_	_
 3	fós	fós	ADV	Gn	_	5	advmod	_	SpaceAfter=No
 4	,	,	PUNCT	Punct	_	3	punct	_	_
@@ -9153,7 +9153,7 @@
 54	tráthchuid	tráthchuid	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	60	obj	_	_
 55	amháin	amháin	ADJ	Adj	Case=NomAcc|Number=Sing	54	amod	_	_
 56	nó	nó	CCONJ	Coord	_	58	cc	_	_
-57	níos	níos	PART	Cmp	Number=Sing|PartType=Comp	58	obl	_	_
+57	níos	níos	PART	Cmp	PartType=Comp	58	obl	_	_
 58	mó	mó	ADJ	Adj	Degree=Pos	55	conj	_	_
 59	a	a	PART	Inf	PartType=Inf	60	mark	_	_
 60	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	66	xcomp	_	_
@@ -10206,7 +10206,7 @@
 2	rith	rith	VERB	VTI	Mood=Ind|Tense=Past	0	root	_	_
 3	Pinocchio	Pinocchio	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 4	chuige	chuig	ADP	Prep	Gender=Masc|Number=Sing|Person=3	2	obl:prep	_	_
-5	láithreach	láithreach	ADV	_	Degree=Pos	2	advmod	_	_
+5	láithreach	láithreach	ADV	_	_	2	advmod	_	_
 6	agus	agus	CCONJ	Coord	_	7	mark	_	_
 7	siúd	siúd	PRON	Dem	PronType=Dem	9	nsubj	_	_
 8	ag	ag	ADP	Simp	_	9	case	_	_
@@ -10509,7 +10509,7 @@
 6	gurbh	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	7	cop	_	_
 7	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	4	ccomp	_	_
 8	a	a	PART	Sup	PartType=Cop|PronType=Rel	10	mark	_	_
-9	b'	is	PART	Sup	Form=VF|Tense=Past|VerbForm=Cop	10	mark	_	SpaceAfter=No
+9	b'	is	PART	Sup	Form=VF|PartType=Sup|Tense=Past|VerbForm=Cop	10	mark	_	SpaceAfter=No
 10	fhearr	maith	ADJ	Adj	Degree=Cmp,Sup|Form=Len	7	amod	_	_
 11	a	a	PART	Vb	PartType=Vb|PronType=Rel	12	obj	_	_
 12	dtiocfadh	tar	VERB	VI	Form=Ecl|Mood=Cnd	7	acl:relcl	_	_
