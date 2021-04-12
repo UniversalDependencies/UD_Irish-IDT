@@ -1398,7 +1398,7 @@
 # text = Bhí an dá shloinne, Corvin & Thornbury neamhchoitianta go leor agus ní thuigfeadh strainséar ar an toirt gurbh Fhíníní iad.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-3	dá	dó	NUM	Num	Definite=Def|NumType=Card	4	nummod	_	_
+3	dá	dó	NUM	Num	NumType=Card	4	nummod	_	_
 4	shloinne	sloinne	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nsubj	_	SpaceAfter=No
 5	,	,	PUNCT	Punct	_	6	punct	_	_
 6	Corvin	Corvin	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	4	appos	_	_
@@ -1871,7 +1871,7 @@
 11	gnéithe	gné	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	35	obj	_	_
 12	cosanta	cosaint	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	11	nmod	_	_
 13	Chomhbheartas	comhbheartas	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	11	nmod	_	_
-14	Eachtraigh	eachtrach	ADJ	Adj	Case=Gen|Gender=Masc|Number=Sing|PartType=Voc	13	amod	_	_
+14	Eachtraigh	eachtrach	ADJ	Adj	Case=Gen|Gender=Masc|Number=Sing	13	amod	_	_
 15	agus	agus	CCONJ	Coord	_	16	cc	_	_
 16	Slándála	slándáil	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	14	conj	_	_
 17	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
@@ -2738,7 +2738,7 @@
 79	de	de	ADP	Simp	_	80	case	_	_
 80	dhochtúirí	dochtúir	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	77	nmod	_	_
 81	leighis	leigheas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	80	nmod	_	_
-82	do	do	PART	Vb	PartType=Vb	83	mark:prt	_	_
+82	do	do	PART	Vb	PartType=Inf	83	mark:prt	_	_
 83	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	70	xcomp	_	_
 84	cláruithe	cláraithe	ADJ	Adj	VerbForm=Part	83	xcomp:pred	_	_
 85	sa	i	ADP	Art	Number=Sing|PronType=Art	86	case	_	_
@@ -2763,7 +2763,7 @@
 104	de	de	ADP	Simp	_	105	case	_	_
 105	dhochtúirí	dochtúir	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	102	nmod	_	_
 106	leighis	leigheas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	105	nmod	_	_
-107	do	do	PART	Vb	PartType=Vb	108	mark:prt	_	_
+107	do	do	PART	Vb	PartType=Inf	108	mark:prt	_	_
 108	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	95	xcomp	_	_
 109	gan	gan	ADP	Simp	_	110	case	_	_
 110	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	108	xcomp	_	_
@@ -4180,7 +4180,7 @@
 25	sin	sin	DET	Det	PronType=Dem	23	det	_	_
 26	GQ	GQ	PROPN	Abr	Abbr=Yes	23	nmod	_	_
 27	(	(	PUNCT	Punct	_	29	punct	_	SpaceAfter=No
-28	murab	mura	SCONJ	Subord	Form=VF|Tense=Past|VerbForm=Cop	29	mark	_	_
+28	murab	mura	SCONJ	Subord	Form=VF|Tense=Pres|VerbForm=Cop	29	mark	_	_
 29	ionann	ionann	ADJ	Adj	Degree=Pos	14	advcl	_	_
 30	agus	agus	CCONJ	Coord	_	31	cc	_	_
 31	GI	GI	NOUN	Abr	Abbr=Yes	29	conj	_	_
@@ -4749,7 +4749,7 @@
 
 # sent_id = 200
 # text = Sé deacracht a bhíodh agam teacht amach as an saol san agus plé le gnáthchúrsaí an tsaoil ina rabhas ag maireachtaint.
-1	Sé	is	AUX	Cop	Gender=Masc|Number=Sing|Person=3|VerbForm=Cop	2	cop	_	_
+1	Sé	is	AUX	Cop	Gender=Masc|Number=Sing|Person=3|Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	deacracht	deacracht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	0	root	_	_
 3	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	4	nsubj	_	_
 4	bhíodh	bí	VERB	PastImp	Aspect=Imp|Form=Len|Tense=Past	2	acl:relcl	_	_
@@ -5969,7 +5969,7 @@
 30	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	31	det	_	_
 31	nós	nós	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	28	nmod	_	_
 32	imeachta	imeacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	31	nmod	_	_
-33	dá	do	PART	Rel	Form=Indirect|PronType=Rel	34	obl	_	_
+33	dá	do	PART	Rel	Form=Indirect|PartType=Vb|PronType=Rel	34	obl	_	_
 34	dtagraítear	tagair	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	32	acl:relcl	_	_
 35	in	i	ADP	Simp	_	36	case	_	_
 36	Airteagal	airteagal	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	34	obl	_	_
@@ -6464,12 +6464,12 @@
 
 # sent_id = 256
 # text = 'Dar mo choinsias,' arsa Deirdre, 'Thréig Buinne sibh, a mhaca Uisnigh, agus is róchosúil lena athair é.
-1	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-2	Dar	dar	VERB	PresInd	Mood=Ind|Tense=Pres	7	parataxis	_	_
+1	'	'	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
+2	Dar	dar	ADP	Simp	_	4	case	_	_
 3	mo	mo	DET	Det	Number=Sing|Person=1|Poss=Yes	4	nmod:poss	_	_
-4	choinsias	coinsias	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	nsubj	_	SpaceAfter=No
-5	,	,	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-6	'	'	PUNCT	Punct	_	2	punct	_	_
+4	choinsias	coinsias	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	parataxis	_	SpaceAfter=No
+5	,	,	PUNCT	Punct	_	4	punct	_	SpaceAfter=No
+6	'	'	PUNCT	Punct	_	4	punct	_	_
 7	arsa	arsa	VERB	PastInd	Mood=Ind|Tense=Past	0	root	_	_
 8	Deirdre	Deirdre	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	11	punct	_	_
@@ -6628,7 +6628,7 @@
 30	phearsa	pearsa	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	25	obl	_	_
 31	aonair	aonar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	30	nmod	_	SpaceAfter=No
 32	,	,	PUNCT	Punct	_	34	punct	_	_
-33	ar	ar	PART	Rel	Tense=Pres|VerbForm=Cop	34	obl	_	_
+33	ar	is	AUX	Cop	Tense=Pres|VerbForm=Cop	34	cop	_	_
 34	pearsa	pearsa	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	30	acl:relcl	_	_
 35	aonair	aonar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	34	nmod	_	_
 36	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	34	nsubj	_	_
@@ -6690,7 +6690,7 @@
 92	,	,	PUNCT	Punct	_	93	punct	_	_
 93	ansin	ansin	ADV	Loc	_	7	advmod	_	SpaceAfter=No
 94	,	,	PUNCT	Punct	_	96	punct	_	_
-95	mura	mura	SCONJ	Subord	_	96	mark	_	_
+95	mura	mura	SCONJ	Subord	Tense=Pres|VerbForm=Cop	96	mark	_	_
 96	rud	rud	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	advcl	_	_
 97	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	96	nsubj	_	SpaceAfter=No
 98	,	,	PUNCT	Punct	_	100	punct	_	_
@@ -7092,7 +7092,7 @@
 47	de	de	ADP	Simp	_	48	case	_	_
 48	Oileán	oileán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	45	obl	_	_
 49	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	51	det	_	_
-50	dá	dó	NUM	Num	Definite=Def|NumType=Card	51	nummod	_	_
+50	dá	dó	NUM	Num	NumType=Card	51	nummod	_	_
 51	Bhrannóg	Brannóg	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	48	nmod	_	SpaceAfter=No
 52	.	.	PUNCT	.	_	2	punct	_	_
 
@@ -8070,7 +8070,7 @@
 5	sa	i	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
 6	tábhairne	tábhairne	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nmod	_	SpaceAfter=No
 7	,	,	PUNCT	Punct	_	8	punct	_	_
-8	O'	O'	PART	Pat	PartType=Pat	6	appos	_	NamedEntity=Yes
+8	O'	o	PART	Pat	PartType=Pat	6	appos	_	NamedEntity=Yes
 9	Shea's	Shea's	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	8	flat:name	_	NamedEntity=Yes
 10	i	i	ADP	Simp	_	11	case	_	_
 11	nDomhnach	Domhnach	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
@@ -10327,7 +10327,7 @@
 
 # sent_id = 411
 # text = Níos práinní ná sin chaithfeadh sé déanamh cinnte nach mbainfí de iad.
-1	Níos	níos	PART	Cmp	Number=Sing|PartType=Comp	2	mark:prt	_	_
+1	Níos	níos	PART	Cmp	PartType=Comp	2	mark:prt	_	_
 2	práinní	práinneach	ADJ	Adj	Degree=Cmp,Sup	5	amod	_	_
 3	ná	ná	CCONJ	Coord	_	4	cc	_	_
 4	sin	sin	PRON	Dem	PronType=Dem	2	conj	_	_
@@ -10428,7 +10428,7 @@
 11	,	,	PUNCT	Punct	_	12	punct	_	_
 12	agus	agus	CCONJ	Coord	_	13	cc	_	_
 13	Liz	Liz	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	NamedEntity=Yes
-14	O'	o'	PART	Pat	PartType=Pat	13	flat:name	_	NamedEntity=Yes
+14	O'	o	PART	Pat	PartType=Pat	13	flat:name	_	NamedEntity=Yes
 15	Donnell	Donnell	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	13	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -10931,7 +10931,7 @@
 84	-	-	PUNCT	Punct	_	86	punct	_	_
 85	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	86	det	_	_
 86	sócmhainní	sócmhainn	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	93	obj	_	_
-87	dá	do	PART	Rel	Form=Indirect|PronType=Rel	88	obl	_	_
+87	dá	do	PART	Rel	Form=Indirect|PartType=Vb|PronType=Rel	88	obl	_	_
 88	dtagraítear	tagair	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	86	acl:relcl	_	_
 89	san	i	ADP	Art	Number=Sing|PronType=Art	90	case	_	_
 90	Airteagal	airteagal	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	88	obl	_	_
