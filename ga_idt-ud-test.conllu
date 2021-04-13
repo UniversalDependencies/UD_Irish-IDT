@@ -2855,7 +2855,7 @@
 30	measc	measc	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	25	obl	_	_
 31	mo	mo	DET	Det	Number=Sing|Person=1|Poss=Yes	32	nmod:poss	_	_
 32	chomhghael	comhghael	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|NounType=Weak|Number=Plur	30	nmod	_	_
-33	Feirsteach	Feirsteach	ADJ	Adj	Case=Gen|Gender=Masc|Number=Plur	32	amod	_	SpaceAfter=No
+33	Feirsteach	Feirsteach	ADJ	Adj	Case=Gen|Gender=Masc|NounType=Weak|Number=Plur	32	amod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	20	punct	_	_
 
 # sent_id = 116
@@ -4659,7 +4659,7 @@
 3	cruthaíodh	cruthaigh	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	csubj:cleft	_	_
 4	as	as	ADP	Simp	_	5	case	_	_
 5	taisí	taise	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	3	obl	_	_
-6	orgánach	orgánach	ADJ	Adj	Case=NomAcc|NounType=Weak|Number=Sing	5	amod	_	_
+6	orgánach	orgánach	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	5	amod	_	_
 7	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	8	nsubj	_	_
 8	mhair	mair	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	5	acl:relcl	_	_
 9	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	10	det	_	_
@@ -11367,7 +11367,7 @@
 2	ar	ar	ADP	Simp	_	3	case	_	_
 3	limistéir	limistéar	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	1	nmod	_	_
 4	thuaithe	tuath	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	3	nmod	_	_
-5	cháilitheacha	cáilitheach	ADJ	Adj	Case=NomAcc|Form=Len|NounType=Slender|Number=Plur	4	amod	_	_
+5	cháilitheacha	cáilitheach	ADJ	Adj	Case=NomAcc|Form=Len|NounType=Slender|Number=Plur	3	amod	_	_
 6	Shligigh	Sligeach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	3	nmod	_	SpaceAfter=No
 7	.	.	PUNCT	.	_	1	punct	_	_
 
