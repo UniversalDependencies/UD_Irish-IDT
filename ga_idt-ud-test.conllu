@@ -2961,7 +2961,7 @@
 3	Phoic	poc	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	nmod	_	NamedEntity=Yes
 4	Duine	duine	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	parataxis	_	_
 5	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	6	nsubj	_	_
-6	bheadh	bí	VERB	Cond	Form=Len|Mood=Cnd|Polarity=Neg	4	acl:relcl	_	_
+6	bheadh	bí	VERB	Cond	Form=Len|Mood=Cnd	4	acl:relcl	_	_
 7	ag	ag	ADP	Simp	_	8	case	_	_
 8	ceannach	ceannach	NOUN	Noun	VerbForm=Vnoun	6	xcomp	_	_
 9	capaill	capall	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	8	obj	_	_
@@ -3197,7 +3197,7 @@
 4	Helsing	Helsing	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	3	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 5	,	,	PUNCT	Punct	_	2	punct	_	_
 6	má	má	SCONJ	Subord	_	7	mark	_	_
-7	thagann	tar	VERB	PresInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Pres	22	advcl	_	_
+7	thagann	tar	VERB	PresInd	Form=Len|Mood=Ind|Tense=Pres	22	advcl	_	_
 8	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	_
 9	chothrom	cothrom	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nsubj	_	_
 10	de	de	ADP	Simp	_	11	case	_	_
@@ -3207,7 +3207,7 @@
 14	chomhair	comhair	NOUN	Subst	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	7	obl	_	_
 15	agus	agus	SCONJ	Subord	_	17	mark	_	_
 16	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	17	mark:prt	_	_
-17	tharla	tarlaigh	VERB	PastInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	7	xcomp	_	_
+17	tharla	tarlaigh	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	7	xcomp	_	_
 18	i	i	ADP	Simp	_	19	case	_	_
 19	gcás	cás	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	17	obl	_	_
 20	Laoise	Laoise	PROPN	Noun	Definite=Def	19	nmod	_	SpaceAfter=No
@@ -3649,7 +3649,7 @@
 
 # sent_id = 149
 # text = Dhiúltaigh Johnathan Cape agus cúpla foilsitheoir eile an leabhar a fhoilsiú agus bhí Naomi le ceangal go raibh srian a chur ar a cuid tuairimíochta.
-1	Dhiúltaigh	diúltaigh	VERB	VTI	Form=Len|Mood=Ind|Polarity=Neg|Tense=Past	0	root	_	_
+1	Dhiúltaigh	diúltaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	Johnathan	Johnathan	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	NamedEntity=Yes
 3	Cape	Cape	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	flat:name	_	NamedEntity=Yes
 4	agus	agus	CCONJ	Coord	_	6	cc	_	_
@@ -9649,7 +9649,7 @@
 11	imigh	imigh	VERB	VI	Mood=Imp|Number=Sing|Person=2	0	root	_	_
 12	leat	le	ADP	Prep	Number=Sing|Person=2	11	obl:prep	_	_
 13	is	agus	CCONJ	Coord	_	15	cc	_	_
-14	ná	ná	PART	Vb	Mood=Imp|PartType=Vb	15	mark:prt	_	_
+14	ná	ná	PART	Vb	Mood=Imp|PartType=Vb|Polarity=Neg	15	mark:prt	_	_
 15	tar	tar	VERB	VI	Mood=Imp|Number=Sing|Person=2|Polarity=Neg	11	conj	_	_
 16	arís	arís	ADV	Gn	_	15	advmod	_	SpaceAfter=No
 17	!	!	PUNCT	!	_	11	punct	_	_
@@ -10534,7 +10534,7 @@
 17	-	-	PUNCT	Punct	_	18	punct	_	_
 18	tinneas	tinneas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	15	appos	_	_
 19	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	20	nsubj	_	_
-20	chuireann	cuir	VERB	PresInd	Form=Len|Mood=Ind|Polarity=Neg|Tense=Pres	18	acl:relcl	_	_
+20	chuireann	cuir	VERB	PresInd	Form=Len|Mood=Ind|Tense=Pres	18	acl:relcl	_	_
 21	isteach	isteach	ADV	Dir	_	20	advmod	_	_
 22	ar	ar	ADP	Simp	_	23	case	_	_
 23	pháistí	páiste	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	20	obl	_	_
