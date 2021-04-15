@@ -598,7 +598,7 @@
 # sent_id = 27
 # text = Bhí teipthe ar Aodh sa chath seo.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
-2	teipthe	teipthe	ADJ	Adj	VerbForm=Part	1	nsubj	_	_
+2	teipthe	teipthe	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	ar	ar	ADP	Simp	_	4	case	_	_
 4	Aodh	Aodh	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	_
 5	sa	i	ADP	Art	Number=Sing|PronType=Art	6	case	_	_
