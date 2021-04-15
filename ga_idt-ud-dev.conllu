@@ -1027,7 +1027,7 @@
 41	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	42	det	_	_
 42	mhí	mí	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	40	obl:tmod	_	_
 43	i	i	ADP	Cmpd	PrepForm=Cmpd	46	case	_	_
-44	ndiaidh	ndiaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	43	fixed	_	_
+44	ndiaidh	diaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	43	fixed	_	_
 45	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	46	nmod:poss	_	_
 46	chéile	céile	NOUN	Noun	Definite=Def|Form=Len|Gender=Masc|Number=Sing	40	obl	_	SpaceAfter=No
 47	.	.	PUNCT	.	_	1	punct	_	_
@@ -2445,7 +2445,7 @@
 22	a	a	PART	Inf	PartType=Inf	23	mark	_	_
 23	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	20	xcomp	_	_
 24	faoi	faoi	ADP	Cmpd	PrepForm=Cmpd	27	case	_	_
-25	bhráid	bhráid	NOUN	Cmpd	PrepForm=Cmpd	24	fixed	_	_
+25	bhráid	bráid	NOUN	Cmpd	PrepForm=Cmpd	24	fixed	_	_
 26	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	_
 27	Ombudsman	Ombudsman	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	23	obl	_	_
 28	nuair	nuair	SCONJ	Subord	_	30	mark	_	_
@@ -4153,7 +4153,7 @@
 9	a	a	PART	Inf	PartType=Inf	10	mark	_	_
 10	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	3	xcomp	_	_
 11	i	i	ADP	Cmpd	PrepForm=Cmpd	13	case	_	_
-12	gcoinne	gcoinne	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	11	fixed	_	_
+12	gcoinne	coinne	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	11	fixed	_	_
 13	fógra	fógra	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
 14	toirmisc	toirmeasc	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	_
 15	de	de	ADP	Cmpd	PrepForm=Cmpd	17	case	_	_
@@ -6519,7 +6519,7 @@
 15	cheantair	ceantar	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	nmod	_	SpaceAfter=No
 16	,	,	PUNCT	Punct	_	20	punct	_	_
 17	de	de	ADP	Cmpd	PrepForm=Cmpd	20	mark	_	_
-18	thairbhe	thairbhe	NOUN	Cmpd	PrepForm=Cmpd	17	fixed	_	_
+18	thairbhe	tairbhe	NOUN	Cmpd	PrepForm=Cmpd	17	fixed	_	_
 19	go	go	PART	Vb	PartType=Cmpl	20	mark:prt	_	_
 20	bhfeiceann	feic	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Pres	10	advcl	_	_
 21	siad	siad	PRON	Pers	Number=Plur|Person=3	20	nsubj	_	_
@@ -7208,7 +7208,7 @@
 4	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	5	case	_	_
 5	iarracht	iarracht	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	1	obl	_	_
 6	de	de	ADP	Cmpd	PrepForm=Cmpd	9	case	_	_
-7	dheasca	dheasca	NOUN	Cmpd	PrepForm=Cmpd	6	fixed	_	_
+7	dheasca	deasca	NOUN	Cmpd	PrepForm=Cmpd	6	fixed	_	_
 8	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	bhfíricí	fíric	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|NounType=Strong|Number=Plur	5	nmod	_	_
 10	faoi	faoi	ADP	Simp	_	11	case	_	_
@@ -7801,7 +7801,7 @@
 2	Brian	Brian	PROPN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	nsubj	_	NamedEntity=Yes
 3	Friel	Friel	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	2	flat:name	_	NamedEntity=Yes
 4	i	i	ADP	Cmpd	PrepForm=Cmpd	8	case	_	_
-5	ndiaidh	ndiaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	4	fixed	_	_
+5	ndiaidh	diaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	4	fixed	_	_
 6	cead	cead	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obj	_	_
 7	a	a	PART	Inf	PartType=Inf	8	mark	_	_
 8	thabhairt	tabhairt	NOUN	Noun	Form=Len|VerbForm=Inf	1	xcomp	_	_
@@ -7981,7 +7981,7 @@
 6	i	i	ADP	Simp	_	7	case	_	_
 7	dteocht	teocht	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	5	obl	_	_
 8	faoi	faoi	ADP	Cmpd	_	10	case	_	_
-9	bhun	bhun	NOUN	Cmpd	PrepForm=Cmpd	8	fixed	_	_
+9	bhun	bun	NOUN	Cmpd	PrepForm=Cmpd	8	fixed	_	_
 10	4C	4C	NOUN	Abr	Abbr=Yes	7	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	3	punct	_	_
 
@@ -10749,7 +10749,7 @@
 10	filleadh	filleadh	NOUN	Noun	VerbForm=Inf	2	xcomp	_	_
 11	abhaile	abhaile	ADV	Dir	_	10	advmod	_	_
 12	i	i	ADP	Cmpd	PrepForm=Cmpd	14	case	_	_
-13	ndiaidh	ndiaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	12	fixed	_	_
+13	ndiaidh	diaidh	NOUN	Cmpd	Form=Ecl|PrepForm=Cmpd	12	fixed	_	_
 14	feachtais	feachtas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	10	obl	_	_
 15	mhíleata	míleata	ADJ	Adj	Degree=Pos|Form=Len	14	amod	_	_
 16	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	18	nsubj	_	_
