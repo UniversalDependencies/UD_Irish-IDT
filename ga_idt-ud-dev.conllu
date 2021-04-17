@@ -1439,7 +1439,7 @@
 2	lucht	lucht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	1	nmod	_	_
 3	oibre	obair	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	2	nmod	_	_
 4	ba	is	PART	Sup	PartType=Sup|Tense=Past|VerbForm=Cop	5	mark:prt	_	_
-5	mhó	mór	ADJ	Adj	Degree=Pos|Form=Len	1	amod	_	_
+5	mhó	mór	ADJ	Adj	Degree=Cmp,Sup|Form=Len	1	amod	_	_
 6	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	7	mark:prt	_	_
 7	bhí	bí	VERB	VI	Form=Len|Mood=Ind|Tense=Past	1	csubj:cleft	_	_
 8	ann	i	ADP	Prep	Gender=Masc|Number=Sing|Person=3	7	xcomp:pred	_	SpaceAfter=No
@@ -2061,7 +2061,7 @@
 25	cúrsaí	cúrsa	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	24	obj	_	_
 26	staidéir	staidéar	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	níos	níos	PART	Cmp	PartType=Comp	28	mark:prt	_	_
-28	mó	mó	ADJ	Adj	Degree=Pos	25	amod	_	_
+28	mó	mó	ADJ	Adj	Degree=Cmp,Sup	25	amod	_	_
 29	ná	ná	CCONJ	Coord	_	30	mark	_	_
 30	cúpla	cúpla	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	25	obl:tmod	_	_
 31	lá	lá	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	30	nmod	_	_
@@ -2274,8 +2274,8 @@
 # text = Bhí saol ainnis aici ar an oileán: 'Is Aifreann Domhnaigh níor éist mé ann.
 1	Bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 2	saol	saol	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	nsubj	_	_
-3	ainnis	ainnis	ADJ	Adj	Gender=Masc|Number=Sing	1	xcomp:pred	_	_
-4	aici	ag	ADP	Prep	Gender=Fem|Number=Sing|Person=3	1	obl:prep	_	_
+3	ainnis	ainnis	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	2	amod	_	_
+4	aici	ag	ADP	Prep	Gender=Fem|Number=Sing|Person=3	1	xcomp:pred	_	_
 5	ar	ar	ADP	Simp	_	7	case	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	oileán	oileán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	SpaceAfter=No
@@ -2665,8 +2665,8 @@
 
 # sent_id = 561
 # text = Liobairt mhaith de'n teangaidh a bhí in áithrid dó ag a' siopadóir, a's sé a dtug sé d'áirleacan dó, noiméad a' chloig le crapadh leis as a siopa, nó go gcuirfeadh sé na póilíos in a dhiaidh.
-1	Liobairt	liobairt	NOUN	Noun	VerbForm=Inf	0	root	_	_
-2	mhaith	maith	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	1	amod	_	_
+1	Liobairt	liobairt	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	0	root	_	_
+2	mhaith	maith	ADJ	Adj	Case=NomAcc|Form=Len|Gender=Fem|Number=Sing	1	amod	_	_
 3	de	de	ADP	Simp	_	5	case	_	SpaceAfter=No
 4	'n	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 5	teangaidh	teanga	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	1	nmod	_	_
@@ -4259,7 +4259,7 @@
 
 # sent_id = 622
 # text = Cén áit an bhfágfaidh mé iad seo, a Tom.
-1	Cén	cé	PRON	Q	PronType=Int	0	root	_	_
+1	Cén	cé	PRON	Q	Number=Sing|PronType=Int	0	root	_	_
 2	áit	áit	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	an	an	PART	Vb	PartType=Vb	4	mark:prt	_	_
 4	bhfágfaidh	fág	VERB	VTI	Form=Ecl|Mood=Ind|Tense=Fut	2	acl:relcl	_	_
