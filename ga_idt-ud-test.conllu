@@ -7514,7 +7514,7 @@
 12	fáilte	fáilte	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	10	conj	_	_
 13	óna	ó	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	14	case	_	_
 14	scoláirí	scoláire	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	9	obl	_	_
-15	traidisiúnta	traidisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	14	amod	_	SpaceAfter=No
+15	traidisiúnta	traidisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	14	amod	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 290
@@ -8298,7 +8298,7 @@
 5	thuairisc	tuairisc	VERB	_	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 6	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	taighdeoirí	taighdeoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_
-8	céanna	céanna	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	7	amod	_	_
+8	céanna	céanna	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	7	amod	_	_
 9	go	go	PART	Vb	PartType=Cmpl	10	mark:prt	_	_
 10	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	5	ccomp	_	_
 11	dath	dath	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nsubj	_	_
@@ -8570,7 +8570,7 @@
 # text = Beidh imeachtaí sóisialta ar siúl i ndiaidh na gcainteanna.
 1	Beidh	bí	VERB	FutInd	Mood=Ind|Tense=Fut	0	root	_	_
 2	imeachtaí	imeacht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	1	nsubj	_	_
-3	sóisialta	sóisialta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	2	amod	_	_
+3	sóisialta	sóisialta	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	2	amod	_	_
 4	ar	ar	ADP	Simp	_	5	case	_	_
 5	siúl	siúl	NOUN	Noun	VerbForm=Inf	1	xcomp	_	_
 6	i	i	ADP	Cmpd	PrepForm=Cmpd	9	case	_	_
@@ -9619,7 +9619,7 @@
 1	Is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	2	cop	_	_
 2	féidir	féidir	NOUN	Subst	Case=NomAcc|Number=Sing	0	root	_	_
 3	acmhainní	acmhainn	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	6	obj	_	_
-4	nádúrtha	nádúrtha	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	3	amod	_	_
+4	nádúrtha	nádúrtha	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	3	amod	_	_
 5	a	a	PART	Inf	PartType=Inf	6	mark	_	_
 6	roinnt	roinnt	NOUN	Noun	VerbForm=Inf	2	csubj:cop	_	_
 7	ina	i	ADP	Poss	Number=Plur|Person=3|Poss=Yes	9	case	_	_
@@ -10854,7 +10854,7 @@
 7	agus	agus	CCONJ	Coord	_	8	cc	_	_
 8	bainc	banc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	6	conj	_	_
 9	cheannais	ceannas	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	8	compound	_	_
-10	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	8	amod	_	SpaceAfter=No
+10	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=Slender|Number=Plur	8	amod	_	SpaceAfter=No
 11	:	:	PUNCT	Punct	_	15	punct	_	_
 12	-	-	PUNCT	Punct	_	15	punct	_	_
 13	caidreamh	caidreamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	15	obj	_	_
@@ -10877,7 +10877,7 @@
 30	,	,	PUNCT	Punct	_	32	punct	_	_
 31	le	le	ADP	Simp	_	32	case	_	_
 32	heagraíochtaí	eagraíocht	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Fem|Number=Plur	29	nmod	_	_
-33	idirnáisiúnta	idirnáisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	32	amod	_	SpaceAfter=No
+33	idirnáisiúnta	idirnáisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	32	amod	_	SpaceAfter=No
 34	;	;	PUNCT	Punct	_	37	punct	_	_
 35	-	-	PUNCT	Punct	_	37	punct	_	_
 36	gach	gach	DET	Det	Definite=Def	37	det	_	_
@@ -10957,7 +10957,7 @@
 110	agus	agus	CCONJ	Coord	_	112	cc	_	_
 111	le	le	ADP	Simp	_	112	case	_	_
 112	heagraíochtaí	eagraíocht	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Fem|Number=Plur	108	conj	_	_
-113	idirnáisiúnta	idirnáisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	112	amod	_	_
+113	idirnáisiúnta	idirnáisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	112	amod	_	_
 114	lena	le	PART	Rel	Form=Indirect|PronType=Rel	115	obl	_	_
 115	n-áirítear	áirigh	VERB	VT	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	112	acl:relcl	_	_
 116	oibríochtaí	oibríocht	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	115	obj	_	_

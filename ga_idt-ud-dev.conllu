@@ -2209,7 +2209,7 @@
 18	mairstin	mairstin	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	17	obj	_	_
 19	in	i	ADP	Simp	_	20	case	_	_
 20	ifrinn	ifreann	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	17	obl	_	_
-21	shaolta	saolta	ADJ	Adj	Case=NomAcc|Form=Len|Gender=Masc|Number=Plur	20	amod	_	_
+21	shaolta	saolta	ADJ	Adj	Case=NomAcc|Form=Len|Gender=Masc|NounType=Slender|Number=Plur	20	amod	_	_
 22	agus	agus	CCONJ	Coord	_	23	mark	_	_
 23	sléacht	sléacht	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	17	advcl	_	_
 24	ag	ag	ADP	Simp	_	25	case	_	_
@@ -2923,7 +2923,7 @@
 75	d'	do	PART	Vb	PartType=Vb	76	mark:prt	_	SpaceAfter=No
 76	fhéadfaí	féad	VERB	VTI	Form=Len|Mood=Cnd|Person=0	71	ccomp	_	_
 77	córais	córas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	87	obj	_	_
-78	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	77	amod	_	_
+78	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=Slender|Number=Plur	77	amod	_	_
 79	teileachumarsáide	teileachumarsáid	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	77	nmod	_	SpaceAfter=No
 80	,	,	PUNCT	Punct	_	82	punct	_	_
 81	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	82	det	_	_
@@ -3550,7 +3550,7 @@
 16	an-chonspóideacha	an-chonspóideach	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	15	amod	_	_
 17	mar	mar	ADP	Simp	_	18	case	_	_
 18	mháithreacha	máthair	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Plur	12	obl	_	_
-19	neamhphósta	neamhphósta	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	18	amod	_	_
+19	neamhphósta	neamhphósta	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	18	amod	_	_
 20	agus	agus	CCONJ	Coord	_	21	cc	_	_
 21	ginmhilleadh	ginmhilleadh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	18	conj	_	SpaceAfter=No
 22	.	.	PUNCT	.	_	1	punct	_	_
@@ -4643,7 +4643,7 @@
 51	fáil	fáil	NOUN	Noun	VerbForm=Inf	49	xcomp	_	_
 52	chun	chun	ADP	Simp	_	59	case	_	_
 53	ceoldrámaí	ceoldráma	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	59	obj	_	_
-54	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Plur	53	amod	_	_
+54	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	53	amod	_	_
 55	agus	agus	CCONJ	Coord	_	59	cc	_	_
 56	tionscnaimh	tionscnamh	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	53	conj	_	_
 57	ceoldrámaíochta	ceoldrámaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	56	nmod	_	_
@@ -4988,7 +4988,7 @@
 5	roimh	roimh	ADP	Simp	_	7	case	_	_
 6	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	7	det	_	_
 7	gnéithe	gné	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Plur	1	obl	_	_
-8	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	7	amod	_	_
+8	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	7	amod	_	_
 9	seo	seo	DET	Det	PronType=Dem	7	det	_	_
 10	ach	ach	SCONJ	Subord	_	11	mark	_	_
 11	níl	bí	VERB	VI	Mood=Ind|Polarity=Neg|Tense=Pres	1	advcl	_	_
@@ -5289,7 +5289,7 @@
 10	smaoineamh	smaoineamh	NOUN	Noun	VerbForm=Vnoun	8	xcomp	_	_
 11	ar	ar	ADP	Simp	_	12	case	_	_
 12	straitéisí	straitéis	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	10	obl	_	_
-13	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Plur	12	amod	_	_
+13	nua	nua	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	12	amod	_	_
 14	maidir	maidir	ADP	CmpdNoGen	_	16	case	_	_
 15	le	le	ADP	CmpdNoGen	_	14	fixed	_	_
 16	múineadh	múineadh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	10	obl	_	_
