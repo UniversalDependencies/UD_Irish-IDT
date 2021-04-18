@@ -4884,7 +4884,7 @@
 31	sáruithe	sárú	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Plur	37	obj	_	_
 32	ar	ar	ADP	Simp	_	33	case	_	_
 33	fhorálacha	foráil	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Fem|Number=Plur	31	nmod	_	_
-34	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	33	amod	_	_
+34	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	33	amod	_	_
 35	custaim	custam	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	33	nmod	_	_
 36	a	a	PART	Inf	PartType=Inf	37	mark	_	_
 37	chosc	cosc	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
@@ -4902,7 +4902,7 @@
 49	Chomhphobail	comhphobal	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	46	nmod	_	_
 50	agus	agus	CCONJ	Coord	_	51	cc	_	_
 51	forálacha	foráil	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	46	conj	_	_
-52	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	51	amod	_	_
+52	náisiúnta	náisiúnta	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	51	amod	_	_
 53	custaim	custam	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
 54	a	a	PART	Inf	PartType=Inf	55	mark	_	_
 55	ionchúiseamh	ionchúiseamh	NOUN	Noun	VerbForm=Inf	37	conj	_	_
@@ -5682,7 +5682,7 @@
 7	tithe	teach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	3	conj	_	_
 8	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	9	det	_	_
 9	mbailte	baile	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	7	nmod	_	_
-10	beaga	beag	ADJ	Adj	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	9	amod	_	SpaceAfter=No
+10	beaga	beag	ADJ	Adj	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	9	amod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 682
@@ -6717,8 +6717,8 @@
 51	i	i	ADP	Simp	_	52	case	_	_
 52	gcás	cás	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	48	nmod	_	_
 53	aicmí	aicme	NOUN	Noun	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	52	nmod	_	_
-54	sóisialta	sóisialta	ADJ	Adj	Case=Gen|Gender=Fem|Number=Plur	53	amod	_	_
-55	áirithe	áirithe	ADJ	Adj	Case=Gen|Gender=Fem|Number=Plur	53	amod	_	_
+54	sóisialta	sóisialta	ADJ	Adj	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	53	amod	_	_
+55	áirithe	áirithe	ADJ	Adj	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	53	amod	_	_
 56	a	a	PART	Inf	PartType=Inf	57	mark	_	_
 57	cheartú	ceartú	NOUN	Noun	Form=Len|VerbForm=Inf	43	conj	_	SpaceAfter=No
 58	.	.	PUNCT	.	_	23	punct	_	_
@@ -7613,7 +7613,7 @@
 6	,	,	PUNCT	Punct	_	7	punct	_	_
 7	ionad	ionad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	2	nmod	_	_
 8	iascaireachta	iascaireacht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	7	nmod	_	_
-9	traidisiúnta	traidisiúnta	ADJ	Adj	Case=Gen|Gender=Fem|Number=Sing	7	amod	_	_
+9	traidisiúnta	traidisiúnta	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	7	amod	_	_
 10	le	le	ADP	Simp	_	12	case	_	_
 11	350	350	NUM	Num	_	12	nummod	_	_
 12	bliain	bliain	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	1	obl:tmod	_	_
@@ -7637,7 +7637,7 @@
 30	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	31	det	_	_
 31	comhlachtaí	comhlacht	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	26	obl	_	_
 32	ollmhóra	ollmhór	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	31	amod	_	_
-33	ilnáisiúnacha	ilnáisiúnach	ADJ	Adj	NounType=NotSlender|Number=Plur	31	amod	_	SpaceAfter=No
+33	ilnáisiúnacha	ilnáisiúnach	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	31	amod	_	SpaceAfter=No
 34	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 760
@@ -9136,7 +9136,7 @@
 37	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	38	det	_	_
 38	dtráthchodanna	tráthchuid	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|NounType=Strong|Number=Plur	36	nmod	_	_
 39	comhionanna	comhionann	ADJ	Adj	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	38	amod	_	_
-40	míosúla	míosúil	ADJ	Adj	Case=Gen|NounType=Strong|Number=Plur	38	amod	_	_
+40	míosúla	míosúil	ADJ	Adj	Case=Gen|Gender=Fem|NounType=Strong|Number=Plur	38	amod	_	_
 41	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	42	nsubj	_	_
 42	bheidh	bí	VERB	FutInd	Form=Len|Mood=Ind|Tense=Fut	38	acl:relcl	_	_
 43	le	le	ADP	Simp	_	44	case	_	_
@@ -10335,7 +10335,7 @@
 23	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	22	nsubj	_	_
 24	as	as	ADP	Simp	_	25	case	_	_
 25	treo	treo	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	22	obl	_	_
-26	éigin	éigin	ADJ	Adj	Case=NomAcc|Gender=Fem|Number=Sing	25	amod	_	_
+26	éigin	éigin	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	25	amod	_	_
 27	ar	ar	ADP	Simp	_	29	case	_	_
 28	a	a	DET	Det	Gender=Fem|Number=Sing|Person=3|Poss=Yes	29	nmod:poss	_	_
 29	bealach	bealach	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	22	obl	_	_
@@ -10562,7 +10562,7 @@
 10	línte	líne	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	15	obj	_	_
 11	fiara	fiar	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	10	amod	_	_
 12	agus	agus	CCONJ	Coord	_	13	cc	_	_
-13	ingearacha	ingearach	ADJ	Adj	Case=NomAcc|NounType=NotSlender|Number=Plur	11	conj	_	_
+13	ingearacha	ingearach	ADJ	Adj	Case=NomAcc|Gender=Fem|NounType=NotSlender|Number=Plur	11	conj	_	_
 14	a	a	PART	Inf	PartType=Inf	15	mark	_	_
 15	aithint	aithint	NOUN	Noun	VerbForm=Inf	4	xcomp	_	_
 16	agus	agus	CCONJ	Coord	_	18	cc	_	_
