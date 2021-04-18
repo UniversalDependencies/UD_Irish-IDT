@@ -1853,7 +1853,7 @@
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	atá	bí	VERB	PresInd	Form=Direct|Mood=Ind|PronType=Rel|Tense=Pres	22	acl:relcl	_	_
 26	níos	níos	PART	Cmp	PartType=Comp	27	mark:prt	_	_
-27	costasúla	costasúil	ADJ	Adj	Case=NomAcc	25	xcomp:pred	_	SpaceAfter=No
+27	costasúla	costasúil	ADJ	Adj	Degree=Cmp,Sup	25	xcomp:pred	_	SpaceAfter=No
 28	.	.	PUNCT	.	_	13	punct	_	_
 
 # sent_id = 76
@@ -7630,8 +7630,8 @@
 15	ar	ar	ADP	Simp	_	17	case	_	_
 16	a	a	DET	Det	Number=Plur|Person=3|Poss=Yes	17	nmod:poss	_	_
 17	mbealach	bealach	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	14	nmod	_	_
-18	ó	ó	ADP	Simp	_	17	advmod	_	_
-19	dheas	deas	ADJ	Adj	Form=Len|Number=Sing	18	fixed	_	SpaceAfter=No
+18	ó	ó	ADV	Dir	_	17	advmod	_	_
+19	dheas	dheas	ADV	Dir	_	18	fixed	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = 297
@@ -7881,10 +7881,10 @@
 19	bhfeicfeadh	feic	VERB	VTI	Form=Ecl|Mood=Cnd	15	ccomp	_	_
 20	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	19	nsubj	_	_
 21	trua	trua	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	19	obj	_	_
-22	ar	ar	ADP	Simp	PrepForm=Cmpd	24	case	_	_
-23	aghaidh	aghaidh	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing|PrepForm=Cmpd	22	fixed	_	_
-24	duine	duine	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	19	obl	_	_
-25	éigin	éigin	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
+22	ar	ar	ADP	Simp	_	23	case	_	_
+23	aghaidh	aghaidh	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	21	nmod	_	_
+24	duine	duine	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	23	nmod	_	_
+25	éigin	éigin	ADJ	Adj	Case=Gen|Gender=Masc|Number=Sing	24	amod	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 307
