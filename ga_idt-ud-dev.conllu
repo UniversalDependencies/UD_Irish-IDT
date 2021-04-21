@@ -1777,9 +1777,9 @@
 
 # sent_id = 526
 # text = D'ainneoin fíoch na filíochta idir an bheirt thug fear Ceann Tíre isteach an strainséir agus thug béile aráin rósta dó agus im tíre air a thug a bhean anall ón Chill san Cheann Deas.
-1	D'	de	ADP	Simp	_	2	case	_	SpaceAfter=No
-2	ainneoin	ainneoin	NOUN	Subst	Case=NomAcc|Definite=Def|Number=Sing	9	obl	_	_
-3	fíoch	fíoch	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	_
+1	D'	de	ADP	Simp	PrepForm=Cmpd	3	case	_	SpaceAfter=No
+2	ainneoin	ainneoin	NOUN	Subst	Case=NomAcc|Definite=Def|Number=Sing|PrepForm=Cmpd	1	fixed	_	_
+3	fíoch	fíoch	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	9	obl	_	_
 4	na	an	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	_
 5	filíochta	filíocht	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	3	nmod	_	_
 6	idir	idir	ADP	Simp	_	8	case	_	_
@@ -3953,10 +3953,10 @@
 
 # sent_id = 608
 # text = Le linn an imshruthaithe tugann an ocsahaemaglóibin an ocsaigin do na fíocháin.
-1	Le	le	ADP	Simp	_	2	case	_	_
-2	linn	linn	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	obl	_	_
+1	Le	le	ADP	Simp	PrepForm=Cmpd	4	case	_	_
+2	linn	linn	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing|PrepForm=Cmpd	1	fixed	_	_
 3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
-4	imshruthaithe	imshruthú	NOUN	Noun	Case=Gen|Definite=Def|VerbForm=Inf	2	nmod	_	_
+4	imshruthaithe	imshruthú	NOUN	Noun	Case=Gen|Definite=Def|VerbForm=Inf	5	obl	_	_
 5	tugann	tabhair	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	ocsahaemaglóibin	ocsahaemaglóibin	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nsubj	_	_
@@ -7653,9 +7653,9 @@
 
 # sent_id = 761
 # text = In aice sin bhí ocras céadtach uirre anois, arae, níor chaith sí mórán ar maidin, agus ba ghnás léithe cupán tae cosnochtuighthe a fhagháil, ag an haon déag gach uile lá i gcaitheamh deich mbliana.
-1	In	i	ADP	Simp	_	2	case	_	_
-2	aice	aice	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	4	obl	_	_
-3	sin	sin	PRON	Dem	PronType=Dem	2	det	_	_
+1	In	i	ADP	Simp	PrepForm=Cmpd	3	case	_	_
+2	aice	aice	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing|PrepForm=Cmpd	1	fixed	_	_
+3	sin	sin	PRON	Dem	PronType=Dem	4	obl	_	_
 4	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	0	root	_	_
 5	ocras	ocras	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	4	nsubj	_	_
 6	céadtach	céadtach	ADJ	Adj	_	5	amod	_	_
@@ -7688,10 +7688,10 @@
 33	gach	gach	DET	Det	Definite=Def	35	det	_	_
 34	uile	uile	DET	Det	PronType=Ind	35	det	_	_
 35	lá	lá	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	27	obl:tmod	_	_
-36	i	i	ADP	Simp	_	37	case	_	_
-37	gcaitheamh	caitheamh	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	21	obl:tmod	_	_
+36	i	i	ADP	Simp	PrepForm=Cmpd	39	case	_	_
+37	gcaitheamh	caitheamh	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing|PrepForm=Cmpd	36	fixed	_	_
 38	deich	deich	NUM	Num	NumType=Card	39	nummod	_	_
-39	mbliana	bliain	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Plur	37	nmod	_	SpaceAfter=No
+39	mbliana	bliain	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Plur	21	obl:tmod	_	SpaceAfter=No
 40	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = 762
@@ -11015,12 +11015,12 @@
 7	d'	do	ADP	Simp	_	8	case	_	SpaceAfter=No
 8	an-chuid	an-chuid	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	5	obl	_	_
 9	daoine	duine	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	8	nmod	_	_
-10	agus	agus	CCONJ	Coord	_	14	cc	_	_
-11	i	i	ADP	Simp	_	12	case	_	_
-12	measc	measc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	obl	_	_
+10	agus	agus	CCONJ	Coord	_	15	cc	_	_
+11	i	i	ADP	Simp	PrepForm=Cmpd	14	case	_	_
+12	measc	measc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing|PrepForm=Cmpd	11	fixed	_	_
 13	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	14	det	_	_
-14	n-iardhaltaí	iardhalta	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	12	nmod	_	_
-15	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	5	parataxis	_	_
+14	n-iardhaltaí	iardhalta	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	15	obl	_	_
+15	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
 16	Muintir	muintir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	15	nsubj	_	NamedEntity=Yes
 17	Uí	uí	PART	Pat	PartType=Pat	16	flat:name	_	NamedEntity=Yes
 18	Dhrisceoil	Drisceoil	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	16	flat:name	_	NamedEntity=Yes
@@ -11291,10 +11291,10 @@
 19	Is	agus	CCONJ	Coord	_	20	cc	_	_
 20	chuaigh	téigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	17	conj	_	_
 21	síos	síos	ADV	Dir	_	20	advmod	_	_
-22	i	i	ADP	Simp	_	23	case	_	_
-23	measc	measc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	20	obl	_	_
+22	i	i	ADP	Simp	PrepForm=Cmpd	25	case	_	_
+23	measc	measc	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing|PrepForm=Cmpd	22	fixed	_	_
 24	na	an	DET	Art	Case=Gen|Definite=Def|Number=Plur|PronType=Art	25	det	_	_
-25	ndaoine	duine	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	23	nmod	_	SpaceAfter=No
+25	ndaoine	duine	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Strong|Number=Plur	20	obl	_	SpaceAfter=No
 26	.	.	PUNCT	.	_	4	punct	_	_
 
 # sent_id = 904
