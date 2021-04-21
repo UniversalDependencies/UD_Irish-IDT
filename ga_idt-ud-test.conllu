@@ -5780,14 +5780,14 @@
 # sent_id = 238
 # text = (2) Faoi réir fho-alt (3) den alt seo, is iad a bheidh ar an mBuanchoiste Eolaíochta cibé líon comhaltaí is cuí leis an gCoimisiún agus féadfar daoine nach comhaltaí den Choimisiún a áireamh ar a chomhaltaí.
 1	(2)	(2)	NUM	Item	_	11	list	_	_
-2	Faoi	faoi	ADP	Simp	_	3	case	_	_
-3	réir	réir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	11	nmod	_	_
-4	fho-alt	fo-alt	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|NounType=Weak|Number=Plur	3	nmod	_	_
+2	Faoi	faoi	ADP	Cmpd	PrepForm=Cmpd	4	case	_	_
+3	réir	réir	NOUN	Cmpd	Case=NomAcc|Gender=Fem|Number=Sing|PrepForm=Cmpd	2	fixed	_	_
+4	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	11	nmod	_	_
 5	(3)	(3)	NUM	Item	_	4	nmod	_	_
 6	den	de	ADP	Art	Number=Sing|PronType=Art	7	case	_	_
 7	alt	alt	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	_
 8	seo	seo	DET	Det	PronType=Dem	7	det	_	SpaceAfter=No
-9	,	,	PUNCT	Punct	_	3	punct	_	_
+9	,	,	PUNCT	Punct	_	4	punct	_	_
 10	is	is	AUX	Cop	PronType=Rel|Tense=Pres|VerbForm=Cop	11	cop	_	_
 11	iad	iad	PRON	Pers	Number=Plur|Person=3	0	root	_	_
 12	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	13	nsubj	_	_
@@ -6053,9 +6053,9 @@
 114	maidir	maidir	ADP	CmpdNoGen	_	116	case	_	_
 115	le	le	ADP	CmpdNoGen	_	114	fixed	_	_
 116	víosaí	víosa	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Plur	113	nmod	_	_
-117	le	le	ADP	Simp	PrepForm=Cmpd	119	case	_	_
-118	haghaidh	aghaidh	NOUN	Noun	Case=NomAcc|Form=HPref|Gender=Fem|Number=Sing	117	fixed	_	_
-119	fanachta	fanacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing|PrepForm=Cmpd	116	nmod	_	_
+117	le	le	ADP	Cmpd	PrepForm=Cmpd	119	case	_	_
+118	haghaidh	aghaidh	NOUN	Cmpd	Case=NomAcc|Form=HPref|Gender=Fem|Number=Sing|PrepForm=Cmpd	117	fixed	_	_
+119	fanachta	fanacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	116	nmod	_	_
 120	bheartaithe	beartaithe	ADJ	Adj	Form=Len|VerbForm=Part	119	amod	_	_
 121	nach	is	AUX	Cop	Polarity=Neg|PronType=Rel|Tense=Pres|VerbForm=Cop	122	cop	_	_
 122	mó	mó	ADJ	Adj	Degree=Pos	119	acl:relcl	_	_
@@ -6597,9 +6597,9 @@
 # sent_id = 264
 # text = (3) Faoi réir fho-alt (5), más rud é - (a) go bhfuil aon liúntas nó liúntais faoi Chaibidil 1 de Chuid 9 le tabhairt do bhliain mheasúnachta do phearsa aonair, ar pearsa aonair é nó í is comhpháirtí i dtrádáil chomhpháirtíochta, i leith caiteachais chaipitiúil arna thabhú an 3ú lá de Nollaig, 1997, nó dá éis, ar fhoirgneamh sonraithe, agus (b) go bhfuil an liúntas nó na liúntais sin le tabhairt le linn trádáil leithleach na pearsan aonair a bheith á cur faoi cháin, ansin, mura rud é, sa bhonntréimhse don bhliain mheasúnachta ar ina leith atá an liúntas nó na liúntais sin le tabhairt, gur comhpháirtí gníomhach i ndáil leis an trádáil chomhpháirtíochta an phearsa aonair, ní mó méid aon liúntais nó liúntas den sórt sin a bheidh le cur i gcuntas chun críocha alt 392 (1) ná méid a chinnfear de réir na foirmle A plus IRP25,000 i gcás gurb é A méid bhrabúis nó ghnóchain thrádáil leithleach na pearsan aonair sa bhliain chaillteanais sula gcuirtear alt 392 (1) i bhfeidhm.
 1	(3)	(3)	NUM	Num	_	4	list	_	_
-2	Faoi	faoi	ADP	Simp	PrepForm=Cmpd	4	case	_	_
-3	réir	réir	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	2	fixed	_	_
-4	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	131	obl	_	_
+2	Faoi	faoi	ADP	Cmpd	PrepForm=Cmpd	4	case	_	_
+3	réir	réir	NOUN	Cmpd	Case=NomAcc|Gender=Fem|Number=Sing|PrepForm=Cmpd	2	fixed	_	_
+4	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	131	obl	_	_
 5	(5)	(5)	NUM	Num	_	4	nmod	_	SpaceAfter=No
 6	,	,	PUNCT	Punct	_	8	punct	_	_
 7	más	má	SCONJ	Subord	VerbForm=Cop	8	mark	_	_
@@ -6639,10 +6639,10 @@
 41	i	i	ADP	Simp	_	42	case	_	_
 42	dtrádáil	trádáil	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	40	nmod	_	_
 43	chomhpháirtíochta	comhpháirtíocht	NOUN	Noun	Case=Gen|Form=Len|Gender=Fem|Number=Sing	42	nmod	_	SpaceAfter=No
-44	,	,	PUNCT	Punct	_	46	punct	_	_
-45	i	i	ADP	Simp	_	46	case	_	_
-46	leith	leath	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	25	nmod	_	_
-47	caiteachais	caiteachas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	46	nmod	_	_
+44	,	,	PUNCT	Punct	_	47	punct	_	_
+45	i	i	ADP	Cmpd	PrepForm=Cmpd	47	case	_	_
+46	leith	leath	NOUN	Cmpd	Case=Dat|Gender=Fem|Number=Sing|PrepForm=Cmpd	45	fixed	_	_
+47	caiteachais	caiteachas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 48	chaipitiúil	caipitiúil	ADJ	Adj	Form=Len|Number=Sing	47	amod	_	_
 49	arna	ar	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	50	obl	_	_
 50	thabhú	tabhú	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	47	acl:relcl	_	_
