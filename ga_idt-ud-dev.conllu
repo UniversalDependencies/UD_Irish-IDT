@@ -558,7 +558,7 @@
 19	as	as	ADP	Simp	_	20	case	_	_
 20	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
 21	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
-22	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	NamedEntity=Yes|SpaceAfter=No
+22	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	21	nmod	_	NamedEntity=Yes|SpaceAfter=No
 23	,	,	PUNCT	Punct	_	24	punct	_	_
 24	Deirdre	Deirdre	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	6	conj	_	NamedEntity=Yes
 25	Nic	nic	PART	Pat	PartType=Pat	24	flat:name	_	NamedEntity=Yes
@@ -2913,7 +2913,7 @@
 65	,	,	PUNCT	Punct	_	66	punct	_	_
 66	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	62	nmod	_	NamedEntity=Yes
 67	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	66	nmod	_	NamedEntity=Yes
-68	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	67	nmod	_	NamedEntity=Yes|SpaceAfter=No
+68	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	67	nmod	_	NamedEntity=Yes|SpaceAfter=No
 69	,	,	PUNCT	Punct	_	71	punct	_	_
 70	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	71	nsubj	_	_
 71	mhínigh	mínigh	VERB	VT	Form=Len|Mood=Ind|Tense=Past	57	acl:relcl	_	_
@@ -4422,7 +4422,7 @@
 20	,	,	PUNCT	Punct	_	21	punct	_	_
 21	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
 22	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	NamedEntity=Yes
-23	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	22	nmod	_	NamedEntity=Yes|SpaceAfter=No
+23	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	22	nmod	_	NamedEntity=Yes|SpaceAfter=No
 24	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 631
@@ -6363,7 +6363,7 @@
 11	,	,	PUNCT	Punct	_	12	punct	_	_
 12	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
 13	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
-14	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes|SpaceAfter=No
+14	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	13	nmod	_	NamedEntity=Yes|SpaceAfter=No
 15	,	,	PUNCT	Punct	_	17	punct	_	_
 16	agus	agus	CCONJ	Coord	_	17	cc	_	_
 17	chaith	caith	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
@@ -7051,7 +7051,7 @@
 7	i	i	ADP	Simp	_	8	case	_	_
 8	mBaile	Baile	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	NamedEntity=Yes
 9	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	NamedEntity=Yes
-10	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	9	nmod	_	NamedEntity=Yes
+10	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	9	nmod	_	NamedEntity=Yes
 11	ach	ach	SCONJ	Subord	_	15	mark	_	_
 12	is	is	AUX	Cop	Tense=Pres|VerbForm=Cop	13	cop	_	_
 13	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	1	advcl	_	_
@@ -7451,7 +7451,7 @@
 5	Ríoga	ríoga	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	4	amod	_	NamedEntity=Yes
 6	Bhaile	Baile	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	4	nmod	_	NamedEntity=Yes
 7	Átha	Átha	PROPN	Noun	Definite=Def	6	nmod	_	NamedEntity=Yes
-8	Cliath	Cliath	PROPN	Noun	Definite=Def	7	nmod	_	NamedEntity=Yes
+8	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	7	nmod	_	NamedEntity=Yes
 9	i	i	ADP	Simp	_	10	case	_	_
 10	nDroichead	droichead	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
 11	na	an	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	12	det	_	NamedEntity=Yes
@@ -7459,7 +7459,7 @@
 13	,	,	PUNCT	Punct	_	14	punct	_	_
 14	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
 15	Átha	Átha	PROPN	Noun	Definite=Def	14	nmod	_	NamedEntity=Yes
-16	Cliath	Cliath	PROPN	Noun	Definite=Def	15	nmod	_	NamedEntity=Yes
+16	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	15	nmod	_	NamedEntity=Yes
 17	4	4	NUM	Num	_	14	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	19	punct	_	_
 19	a	a	PART	Vb	PartType=Vb	20	mark:prt	_	_
@@ -9854,7 +9854,7 @@
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes
 16	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	15	nmod	_	NamedEntity=Yes
-17	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes|SpaceAfter=No
+17	Cliath	Cliath	PROPN	Noun	Case=Gen|Definite=Def|Gender=Fem|NounType=Weak|Number=Plur	16	nmod	_	NamedEntity=Yes|SpaceAfter=No
 18	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 846
