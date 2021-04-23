@@ -1184,7 +1184,7 @@
 37	neamhurchóide	neamhurchóid	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	34	conj	_	_
 38	agus	agus	CCONJ	Coord	_	40	cc	_	_
 39	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	40	det	_	_
-40	bhearna	bearna	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Fem|Number=Sing	34	conj	_	_
+40	bhearna	bearna	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Fem|Number=Sing	32	conj	_	_
 41	trína	trí	PART	Rel	Form=Indirect|PronType=Rel	42	obl	_	_
 42	dtiocfar	tar	VERB	VI	Form=Ecl|Mood=Ind|Person=0|Tense=Fut	40	acl:relcl	_	_
 43	ar	ar	ADP	Simp	_	45	case	_	_
@@ -1876,7 +1876,7 @@
 1	Ba	is	AUX	Cop	Tense=Past|VerbForm=Cop	3	cop	_	_
 2	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	3	nmod	_	_
 3	Oileán	oileán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	0	root	_	NamedEntity=Yes
-4	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	NamedEntity=Yes
+4	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	NamedEntity=Yes
 5	Deargánaigh	Deargánach	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	3	nmod	_	NamedEntity=Yes
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	8	det	_	_
 7	chéad	céad	NUM	Num	Form=Len|NumType=Ord	8	amod	_	_
@@ -3955,7 +3955,7 @@
 # text = Le linn an imshruthaithe tugann an ocsahaemaglóibin an ocsaigin do na fíocháin.
 1	Le	le	ADP	Cmpd	PrepForm=Cmpd	4	case	_	_
 2	linn	linn	NOUN	Cmpd	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing|PrepForm=Cmpd	1	fixed	_	_
-3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	_
 4	imshruthaithe	imshruthú	NOUN	Noun	Case=Gen|Definite=Def|VerbForm=Inf	5	obl	_	_
 5	tugann	tabhair	VERB	VTI	Mood=Ind|Tense=Pres	0	root	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
@@ -4547,7 +4547,7 @@
 6	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 7	ar	ar	ADP	Simp	_	9	case	_	_
 8	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	_
-9	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	6	obl	_	_
+9	laghad	laghad	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	6	obl	_	_
 10	deich	deich	NUM	Num	NumType=Card	11	nummod	_	_
 11	mbaile	baile	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Masc|Number=Sing	6	nsubj	_	_
 12	fearainn	fearann	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	11	compound	_	_
@@ -4829,7 +4829,7 @@
 17	in	i	ADP	Simp	_	18	case	_	_
 18	úsáid	úsáid	NOUN	Noun	Definite=Def|VerbForm=Inf	14	conj	_	_
 19	fhéinmhuiníneach	féinmhuiníneach	ADJ	Adj	Degree=Pos|Form=Len	18	amod	_	_
-20	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	21	det	_	_
+20	na	an	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	21	det	_	_
 21	matamaitice	matamaitic	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_
 22	i	i	ADP	Simp	_	23	case	_	_
 23	réimsí	réimse	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	11	obl	_	_
@@ -5015,7 +5015,7 @@
 32	go	go	PART	Vb	PartType=Cmpl	33	mark:prt	_	_
 33	mbeidh	bí	VERB	VI	Form=Ecl|Mood=Ind|Tense=Fut	17	conj	_	_
 34	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	35	nmod:poss	_	_
-35	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	33	nsubj	_	_
+35	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	33	nsubj	_	_
 36	ag	ag	ADP	Simp	_	37	case	_	_
 37	teacht	teacht	NOUN	Noun	VerbForm=Vnoun	33	xcomp	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	1	punct	_	_
@@ -7898,7 +7898,7 @@
 6	amhras	amhras	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	5	nsubj	_	_
 7	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	5	obl:prep	_	_
 8	a	a	DET	_	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	nmod:poss	_	_
-9	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
+9	thuilleadh	tuilleadh	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	5	obl	_	SpaceAfter=No
 10	.	.	PUNCT	.	_	5	punct	_	_
 
 # sent_id = 771
@@ -9849,7 +9849,7 @@
 9	,	,	PUNCT	Punct	_	10	punct	_	_
 10	27	27	NUM	Num	_	5	nmod	_	_
 11	Sráid	sráid	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Fem|Number=Sing	5	nmod	_	NamedEntity=Yes
-12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
+12	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
 13	Phiarsaigh	Piarsach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes|SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	NamedEntity=Yes
@@ -10149,7 +10149,7 @@
 8	chreidimh	creideamh	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 9	:	:	PUNCT	Punct	_	10	punct	_	_
 10	A	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	11	nmod:poss	_	_
-11	bhuíochas	buíochas	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	1	parataxis	_	_
+11	bhuíochas	buíochas	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	1	parataxis	_	_
 12	ar	ar	ADP	Simp	_	14	case	_	_
 13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	dán	dán	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
@@ -10286,7 +10286,7 @@
 17	Ard	ard	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc	12	conj	_	NamedEntity=Yes
 18	Bhaile	baile	NOUN	Noun	Case=NomAcc|Form=Len|Gender=Masc|Number=Sing	17	nmod	_	NamedEntity=Yes
 19	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	20	det	_	NamedEntity=Yes
-20	nÁith	áith	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl	18	nmod	_	NamedEntity=Yes|SpaceAfter=No
+20	nÁith	áith	NOUN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Fem|Number=Plur	18	nmod	_	NamedEntity=Yes|SpaceAfter=No
 21	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 865
@@ -10662,7 +10662,7 @@
 5	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	7	cop	_	_
 6	i	i	ADP	Simp	_	7	case	_	_
 7	bPáirc	páirc	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	1	ccomp	_	NamedEntity=Yes
-8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	NamedEntity=Yes
+8	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	NamedEntity=Yes
 9	Chrócaigh	Crócach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
 10	Dé	Dé	PROPN	Subst	Definite=Def	7	obl:tmod	_	NamedEntity=Yes
 11	Sathairn	Satharn	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
@@ -10686,7 +10686,7 @@
 11	dhul	dul	NOUN	Noun	Form=Len|VerbForm=Inf	8	xcomp	_	_
 12	taobh	taobh	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	11	obl	_	_
 13	Chondae	contae	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
-14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	NamedEntity=Yes
+14	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	NamedEntity=Yes
 15	Chláir	Clár	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes|SpaceAfter=No
 16	...	...	PUNCT	...	_	3	punct	_	_
 
@@ -11027,7 +11027,7 @@
 19	as	as	ADP	Simp	_	20	case	_	_
 20	Béal	béal	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	15	obl	_	NamedEntity=Yes
 21	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
-22	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	23	det	_	NamedEntity=Yes
+22	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	NamedEntity=Yes
 23	Ghaorthaigh	Gaorthach	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes|SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	Tammy	Tammy	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	16	conj	_	NamedEntity=Yes
@@ -11226,7 +11226,7 @@
 51	gearrthréimhseach	gearrthréimhseach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	50	amod	_	_
 52	ar	ar	ADP	Simp	_	54	case	_	_
 53	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	54	nmod:poss	_	_
-54	laghad	laghad	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
+54	laghad	laghad	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	50	nmod	_	SpaceAfter=No
 55	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 901
