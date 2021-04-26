@@ -672,7 +672,7 @@
 9	nós	nós	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	nmod	_	_
 10	imeachta	imeacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
 11	a	a	PART	Inf	PartType=Inf	12	obj	_	_
-12	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	5	xcomp	_	_
+12	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	5	acl:relcl	_	_
 13	chuig	chuig	ADP	Simp	_	15	case	_	_
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	gCúirt	cúirt	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	12	obl	_	NamedEntity=Yes
@@ -713,8 +713,8 @@
 50	eile	eile	DET	Det	PronType=Dem	49	det	_	_
 51	nós	nós	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	49	nmod	_	_
 52	imeachta	imeacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
-53	a	a	PART	Inf	PartType=Inf	54	mark	_	_
-54	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	47	xcomp	_	_
+53	a	a	PART	Inf	PartType=Inf	54	obj	_	_
+54	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	47	acl:relcl	_	_
 55	chuig	chuig	ADP	Simp	_	57	case	_	_
 56	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
 57	gCúirt	cúirt	PROPN	Noun	Case=NomAcc|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	54	nmod	_	NamedEntity=Yes
