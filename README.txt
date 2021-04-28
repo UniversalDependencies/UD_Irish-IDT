@@ -220,7 +220,56 @@ cleanup of v2.5 trees (sentences 1-1763)
 * Addition of 1986 trees. 
 * This data was taken from a new domain (public administration) to provide a broader coverage of the language in terms of words and structure types. 
 * Annotations were automatically predicted based on parsing models trained on v2.6. Manual review then carried out on tokenisation, lemmas, POS tags, attachments and dep values  (same annotators as v2.6 release).
-* Morphological features have only partially been reviewd in this release.
+
+
+29-04-2021  (v2.8)
+
+
+Summary of changes:
+
+
+Notable changes in annotation choices
+
+* Use of `flat` refined to strings _without_ clear internal syntax
+* Named Entity information added to MISC column as NamedEntity=Yes in Proper Noun strings formerly labelled as `flat`
+* Nouns in compound prepositions were previously tagged as ADP - now NOUN. Both tokens have the features `PrepForm=Cmpd`
+* Review of "go leor" - where instances that are nominal are no longer labelled as `advmod` but play the headnoun role. Subsequent nominals (e.g. go leor daoine) are to be attached as `nmod`
+* Some instances of ó retagged as SCONJ instead of ADP (e.g. ó scriobhadh an leirmheas sentid = 667, ó foilsíodh é sentid = 769)
+* Features of imperfect verbs changed from Mood=Imp to Aspect=Imp
+* Added features for habitual present verb forms (Aspect=Hab|Tense=Pres) e.g. bíonn
+* a thuilleadh and a lán -no longer `fixed`
+* Split gender features (Gender=Fem,Masc) in cases where the word form represents both e.g. a c(h)ara, a (d)t(h)uismitheoirí
+* Distinguished between Direct and Indirect relative pronouns
+* Feature Person=0 for autonomous verbs, i.e. briathar saor (removing Voice=Auto)
+* Feature Form=Ecl and Form=Len only applicable when mutation is explicit (ie not words beginning with l, r, and n, even though previous word usually triggers mutation)
+* Removed dialect XPOS (CU, CM, CC) - replaced with appropriate XPOS and kept dialect info in features
+* déag labelled as `nmod` now instead of `compound` as it can be split (e.g. cuig mhí déag)
+
+
+
+Removing inconsistencies:
+
+* Morphological features reviewed (previously predicted and inconsistent)
+* Compound features coverage extended to cover this list https://universaldependencies.org/ga/feat/PrepForm.html
+* Ensured all PPs attached to verbal nouns as `obl`
+* Cleanup of direct speech attachments (`parataxis`)
+* `advmod` used for negative particles (ní fhaca, níor dhuisigh etc)
+* taobh amuigh/istigh = NOUN + ADJ, attached as `obl`
+* Nationalities tagged as PROPN
+* Months and Days of the week are all PROPN
+* Application of case features: based only on surface form (not syntactic role). Therefore not all nouns in PP are marked dative and some genitive instances are nominative in form e.g. "mairtírigh eile _Sheachtain_ na Cásca"
+* Lemma of certain prefixed words to retain prefix (e.g. neamh/chomh/leath : i.e. neamhfhicsean" as the lemma of "neamhfhicsin") 
+* Full review of use of NounType=Slender/NotSlender  and NounType=Weak/Strong
+* Consistency check for the use of Polarity=Neg on verbs
+* Cleanup of case features in NOUNs ADJ and DET
+* Cleanup of gender features in NOUNs
+* Cleanup of definite features in NOUNS
+* 13 sentences in v2.7 were missing morphological info - updated for v2.8
+* Mutations removed from some predicted lemmas
+* Review of POS-tags for Dar+le -- VERB+ADP, and deprel attachment as ccomp in some cases and parataxis in others
+* Cleanup of missing vocative case features on some NOUNs
+
+
 
 
 
