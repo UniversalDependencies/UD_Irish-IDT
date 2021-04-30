@@ -1136,7 +1136,7 @@
 15	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	14	nsubj	_	_
 16	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	18	cop	_	_
 17	faoi	faoi	ADP	Simp	_	18	case	_	_
-18	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	14	ccomp	_	_
+18	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	14	acl	_	_
 19	(2)	(2)	NUM	Item	_	18	nmod	_	_
 20	(a)	(a)	NUM	Item	_	18	nmod	_	_
 21	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	22	mark:prt	_	_
@@ -1163,7 +1163,7 @@
 42	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	41	nsubj	_	_
 43	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	45	cop	_	_
 44	faoi	faoi	ADP	Simp	_	45	case	_	_
-45	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	41	ccomp	_	_
+45	fho-alt	fo-alt	NOUN	Noun	Case=NomAcc|Definite=Def|Form=Len|Gender=Masc|Number=Sing	41	acl	_	_
 46	(2)	(2)	NUM	Item	_	45	nmod	_	_
 47	(b)	(b)	NUM	Item	_	45	nmod	_	_
 48	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	49	mark:prt	_	_
@@ -2974,7 +2974,7 @@
 16	ar	ar	ADP	Simp	_	17	case	_	_
 17	eagla	eagla	NOUN	Noun	Case=NomAcc|Gender=Fem|Number=Sing	11	obl	_	_
 18	go	go	PART	Vb	PartType=Cmpl	19	mark:prt	_	_
-19	mbuailfí	buail	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	17	ccomp	_	_
+19	mbuailfí	buail	VERB	VTI	Form=Ecl|Mood=Cnd|Person=0	17	acl	_	_
 20	bob	bob	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	19	obj	_	_
 21	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	19	obl:prep	_	_
 22	faoi	faoi	ADP	Simp	_	25	case	_	_
@@ -3666,7 +3666,7 @@
 15	le	le	ADP	Simp	_	16	case	_	_
 16	ceangal	ceangal	NOUN	Noun	VerbForm=Inf	13	xcomp:pred	_	_
 17	go	go	PART	Vb	PartType=Cmpl	18	mark:prt	_	_
-18	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	16	ccomp	_	_
+18	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	16	acl	_	_
 19	srian	srian	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	21	obj	_	_
 20	a	a	PART	Inf	PartType=Inf	21	mark	_	_
 21	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	18	xcomp	_	_
@@ -5860,7 +5860,7 @@
 13	aon	aon	DET	Det	PronType=Ind	14	det	_	_
 14	rialachán	rialachán	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	7	obj	_	_
 15	arna	ar	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	16	case	_	_
-16	dhéanamh	déanamh	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	14	nmod	_	_
+16	dhéanamh	déanamh	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	14	acl	_	_
 17	faoin	faoi	ADP	Art	Number=Sing|PronType=Art	18	case	_	_
 18	alt	alt	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	16	obl	_	_
 19	seo	seo	DET	Det	PronType=Dem	18	det	_	SpaceAfter=No
@@ -6608,7 +6608,7 @@
 10	-	-	PUNCT	Punct	_	13	punct	_	_
 11	(a)	(a)	NUM	Item	_	13	list	_	_
 12	go	go	PART	Vb	PartType=Cmpl	13	mark:prt	_	_
-13	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	8	ccomp	_	_
+13	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	8	acl	_	_
 14	aon	aon	DET	Det	PronType=Ind	15	det	_	_
 15	liúntas	liúntas	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	13	nsubj	_	_
 16	nó	nó	CCONJ	Coord	_	17	cc	_	_
@@ -6645,7 +6645,7 @@
 47	caiteachais	caiteachas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 48	chaipitiúil	caipitiúil	ADJ	Adj	Case=Gen|Form=Len|Gender=Masc|Number=Sing	47	amod	_	_
 49	arna	ar	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	50	obl	_	_
-50	thabhú	tabhú	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	47	acl:relcl	_	_
+50	thabhú	tabhú	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	47	acl	_	_
 51	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	53	det	_	_
 52	3ú	3	NUM	Num	NumType=Ord	53	amod	_	_
 53	lá	lá	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	50	obl:tmod	_	_
@@ -6713,7 +6713,7 @@
 115	tabhairt	tabhairt	NOUN	Noun	VerbForm=Inf	107	xcomp	_	SpaceAfter=No
 116	,	,	PUNCT	Punct	_	118	punct	_	_
 117	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	118	cop	_	_
-118	comhpháirtí	comhpháirtí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	96	ccomp	_	_
+118	comhpháirtí	comhpháirtí	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	96	acl	_	_
 119	gníomhach	gníomhach	ADJ	Adj	Case=NomAcc|Gender=Masc|Number=Sing	118	amod	_	_
 120	i	i	ADP	Simp	_	121	case	_	_
 121	ndáil	dáil	NOUN	Noun	Case=NomAcc|Form=Ecl|Gender=Fem|Number=Sing	118	nmod	_	_
@@ -7293,7 +7293,7 @@
 12	in	i	ADP	Simp	_	13	case	_	_
 13	iúl	iúl	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	8	obl	_	_
 14	go	go	PART	Vb	PartType=Cmpl	15	mark:prt	_	_
-15	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	13	ccomp	_	_
+15	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	8	ccomp	_	_
 16	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	15	nsubj	_	_
 17	go	go	PART	Ad	PartType=Ad	18	mark:prt	_	_
 18	láidir	láidir	ADJ	Adj	Degree=Pos	15	advmod	_	_
@@ -8300,7 +8300,7 @@
 7	taighdeoirí	taighdeoir	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Plur	5	nsubj	_	_
 8	céanna	céanna	ADJ	Adj	Case=NomAcc|Gender=Masc|NounType=NotSlender|Number=Plur	7	amod	_	_
 9	go	go	PART	Vb	PartType=Cmpl	10	mark:prt	_	_
-10	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	5	ccomp	_	_
+10	raibh	bí	VERB	PastInd	Mood=Ind|Tense=Past	5	acl	_	_
 11	dath	dath	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	10	nsubj	_	_
 12	turcaide	turcaid	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	11	nmod	_	_
 13	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	10	obl:prep	_	SpaceAfter=No
@@ -9510,7 +9510,7 @@
 9	scéala	scéala	NOUN	Noun	Case=NomAcc|Gender=Masc|Number=Sing	1	advcl	_	_
 10	leis	le	ADP	Prep	Gender=Masc|Number=Sing|Person=3	9	obl:prep	_	_
 11	go	go	PART	Vb	PartType=Cmpl	12	mark:prt	_	_
-12	mbeadh	bí	VERB	VI	Form=Ecl|Mood=Cnd	9	ccomp	_	_
+12	mbeadh	bí	VERB	VI	Form=Ecl|Mood=Cnd	9	acl	_	_
 13	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	14	det	_	_
 14	tÉirí	éirí	NOUN	Noun	Case=NomAcc|Definite=Def|Gender=Masc|Number=Sing	12	nsubj	_	NamedEntity=Yes
 15	Amach	amach	ADV	Dir	_	14	amod	_	NamedEntity=Yes
