@@ -230,9 +230,10 @@ Summary of changes:
 
 Notable changes in annotation choices
 
-* Use of `flat` refined to strings _without_ clear internal syntax
+* Use of `flat` restricted to strings _without_ clear internal syntax
 * Named Entity information added to MISC column as NamedEntity=Yes in Proper Noun strings formerly labelled as `flat`
 * Nouns in compound prepositions were previously tagged as ADP - now NOUN. Both tokens have the features `PrepForm=Cmpd`
+* Lemma of DET "na' changed to "an"
 * Review of "go leor" - where instances that are nominal are no longer labelled as `advmod` but play the headnoun role. Subsequent nominals (e.g. go leor daoine) are to be attached as `nmod`
 * Some instances of ó retagged as SCONJ instead of ADP (e.g. ó scriobhadh an leirmheas sentid = 667, ó foilsíodh é sentid = 769)
 * Features of imperfect verbs changed from Mood=Imp to Aspect=Imp
@@ -250,7 +251,7 @@ Notable changes in annotation choices
 Removing inconsistencies:
 
 * Morphological features reviewed (previously predicted and inconsistent)
-* Compound features coverage extended to cover this list https://universaldependencies.org/ga/feat/PrepForm.html
+* Compound Preposition features coverage extended to cover this list https://universaldependencies.org/ga/feat/PrepForm.html
 * Ensured all PPs attached to verbal nouns as `obl`
 * Cleanup of direct speech attachments (`parataxis`)
 * `advmod` used for negative particles (ní fhaca, níor dhuisigh etc)
@@ -268,6 +269,7 @@ Removing inconsistencies:
 * Mutations removed from some predicted lemmas
 * Review of POS-tags for Dar+le -- VERB+ADP, and deprel attachment as ccomp in some cases and parataxis in others
 * Cleanup of missing vocative case features on some NOUNs
+* (part-) Review of acl underuse
 
 
 
