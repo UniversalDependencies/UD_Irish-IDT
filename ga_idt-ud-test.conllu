@@ -5630,7 +5630,7 @@
 52	is	is	PART	Sup	PartType=Sup	53	mark:prt	_	_
 53	fuaire	fuar	ADJ	Adj	Degree=Cmp,Sup	48	list	_	_
 54	bán	bán	ADJ	Adj	Degree=Pos	10	list	_	_
-55	white	whi	ADJ	Adj	Foreign=Yes|VerbForm=Part	54	appos	_	_
+55	white	white	ADJ	Adj	Foreign=Yes	54	appos	_	_
 56	níos	níos	PART	Cmp	PartType=Comp	57	mark:prt	_	_
 57	báine	bán	ADJ	Adj	Degree=Cmp,Sup	54	list	_	_
 58	is	is	PART	Sup	PartType=Sup	59	mark:prt	_	_
