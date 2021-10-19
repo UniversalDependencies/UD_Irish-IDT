@@ -278,7 +278,7 @@
 24	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
 25	Francaigh	Francach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
 26	ar	ar	ADP	Simp	_	28	case	_	_
-27	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	28	det	_	_
+27	chuile	gach	DET	Det	Definite=Def|Form=Len	28	det	_	_
 28	shórt	sórt	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	31	punct	_	_
 30	ar	ar	ADP	Simp	_	31	case	_	_
@@ -1024,7 +1024,7 @@
 38	seic	seic	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	40	obj	_	_
 39	a	a	PART	Inf	PartType=Inf	40	mark	_	_
 40	scríobh	scríobh	VERB	VTI	Mood=Ind|Tense=Past	25	xcomp	_	_
-41	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	42	det	_	_
+41	chuile	gach	DET	Det	Definite=Def|Form=Len	42	det	_	_
 42	mhí	mí	NOUN	Noun	Case=Nom|Form=Len|Gender=Fem|Number=Sing	40	obl:tmod	_	_
 43	i	i	ADP	Cmpd	PrepForm=Cmpd	46	case	_	_
 44	ndiaidh	diaidh	NOUN	Cmpd	Case=Nom|Form=Ecl|Number=Sing|PrepForm=Cmpd	43	fixed	_	_
@@ -1077,7 +1077,7 @@
 12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	Go	go	PART	Vb	PartType=Cmpl	14	mark:prt	_	_
 14	mbeimis	bí	VERB	Cond	Form=Ecl|Mood=Cnd|Number=Plur|Person=1	7	advcl	_	_
-15	id	i_do	ADP	Det	Number=Sing|Person=2|Poss=Yes	16	case	_	_
+15	id	i	ADP	Det	Number=Sing|Person=2|Poss=Yes	16	case	_	_
 16	shamhailt	samhailt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	14	xcomp:pred	_	_
 17	gach	gach	DET	Det	Definite=Def	18	det	_	_
 18	uair	uair	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	obl:tmod	_	_
@@ -1603,7 +1603,7 @@
 15	mhadraí	madra	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Plur	9	conj	_	_
 16	crochta	crochta	ADJ	Adj	VerbForm=Part	15	amod	_	_
 17	agus	agus	SCONJ	Subord	_	19	mark	_	_
-18	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	19	det	_	_
+18	chuile	gach	DET	Det	Definite=Def|Form=Len	19	det	_	_
 19	dhuine	duine	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	4	advcl	_	_
 20	ag	ag	ADP	Simp	_	21	case	_	_
 21	gáirí	gáirí	NOUN	Noun	VerbForm=Vnoun	19	xcomp	_	_
@@ -2401,7 +2401,7 @@
 11	Láirge	Láirge	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
 12	ar	ar	ADP	Simp	_	13	case	_	_
 13	cosa-in-airde	cosa-in-airde	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	8	obl	_	_
-14	im	i_mo	ADP	_	Number=Sing|Person=1|Poss=Yes	15	case	_	_
+14	im	i	ADP	_	Number=Sing|Person=1|Poss=Yes	15	case	_	_
 15	aonar	aonar	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	obl	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -4664,7 +4664,7 @@
 9	bheithíoch	beithíoch	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	5	conj	_	_
 10	féin	féin	PRON	Ref	Reflex=Yes	9	nmod	_	_
 11	ag	ag	ADP	Simp	_	13	case	_	_
-12	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	13	det	_	_
+12	chuile	gach	DET	Det	Definite=Def|Form=Len	13	det	_	_
 13	chréatúr	créatúr	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 14	!	!	PUNCT	!	_	2	punct	_	_
 
@@ -6218,7 +6218,7 @@
 6	Ón	ó	ADP	Art	Number=Sing|PronType=Art	7	case	_	_
 7	dTower	dTower	NOUN	Noun	Definite=Def|Foreign=Yes|Form=Ecl	5	obl	_	_
 8	soir	soir	ADV	Dir	_	5	advmod	_	_
-9	dtí	go_dtí	ADP	Cmpd	Form=Ecl	11	case	_	_
+9	dtí	dtí	ADP	Cmpd	Form=Ecl	11	case	_	_
 10	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	11	det	_	_
 11	mbinn	binn	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	7	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	14	punct	_	_
@@ -6227,7 +6227,7 @@
 15	éin	éan	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	14	nmod	_	_
 16	Le	le	ADP	Simp	_	17	case	_	_
 17	cloisint	cloisint	NOUN	Noun	VerbForm=Inf	14	xcomp	_	_
-18	im	i_mo	ADP	Det	Number=Sing|Person=1|Poss=Yes	19	case	_	_
+18	im	i	ADP	Det	Number=Sing|Person=1|Poss=Yes	19	case	_	_
 19	thimpeall	timpeall	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	17	obl	_	SpaceAfter=No
 20	,	,	PUNCT	Punct	_	21	punct	_	_
 21	Cluasa	cluas	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	14	parataxis	_	_
@@ -9066,7 +9066,7 @@
 19	gConamara	Conamara	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	9	obl	_	_
 20	-	-	PUNCT	Punct	_	21	punct	_	_
 21	sin	sin	PRON	Dem	PronType=Dem	1	parataxis	_	_
-22	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	23	det	_	_
+22	chuile	gach	DET	Det	Definite=Def|Form=Len	23	det	_	_
 23	áit	áit	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	21	nsubj	_	_
 24	taobh	taobh	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	23	nmod	_	_
 25	thiar	thiar	ADV	Dir	_	24	advmod	_	_
@@ -9882,7 +9882,7 @@
 21	bpógfainn	póg	VERB	VTI	Form=Ecl|Mood=Cnd|Number=Sing|Person=1	13	ccomp	_	_
 22	le	le	ADP	Simp	_	23	case	_	_
 23	mire	mire	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	21	obl	_	_
-24	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	25	det	_	_
+24	chuile	gach	DET	Det	Definite=Def|Form=Len	25	det	_	_
 25	mhiongán	miongán	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	21	obj	_	_
 26	orlaigh	orlach	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	25	nmod	_	_
 27	di	de	ADP	Prep	Gender=Fem|Number=Sing|Person=3	21	obl:prep	_	SpaceAfter=No
