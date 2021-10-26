@@ -7899,7 +7899,7 @@
 # sent_id = 308
 # text = Cuirtear chuile áis agus compord ar fáil don aoi sa phálás ríoga seo.
 1	Cuirtear	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
-2	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	3	nmod:poss	_	_
+2	chuile	gach	DET	Det	Definite=Def|Form=Len	3	nmod:poss	_	_
 3	áis	áis	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	obj	_	_
 4	agus	agus	CCONJ	Coord	_	5	cc	_	_
 5	compord	compord	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	3	conj	_	_
@@ -8118,7 +8118,7 @@
 1	Bhraitheas	braith	VERB	VTI	Dialect=Munster|Form=Len|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
 2	cigilt	cigilt	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	1	nsubj	_	_
 3	fhaoisimh	faoiseamh	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	2	nmod	_	_
-4	im	i_mo	ADP	Det	Number=Sing|Person=1|Poss=Yes	5	case	_	_
+4	im	i	ADP	Det	Number=Sing|Person=1|Poss=Yes	5	case	_	_
 5	chnámha	cnámh	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Plur	1	nmod	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	1	punct	_	_
 
@@ -9196,7 +9196,7 @@
 # sent_id = 359
 # text = 'Caidé 'n scéala is deireanaí ón fhronta?
 1	'	'	PUNCT	Punct	_	2	punct	_	SpaceAfter=No
-2	Caidé	cad_é	PRON	Q	Dialect=Connaught	0	root	_	_
+2	Caidé	caidé	PRON	Q	Dialect=Connaught	0	root	_	_
 3	'n	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
 4	scéala	scéala	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nsubj	_	_
 5	is	is	PART	Sup	PartType=Sup	6	mark:prt	_	_
@@ -9486,7 +9486,7 @@
 11	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	12	nmod:poss	_	_
 12	chuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	9	obj	_	_
 13	siléige	siléig	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	12	nmod	_	_
-14	chúns	chomh_fada_is	SCONJ	Subord	_	16	mark	_	_
+14	chúns	chúns	SCONJ	Subord	_	16	mark	_	_
 15	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	16	mark:prt	_	_
 16	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	9	advcl	_	_
 17	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	16	nsubj	_	_
@@ -11038,7 +11038,7 @@
 17	tsaol	saol	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	obl	_	_
 18	seo	seo	DET	Det	PronType=Dem	17	det	_	_
 19	tagann	tar	VERB	VI	Mood=Ind|Tense=Pres	10	advcl	_	_
-20	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	21	det	_	_
+20	chuile	gach	DET	Det	Definite=Def|Form=Len	21	det	_	_
 21	shórt	sórt	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	19	nsubj	_	_
 22	ocraisí	ocras	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	21	nmod	_	_
 23	ar	ar	ADP	Simp	_	25	case	_	_
