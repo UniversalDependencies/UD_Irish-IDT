@@ -10,7 +10,7 @@
     <dev><sentences>451</sentences><tokens>10000</tokens><words>10000</words><fused>0</fused></dev>
     <test><sentences>454</sentences><tokens>10109</tokens><words>10109</words><fused>0</fused></test>
   </size>
-  <lemmas unique="8951" /><!-- an, a, ., ,, i, bí, agus, ar, le, do, ag, is, go, de, sin -->
+  <lemmas unique="8950" /><!-- an, a, ., ,, i, bí, agus, ar, le, do, ag, is, go, de, sin -->
   <forms unique="14967" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, le, is, tá, ', de -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
@@ -39,9 +39,9 @@
     <feat name="Aspect" value="Hab" upos="VERB">173</feat><!-- bhíonn, bíonn, mbíonn, Bím, bhíos, bhímid, bímid, Bítear, mbímid -->
     <feat name="Aspect" value="Imp" upos="VERB">125</feat><!-- bhíodh, mbíodh, dhéanadh, chuirtí, mbínn, thagadh, Théadh, bhídís, dtugadh, ligeadh -->
     <feat name="Case" value="Dat" upos="NOUN,PROPN">285</feat><!-- leith, Éirinn, cionn, gcrích, mbliana, láimh, hÉirinn, chois, cois, gcéin -->
-    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PROPN">10780</feat><!-- na, an, Átha, cliath, Gaeltachta, Gaeilge, cinn, cathrach, bhaile, hÉireann -->
-    <feat name="Case" value="NomAcc" upos="ADJ,NOUN,PROPN">27068</feat><!-- féidir, chuid, duine, réir, bhaile, rud, nua, éis, lá, bhfeidhm -->
-    <feat name="Case" value="Voc" upos="NOUN,PROPN">58</feat><!-- Mháire, Sheáin, Shéamais, Tom, bhó, dhochtúir, Bheartla, Bhobby, Chapaillín, Chití -->
+    <feat name="Case" value="Gen" upos="ADJ,DET,NOUN,PROPN">10779</feat><!-- na, an, Átha, cliath, Gaeltachta, Gaeilge, cinn, cathrach, bhaile, hÉireann -->
+    <feat name="Case" value="Nom" upos="ADJ,NOUN,PROPN">27068</feat><!-- féidir, chuid, duine, réir, bhaile, rud, nua, éis, lá, bhfeidhm -->
+    <feat name="Case" value="Voc" upos="ADJ,NOUN,PROPN">59</feat><!-- Mháire, Sheáin, Shéamais, Tom, bhó, dhochtúir, Bheartla, Bhobby, Chapaillín, Chití -->
     <feat name="Definite" value="Def" upos="DET,NOUN,PROPN">25534</feat><!-- an, na, Átha, cliath, gach, bhaile, Gaeltachta, chuid, Gaeilge, chéile -->
     <feat name="Definite" value="Ind" upos="NOUN">29</feat><!-- gnóthaí, oibre, dlíthe, láimh, Criosanna, ainmneacha, cionn -->
     <feat name="Degree" value="Cmp,Sup" upos="ADJ">351</feat><!-- mó, fearr, fhearr, déanaí, faide, mhó, lú, airde, gaire, leithne -->
@@ -111,7 +111,7 @@
     <feat name="Typo" value="Yes" upos="ADJ,ADP,ADV,CCONJ,DET,NOUN,NUM,PART,PRON,PROPN,VERB">262</feat><!-- no, reachtáil, Gaidhlig, féadfidh, o, Leamhchán, deileáil, dho, diospóidí, eireos -->
     <feat name="VerbForm" value="Cop" upos="AUX,PART,PRON,SCONJ">1658</feat><!-- is, ba, ní, gur, b', nach, más, ar, gurb, nár -->
     <feat name="VerbForm" value="Inf" upos="NOUN">3341</feat><!-- chur, dhéanamh, fáil, bheith, thabhairt, fháil, cur, dul, bhaint, rá -->
-    <feat name="VerbForm" value="Part" upos="ADJ">915</feat><!-- déanta, curtha, bunaithe, leagtha, aontaithe, caite, tugtha, scríofa, dírithe, fostaithe -->
+    <feat name="VerbForm" value="Part" upos="ADJ">914</feat><!-- déanta, curtha, bunaithe, leagtha, aontaithe, caite, tugtha, scríofa, dírithe, fostaithe -->
     <feat name="VerbForm" value="Vnoun" upos="NOUN">759</feat><!-- dul, obair, teacht, cur, baint, iarraidh, déanamh, freastal, brath, tabhairt -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
