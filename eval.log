@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit ca3b862e9e2871c76cd91bf78ffb089c0c60184d
+commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Thu May 6 20:16:19 2021 +0200
+Date:   Tue Nov 2 22:17:19 2021 +0100
 Evaluating the following revision of UD_Irish-IDT:
-commit 55baef13bde1fa883a2e290b1b9f56e939bfd1e1
-Merge: a96bf68 c57511b
+commit 901de327bcf6598bb351ba6d09e5e35f96c48732
+Merge: 933a7ae eeadd08
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
