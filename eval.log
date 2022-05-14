@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Irish-IDT:
-commit 901de327bcf6598bb351ba6d09e5e35f96c48732
-Merge: 933a7ae eeadd08
+commit 11fab9cc96c6e0901143d8cfcfe9c33090a72cdf
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 3 16:31:19 2021 +0100
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -29,8 +29,20 @@ validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
 *** PASSED ***
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
-*** PASSED ***
-Validity: 1
+[Line 3635 Sent 1000 Node 5]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 3636 Sent 1000 Node 6]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 3636 Sent 1000 Node 6]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 7497 Sent 1172 Node 6]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 7498 Sent 1172 Node 7]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 7498 Sent 1172 Node 7]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 42172 Sent 2570 Node 6]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
+[Line 42173 Sent 2570 Node 7]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
+[Line 42173 Sent 2570 Node 7]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+...suppressing further errors regarding Morpho
+Morpho errors: 10
+*** FAILED *** with 10 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
 (weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
 (weight=0.0769230769230769) * (score{lemmas}=0.9) = 0.0692307692307692
@@ -39,6 +51,6 @@ Validity: 1
 (weight=0.0769230769230769) * (score{tags}=0.9) = 0.0692307692307692
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.0837837837837838) = 0.00644490644490645
-(TOTAL score=0.43227270595909) * (availability=1) * (validity=1) = 0.43227270595909
-STARS = 2
-UD_Irish-IDT	0.43227270595909	2
+(TOTAL score=0.43227270595909) * (availability=1) * (validity=0.01) = 0.0043227270595909
+STARS = 0
+UD_Irish-IDT	0.0043227270595909	0
