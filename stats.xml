@@ -11,7 +11,7 @@
     <test><sentences>454</sentences><tokens>10109</tokens><words>10109</words><fused>0</fused></test>
   </size>
   <lemmas unique="8950" /><!-- an, a, ., ,, i, bí, agus, ar, le, do, ag, is, go, de, sin -->
-  <forms unique="14967" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, le, is, tá, ', de -->
+  <forms unique="14966" /><!-- a, an, ., ,, agus, ar, na, i, go, ag, le, is, tá, ', de -->
   <fusions unique="0" /><!--  -->
   <!-- Statistics of universal POS tags. The comments show the most frequent lemmas. -->
   <tags unique="17">
