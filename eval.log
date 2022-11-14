@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
-Author: www-data (nschneid) <nschneid@github.com>
-Date:   Wed May 11 05:10:30 2022 +0200
-Evaluating the following revision of UD_Irish-IDT:
-commit 11fab9cc96c6e0901143d8cfcfe9c33090a72cdf
+commit 13e6b709a8bc643c3f902800321a7beda46feb8d
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Wed Nov 3 16:31:19 2021 +0100
+Date:   Sun Nov 13 22:03:41 2022 +0100
+Evaluating the following revision of UD_Irish-IDT:
+commit 1f41a768b3e35ebee2fa807c1c8df228ba8319fb
+Merge: ddef517 f05f8a0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -25,22 +25,57 @@ Udapi: found 14411 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 115990 words.
 Genres: found 4 out of 17 known.
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
-*** PASSED ***
+[Line 696 Sent 484 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2504 Sent 554 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4330 Sent 625 Node 37]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [39, 41]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4738 Sent 642 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4762 Sent 642 Node 30]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [29, 31]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 5883 Sent 689 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [7, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7114 Sent 737 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7757 Sent 764 Node 23]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [26, 28]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7850 Sent 769 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 10
+*** FAILED *** with 10 errors
+Exit code: 1
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
-*** PASSED ***
+[Line 1147 Sent 49 Node 26]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [27, 29]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1174 Sent 49 Node 53]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [54, 56]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1502 Sent 63 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 9]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2251 Sent 96 Node 21]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [20, 23]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4755 Sent 200 Node 4]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 6]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4973 Sent 208 Node 10]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 20]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6790 Sent 265 Node 3]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [6, 13]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6988 Sent 271 Node 18]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [17, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 7754 Sent 303 Node 5]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
+Syntax errors: 12
+*** FAILED *** with 12 errors
+Exit code: 1
 validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
+[Line 1193 Sent 935 Node 20]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [18, 21]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 1816 Sent 951 Node 74]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [73, 75]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 2154 Sent 954 Node 24]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [27, 33]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 3635 Sent 1000 Node 5]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 3636 Sent 1000 Node 6]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 3636 Sent 1000 Node 6]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 4142 Sent 1018 Node 1]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [3, 11]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 4699 Sent 1051 Node 2]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [4, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6432 Sent 1123 Node 1]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [2, 8]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 6589 Sent 1128 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [17, 26]. Outer subjects are allowed if a clause acts as the predicate of another clause.
 [Line 7497 Sent 1172 Node 6]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 7498 Sent 1172 Node 7]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 7498 Sent 1172 Node 7]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
+[Line 8470 Sent 1208 Node 6]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [5, 7]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+[Line 10087 Sent 1279 Node 16]: [L3 Syntax too-many-subjects] Node has multiple subjects not subtyped as ':outer': [18, 19]. Outer subjects are allowed if a clause acts as the predicate of another clause.
+...suppressing further errors regarding Syntax
 [Line 42172 Sent 2570 Node 6]: [L3 Morpho goeswith-missing-typo] Since the treebank has morphological features, 'Typo=Yes' must be used with 'goeswith' heads.
 [Line 42173 Sent 2570 Node 7]: [L3 Morpho goeswith-lemma] The lemma of a 'goeswith'-connected word must be annotated only at the first part.
 [Line 42173 Sent 2570 Node 7]: [L3 Morpho goeswith-upos] The UPOS tag of a 'goeswith'-connected word must be annotated only at the first part; the other parts must be tagged 'X'.
 ...suppressing further errors regarding Morpho
 Morpho errors: 10
-*** FAILED *** with 10 errors
+Syntax errors: 50
+*** FAILED *** with 60 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
