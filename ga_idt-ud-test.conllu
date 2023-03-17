@@ -1052,7 +1052,7 @@
 21	bPoc	poc	PROPN	Noun	Case=Gen|Definite=Def|Form=Ecl|Gender=Masc|NounType=Weak|Number=Plur	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 22	,	,	PUNCT	Punct	_	23	punct	_	_
 23	Contae	contae	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	19	nmod	_	NamedEntity=Yes
-24	Chiarraí	Chiarraí	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	23	nmod	_	NamedEntity=Yes|SpaceAfter=No
+24	Chiarraí	Ciarraí	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	23	nmod	_	NamedEntity=Yes|SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 47
@@ -1500,8 +1500,8 @@
 1	Nuair	nuair	SCONJ	Subord	_	3	mark	_	_
 2	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	3	mark:prt	_	_
 3	chonaic	feic	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	16	advcl	_	_
-4	Sáraid	Sáraid	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	nsubj	_	_
-5	a	a	DET	Det	Gender=Masc|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
+4	Sáraid	Sáraid	PROPN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	nsubj	_	_
+5	a	a	DET	Det	Gender=Fem|Number=Sing|Person=3|Poss=Yes	6	nmod:poss	_	_
 6	clann	clann	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	3	obj	_	_
 7	chuici	chuig	ADP	Prep	Gender=Fem|Number=Sing|Person=3	6	nmod	_	_
 8	agus	agus	SCONJ	Subord	_	9	mark	_	_
@@ -1956,7 +1956,7 @@
 9	chreidimh	creideamh	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	obl	_	SpaceAfter=No
 10	,	,	PUNCT	Punct	_	12	punct	_	_
 11	mar	mar	ADP	Simp	_	12	case	_	_
-12	Shéamas	Shéamas	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
+12	Shéamas	Séamas	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	6	nmod	_	SpaceAfter=No
 13	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 82
@@ -2338,7 +2338,7 @@
 14	láthair	láthair	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
 15	tré	tré	ADP	Simp	_	16	case	_	_
 16	shúile	súil	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Plur	9	obl	_	_
-17	Mhairéid	Mhairéid	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
+17	Mhairéid	Mairéad	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	16	nmod	_	_
 18	cuid	cuid	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	9	obl	_	_
 19	mhaith	maith	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	18	amod	_	SpaceAfter=No
 20	.	.	PUNCT	.	_	9	punct	_	_
@@ -5684,7 +5684,7 @@
 17	Chulainn	Culann	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	16	nmod	_	NamedEntity=Yes
 18	Co.	contae	NOUN	Abr	Abbr=Yes|Definite=Def	17	nmod	_	NamedEntity=Yes
 19	Ard	Ard	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
-20	Mhacha	Mhacha	PROPN	Noun	Definite=Def	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
+20	Mhacha	Macha	PROPN	Noun	Case=Gen|Definite=Def|Form=Len	19	nmod	_	NamedEntity=Yes|SpaceAfter=No
 21	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 235
@@ -6927,7 +6927,7 @@
 1	Ach	ach	SCONJ	Subord	_	0	root	_	_
 2	chruthaigh	cruthaigh	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	advcl	_	_
 3	sé	sé	PRON	Pers	Gender=Masc|Number=Sing|Person=3	2	nsubj	_	_
-4	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	5	cop	_	_
+4	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	5	cop	_	_
 5	féidir	féidir	NOUN	Subst	Case=Nom|Number=Sing	2	ccomp	_	_
 6	a	a	PART	Inf	PartType=Inf	7	mark	_	_
 7	dhéanamh	déanamh	NOUN	Noun	Form=Len|VerbForm=Inf	5	csubj:cop	_	SpaceAfter=No
@@ -8193,7 +8193,7 @@
 2	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	3	det	_	_
 3	tíortha	tír	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	1	nsubj	_	_
 4	sin	sin	DET	Det	PronType=Dem	3	det	_	_
-5	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	6	cop	_	_
+5	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	6	cop	_	_
 6	coinníoll	coinníoll	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	ccomp	_	_
 7	fíor-riachtanach	fíor-riachtanach	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	6	amod	_	_
 8	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	9	det	_	_
@@ -8563,7 +8563,7 @@
 26	in	i	ADP	Simp	_	27	case	_	_
 27	iúl	iúl	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	25	obl	_	_
 28	don	do	ADP	Art	Number=Sing|PronType=Art	29	case	_	_
-29	Bhr	Bhr	NOUN	Abr	Abbr=Yes	25	obl	_	SpaceAfter=No
+29	Bhr	Br	NOUN	Abr	Abbr=Yes|Form=Len	25	obl	_	SpaceAfter=No
 30	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 334
@@ -10190,7 +10190,7 @@
 3	ar	ar	ADV	Dir	_	2	advmod	_	_
 4	ais	ais	ADV	Dir	_	3	fixed	_	_
 5	do	do	ADP	Simp	_	6	case	_	_
-6	Dhamien	Dhamien	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	obl	_	_
+6	Dhamien	Damien	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	2	obl	_	_
 7	b'	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	9	cop	_	SpaceAfter=No
 8	in	sin	PRON	Dem	PronType=Dem	9	nmod	_	_
 9	roimhe	roimh	ADP	Prep	Gender=Masc|Number=Sing|Person=3	0	root	_	_
