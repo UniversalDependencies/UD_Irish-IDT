@@ -279,7 +279,7 @@
 25	Francaigh	Francach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Plur	21	obl	_	_
 26	ar	ar	ADP	Simp	_	28	case	_	_
 27	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	28	det	_	_
-28	shórt	sórt	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
+28	shórt	sórt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	21	obl	_	SpaceAfter=No
 29	,	,	PUNCT	Punct	_	31	punct	_	_
 30	ar	ar	ADP	Simp	_	31	case	_	_
 31	loscáin	loscán	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	21	obl	_	_
@@ -2412,7 +2412,7 @@
 3	Óg-Eagras	Óg-Eagras	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	flat	_	NamedEntity=Yes|SpaceAfter=No
 4	,	,	PUNCT	Punct	_	5	punct	_	_
 5	Ionad	ionad	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	appos	_	NamedEntity=Yes
-6	Mosney	Mosney	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
+6	Mosney	Mosney	PROPN	Noun	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	5	nmod	_	NamedEntity=Yes|SpaceAfter=No
 7	,	,	PUNCT	Punct	_	8	punct	_	_
 8	Co.	contae	NOUN	Abr	Abbr=Yes|Definite=Def	1	nmod	_	NamedEntity=Yes
 9	na	an	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	NamedEntity=Yes
@@ -4418,7 +4418,7 @@
 16	McInerney	McInerney	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	15	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 17	,	,	PUNCT	Punct	_	18	punct	_	_
 18	Teach	teach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	12	nmod	_	NamedEntity=Yes
-19	Cheeverstown	Cheeverstown	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes|SpaceAfter=No
+19	Cheeverstown	Cheeverstown	PROPN	Noun	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes|SpaceAfter=No
 20	,	,	PUNCT	Punct	_	21	punct	_	_
 21	Baile	Baile	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	18	nmod	_	NamedEntity=Yes
 22	Átha	Átha	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	21	nmod	_	NamedEntity=Yes
@@ -5639,8 +5639,8 @@
 8	,	,	PUNCT	Punct	_	9	punct	_	_
 9	tugadh	tabhair	VERB	VTI	Mood=Ind|Person=0|Tense=Past	1	conj	_	_
 10	tí	tí	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	obj	_	_
-11	Tom	Tom	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
-12	Tommy	Tommy	PROPN	Noun	Definite=Def|Gender=Masc|Number=Sing	11	flat:name	_	NamedEntity=Yes
+11	Tom	Tom	PROPN	Noun	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	10	nmod	_	NamedEntity=Yes
+12	Tommy	Tommy	PROPN	Noun	Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	11	flat:name	_	NamedEntity=Yes
 13	air	ar	ADP	Prep	Gender=Masc|Number=Sing|Person=3	9	obl:prep	_	SpaceAfter=No
 14	,	,	PUNCT	Punct	_	15	punct	_	_
 15	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	1	conj	_	_
@@ -6148,7 +6148,7 @@
 21	)	)	PUNCT	Punct	_	20	punct	_	_
 22	agus	agus	CCONJ	Coord	_	23	cc	_	_
 23	Ospidéal	ospidéal	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	9	conj	_	_
-24	Beaumont	Beaumont	PROPN	Noun	Definite=Def|Number=Sing	23	nmod	_	SpaceAfter=No
+24	Beaumont	Beaumont	PROPN	Noun	Definite=Def|Foreign=Yes|Number=Sing	23	nmod	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 700

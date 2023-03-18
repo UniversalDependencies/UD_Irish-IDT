@@ -2149,7 +2149,7 @@
 18	Chomhrialtas	comhrialtas	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	15	obj	_	_
 19	idir	idir	ADP	Simp	_	20	case	_	_
 20	Fianna	Fiann	PROPN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	18	nmod	_	NamedEntity=Yes
-21	Fáil	Fál	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
+21	Fáil	Fál	PROPN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	NamedEntity=Yes
 22	agus	agus	CCONJ	Coord	_	24	cc	_	_
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	Lucht	lucht	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	conj	_	NamedEntity=Yes
@@ -4589,8 +4589,8 @@
 4	mé	mé	PRON	Pers	Number=Sing|Person=1	3	nsubj	_	_
 5	ar	ar	ADP	Simp	_	7	case	_	_
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
-7	Ancient	Ancient	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
-8	Mariner	Mariner	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
+7	Ancient	Ancient	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	3	obl	_	NamedEntity=Yes
+8	Mariner	Mariner	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	7	nmod	_	NamedEntity=Yes
 9	nó	nó	CCONJ	Coord	_	10	cc	_	_
 10	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	3	conj	_	_
 11	mé	mé	PRON	Pers	Number=Sing|Person=1	10	nsubj	_	_
@@ -5182,7 +5182,7 @@
 9	hóglaigh	óglach	NOUN	Noun	Case=Nom|Definite=Def|Form=HPref|Gender=Masc|Number=Plur	6	obl	_	_
 10	i	i	ADP	Simp	_	11	case	_	_
 11	gcomhlacht	comhlacht	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	6	obl	_	_
-12	Champabasso	Champabasso	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	11	nmod	_	_
+12	Champabasso	Champabasso	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	11	nmod	_	_
 13	gurbh	is	AUX	Cop	Form=VF|Tense=Past|VerbForm=Cop	14	cop	_	_
 14	olc	olc	ADJ	Adj	Degree=Pos	6	ccomp	_	_
 15	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	16	mark:prt	_	_
@@ -11000,8 +11000,8 @@
 26	idir	idir	ADP	Simp	_	27	case	_	_
 27	Sgarba	Sgarba	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	25	xcomp:pred	_	_
 28	agus	agus	CCONJ	Coord	_	29	cc	_	_
-29	Eilean	Eilean	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	27	conj	_	NamedEntity=Yes
-30	Diùra	Diùra	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
+29	Eilean	Eilean	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	27	conj	_	NamedEntity=Yes
+30	Diùra	Diùra	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	29	nmod	_	NamedEntity=Yes
 31	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	32	det	_	_
 32	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	23	appos	_	_
 33	a	a	PART	Vb	Form=Indirect|PartType=Vb|PronType=Rel	34	mark:prt	_	_
@@ -11401,8 +11401,8 @@
 1	Ach	ach	SCONJ	Subord	_	2	mark	_	_
 2	oiread	oiread	NOUN	Subst	Case=Nom|Number=Sing	6	advcl	_	_
 3	le	le	ADP	Simp	_	4	case	_	_
-4	Jurassic	Jurassic	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
-5	Park	Park	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	NamedEntity=Yes
+4	Jurassic	Jurassic	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	2	nmod	_	NamedEntity=Yes
+5	Park	Park	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	4	nmod	_	NamedEntity=Yes
 6	tá	bí	VERB	PresInd	Mood=Ind|Tense=Pres	0	root	_	_
 7	bunchlocha	bunchloch	NOUN	Noun	Case=Nom|Gender=Fem|Number=Plur	6	nsubj	_	_
 8	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	_
