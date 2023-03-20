@@ -11039,7 +11039,7 @@
 18	seo	seo	DET	Det	PronType=Dem	17	det	_	_
 19	tagann	tar	VERB	VI	Mood=Ind|Tense=Pres	10	advcl	_	_
 20	chuile	gach_uile	DET	Det	Definite=Def|Form=Len	21	det	_	_
-21	shórt	sórt	NOUN	Noun	Case=Nom|Form=Len|Gender=Masc|Number=Sing	19	nsubj	_	_
+21	shórt	sórt	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	19	nsubj	_	_
 22	ocraisí	ocras	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	21	nmod	_	_
 23	ar	ar	ADP	Simp	_	25	case	_	_
 24	na	an	DET	Art	Definite=Def|Number=Plur|PronType=Art	25	det	_	_
