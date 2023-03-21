@@ -4827,8 +4827,8 @@
 15	tascanna	tasc	NOUN	Noun	Case=Gen|Gender=Masc|NounType=Strong|Number=Plur	14	nmod	_	_
 16	agus	agus	CCONJ	Coord	_	18	cc	_	_
 17	in	i	ADP	Simp	_	18	case	_	_
-18	úsáid	úsáid	NOUN	Noun	Definite=Def|VerbForm=Inf	14	conj	_	_
-19	fhéinmhuiníneach	féinmhuiníneach	ADJ	Adj	Degree=Pos|Form=Len	18	amod	_	_
+18	úsáid	úsáid	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	14	conj	_	_
+19	fhéinmhuiníneach	féinmhuiníneach	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	18	amod	_	_
 20	na	an	DET	Art	Case=Gen|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	det	_	_
 21	matamaitice	matamaitic	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	18	nmod	_	_
 22	i	i	ADP	Simp	_	23	case	_	_
@@ -7767,7 +7767,7 @@
 33	má	má	SCONJ	Subord	_	34	mark	_	_
 34	sea	is	AUX	Cop	Tense=Pres|VerbForm=Cop	23	advcl	_	SpaceAfter=No
 35	,	,	PUNCT	Punct	_	37	punct	_	_
-36	gur	is	AUX	Cop	Tense=Pres|VerbForm=Cop	37	cop	_	_
+36	gur	is	AUX	Cop	Tense=Past|VerbForm=Cop	37	cop	_	_
 37	cheart	ceart	ADJ	Adj	Degree=Pos|Form=Len	23	conj	_	_
 38	é	é	PRON	Pers	Gender=Masc|Number=Sing|Person=3	39	nsubj	_	_
 39	chur	cur	NOUN	Noun	Form=Len|VerbForm=Inf	37	csubj:cop	_	_
@@ -7808,8 +7808,8 @@
 9	don	do	ADP	Art	Number=Sing|PronType=Art	10	case	_	_
 10	chomhlacht	comhlacht	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	8	obl	_	_
 11	drámaíochta	drámaíocht	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	10	nmod	_	_
-12	Aisling	Aisling	PROPN	Noun	Definite=Def|Gender=Fem|Number=Sing	10	nmod	_	NamedEntity=Yes
-13	Ghéar	géar	ADJ	Adj	Form=Len|Gender=Fem|Number=Sing	12	amod	_	NamedEntity=Yes
+12	Aisling	Aisling	PROPN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	10	appos	_	NamedEntity=Yes
+13	Ghéar	géar	ADJ	Adj	Case=Nom|Form=Len|Gender=Fem|Number=Sing	12	amod	_	NamedEntity=Yes
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	16	det	_	_
 15	chéad	céad	NUM	Num	Form=Len|NumType=Ord	16	amod	_	_
 16	leagan	leagan	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	24	obj	_	_
@@ -9742,9 +9742,9 @@
 17	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	_
 18	ionramhálaí	ionramhálaí	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
 19	ná	ná	CCONJ	Coord	_	21	cc	_	_
-20	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	21	det	_	_
-21	teagmhálaí	teagmhálaí	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	_
-22	dhioplómaitiúil	dioplómaitiúil	ADJ	Adj	Case=Nom|Form=Len|Gender=Masc|Number=Sing	21	amod	_	_
+20	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	_
+21	teagmhálaí	teagmhálaí	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	16	conj	_	_
+22	dhioplómaitiúil	dioplómaitiúil	ADJ	Adj	Case=Gen|Form=Len|Gender=Masc|Number=Sing	21	amod	_	_
 23	riamh	riamh	ADV	Gn	_	15	advmod	_	_
 24	aige	ag	ADP	Prep	Gender=Masc|Number=Sing|Person=3	15	obl:prep	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	1	punct	_	_
