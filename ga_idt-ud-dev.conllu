@@ -7184,7 +7184,7 @@
 12	i	i	ADP	Cmpd	PrepForm=Cmpd	15	case	_	_
 13	mbun	bun	NOUN	Cmpd	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing|PrepForm=Cmpd	12	fixed	_	_
 14	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	_
-15	fhiosraithe	fiosrú	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|VerbForm=Vnoun	9	obl	_	SpaceAfter=No
+15	fhiosraithe	fiosrú	NOUN	Noun	Case=Gen|Definite=Def|Form=Len|Gender=Masc|Number=Sing	9	obl	_	SpaceAfter=No
 16	.	.	PUNCT	.	_	1	punct	_	_
 
 # sent_id = 741

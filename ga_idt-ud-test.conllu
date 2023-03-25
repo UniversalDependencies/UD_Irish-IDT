@@ -1368,7 +1368,7 @@
 9	ag	ag	ADP	Simp	_	10	case	_	_
 10	droichead	droichead	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obl	_	_
 11	Shráid	sráid	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	10	nmod	_	NamedEntity=Yes
-12	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
+12	an	an	DET	Art	Case=Gen|Definite=Def|Number=Sing|PronType=Art	13	det	_	NamedEntity=Yes
 13	Mhóta	Móta	PROPN	Noun	Case=Gen|Definite=Def|Form=Len|Number=Sing	11	nmod	_	NamedEntity=Yes
 14	agus	agus	CCONJ	Coord	_	15	cc	_	_
 15	iad	iad	PRON	Pers	Number=Plur|Person=3	1	conj	_	_
@@ -11010,10 +11010,10 @@
 36	sgríobhnóir	sgríobhnóir	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	34	nsubj	_	_
 37	George	George	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	36	appos	_	NamedEntity=Yes
 38	Orwell	Orwell	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	37	flat:name	_	NamedEntity=Yes
-39	fá	faoi	ADP	Simp	Dialect=Ulster|Gender=Masc|Number=Sing|Person=3	34	xcomp:pred	_	_
-40	aon	aon	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	42	obj	_	_
-41	do	do	PART	Inf	PartType=Inf	42	mark	_	_
-42	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	39	xcomp	_	_
+39	fá	faoi	ADP	Simp	Dialect=Ulster	40	case	_	_
+40	aon	aon	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	34	xcomp:pred	_	_
+41	do	do	ADP	Simp	_	42	case	_	_
+42	bheith	bheith	NOUN	Noun	Form=Len|VerbForm=Inf	40	xcomp	_	_
 43	báite	báite	ADJ	Adj	VerbForm=Part	42	xcomp:pred	_	SpaceAfter=No
 44	.	.	PUNCT	.	_	1	punct	_	_
 
