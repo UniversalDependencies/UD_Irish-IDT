@@ -6541,7 +6541,7 @@
 6	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	7	det	_	_
 7	gcomórtas	comórtas	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Masc|Number=Sing	1	obl	_	_
 8	le	le	ADP	Simp	_	9	case	_	_
-9	foirne	foireann	NOUN	Noun	Case=Nom|Gender=Fem|Number=Plur	7	nmod	_	_
+9	foirne	foireann	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Plur	7	nmod	_	_
 10	11	11	NUM	Num	_	9	nmod	_	SpaceAfter=No
 11	.	.	PUNCT	.	_	1	punct	_	_
 

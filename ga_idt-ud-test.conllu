@@ -377,7 +377,7 @@
 3	i	i	ADP	Simp	_	4	case	_	_
 4	gcead	cead	NOUN	Noun	Case=Nom|Form=Ecl|Gender=Masc|Number=Sing	2	nmod	_	_
 5	do	do	ADP	Simp	_	6	case	_	_
-6	George	George	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	nmod	_	NamedEntity=Yes
+6	George	George	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	4	nmod	_	NamedEntity=Yes
 7	Mackay	Mackay	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat:name	_	NamedEntity=Yes
 8	Brown	Brown	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	6	flat:name	_	NamedEntity=Yes|SpaceAfter=No
 9	.	.	PUNCT	.	_	2	punct	_	_
@@ -4305,7 +4305,7 @@
 10	Ard-Cheannasaí	ardcheannasaí	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	xcomp:pred	_	_
 11	agus	agus	CCONJ	Coord	_	12	cc	_	_
 12	ina	i	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	13	case	_	_
-13	Mharascal	marascal	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	10	conj	_	NamedEntity=Yes
+13	Mharascal	marascal	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	10	conj	_	NamedEntity=Yes
 14	Machaire	machaire	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	13	nmod	_	NamedEntity=Yes
 15	san	i	ADP	Art	Number=Sing|PronType=Art	16	case	_	_
 16	fheachtas	feachtas	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	8	nmod	_	_
@@ -4315,7 +4315,7 @@
 20	fuath	fuath	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	4	obl	_	_
 21	dearg	dearg	ADJ	Adj	Case=Nom|Gender=Masc|Number=Sing	20	amod	_	_
 22	do	do	ADP	Simp	_	23	case	_	_
-23	Churchill	Churchill	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
+23	Churchill	Churchill	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	20	nmod	_	SpaceAfter=No
 24	,	,	PUNCT	Punct	_	25	punct	_	_
 25	agus	agus	CCONJ	Coord	_	26	cc	_	_
 26	vice	vice	X	Foreign	Foreign=Yes	20	conj	_	_
@@ -6617,7 +6617,7 @@
 19	Chaibidil	caibidil	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	13	obl	_	_
 20	1	1	NUM	Num	_	19	nmod	_	_
 21	de	de	ADP	Simp	_	22	case	_	_
-22	Chuid	cuid	NOUN	Noun	Case=Nom|Form=Len|Gender=Fem|Number=Sing	19	nmod	_	_
+22	Chuid	cuid	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	19	nmod	_	_
 23	9	9	NUM	Num	_	22	nmod	_	_
 24	le	le	ADP	Simp	_	25	case	_	_
 25	tabhairt	tabhairt	NOUN	Noun	VerbForm=Inf	13	xcomp	_	_
@@ -6776,7 +6776,7 @@
 178	chaillteanais	caillteanas	NOUN	Noun	Case=Gen|Form=Len|Gender=Masc|Number=Sing	177	nmod	_	_
 179	sula	sula	SCONJ	Subord	_	180	mark	_	_
 180	gcuirtear	cuir	VERB	VTI	Form=Ecl|Mood=Ind|Person=0|Tense=Pres	165	advcl	_	_
-181	alt	alt	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	180	obj	_	_
+181	alt	alt	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	180	obj	_	_
 182	392	392	NUM	Num	_	181	nmod	_	_
 183	(1)	(1)	NUM	Num	_	181	nmod	_	_
 184	i	i	ADP	Simp	_	185	case	_	_
@@ -8083,7 +8083,7 @@
 18	áit	áit	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	15	nmod	_	_
 19	anois	anois	ADV	Gn	_	14	advmod	_	_
 20	mar	mar	ADP	Simp	_	21	case	_	_
-21	Madigan's	Madigan's	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	14	obl	_	_
+21	Madigan's	Madigan's	PROPN	Noun	Case=Nom|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	14	obl	_	_
 22	agus	agus	CCONJ	Coord	_	23	cc	_	_
 23	bhí	bí	VERB	PastInd	Form=Len|Mood=Ind|Tense=Past	14	conj	_	_
 24	Bhreandán	Breandán	PROPN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	23	nsubj	_	_
@@ -9185,7 +9185,7 @@
 7	bhfuil	bí	VERB	PresInd	Form=Ecl|Mood=Ind|Tense=Pres	1	acl:relcl	_	_
 8	Nuachló	Nuachló	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	7	nsubj	_	SpaceAfter=No
 9	,	,	PUNCT	Punct	_	10	punct	_	_
-10	leagan	leagan	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	8	nmod	_	_
+10	leagan	leagan	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	8	nmod	_	_
 11	3.00	3.00	NUM	Num	_	10	nmod	_	SpaceAfter=No
 12	,	,	PUNCT	Punct	_	14	punct	_	_
 13	mar	mar	ADP	Simp	_	14	case	_	_
@@ -9270,7 +9270,7 @@
 13	leanas	lean	VERB	VTI	Mood=Ind|PronType=Rel|Tense=Pres	2	xcomp	_	SpaceAfter=No
 14	:	:	PUNCT	Punct	_	16	punct	_	_
 15	I	I	ADP	Simp	_	16	case	_	_
-16	roinn	roinn	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	22	obl	_	_
+16	roinn	roinn	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	22	obl	_	_
 17	(b)	(b)	NUM	Item	_	16	nmod	_	SpaceAfter=No
 18	,	,	PUNCT	Punct	_	19	punct	_	_
 19	pointe	pointe	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	16	nmod	_	_
