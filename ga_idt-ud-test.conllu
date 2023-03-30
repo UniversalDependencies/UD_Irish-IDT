@@ -8057,7 +8057,7 @@
 36	réimsí	réimse	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	24	obl	_	_
 37	ceartais	ceartas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	_
 38	agus	agus	CCONJ	Coord	_	39	cc	_	_
-39	gnóthaí	gnó	NOUN	Noun	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	36	conj	_	_
+39	gnóthaí	gnó	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	36	conj	_	_
 40	baile	baile	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	39	nmod	_	SpaceAfter=No
 41	.	.	PUNCT	.	_	1	punct	_	_
 
