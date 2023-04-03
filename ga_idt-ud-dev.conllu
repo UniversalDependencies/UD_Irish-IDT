@@ -5073,7 +5073,7 @@
 4	tUrramhach	urramach	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing|Typo=Yes	2	obj	_	NamedEntity=Yes
 5	James	James	PROPN	Noun	Definite=Def|Number=Sing	4	flat	_	NamedEntity=Yes
 6	Porter	Porter	PROPN	Noun	Definite=Def|Number=Sing	5	flat:name	_	NamedEntity=Yes
-7	láimh	lámh	NOUN	Noun	Case=Dat|Definite=Ind|Gender=Fem|Number=Sing	2	obl	_	_
+7	láimh	lámh	NOUN	Noun	Case=Dat|Gender=Fem|Number=Sing	2	obl	_	_
 8	lena	le	ADP	Poss	Gender=Masc|Number=Sing|Person=3|Poss=Yes	9	case	_	_
 9	theach	teach	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Masc|Number=Sing	7	nmod	_	_
 10	pobail	pobal	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
@@ -5196,7 +5196,7 @@
 33	ag	ag	ADP	Simp	_	34	case	_	_
 34	folach	folach	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	32	xcomp	_	_
 35	faoi	faoi	ADP	Simp	_	36	case	_	_
-36	ainmneacha	ainm	NOUN	Noun	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur	32	obl	_	_
+36	ainmneacha	ainm	NOUN	Noun	Case=Nom|Gender=Masc|Number=Plur	32	obl	_	_
 37	cleite	cleite	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	36	nmod	_	SpaceAfter=No
 38	.	.	PUNCT	.	_	11	punct	_	_
 
@@ -8702,7 +8702,7 @@
 1	D'	do	PART	Vb	PartType=Vb	2	mark:prt	_	SpaceAfter=No
 2	éirigh	éirigh	VERB	VI	Mood=Ind|Tense=Past	0	root	_	_
 3	thar	thar	ADP	Simp	_	4	case	_	_
-4	cionn	ceann	NOUN	Noun	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing	2	obl	_	_
+4	cionn	ceann	NOUN	Noun	Case=Dat|Gender=Masc|Number=Sing	2	obl	_	_
 5	léi	le	ADP	Prep	Gender=Fem|Number=Sing|Person=3	2	obl:prep	_	SpaceAfter=No
 6	.	.	PUNCT	.	_	2	punct	_	_
 
