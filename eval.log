@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Irish-IDT:
-commit bcc1df2c32f06e591fc0591d33e7c4a5d75c31d2
-Merge: 40eac0f 05eff9d
+commit 606231026b91e3aa255a64898557cb46efe4b47f
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue May 9 10:47:43 2023 +0200
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,8 +20,8 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 0.1.
 Udapi:
-               TOTAL      14346
-Udapi: found 14346 bugs.
+               TOTAL      14336
+Udapi: found 14336 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 115990 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
@@ -29,6 +29,10 @@ Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
+[Line 38649 Sent 2418 Node 6]: [L3 Warning fixed-gap] Gaps in fixed expression [6, 9] 'bhfuil * * mór'
+[Line 63662 Sent 3374 Node 8]: [L3 Warning fixed-gap] Gaps in fixed expression [8, 11] 'TÁ * * LE'
+[Line 90985 Sent 4337 Node 9]: [L3 Warning fixed-gap] Gaps in fixed expression [9, 11] 'Comhairliúchán * le'
+Warnings: 3
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
