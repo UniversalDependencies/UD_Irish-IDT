@@ -280,11 +280,11 @@ Removing inconsistencies:
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Includes text: yes
-Lemmas: converted with corrections
-UPOS: converted with corrections
-XPOS: automatic with corrections
+Lemmas: manual native
+UPOS: manual native
+XPOS: manual native
 Features: automatic with corrections
-Relations: automatic with corrections
+Relations: manual native
 Data available since: UD v1.0
 License: CC BY-SA 3.0
 Genre: news fiction web legal government
