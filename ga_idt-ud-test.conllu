@@ -665,14 +665,14 @@
 2	47	47	NUM	Num	_	1	nmod	_	_
 3	Má	má	SCONJ	Subord	_	4	mark	_	_
 4	dhéantar	déan	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	27	advcl	_	_
-5	iarratas	iarratas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	4	obj	_	_
+5	iarratas	iarratas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	18	obj	_	_
 6	nó	nó	CCONJ	Coord	_	7	cc	_	_
 7	doiciméad	doiciméad	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	5	conj	_	_
 8	eile	eile	DET	Det	PronType=Dem	7	det	_	_
 9	nós	nós	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	7	nmod	_	_
 10	imeachta	imeacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	9	nmod	_	_
-11	a	a	PART	Inf	PartType=Inf	12	obj	_	_
-12	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	5	acl:relcl	_	_
+11	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	12	obj	_	_
+12	seoladh	seol	VERB	VTI	Mood=Ind|Person=0|Tense=Past	5	acl:relcl	_	_
 13	chuig	chuig	ADP	Simp	_	15	case	_	_
 14	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	15	det	_	_
 15	gCúirt	cúirt	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	12	obl	_	NamedEntity=Yes
@@ -707,14 +707,14 @@
 44	,	,	PUNCT	Punct	_	43	punct	_	_
 45	má	má	SCONJ	Subord	_	46	mark	_	_
 46	dhéantar	déan	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Pres	69	advcl	_	_
-47	iarratas	iarratas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	46	obj	_	_
+47	iarratas	iarratas	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	60	obj	_	_
 48	nó	nó	CCONJ	Coord	_	49	cc	_	_
 49	doiciméad	doiciméad	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	47	conj	_	_
 50	eile	eile	DET	Det	PronType=Dem	49	det	_	_
 51	nós	nós	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	49	nmod	_	_
 52	imeachta	imeacht	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	51	nmod	_	_
-53	a	a	PART	Inf	PartType=Inf	54	obj	_	_
-54	seoladh	seoladh	NOUN	Noun	VerbForm=Inf	47	acl:relcl	_	_
+53	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	54	obj	_	_
+54	seoladh	seol	VERB	VTI	Mood=Ind|Person=0|Tense=Past	47	acl:relcl	_	_
 55	chuig	chuig	ADP	Simp	_	57	case	_	_
 56	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	57	det	_	_
 57	gCúirt	cúirt	PROPN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	54	nmod	_	NamedEntity=Yes
@@ -2153,7 +2153,7 @@
 22	agus	agus	CCONJ	Coord	_	24	cc	_	_
 23	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	24	det	_	_
 24	Lucht	lucht	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	20	conj	_	NamedEntity=Yes
-25	Oibre	obair	NOUN	Noun	Case=Gen|Definite=Def|Gender=Fem|Number=Sing	24	nmod	_	NamedEntity=Yes
+25	Oibre	obair	NOUN	Noun	Case=Gen|Gender=Fem|Number=Sing	24	nmod	_	NamedEntity=Yes
 26	sa	i	ADP	Art	Number=Sing|PronType=Art	27	case	_	_
 27	bhliain	bliain	NOUN	Noun	Case=Nom|Definite=Def|Form=Len|Gender=Fem|Number=Sing	15	obl:tmod	_	_
 28	1992	1992	NUM	Num	_	27	nmod	_	SpaceAfter=No
@@ -4148,7 +4148,7 @@
 4	imeacht	imeacht	NOUN	Noun	VerbForm=Inf	2	csubj:cop	_	_
 5	isteach	isteach	ADV	Dir	_	4	advmod	_	_
 6	a	a	PART	Voc	PartType=Voc	7	case:voc	_	_
-7	Tom	Tom	PROPN	Noun	Case=Voc|Definite=Def|Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
+7	Tom	Tom	PROPN	Noun	Case=Voc|Definite=Def|Foreign=Yes|Gender=Masc|Number=Sing	2	vocative	_	SpaceAfter=No
 8	.	.	PUNCT	.	_	2	punct	_	_
 
 # sent_id = 170
@@ -7481,9 +7481,9 @@
 # text = Seo díreach an dara huair riamh a chasfar na contaetha seo ar a chéile sa chluiche ceannais.
 1	Seo	seo	PRON	Dem	PronType=Dem	0	root	_	_
 2	díreach	díreach	ADJ	Adj	Degree=Pos	1	amod	_	_
-3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	4	det	_	_
+3	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	5	det	_	_
 4	dara	dara	NUM	Num	NumType=Ord	5	amod	_	_
-5	huair	uair	NOUN	Noun	Case=Nom|Form=HPref|Gender=Fem|Number=Sing	1	nsubj	_	_
+5	huair	uair	NOUN	Noun	Case=Nom|Definite=Def|Form=HPref|Gender=Fem|Number=Sing	1	nsubj	_	_
 6	riamh	riamh	ADV	Gn	_	5	advmod	_	_
 7	a	a	PART	Vb	Form=Direct|PartType=Vb|PronType=Rel	8	obl:tmod	_	_
 8	chasfar	cas	VERB	VTI	Form=Len|Mood=Ind|Person=0|Tense=Fut	5	acl:relcl	_	_
@@ -8012,7 +8012,7 @@
 6	chun	chun	ADP	Simp	_	7	case	_	_
 7	Leighis	leigheas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	2	nmod	_	_
 8	agus	agus	CCONJ	Coord	_	9	cc	_	_
-9	Máin-liaghais	máin-liaghas	NOUN	Noun	Case=Gen|Definite=Def|Gender=Masc|Number=Sing	7	conj	_	_
+9	Máin-liaghais	máin-liaghas	NOUN	Noun	Case=Gen|Gender=Masc|Number=Sing	7	conj	_	_
 10	do	do	ADP	Simp	_	11	case	_	_
 11	leigheas	leigheas	NOUN	Noun	VerbForm=Inf	7	nmod	_	SpaceAfter=No
 12	.	.	PUNCT	.	_	2	punct	_	_
@@ -8765,7 +8765,7 @@
 21	n-aimsir	aimsir	NOUN	Noun	Case=Nom|Definite=Def|Form=Ecl|Gender=Fem|Number=Sing	19	obl	_	_
 22	féin	féin	PRON	Ref	Reflex=Yes	21	nmod	_	_
 23	a	a	PART	Inf	PartType=Inf	24	mark	_	_
-24	fhorbairt	forbairt	NOUN	Noun	Definite=Def|Form=Len|VerbForm=Inf	12	conj	_	SpaceAfter=No
+24	fhorbairt	forbairt	NOUN	Noun	Form=Len|VerbForm=Inf	12	conj	_	SpaceAfter=No
 25	.	.	PUNCT	.	_	3	punct	_	_
 
 # sent_id = 342
@@ -9413,7 +9413,7 @@
 # sent_id = 369
 # text = Cuirtear scéal agus stair an raidió in Éirinn le 75 bliain anuas os ár gcomhair sa taispeántas, ó bunaíodh 2RN i 1926 go dtí na forbairtí is deireanaí ar an idirlíon.
 1	Cuirtear	cuir	VERB	VTI	Mood=Ind|Person=0|Tense=Pres	0	root	_	_
-2	scéal	scéal	NOUN	Noun	Case=Nom|Gender=Masc|Number=Sing	1	obj	_	_
+2	scéal	scéal	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	1	obj	_	_
 3	agus	agus	CCONJ	Coord	_	4	cc	_	_
 4	stair	stair	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	2	conj	_	_
 5	an	an	DET	Art	Case=Gen|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	_
