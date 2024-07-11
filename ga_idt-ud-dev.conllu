@@ -10365,7 +10365,7 @@
 12	a	a	PART	Vb	Form=Indirect|PartType=Vb|PronType=Rel	13	mark:prt	_	_
 13	ghnóthaigh	gnóthaigh	VERB	VTI	Form=Len|Mood=Ind|Tense=Past	1	advcl	_	_
 14	gradam	gradam	NOUN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	13	nsubj	_	NamedEntity=Yes
-15	Grammy	Grammy	PROPN	Noun	Definite=Def|Number=Sing	14	nmod	_	NamedEntity=Yes
+15	Grammy	Grammy	PROPN	Noun	Definite=Def|Foreign=Yes|Number=Sing	14	nmod	_	NamedEntity=Yes
 16	le	le	ADP	Simp	_	17	case	_	_
 17	déanaí	déanaí	NOUN	Noun	Case=Nom|Gender=Fem|Number=Sing	13	obl:tmod	_	SpaceAfter=No
 18	.	.	PUNCT	.	_	1	punct	_	_
