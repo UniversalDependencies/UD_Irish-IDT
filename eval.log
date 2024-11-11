@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 78ce4b21495c6e4c17a7b07925bec1267d833d14
+commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun May 5 09:21:16 2024 +0200
+Date:   Sun Nov 10 10:33:45 2024 +0100
 Evaluating the following revision of UD_Irish-IDT:
-commit c6785559248e44706f3e06042871d9896b2c7dee
-Merge: 84bc50d 4363e21
+commit 01aaaaad2c6e74def1b8c1b2a716d3825eabd4fe
+Merge: e4a3aa2 f5092f9
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
@@ -15,13 +15,13 @@ Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 84114 out of 115990 total words have one or more features.
+Features: 84123 out of 115990 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL      14334
-Udapi: found 14334 bugs.
+               TOTAL      14333
+Udapi: found 14333 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 115990 words.
 Genres: found 4 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
@@ -36,7 +36,7 @@ Genres: found 4 out of 17 known.
 [Line 4306 Sent 625 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 4305 Sent 625 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 21
+Warnings: 22
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
 [Line 2044 Sent 85 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
@@ -59,12 +59,12 @@ Warnings: 28
 [Line 3030 Sent 979 Node 21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3298 Sent 987 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 3297 Sent 987 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 3931 Sent 1010 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:siúd:det --> 14:raibh:acl)
 [Line 4849 Sent 1062 Node 33]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 4848 Sent 1062 Node 32]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 4850 Sent 1062 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4848 Sent 1062 Node 32]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 ...suppressing further errors regarding Warning
-Warnings: 121
+Warnings: 139
 *** PASSED ***
 Validity: 1
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
