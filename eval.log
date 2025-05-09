@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit c1984d97df0ecdcc1b50fbeaa8c96419c6321432
+commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Sun Nov 10 10:33:45 2024 +0100
+Date:   Fri May 9 21:07:42 2025 +0200
 Evaluating the following revision of UD_Irish-IDT:
-commit 01aaaaad2c6e74def1b8c1b2a716d3825eabd4fe
-Merge: e4a3aa2 f5092f9
+commit 5cec2e4092ada6e13de76dd7725c0c9dd74d5d50
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Mon Nov 11 15:45:24 2024 +0100
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -20,61 +20,95 @@ Features: source of annotation (from README) factor is 0.5.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL      14333
-Udapi: found 14333 bugs.
+               TOTAL      14260
+Udapi: found 14260 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 115990 words.
-Genres: found 4 out of 17 known.
+Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
+[Line 12 Sent 455 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'cur chuige' does not have the 'ExtPos' feature
+[Line 77 Sent 458 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'os coinne' does not have the 'ExtPos' feature
+[Line 98 Sent 459 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'le linn' does not have the 'ExtPos' feature
 [Line 150 Sent 461 Node 23]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
 [Line 149 Sent 461 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2356 Sent 548 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2355 Sent 548 Node 6]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3235 Sent 581 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3234 Sent 581 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3236 Sent 581 Node 7]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3234 Sent 581 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4306 Sent 625 Node 13]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4305 Sent 625 Node 12]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 163 Sent 462 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
+[Line 260 Sent 468 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
+[Line 260 Sent 468 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
+[Line 302 Sent 469 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ní b'' does not have the 'ExtPos' feature
+[Line 306 Sent 469 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ní b'' does not have the 'ExtPos' feature
+[Line 663 Sent 482 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'i gcuideachta' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 22
-*** PASSED ***
+[Line 1529 Sent 516 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
+[Line 2269 Sent 544 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
+[Line 3436 Sent 589 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'cé'
+[Line 4452 Sent 631 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'thar'
+[Line 5585 Sent 675 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 5690 Sent 682 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
+[Line 6446 Sent 712 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
+[Line 6937 Sent 730 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
+[Line 7325 Sent 746 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+...suppressing further errors regarding Syntax
+Syntax errors: 14
+Warnings: 168
+*** FAILED *** with 14 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
-[Line 2044 Sent 85 Node 11]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2043 Sent 85 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2045 Sent 85 Node 12]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 2043 Sent 85 Node 10]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6757 Sent 264 Node 159]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6759 Sent 264 Node 161]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 6757 Sent 264 Node 159]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 8447 Sent 329 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 9832 Sent 385 Node 9]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 9831 Sent 385 Node 8]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 77 Sent 4 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin' does not have the 'ExtPos' feature
+[Line 77 Sent 4 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 274 Sent 12 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
+[Line 408 Sent 18 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'de bharr' does not have the 'ExtPos' feature
+[Line 763 Sent 34 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'de réir' does not have the 'ExtPos' feature
+[Line 820 Sent 36 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'de réir' does not have the 'ExtPos' feature
+[Line 859 Sent 38 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin féin' does not have the 'ExtPos' feature
+[Line 859 Sent 38 Node 28]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 914 Sent 41 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 1089 Sent 47 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
+[Line 1093 Sent 47 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'le linn' does not have the 'ExtPos' feature
+[Line 1123 Sent 49 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Maidir le' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 28
-*** PASSED ***
+[Line 1289 Sent 53 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 1667 Sent 67 Node 63]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'fad'
+[Line 5402 Sent 225 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 6825 Sent 265 Node 38]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'cé'
+Syntax errors: 6
+Warnings: 147
+*** FAILED *** with 6 errors
+Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
-[Line 3031 Sent 979 Node 22]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3030 Sent 979 Node 21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3032 Sent 979 Node 23]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3030 Sent 979 Node 21]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3298 Sent 987 Node 6]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3297 Sent 987 Node 5]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 3931 Sent 1010 Node 12]: [L3 Warning leaf-det] 'det' not expected to have children (12:siúd:det --> 14:raibh:acl)
-[Line 4849 Sent 1062 Node 33]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4848 Sent 1062 Node 32]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 4850 Sent 1062 Node 34]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 147 Sent 911 Node 40]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
+[Line 230 Sent 914 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'de ghnáth' does not have the 'ExtPos' feature
+[Line 230 Sent 914 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
+[Line 234 Sent 914 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 273 Sent 915 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
+[Line 360 Sent 918 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin' does not have the 'ExtPos' feature
+[Line 431 Sent 920 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ní ba' does not have the 'ExtPos' feature
+[Line 436 Sent 920 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
+[Line 459 Sent 921 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Faoi féir' does not have the 'ExtPos' feature
+[Line 481 Sent 921 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'i leith' does not have the 'ExtPos' feature
+[Line 594 Sent 921 Node 137]: [L3 Warning fixed-without-extpos] Fixed expression 'i leith' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-Warnings: 139
-*** PASSED ***
-Validity: 1
+[Line 742 Sent 923 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'cionn'
+[Line 748 Sent 923 Node 16]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'cionn'
+[Line 1151 Sent 934 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 3931 Sent 1010 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:siúd:det --> 14:raibh:acl)
+[Line 4902 Sent 1063 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 5351 Sent 1077 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
+[Line 7191 Sent 1154 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'mar'
+[Line 7409 Sent 1166 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
+[Line 8128 Sent 1196 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+...suppressing further errors regarding Syntax
+Syntax errors: 86
+Warnings: 1438
+*** FAILED *** with 86 errors
+Exit code: 1
+Validity: 0.01
 (weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.235294117647059) = 0.0180995475113122
+(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
 (weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
 (weight=0.256410256410256) * (score{size}=0.688140182811198) = 0.17644620072082
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
 (weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
 (weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.505661479347863) * (availability=1) * (validity=1) = 0.505661479347863
-STARS = 2.5
-UD_Irish-IDT	0.505661479347863	2.5
+(TOTAL score=0.508929453204072) * (availability=1) * (validity=0.01) = 0.00508929453204072
+STARS = 0
+UD_Irish-IDT	0.00508929453204072	0
