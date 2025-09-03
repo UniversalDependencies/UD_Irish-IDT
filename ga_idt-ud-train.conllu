@@ -1524,7 +1524,7 @@
 2	an	an	DET	Art	Definite=Def|Number=Sing|PronType=Art	3	det	_	_
 3	Iníon	iníon	NOUN	Noun	Case=Nom|Definite=Def|Gender=Fem|Number=Sing	1	nsubj	_	NamedEntity=Yes
 4	de	de	PART	Pat	PartType=Pat	3	flat:name	_	NamedEntity=Yes
-5	Brún	Brún	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat:name	_	_
+5	Brún	Brún	PROPN	Noun	Case=Nom|Definite=Def|Gender=Masc|Number=Sing	3	flat:name	_	NamedEntity=Yes
 6	uirthi	ar	ADP	Prep	Gender=Fem|Number=Sing|Person=3	1	obl:prep	_	_
 7	le	le	ADP	Simp	_	8	case	_	_
 8	miniú	míniú	NOUN	Noun	Typo=Yes|VerbForm=Inf	1	xcomp	_	_
