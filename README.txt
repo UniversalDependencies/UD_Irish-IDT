@@ -280,6 +280,7 @@ Removing inconsistencies:
 
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Includes text: yes
+Parallel: no
 Lemmas: manual native
 UPOS: manual native
 XPOS: manual native
