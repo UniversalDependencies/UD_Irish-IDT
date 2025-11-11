@@ -1,11 +1,15 @@
 Running the following version of UD tools:
-commit ecbbdff44b15c9b6de4a691e3499c1286459ab2e
+commit 26e6c87a2f518322d15901a351199b6be6569062
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri May 9 21:07:42 2025 +0200
+Date:   Fri Nov 7 15:39:58 2025 +0100
 Evaluating the following revision of UD_Irish-IDT:
-commit 5cec2e4092ada6e13de76dd7725c0c9dd74d5d50
+commit 3fd6f5514e36ba09b71ecb967017d06b8f7dfa16
+Merge: ecefd4d a0f9f5a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Mon Nov 11 15:45:24 2024 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'ga_idt'
+Language code (from CoNLL-U file name) = 'ga'
+Found the following data files: ga_idt-ud-dev.conllu, ga_idt-ud-test.conllu, ga_idt-ud-train.conllu
 Size: counted 115990 of 115990 words (nodes).
 Size: min(0, log((N/1000)**2)) = 9.50700796098757.
 Size: maximum value 13.815511 is for 1000000 words or more.
@@ -19,96 +23,92 @@ Features: 84123 out of 115990 total words have one or more features.
 Features: source of annotation (from README) factor is 0.5.
 Universal relations: 31 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
-Udapi:
-               TOTAL      14260
-Udapi: found 14260 bugs.
-Udapi: worst expected case (threshold) is one bug per 10 words. There are 115990 words.
 Genres: found 5 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-dev.conllu
-[Line 12 Sent 455 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'cur chuige' does not have the 'ExtPos' feature
-[Line 77 Sent 458 Node 10]: [L3 Warning fixed-without-extpos] Fixed expression 'os coinne' does not have the 'ExtPos' feature
-[Line 98 Sent 459 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'le linn' does not have the 'ExtPos' feature
-[Line 150 Sent 461 Node 23]: [L3 Warning flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 149 Sent 461 Node 22]: [L3 Warning flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
-[Line 163 Sent 462 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'go leor' does not have the 'ExtPos' feature
-[Line 260 Sent 468 Node 6]: [L3 Warning fixed-without-extpos] Fixed expression 'go deo' does not have the 'ExtPos' feature
-[Line 260 Sent 468 Node 6]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 302 Sent 469 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ní b'' does not have the 'ExtPos' feature
-[Line 306 Sent 469 Node 9]: [L3 Warning fixed-without-extpos] Fixed expression 'ní b'' does not have the 'ExtPos' feature
-[Line 663 Sent 482 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'i gcuideachta' does not have the 'ExtPos' feature
+[Line 8 Sent 455]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12 Sent 455]: [L3 Warning fixed-without-extpos] Fixed expression 'cur chuige' does not have the 'ExtPos' feature
+[Line 35 Sent 456]: [L3 Warning pron-det-without-prontype] The word 'mé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 47 Sent 456]: [L3 Warning pron-det-without-prontype] The word 'mé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 458]: [L3 Warning pron-det-without-prontype] The word 'siad' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 76 Sent 458]: [L3 Warning pron-det-without-prontype] The word 'siad' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 77 Sent 458]: [L3 Warning fixed-without-extpos] Fixed expression 'os coinne' does not have the 'ExtPos' feature
+[Line 92 Sent 459]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 97 Sent 459]: [L3 Warning pron-det-without-prontype] The word 'sé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 98 Sent 459]: [L3 Warning fixed-without-extpos] Fixed expression 'le linn' does not have the 'ExtPos' feature
 ...suppressing further errors regarding Warning
-[Line 1529 Sent 516 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 2269 Sent 544 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'go'
-[Line 3436 Sent 589 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'cé'
-[Line 4452 Sent 631 Node 23]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'thar'
-[Line 5585 Sent 675 Node 15]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 5690 Sent 682 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
-[Line 6446 Sent 712 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
-[Line 6937 Sent 730 Node 1]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'Mar'
-[Line 7325 Sent 746 Node 24]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 260 Sent 468]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 1529 Sent 516]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 2269 Sent 544]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('go')
+[Line 3436 Sent 589]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('cé')
+[Line 4452 Sent 631]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('thar')
+[Line 5009 Sent 649]: [L3 Syntax too-many-objects] Multiple direct objects [24, 25] ('brú', 'a') under the predicate 'chuir'.
+[Line 5585 Sent 675]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 5690 Sent 682]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
+[Line 6446 Sent 712]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('Mar')
+[Line 6653 Sent 717]: [L3 Syntax too-many-objects] Multiple direct objects [103, 105] ('a', 'údarás') under the predicate 'shonróidh'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 14
-Warnings: 168
-*** FAILED *** with 14 errors
+Syntax errors: 18
+Warnings: 616
+*** FAILED *** with 18 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-test.conllu
-[Line 77 Sent 4 Node 4]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin' does not have the 'ExtPos' feature
-[Line 77 Sent 4 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 274 Sent 12 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'i ndiaidh' does not have the 'ExtPos' feature
-[Line 408 Sent 18 Node 22]: [L3 Warning fixed-without-extpos] Fixed expression 'de bharr' does not have the 'ExtPos' feature
-[Line 763 Sent 34 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'de réir' does not have the 'ExtPos' feature
-[Line 820 Sent 36 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'de réir' does not have the 'ExtPos' feature
-[Line 859 Sent 38 Node 28]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin féin' does not have the 'ExtPos' feature
-[Line 859 Sent 38 Node 28]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 914 Sent 41 Node 5]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 1089 Sent 47 Node 30]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
-[Line 1093 Sent 47 Node 34]: [L3 Warning fixed-without-extpos] Fixed expression 'le linn' does not have the 'ExtPos' feature
-[Line 1123 Sent 49 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Maidir le' does not have the 'ExtPos' feature
+[Line 9 Sent 1]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 60 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'mé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 64 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 67 Sent 3]: [L3 Warning pron-det-without-prontype] The word 'mé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 77 Sent 4]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin' does not have the 'ExtPos' feature
+[Line 77 Sent 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 127 Sent 4]: [L3 Warning obl-should-be-nmod] The parent (node [49] 'teacht') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 160 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'sí' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 177 Sent 6]: [L3 Warning pron-det-without-prontype] The word 'a' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 189 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'ea' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 190 Sent 7]: [L3 Warning pron-det-without-prontype] The word 'í' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 1289 Sent 53 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 1667 Sent 67 Node 63]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' word 'fad'
-[Line 5402 Sent 225 Node 21]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 6825 Sent 265 Node 38]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'cé'
-Syntax errors: 6
-Warnings: 147
-*** FAILED *** with 6 errors
+[Line 859 Sent 38]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 1289 Sent 53]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 1667 Sent 67]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'NOUN' ('fad')
+[Line 5402 Sent 225]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 6825 Sent 265]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('cé')
+[Line 7128 Sent 276]: [L3 Syntax too-many-objects] Multiple direct objects [7, 8] ('Fhinn', 'Diarmaid') under the predicate 'leigheas'.
+Syntax errors: 7
+Warnings: 619
+*** FAILED *** with 7 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang ga --max-err=10 UD_Irish-IDT/ga_idt-ud-train.conllu
-[Line 147 Sent 911 Node 40]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
-[Line 230 Sent 914 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'de ghnáth' does not have the 'ExtPos' feature
-[Line 230 Sent 914 Node 8]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'de'
-[Line 234 Sent 914 Node 12]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 273 Sent 915 Node 19]: [L3 Warning fixed-without-extpos] Fixed expression 'ar son' does not have the 'ExtPos' feature
-[Line 360 Sent 918 Node 15]: [L3 Warning fixed-without-extpos] Fixed expression 'mar sin' does not have the 'ExtPos' feature
-[Line 431 Sent 920 Node 3]: [L3 Warning fixed-without-extpos] Fixed expression 'ní ba' does not have the 'ExtPos' feature
-[Line 436 Sent 920 Node 8]: [L3 Warning fixed-without-extpos] Fixed expression 'ar bith' does not have the 'ExtPos' feature
-[Line 459 Sent 921 Node 2]: [L3 Warning fixed-without-extpos] Fixed expression 'Faoi féir' does not have the 'ExtPos' feature
-[Line 481 Sent 921 Node 24]: [L3 Warning fixed-without-extpos] Fixed expression 'i leith' does not have the 'ExtPos' feature
-[Line 594 Sent 921 Node 137]: [L3 Warning fixed-without-extpos] Fixed expression 'i leith' does not have the 'ExtPos' feature
+[Line 8 Sent 906]: [L3 Warning pron-det-without-prontype] The word 'ea' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 14 Sent 906]: [L3 Warning pron-det-without-prontype] The word 'sí' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 55 Sent 908]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 72 Sent 909]: [L3 Warning pron-det-without-prontype] The word 'M'' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 84 Sent 909]: [L3 Warning pron-det-without-prontype] The word 'tú' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 88 Sent 909]: [L3 Warning pron-det-without-prontype] The word 'tú' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 109 Sent 911]: [L3 Warning pron-det-without-prontype] The word 'sé' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 136 Sent 911]: [L3 Warning pron-det-without-prontype] The word 'é' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 147 Sent 911]: [L3 Warning fixed-without-extpos] Fixed expression 'go dtí' does not have the 'ExtPos' feature
+[Line 187 Sent 912]: [L3 Warning pron-det-without-prontype] The word 'sé' is tagged 'PRON' but it lacks the 'PronType' feature
 ...suppressing further errors regarding Warning
-[Line 742 Sent 923 Node 10]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'cionn'
-[Line 748 Sent 923 Node 16]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' word 'cionn'
-[Line 1151 Sent 934 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 3931 Sent 1010 Node 12]: [L3 Syntax leaf-det] 'det' not expected to have children (12:siúd:det --> 14:raibh:acl)
-[Line 4902 Sent 1063 Node 2]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
-[Line 5351 Sent 1077 Node 5]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
-[Line 7191 Sent 1154 Node 11]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'mar'
-[Line 7409 Sent 1166 Node 7]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' word 'ach'
-[Line 8128 Sent 1196 Node 4]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' word 'mar'
+[Line 230 Sent 914]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('de')
+[Line 473 Sent 921]: [L3 Syntax too-many-objects] Multiple direct objects [14, 15] ('a', 'a') under the predicate 'thabharfar'.
+[Line 742 Sent 923]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('cionn')
+[Line 748 Sent 923]: [L3 Syntax rel-upos-mark] 'mark' should not be 'NOUN' ('cionn')
+[Line 829 Sent 927]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('fhonn', 'amhras') under the predicate 'sheachaint'.
+[Line 1151 Sent 934]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 3931 Sent 1010]: [L3 Syntax leaf-det] 'det' not expected to have children (12:siúd:det --> 14:raibh:acl)
+[Line 4902 Sent 1063]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'ADP' ('mar')
+[Line 5351 Sent 1077]: [L3 Syntax rel-upos-advmod] 'advmod' should be 'ADV' but it is 'SCONJ' ('ach')
+[Line 7144 Sent 1152]: [L3 Syntax too-many-objects] Multiple direct objects [28, 31] ('a', 'caiteachas') under the predicate 'thabhaítear'.
 ...suppressing further errors regarding Syntax
-Syntax errors: 86
-Warnings: 1438
-*** FAILED *** with 86 errors
+Syntax errors: 101
+Warnings: 4663
+*** FAILED *** with 101 errors
 Exit code: 1
 Validity: 0.01
-(weight=0.0769230769230769) * (score{features}=0.5) = 0.0384615384615385
-(weight=0.0769230769230769) * (score{genres}=0.277777777777778) = 0.0213675213675214
-(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
-(weight=0.256410256410256) * (score{size}=0.688140182811198) = 0.17644620072082
-(weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
-(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
-(weight=0.0769230769230769) * (score{udeprels}=0.837837837837838) = 0.0644490644490645
-(TOTAL score=0.508929453204072) * (availability=1) * (validity=0.01) = 0.00508929453204072
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.277777777777778) = 0.0308641975308642
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.688140182811198) = 0.254866734374518
+(weight=0.0740740740740741) * (score{split}=1) = 0.0740740740740741
+(weight=0.111111111111111) * (score{tags}=1) = 0.111111111111111
+(weight=0.111111111111111) * (score{udeprels}=0.837837837837838) = 0.0930930930930931
+(TOTAL score=0.730675876850327) * (availability=1) * (validity=0.01) = 0.00730675876850327
 STARS = 0
-UD_Irish-IDT	0.00508929453204072	0
+UD_Irish-IDT	0.00730675876850327	0
