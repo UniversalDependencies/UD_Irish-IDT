@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Irish-IDT:
-commit 3938dd60c81ddc4fd1bd584bf140b1283b4f5b94
+commit 5f7e01835e0b61b96a70bebff68ecc4b37a0ee87
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 11 19:48:13 2025 +0100
+Date:   Wed May 6 12:59:51 2026 +0200
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'ga_idt'
 Language code (from CoNLL-U file name) = 'ga'
